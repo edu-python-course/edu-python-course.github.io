@@ -1,2 +1,24 @@
+# ide configuration files
+/.vscode/
 /.idea/
-.vscode
+
+# virtual environment
+/venv/
+/env/
+
+# temporary files storage
+/temp/
+/tmp/
+
+# builds folders
+_builds/*
+_build/*
+
+# python cache
+__pycache__
+
+# local databases
+pgdata/*
+pgsql/*
+*.sqlite?
+*.db
