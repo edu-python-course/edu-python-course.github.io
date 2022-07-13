@@ -1,0 +1,359 @@
+*******************************************************************************
+                      A Brief Introduction into the Linux
+*******************************************************************************
+
+What is the most popular operating system in the world? You probably answer -
+Windows. Well, it's true, but actually no. Let's dive into the question...
+
+Introduction to Linux
+=====================
+
+What is an Operating System?
+----------------------------
+
+You computer consists of thousands of electronic units. As a programmer you
+know that all the code you've created is used in a form of ones and zeros.
+Actually all in the computer world are ones and zeros: a SteamClient, a photo
+and a text file. But the single electrical circuit inside of the computer know
+nothing about the ones and zeros - numbers are only for humans on this level -
+it can understand the LOW or HIGH signals only.
+
+But you can still type code and it will appear on the display. Think of this
+process as sending the signals from the keyboard to the computer and then
+to the display. Somehow the text editor program is loaded to the allocated
+memory and translates key presses into the characters you can see. This is
+the operating systems were design for!
+
+The operating system works with your hardware and peripherals. The OS allocates
+the memory for any program you want to run.
+
+In general OS consists of a kernel to operate the hardware, and a user's
+environment to operate OS. The user's environment are not just a game you'd
+like to play - it's also a bunch of service used by this game to interact
+with graphical equipment, input devices etc. OS is the glue that holds all
+the puzzle pieces together. It accepts the signals from the keyboard and
+translates them to interact with a running software. And of course you've heard
+about drivers - bunch of a very low-level software to handle hardware.
+
+The filesystem's service is also a part of an operating system. This service
+handles files on your hard drive and reads their contents on your requests.
+
+Multitasking is handled by OS as well. This allows to run more than one
+program concurrently. The OS handle this process by allocating hardware
+resources (such as CPU cores and memory) among multiple running programs.
+
+Think of running your Python scripts... The interpreter does not know how to
+allocate memory to store your variables and how to ask your CPU do
+the calculations or send the request over the Wi-Fi network. But it doesn't
+need to, the operating system will handle these tasks. And of course the OS
+has an interface for you to interact with it.
+
+Or think about printing something on printer. As user you just press on "print"
+button in your text editor and the printer starts its work. Behind the scenes
+the application (text editor) transfers the printing task to the OS. The OS
+sends instructions to the printer using the printer driver interface. Driver
+handles signals to the printer hardware. The OS handles the details of the
+overall process. And the application itself does not need to care about
+the printing process at all.
+
+So the answer to the question in this section's title is:
+
+    It's the low-level software that supports a computer's basic functions,
+    such as scheduling tasks and controlling peripherals. The system's kernel
+    interacts with hardware. And a bunch of programs called *user environment*
+    make it possible to interact with the OS itself.
+
+What is Linux
+-------------
+
+So far, you know there is an operating system's kernel. This is a specific
+software that will be loaded after your computer starts (well, the bootloader
+loads first, but the kernel is still one of the first things to load).
+The kernel manages the hardware resource between system services and software.
+It is the most important part of the operation system. But it is not the
+operating system itself.
+
+To tell the truth, the *Linux* is the name of the kernel only. But to become
+an operating system the kernel need the user environment with all services
+needed to interact the computer and peripherals. Here comes **distros** -
+hundreds of ready-to-use services stacked around the Linux kernel. Actually
+distro is the operating system. But to keep things simple you can think
+of Linux as an actual operating system.
+
+What is the Difference with Windows
+-----------------------------------
+
+Windows is the most popular operating system, but... only for the desktop, or
+it's the most popular *general purpose* OS. In the servers world Linux systems
+are dominated. Embedded Linux is used on millions devices as well. And may be
+you've heard that Android for smartphones and tablets is also a kind of
+Linux OS.
+
+There are dozens of articles on the differences between Linux and Windows.
+In my opinion there is the only one difference - the way OS interacts with its
+user. The common Windows interaction strategy is from **action** to anything.
+The Windows users are able to do they want, and the system will protect itself
+from corruption as far as it possible. The Linux way is **from understanding**
+to action. You need to know that to do before you attempt to do anything [#]_.
+But in general the differences are:
+
+- **Users**: there are 3 types of user in Linux (root, regular, service) and
+  4 types in Windows (Administrator, Standard, Child, Guest).
+- **Kernel**: the Linux kernel is monolithic which requires more running space.
+  Windows uses the micro-kernel which takes less space, but lowers
+  the efficiency than Linux.
+- **File system**: in Windows files are stored in folders on different data
+  drives, but in Linux files are ordered in a tree structure starting with
+  the root directory. And **all** in the Linux file system is a **file**.
+- **Source code**: Linux is an open-source operating system whereas Windows
+  is commercial.
+
+Linux File System
+=================
+
+You've heard about a tree-like file system. To beat the difficulties [#]_ let's
+take a closer look at it. A simple description of the UNIX system, also
+applicable to Linux, is this:
+
+    On a UNIX system, everything is a file; if something is not a file, it is
+    a process.
+
+This statement is true because there are special files that are more that just
+files (named pipes, sockets), but to keep things simple, saying everything is
+a file is an acceptable generalization. A Linux system makes no differences
+between a file and a directory, since a directory is just a file containing
+names of other files. Programs, services, texts, images and so forth are all
+files. Input and output devices, and generally all devices, are considered to
+be files, according to the system.
+
+In order to manage all those files in an orderly fashion, man likes to think
+of them in an ordered tree-like structure on the hard disk. The large branches
+contain more branches, and the branches at the end contain the tree's leaves
+or normal files.
+
+File Types
+----------
+
+While it is reasonably safe to suppose that everything is you encounter on
+a Linux system is a file, there are some exceptions:
+
+- *Directories*: files that are lists of other files.
+- *Special files*: the mechanism used for input and output. Most special files
+  are in "/dev".
+- *Links*: a system to make a file or directory visible in multiple parts of
+  the system's file tree.
+- *(Domain) socket*: a special file type, similar to TCP/IP sockets, providing
+  inter-process networking protected by the file system's access protocol.
+- *Named pipes*: act more or less like sockets and form a way for processes
+  to communicate with each other, without using network socket semantics.
+
++--------+--------------+
+| Symbol | Meaning      |
++========+==============+
+| \-     | Regular file |
++--------+--------------+
+| d      | Directory    |
++--------+--------------+
+| l      | Link         |
++--------+--------------+
+| c      | Special file |
++--------+--------------+
+| s      | Socket       |
++--------+--------------+
+| p      | Named pipe   |
++--------+--------------+
+| b      | Block device |
++--------+--------------+
+
+File Permissions
+----------------
+
+In Linux system each file is assigned to a user and to a group. In this case
+the assigned user is the owner of a file. Group may contain one or more users.
+For example most of the system's files are assigned to ``root:root``, which
+means that the root user is the owner of these files, and ``root`` is the group
+assigned for these files.
+
+The detailed explanation of this is provided in :ref:`file_security`.
+
+About Partitioning
+------------------
+
+Most people have a vague knowledge of what partitions are, since every
+operating system has the ability to create or remove them. It may seem strange
+that Linux uses more than one partition on the same disk, even when using
+the standard installation procedure.
+
+One of the goals of having different partitions is to achieve higher data
+security in case of disaster.
+
+There are two kinds of major partitions on a Linux system:
+
+- *data partition*: normal Linux system data
+- *swap partition*: expansion of the computer's physical memory
+
+Most systems contain a root partition, one or more data partitions and one or
+more swap partitions. System in mixed environments may contain partitions for
+other system data, such as a partition with a FAT file system for MS Windows
+data.
+
+Mount Points
+------------
+
+All partitions are attached to the system via a mount point. The mount point
+defines the place of a particular data set in the file system. Usually, all
+partitions are connected through the *root* partition.
+
+More File System Layout
+-----------------------
+
+The tree of the file system starts at trunk or *slash, indicated by a forward
+slash (/). This directory containing all underlying directories and files, is
+also called the *root directory* or *the root* of the file system. Directories
+that are only one level below the root directories are often preceded by
+a slash to indicate their position and prevent confusion with other directories
+that could have the same name.
+
+.. figure:: ../../assets/img/unix-fs.svg
+    :alt: Standard UNIX file system tree
+
++-------------+---------------------------------------------------------------+
+| Directory   | Content                                                       |
++=============+===============================================================+
+| /bin        | Common programs, shared by the system and users               |
++-------------+---------------------------------------------------------------+
+| /boot       | The startup files and the kernel. In some distributions also  |
+|             | ``grub`` [#]_ data.                                           |
++-------------+---------------------------------------------------------------+
+| /dev        | Contains references to all the CPU peripheral hardware.       |
++-------------+---------------------------------------------------------------+
+| /etc        | Most important system configuration files. This directory     |
+|             | contains data similar to those in the Control Panel.          |
++-------------+---------------------------------------------------------------+
+| /home       | Home directories of the common users.                         |
++-------------+---------------------------------------------------------------+
+| /initrd     | (on some distributions) Information for booting.              |
++-------------+---------------------------------------------------------------+
+| /lib        | Library files, includes files for all kinds of programs       |
+|             | needed by the system and the users.                           |
++-------------+---------------------------------------------------------------+
+| /lost+found | Files that were saved during failures are here.               |
++-------------+---------------------------------------------------------------+
+| /misc       | For miscellaneous purposes.                                   |
++-------------+---------------------------------------------------------------+
+| /mnt        | Standard mount point for external file systems, e.g. CD-ROM.  |
++-------------+---------------------------------------------------------------+
+| /net        | Standard mount point for entire remote file systems.          |
++-------------+---------------------------------------------------------------+
+| /opt        | Typically contains extra and third party software.            |
++-------------+---------------------------------------------------------------+
+| /proc       | A virtual file system containing information about system     |
+|             | resources.                                                    |
++-------------+---------------------------------------------------------------+
+| /root       | The administrative user's home directory. Mind the difference |
+|             | between /, the root directory and /root, the home directory   |
+|             | of the *root* user.                                           |
++-------------+---------------------------------------------------------------+
+| /sbin       | Programs used by the system and the system administrator.     |
++-------------+---------------------------------------------------------------+
+| /tmp        | Temporary space for use by the system. Cleaned upon reboot.   |
++-------------+---------------------------------------------------------------+
+| /usr        | Programs, libraries, documentations etc. for all user-related |
+|             | programs.                                                     |
++-------------+---------------------------------------------------------------+
+| /var        | Storage for all variable files and temporary files created by |
+|             | users (e.g. log files).                                       |
++-------------+---------------------------------------------------------------+
+
+Absolute and Relative Paths
+---------------------------
+
+A path, which is the way you need to follow in the tree structure to reach
+a given file, can be described as starting from the trunk of the tree. In this
+case the path starts with a slash and is called an absolute path. There cannot
+be any mistakes in absolute paths, since the only one file on the system can
+comply.
+
+In the other case, the path doesn't start with a slash and confusion is
+possible: bin/wc in ~ (user's home directory) and bin/wc in /usr. Paths that
+don't start with a slash are always relative. In relative paths aliases can
+be used:
+
+- .  (a dot) - current directory
+- .. (two dots) - parent directory
+
+.. code-block::
+
+    /home/monty/foo_dir  # the absolute path to "foo" directory
+    foo_dir              # the same path relative to "monty" directory
+
+Why Linux
+=========
+
+Programmers' Operating System
+-----------------------------
+
+There is an opinion that Linux OS suits programmers the best. In deep you can
+find libraries for anything in numerous repositories. Linux makes it easier to
+get the software you need in one place. You are able to define scenarios to
+automate your daily workflow for any shell you use. So there are two major
+things making Linux a programmers' choice (and dozens of minors):
+
+On the other hand there is native development platform for Windows called
+.Net Framework. However this platform was designed to create software
+compatible with Windows OS family. By the way, you would not find a game
+developer who uses computer without Windows.
+
+Python is pre-installed on most Linux distros. Someone can say this makes
+this OS the best for Python developers. But is macOS the best OS for Ruby
+developer this way?
+
+So, in summary Linux is good in case:
+
+* You want to make package management really easy and non-annoying.
+* You are a fan of automation.
+* You are developing some cross-platform software.
+* Yuo are working on some web applications.
+* You are a Python developer.
+
+In deed you can use any OS you like.
+
+Servers
+-------
+
+This is the real place where Linux distros are dominated. Using server Linux
+is secure and stable. It brings the free of software choice and efficiency of
+resources usage. The open-source nature of the Linux kernel makes it impossible
+to create a backdoor for malicious purposes.
+
+Distros
+-------
+
+In comparison to Windows family the Linux family is lot bigger. Nowadays
+the Windows' user choice is the choice between Windows 10 and Windows 11
+(more Windows 7 and Windows 8 for olds). The choice in Linux world is
+the choice between your needs, skills, usability, graphic interface and
+whatever else.
+
+You can find the Linux distro that suits your needs the best. In case you can't
+find it - you can create it.
+
+The Linux kernel is the heart of all Linux-based operating systems. Since
+the kernel's source code is open source anyone [#]_ can create a distro for
+a specific needs or a general-purpose distro. There are dozens of distros.
+The `DistroWatch <https://www.distrowatch.com>`_ is the primary website to
+look for the Linux distribution for your needs. And still there are thousands
+of unknown Linux-based system maintaining special electrical circuits, coffee
+machines, smart house systems etc.
+
+
+.. [#] Of course there are many casual distros available. But still you need
+       to be more experienced user.
+
+.. [#] Many users have difficulties because they lack an overview of what kind
+       of data is kept in which location.
+
+.. [#] GRUB is the Grand Unified Boot loader and is an attempt to get rid of
+       the many different bootloaders we know today.
+
+.. [#] Who is skilled in operating systems architecture

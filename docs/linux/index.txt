@@ -1,0 +1,27 @@
+###############################################################################
+                            LINUX OPERATING SYSTEM
+###############################################################################
+
+This part provides a brief overview on the Linux-based operating systems.
+You would not be afraid of a terminal anymore. So this is the place to master
+the standard streams and system daemons.
+
+.. toctree::
+    :name: linux_toc
+    :caption: Part Contents
+    :maxdepth: 3
+    
+    overview
+    terminal
+    redirect
+    security
+    variable
+
+.. only:: html
+
+    .. toctree::
+        :name: linux_appendices_toc
+        :caption: Appendices
+        :titlesonly:
+
+        appx_reserved_vars

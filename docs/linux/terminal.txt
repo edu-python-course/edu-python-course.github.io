@@ -1,0 +1,207 @@
+*******************************************************************************
+                                Terminal Basics
+*******************************************************************************
+
+Most users do know the point-and-click language of the desktop. The shell is
+another way of talking to the computer. You probably know about PowerShell or
+Command Prompt in Windows OS.
+
+Just like people know different languages and dialects, the computer knows
+different shell types. The most advisable for beginners is **bash**
+(Bourne Again SHell). By the way, all examples in this document use bash.
+
+In a terminal's environment you got nothing except text. All you type into is
+a text, all got printed is a text. This is not the actual state of things, but
+this will make things simple for us for now. Anything you entered to the shell
+is ``input``, and the shell may response with ``output`` and/or ``errors``.
+
+.. note::
+    There is a longer explanation about Standard Streams in this chapter.
+    But for now this understanding of :abbr:`I/O(Input/Output)` will be enough.
+
+Most utilities (aka commands) support additional parameters (or flags). Flags
+may be passed using short or long syntax. Short flags start with - (single
+dash) character and long flags starts with -- (two dashes). Short flags may be
+combined together. The general syntax is:
+
+.. code-block::
+
+    command_name -s -V --long1 --long2
+    command_name -sV --long1 --long2
+
+Most of utilities come with a special help flag (``-h`` or ``--help``) which
+will print a help page on a utility usage.
+
+Navigation
+==========
+
+You need to remember the tree-like. The root directory is /. Usually you start
+your journey from your home directory. Let's assume your username is "monty".
+Monty is a regular user, so its directory is located at "/home" and named
+after the user. Here is some raw structure to visualize it:
+
+.. code-block::
+
+    /
+    | home
+    | -- monty
+    | ---- foo_dir
+    | ------ foo_1
+    | ------ foo_2
+    | ---- bar_dir
+    | ------ bar_1
+    | ------ bar_2
+
+The absolute path is always started at the root directory. So absolute path
+for monty's home is "/home/monty". Inside of the monty's home we get two
+subdirectories: "foo_dir" and "bar_dir". And each directory has its own
+files set.
+
+For all examples below we will assume the working directory is "monty".
+
+Where am I?
+-----------
+
+Sometimes it's a problem to locate yourself at the directories tree.
+:abbr:`pwd(Print Working Directory)` is a BusyBox utility that is used to
+get the absolute path to current location.
+
+.. code-block:: bash
+
+    pwd  # will print /home/monty
+
+List Contents
+-------------
+
+To list the contents of a directory - :abbr:`ls(List)` is used. Additional
+flag ``-l`` will print an output in a list format with some additional info:
+file type, file permissions, last modified date etc. Using flag ``-a`` will
+also list hidden files.
+
+.. code-block:: bash
+
+    ls foo_dir  # will output "foo_1" and "foo_2"
+    ls -l       # list current directory content in a list format
+    ls -la      # also list hidden files and directories
+
+Changing Directories
+--------------------
+
+Another BusyBox command used for the file system navigation is
+:abbr:`cd(Change Directory)`, which takes a path to needed location as
+an optional argument. By default
+
+.. code-block:: bash
+
+    cd /home/monty/foo_dir  # change directory to "foo" using an absolute path
+    cd ../bar_dir           # change directory to "bar" using a relative path
+    cd                      # change directory to home directory "monty"
+
+Manipulating Files and Folders
+==============================
+
+Creating Files and Folders
+--------------------------
+
+To create a new empty directory use :abbr:`mkdir(Make Directory)` command.
+``mkdir`` takes one or more operands.
+
+.. code-block:: bash
+
+    mkdir new_dir            # create "new_dir" directory at monty's home
+    mkdir foo_dir/new_dir    # create "new_dur" at inside of "foo_dir"
+    mkdir dir_1 dir_2 dir_3  # create 3 dirs: "dir_1", "dir_2" and "dir_3"
+
+Creating new files can be done in various ways:
+
+* Using ``touch`` command
+* By redirecting some output to a file
+* Using a text editor
+
+``touch`` command will update the timestamp on existing file or create a new
+one, if the file does not exist. The files creation is not actually this
+command is for, but it works well.
+
+.. code-block:: bash
+
+    touch new_file          # create a new file called "new_file"
+    touch foo_dir/new_file  # create a new file inside "foo_dir"
+
+There are dozens of text editors available for Linux. The most popular are:
+*vi* (or *vim*), *nano* and *emacs*. vi is pre-installed in most of Linux
+distros [#]_. Nano is pre-installed in Ubuntu-based distros. Emacs requires
+installation on most distros. Nano is the most friendly editor for new users.
+And of course there are hundreds other editors available to install and use.
+
+.. code-block:: bash
+
+    nano new_file_nano    # open "new_file_nano" in Nano editor
+    vi new_file_vi        # open "new_file_vi" in vi editor
+    emacs new_file_emacs  # open "new_file_emacs" in Emacs editor
+
+Deleting Files and Folders
+--------------------------
+
+There are two commands available for deleting things: :abbr:`rm(Remove)` and
+:abbr:`rmdir(Remove Directory)`. You cannot delete non-empty directory using
+``rmdir`` command; on the other hand you can remove a directory with ``rm``
+utility by appending ``-r`` (recursive) flag. That's why almost nobody uses
+``rmdir`` command.
+
+.. code-block:: bash
+
+    rm bar_dir/*    # remove all files from "bar_dir" directory
+    rmdir bar_dir   # remove "bar_dir" directory
+    rm -r foo_dir   # remove "foo_dir" directory and all its contents
+    rm <some_file>  # remove file
+
+Moving and Renaming Files and Folders
+-------------------------------------
+
+Another useful utility is :abbr:`mv(Move)` which requires two arguments:
+current name and new name. This utility can be also used to rename files
+and folders.
+
+.. code-block:: bash
+
+    mv foo_dir/foo_1 bar_dir         # move "foo_1" file to "bar_dir"
+    mv foo_dir/foo_2 bar_dir/new_bar # move "foo_2" and rename it
+    mv bar_dir/bar_1 bar_dir/bar_3   # rename "bar_1" file
+    mv foo_dir bar_dir               # move complete "foo_dir" folder
+
+Coping Files and Folders
+------------------------
+
+To copy a file use :abbr:`cp(Copy)`. This usage is similar to ``mv``, but
+a file will be copied to a target location. To copy a directory with
+subdirectories use ``-r`` flag (copy recursive).
+
+.. code-block:: bash
+
+    cp foo_dir/foo_1 bar_dir/foo_1  # copy "foo_1" to "bar_dir" directory
+    cp foo_dir/foo_1 bar_dir/foo_2  # copy "foo_1" to "bar_dir" and rename it
+    cp foo_dir bar_dir              # copy entire "foo_dir" to "bar_dir"
+    # since now bar_dir contains subdirectory -r flag should be used to copy it
+    cp -r bar_dir foo_dir           # copy entire "bar_dir" to "foo_dir"
+
+Creating Symbolic Links
+-----------------------
+
+The symbolic link is particularly interesting for beginning users: they are
+fairly obvious to see and you don't need to worry about partitions.
+
+The command to make links is :abbr:`ln(Link)`. In order to create symlinks, you
+need to use ``-s`` option:
+
+.. code-block:: bash
+
+    ln -s target_file link_name
+    ln -s foo_dir/foo_1 bar_dir/foo_1  # create a symlink to "foo_1"
+
+The application of symlinks is widespread. They are often used to save disk
+space, to make a copy of a file in order to satisfy installation requirements
+of a new program that expects the file to be in another location.
+
+
+.. [#] The question "How to exit Vim" has 2.6M views
+       https://stackoverflow.com/questions/11828270/how-do-i-exit-vim

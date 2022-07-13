@@ -11,3 +11,5 @@ It covers topics from the very begging to some advanced themes.
     :name: master_toc
     :caption: Course Contents
     :maxdepth: 1
+
+    linux/index

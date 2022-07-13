@@ -1,0 +1,96 @@
+*******************************************************************************
+                             Environment Variables
+*******************************************************************************
+
+The environment variables are managed by the shell. As opposed to regular shell
+variables, environment variables are inherited by any program you start,
+including another shell. New processes are assigned a copy of these variables,
+which they can read, modify and pass on in turn to their own child processes.
+
+There is nothing special about variable names, except that the common ones are
+in upper case characters by convention. You may come up with any name you want,
+although there are standard variables that are important enough to be the same
+on every Linux system, such as ``PATH`` and ``HOME``.
+
+.. seealso:: There is a list of reserved variables listed in Appendix
+             :ref:`file_linux_reserved_variables`
+
+Exporting Variables
+===================
+
+An individual variable's content is usually displayed using the ``echo``
+command, as in these example:
+
+.. code-block::
+
+    monty:~> echo $PATH
+    /usr/bin:/usr/sbin:/bin:/sbin:/usr/X11R6/bin:/usr/local/bin
+
+If you want to change the content of a variable in a way that is useful to
+other programs, you have to export the new value from your environment into
+the environment that runs these programs.
+
+.. code-block::
+
+    monty:~> PATH=$PATH:/opt/gear/bin
+    monty:~> echo $PATH
+    /usr/bin:/usr/sbin:/bin:/sbin:/usr/X11R6/bin:/usr/local/bin:/opt/gear/bin
+
+These instructs the shell to not only search programs in the current ``$PATH``,
+but also inside of the additional directory **/opt/gear/bin**.
+
+However, as long as the new value of the ``PATH`` is not known to the shell,
+you need to export it using the shell built-in command ``export``.
+
+.. code-block:: bash
+
+    export PATH
+
+In Bash this is normally done in one elegant step: ``export VARIABLE=value``.
+
+Shell Setup Files
+=================
+
+There are 3 scopes (types) of environment variables exist in Linux.
+
+:local environment variables:
+    These variables are defined within the current shell session and they will
+    be destroyed ones the session is ended. Exporting variable is an example of
+    creation of a local environment variable.
+
+:user environment variables:
+    Userspace environment variables are defined for a particular user and are
+    loaded any time this user logins to the system. These variables are defined
+    in user settings files that are usually located in home directory. Common
+    config filenames are *.bashrc*, *.bash_profile*, *.bash_login*, *.profile*.
+
+:system-wide environment variables:
+    These variables are defined for the entire system and they are loaded at
+    the system start-up. System config filenames are: */etc/environment*,
+    */etc/profile*, */etc/profile.d/*, */etc/bash.bashrc*.
+
+Define and Unset Environment Variables
+--------------------------------------
+
+Local variables can be set and unset as:
+
+.. code-block::
+
+    # set (define) variable
+    VARIABLE=value
+    export VARIABLE  # exporting variable to the environment
+    # or in one line
+    export VARIABLE=value
+    # unset (remove) variable
+    unset VARIABLE
+
+User and system-wide variables can be set by editing configuration files.
+Simple open the appropriate config via your favourite text editor and do:
+
+.. code-block::
+
+    export VARIABLE=value
+
+.. note:: Configuration files are loaded at the system startup or user login.
+          Your changes will no effect immediately. To reload config without
+          reboot or logout do ``source <config_file>``.
