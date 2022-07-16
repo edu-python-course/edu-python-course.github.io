@@ -2,7 +2,7 @@
 
 # general settings
 SPHINX_SOURCE = docs
-SPHINX_CONFIG = ./conf.py
+SPHINX_CONFIG = $(SPHINX_SOURCE)/conf.py
 
 # internationalization settings
 SPHINXINTL_LANGUAGE ?= ua
@@ -15,7 +15,7 @@ HTML_BUILDS    = $(SPHINX_BUILDS)/html/$(LANGUAGE)
 LATEX_BUILDS   = $(SPHINX_BUILDS)/latex/$(LANGUAGE)
 
 # documentations builders
-SPHINX_BUILDER  = sphinx-build -q -c . -D language=$(LANGUAGE)
+SPHINX_BUILDER  = sphinx-build -q -D language=$(LANGUAGE)
 GETTEXT_BUILDER = $(SPHINX_BUILDER) -b gettext
 HTML_BUILDER    = $(SPHINX_BUILDER) -b html
 LATEX_BUILDER   = $(SPHINX_BUILDER) -b latex
