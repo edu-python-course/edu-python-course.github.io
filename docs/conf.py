@@ -6,7 +6,7 @@ import sys
 
 # Paths setup
 # ===========
-sys.path.insert(0, os.path.abspath("problem-sets/src"))
+sys.path.insert(0, os.path.abspath("../problem-sets/src"))
 
 # Project information
 # ===================
@@ -34,6 +34,9 @@ source_suffix = {
 }
 needs_sphinx = "4.0"
 add_module_names = False
+exclude_patterns = [
+    "**/README.rst",
+]
 
 # Options for internationalization
 # ================================
@@ -44,7 +47,7 @@ gettext_compact = True
 # Options for HTML output
 # =======================
 html_theme = "sphinx_rtd_theme"
-html_favicon = "assets/favicon.ico"
+html_favicon = "../assets/favicon.ico"
 
 # Options for LaTeX output
 # ========================
