@@ -13,3 +13,4 @@ It covers topics from the very begging to some advanced themes.
     :maxdepth: 1
 
     linux/index
+    python-quiz/index
