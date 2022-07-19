@@ -1,0 +1,2183 @@
+# LINUX INTRODUCTION TRANSLATION FILE.
+# Copyright (C) 2022, Python Training Course
+# This file is distributed under the same license as the Python Training
+# Course package.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python Training Course \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-19 13:23+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../../docs/linux/appx_reserved_vars.txt:5
+msgid "LINUX: RESERVED VARIABLES"
+msgstr "LINUX: ЗАРЕЗЕРВОВАНІ ЗМІННІ"
+
+#: ../../../docs/linux/appx_reserved_vars.txt:7
+msgid ""
+"The following table gives an overview of the most common predefined "
+"variables:"
+msgstr ""
+"У наступній таблиці наведено огляд найпоширеніших попередньо визначених "
+"змінних:"
+
+#: ../../../docs/linux/appx_reserved_vars.txt:10
+msgid "Variable Name"
+msgstr "Назва змінної"
+
+#: ../../../docs/linux/appx_reserved_vars.txt:10
+msgid "Stored Information"
+msgstr "Збережена інформація"
+
+#: ../../../docs/linux/appx_reserved_vars.txt:12
+msgid "DISPLAY"
+msgstr ""
+
+#: ../../../docs/linux/appx_reserved_vars.txt:12
+msgid "used by the X Window system to identify the display server"
+msgstr "використовується системою X Window для ідентифікації сервера "
+"відображення"
+
+#: ../../../docs/linux/appx_reserved_vars.txt:15
+msgid "DOMAIN"
+msgstr ""
+
+#: ../../../docs/linux/appx_reserved_vars.txt:15
+msgid "domain name"
+msgstr "ім'я домену"
+
+#: ../../../docs/linux/appx_reserved_vars.txt:17
+msgid "EDITOR"
+msgstr ""
+
+#: ../../../docs/linux/appx_reserved_vars.txt:17
+msgid "stores your favorite line editor"
+msgstr "зберігає ваш улюблений інтегрований редактор"
+
+#: ../../../docs/linux/appx_reserved_vars.txt:19
+msgid "HISTSIZE"
+msgstr ""
+
+#: ../../../docs/linux/appx_reserved_vars.txt:19
+msgid "size of the shell history file in number of lines"
+msgstr "розмір файлу історії оболонки у рядках"
+
+#: ../../../docs/linux/appx_reserved_vars.txt:21
+msgid "HOME"
+msgstr ""
+
+#: ../../../docs/linux/appx_reserved_vars.txt:21
+msgid "path to your home directory"
+msgstr "шлях до вашого домашнього каталогу"
+
+#: ../../../docs/linux/appx_reserved_vars.txt:23
+msgid "HOSTNAME"
+msgstr ""
+
+#: ../../../docs/linux/appx_reserved_vars.txt:23
+msgid "local host name"
+msgstr "локальне ім'я хоста (комп'ютера)"
+
+#: ../../../docs/linux/appx_reserved_vars.txt:25
+msgid "INPUTRC"
+msgstr ""
+
+#: ../../../docs/linux/appx_reserved_vars.txt:25
+msgid "location of definition file for input devices such as keyboard"
+msgstr ""
+"розташування файлу визначення для пристроїв введення, таких як клавіатура"
+
+#: ../../../docs/linux/appx_reserved_vars.txt:28
+msgid "LANG"
+msgstr ""
+
+#: ../../../docs/linux/appx_reserved_vars.txt:28
+msgid "preferred language"
+msgstr "бажана мова"
+
+#: ../../../docs/linux/appx_reserved_vars.txt:30
+msgid "LD_LIBRARY_PATH"
+msgstr ""
+
+#: ../../../docs/linux/appx_reserved_vars.txt:30
+msgid "paths to search for libraries"
+msgstr "шляхи для пошуку бібліотек"
+
+#: ../../../docs/linux/appx_reserved_vars.txt:32
+msgid "LOGNAME"
+msgstr ""
+
+#: ../../../docs/linux/appx_reserved_vars.txt:32
+msgid "login name"
+msgstr "ім'я для входу"
+
+#: ../../../docs/linux/appx_reserved_vars.txt:34
+msgid "MAIL"
+msgstr ""
+
+#: ../../../docs/linux/appx_reserved_vars.txt:34
+msgid "location of your incoming mail folder"
+msgstr "розташування папки вхідної пошти"
+
+#: ../../../docs/linux/appx_reserved_vars.txt:36
+msgid "MANPATH"
+msgstr ""
+
+#: ../../../docs/linux/appx_reserved_vars.txt:36
+msgid "paths to search for man pages OS string describing the operating system"
+msgstr ""
+"шляхи для пошуку довідкових сторінок, рядок ОС, що описує операційну систему"
+
+#: ../../../docs/linux/appx_reserved_vars.txt:39
+msgid "OSTYPE"
+msgstr ""
+
+#: ../../../docs/linux/appx_reserved_vars.txt:39
+msgid "more information about version etc."
+msgstr "більше інформації про версію тощо."
+
+#: ../../../docs/linux/appx_reserved_vars.txt:41
+msgid "PAGER"
+msgstr ""
+
+#: ../../../docs/linux/appx_reserved_vars.txt:41
+msgid ""
+"used by programs like man which need to know what to do in case output is"
+" more than one terminal window."
+msgstr ""
+"використовується такими програмами, як man, яким потрібно знати, що робити у "
+"випадку, якщо виведення є більш ніж одним вікном терміналу."
+
+#: ../../../docs/linux/appx_reserved_vars.txt:44
+msgid "PATH"
+msgstr ""
+
+#: ../../../docs/linux/appx_reserved_vars.txt:44
+msgid "search paths for commands"
+msgstr "шляхи пошуку для команд"
+
+#: ../../../docs/linux/appx_reserved_vars.txt:46
+msgid "PS1"
+msgstr ""
+
+#: ../../../docs/linux/appx_reserved_vars.txt:46
+msgid "primary prompt"
+msgstr "основне запрошення командної строки"
+
+#: ../../../docs/linux/appx_reserved_vars.txt:48
+msgid "PS2"
+msgstr ""
+
+#: ../../../docs/linux/appx_reserved_vars.txt:48
+msgid "secondary prompt"
+msgstr "вторинне запрошення командної строки"
+
+#: ../../../docs/linux/appx_reserved_vars.txt:50
+msgid "PWD"
+msgstr ""
+
+#: ../../../docs/linux/appx_reserved_vars.txt:50
+msgid "present working directory"
+msgstr "поточний робочий каталог"
+
+#: ../../../docs/linux/appx_reserved_vars.txt:52
+msgid "SHELL"
+msgstr ""
+
+#: ../../../docs/linux/appx_reserved_vars.txt:52
+msgid "current shell"
+msgstr "поточна оболонка"
+
+#: ../../../docs/linux/appx_reserved_vars.txt:54
+msgid "TERM"
+msgstr ""
+
+#: ../../../docs/linux/appx_reserved_vars.txt:54
+msgid "terminal type"
+msgstr "тип терміналу"
+
+#: ../../../docs/linux/appx_reserved_vars.txt:56
+msgid "UID"
+msgstr ""
+
+#: ../../../docs/linux/appx_reserved_vars.txt:56
+msgid "user ID"
+msgstr "ідентифікатор користувача"
+
+#: ../../../docs/linux/appx_reserved_vars.txt:58
+msgid "USER (NAME)"
+msgstr ""
+
+#: ../../../docs/linux/appx_reserved_vars.txt:58
+msgid "user name"
+msgstr "ім'я користувача"
+
+#: ../../../docs/linux/appx_reserved_vars.txt:60
+msgid "VISUAL"
+msgstr ""
+
+#: ../../../docs/linux/appx_reserved_vars.txt:60
+msgid "your favorite full-screen editor"
+msgstr "ваш улюблений повноекранний редактор"
+
+#: ../../../docs/linux/appx_reserved_vars.txt:62
+msgid "XENVIRONMENT"
+msgstr ""
+
+#: ../../../docs/linux/appx_reserved_vars.txt:62
+msgid "location of your personal settings for X behavior"
+msgstr "розташування ваших персональних налаштувань поведінки X"
+
+#: ../../../docs/linux/appx_reserved_vars.txt:64
+msgid "XFILESEARCHPATH"
+msgstr ""
+
+#: ../../../docs/linux/appx_reserved_vars.txt:64
+msgid "paths to search for graphical libraries"
+msgstr "шляхи для пошуку графічних бібліотек"
+
+#: ../../../docs/linux/appx_reserved_vars.txt:67
+msgid ""
+"A lot of variables are not only predefined but also preset, using "
+"configuration files."
+msgstr ""
+"Багато змінних не лише попередньо визначено, але й попередньо встановлено за "
+"допомогою файлів конфігурації."
+
+#: ../../../docs/linux/index.txt:9
+msgid "Part Contents"
+msgstr "Вміст частини"
+
+#: ../../../docs/linux/index.txt:22
+msgid "Appendices"
+msgstr "Додатки"
+
+#: ../../../docs/linux/index.txt:3
+msgid "LINUX OPERATING SYSTEM"
+msgstr "ОПЕРАЦІЙНА СИСТЕМА LINUX"
+
+#: ../../../docs/linux/index.txt:5
+msgid ""
+"This part provides a brief overview on the Linux-based operating systems."
+" You would not be afraid of a terminal anymore. So this is the place to "
+"master the standard streams and system daemons."
+msgstr ""
+"Ця частина містить короткий огляд операційних систем на основі Linux."
+" Ви б більше не боялися терміналу. Отже, це місце, щоб "
+"опанувати стандартні потоки та системні демони."
+
+#: ../../../docs/linux/overview.txt:3
+msgid "A Brief Introduction into the Linux"
+msgstr "Короткий вступ до Linux"
+
+#: ../../../docs/linux/overview.txt:5
+msgid ""
+"What is the most popular operating system in the world? You probably "
+"answer - Windows. Well, it's true, but actually no. Let's dive into the "
+"question..."
+msgstr ""
+"Яка найпопулярніша операційна система у світі? Ви, ймовірно, відповідаєте - "
+"Windows. Добре, це правда, але насправді ні. Давайте зануримося в питання..."
+
+#: ../../../docs/linux/overview.txt:9
+msgid "Introduction to Linux"
+msgstr "Вступ до Linux"
+
+#: ../../../docs/linux/overview.txt:12
+msgid "What is an Operating System?"
+msgstr "Що таке операційна система?"
+
+#: ../../../docs/linux/overview.txt:14
+msgid ""
+"You computer consists of thousands of electronic units. As a programmer "
+"you know that all the code you've created is used in a form of ones and "
+"zeros. Actually all in the computer world are ones and zeros: a "
+"SteamClient, a photo and a text file. But the single electrical circuit "
+"inside of the computer know nothing about the ones and zeros - numbers "
+"are only for humans on this level - it can understand the LOW or HIGH "
+"signals only."
+msgstr ""
+"Ваш комп'ютер складається з тисяч електронних блоків. Як програміст, ви "
+"знаєте, що весь код, який ви створили, використовується у формі одиниць і "
+"нулів. Насправді все в комп'ютерному світі - це одиниці та нулі : a "
+"SteamClient, фотографія та текстовий файл. Але єдине електричне коло "
+"всередині комп'ютера нічого не знає про одиниці та нулі - цифри тільки для "
+"людей на цьому рівні - він може зрозуміти LOW або HIGH лише сигнали."
+
+#: ../../../docs/linux/overview.txt:21
+msgid ""
+"But you can still type code and it will appear on the display. Think of "
+"this process as sending the signals from the keyboard to the computer and"
+" then to the display. Somehow the text editor program is loaded to the "
+"allocated memory and translates key presses into the characters you can "
+"see. This is the operating systems were design for!"
+msgstr ""
+"Але ви все одно можете ввести код, і він з'явиться на дисплеї. Подумайте про "
+"цей процес як про надсилання сигналів із клавіатури на комп'ютер, а потім на "
+"дисплей. Якимось чином програма текстового редактора завантажується для "
+"виділена пам'ять і перетворює натискання клавіш у символи, які можна "
+"побачити. Для цього і була розроблена операційна система."
+
+#: ../../../docs/linux/overview.txt:27
+msgid ""
+"The operating system works with your hardware and peripherals. The OS "
+"allocates the memory for any program you want to run."
+msgstr ""
+"Операційна система працює з вашим обладнанням і периферійними пристроями. ОС "
+"виділяє пам'ять для будь-якої програми, яку ви хочете запустити."
+
+#: ../../../docs/linux/overview.txt:30
+msgid ""
+"In general OS consists of a kernel to operate the hardware, and a user's "
+"environment to operate OS. The user's environment are not just a game "
+"you'd like to play - it's also a bunch of service used by this game to "
+"interact with graphical equipment, input devices etc. OS is the glue that"
+" holds all the puzzle pieces together. It accepts the signals from the "
+"keyboard and translates them to interact with a running software. And of "
+"course you've heard about drivers - bunch of a very low-level software to"
+" handle hardware."
+msgstr ""
+"Загалом ОС складається з ядра для керування апаратним забезпеченням"
+" та середовища користувача для роботи з ОС. Середовище користувача - це не "
+"просто гра, у яку ви хотіли б пограти - це також набір послуг, які "
+"використовуються цією грою для взаємодії з графічним обладнанням, пристроями "
+"введення тощо. ОС — це клей, який утримує всі частини головоломки разом. Вона"
+" приймає сигнали від клавіатури та перетворює їх для взаємодії з запущеним "
+"програмним забезпеченням. Звичайно, ви чули про драйвери - купу програмного "
+"забезпечення дуже низького рівня для обробки апаратного забезпечення."
+
+#: ../../../docs/linux/overview.txt:38
+msgid ""
+"The filesystem's service is also a part of an operating system. This "
+"service handles files on your hard drive and reads their contents on your"
+" requests."
+msgstr ""
+"Сервіс файлової системи також є частиною операційної системи. Цей сервіс "
+"обробляє файли на вашому жорсткому диску та читає їхній вміст за вашими"
+" запитами."
+
+#: ../../../docs/linux/overview.txt:41
+msgid ""
+"Multitasking is handled by OS as well. This allows to run more than one "
+"program concurrently. The OS handle this process by allocating hardware "
+"resources (such as CPU cores and memory) among multiple running programs."
+msgstr ""
+"Багатозадачність також обробляється ОС. Це дозволяє запускати декілька "
+"програм одночасно. ОС керує цим процесом, розподіляючи апаратні ресурси (такі"
+" як ядра процесора та пам’ять) між кількома запущеними програмами."
+
+#: ../../../docs/linux/overview.txt:45
+msgid ""
+"Think of running your Python scripts... The interpreter does not know how"
+" to allocate memory to store your variables and how to ask your CPU do "
+"the calculations or send the request over the Wi-Fi network. But it "
+"doesn't need to, the operating system will handle these tasks. And of "
+"course the OS has an interface for you to interact with it."
+msgstr ""
+"Подумайте про виконання своїх сценаріїв Python... Інтерпретатор не знає, як"
+" виділити пам'ять для зберігання ваших змінних і як попросити ваш ЦП виконати"
+" обчислення або надіслати запит через мережу Wi-Fi. Але це не потрібно, "
+"операційна система виконає ці завдання. І, звичайно, ОС має інтерфейс для "
+"взаємодії з нею."
+
+#: ../../../docs/linux/overview.txt:51
+msgid ""
+"Or think about printing something on printer. As user you just press on "
+"\"print\" button in your text editor and the printer starts its work. "
+"Behind the scenes the application (text editor) transfers the printing "
+"task to the OS. The OS sends instructions to the printer using the "
+"printer driver interface. Driver handles signals to the printer hardware."
+" The OS handles the details of the overall process. And the application "
+"itself does not need to care about the printing process at all."
+msgstr ""
+"Або подумайте про друк щось на принтері. Як користувач, ви просто натискаєте "
+"кнопку \"друк\" у текстовому редакторі, і принтер починає свою роботу. За "
+"лаштунками програма (текстовий редактор) передає друкування завдання до ОС. "
+"ОС надсилає інструкції до принтера за допомогою інтерфейсу драйвера принтера."
+" Драйвер обробляє сигнали до обладнання принтера. ОС обробляє деталі "
+"загального процесу. А самій програмі взагалі не потрібно піклуватися про "
+"процес друку."
+
+#: ../../../docs/linux/overview.txt:59
+msgid "So the answer to the question in this section's title is:"
+msgstr "Тож відповідь на запитання в назві цього розділу:"
+
+#: ../../../docs/linux/overview.txt:61
+msgid ""
+"It's the low-level software that supports a computer's basic functions, "
+"such as scheduling tasks and controlling peripherals. The system's kernel"
+" interacts with hardware. And a bunch of programs called *user "
+"environment* make it possible to interact with the OS itself."
+msgstr ""
+"Це низькорівневе програмне забезпечення, яке підтримує базові функції "
+"комп'ютера, такі як планування завдань і керування периферійними пристроями. "
+"Ядро системи взаємодіє з апаратним забезпеченням. А купа програм, які "
+"називаються середовищем користувача, дають змогу взаємодіяти з самою ОС."
+
+#: ../../../docs/linux/overview.txt:67
+msgid "What is Linux"
+msgstr "Що таке Linux"
+
+#: ../../../docs/linux/overview.txt:69
+msgid ""
+"So far, you know there is an operating system's kernel. This is a "
+"specific software that will be loaded after your computer starts (well, "
+"the bootloader loads first, but the kernel is still one of the first "
+"things to load). The kernel manages the hardware resource between system "
+"services and software. It is the most important part of the operation "
+"system. But it is not the operating system itself."
+msgstr ""
+"Поки що ви знаєте, що є ядро операційної системи. Це спеціальне програмне "
+"забезпечення, яке буде завантажено після запуску вашого комп'ютера (добре, "
+"завантажувач завантажується першим, але ядро все одно є одним із перших що "
+"потрібно завантажити). Ядро керує апаратним ресурсом між системними службами "
+"та програмним забезпеченням. Це найважливіша частина операційної системи. "
+"Але це не сама операційна система."
+
+#: ../../../docs/linux/overview.txt:76
+msgid ""
+"To tell the truth, the *Linux* is the name of the kernel only. But to "
+"become an operating system the kernel need the user environment with all "
+"services needed to interact the computer and peripherals. Here comes "
+"**distros** - hundreds of ready-to-use services stacked around the Linux "
+"kernel. Actually distro is the operating system. But to keep things "
+"simple you can think of Linux as an actual operating system."
+msgstr ""
+"Чесно кажучи, Linux - це лише назва ядра. Але щоб стати операційною системою,"
+" ядру потрібне середовище користувача з усіма службами, необхідними для "
+"взаємодії з комп'ютером і периферійними пристроями. Ось дистрибутиви - сотні"
+" готових до використання служб, розташованих навколо ядра Linux. Насправді "
+"дистрибутив є операційною системою. Але щоб все було просто, ви можете думати"
+" про Linux як про операційну систему."
+
+#: ../../../docs/linux/overview.txt:84
+msgid "What is the Difference with Windows"
+msgstr "Яка різниця з Windows"
+
+#: ../../../docs/linux/overview.txt:86
+msgid ""
+"Windows is the most popular operating system, but... only for the "
+"desktop, or it's the most popular *general purpose* OS. In the servers "
+"world Linux systems are dominated. Embedded Linux is used on millions "
+"devices as well. And may be you've heard that Android for smartphones and"
+" tablets is also a kind of Linux OS."
+msgstr ""
+"Windows є найпопулярнішою операційною системою, але... лише для настільного "
+"комп'ютера, або це найпопулярніша ОС загального призначення. У світі серверів"
+" домінують системи Linux. Linux використовується на мільйонах пристроїв, у "
+"якості вбудованої ОС. Можливо, ви чули, що Android для смартфонів і "
+"планшетів також є різновидом ОС Linux."
+
+#: ../../../docs/linux/overview.txt:92
+msgid ""
+"There are dozens of articles on the differences between Linux and "
+"Windows. In my opinion there is the only one difference - the way OS "
+"interacts with its user. The common Windows interaction strategy is from "
+"**action** to anything. The Windows users are able to do they want, and "
+"the system will protect itself from corruption as far as it possible. The"
+" Linux way is **from understanding** to action. You need to know that to "
+"do before you attempt to do anything [#]_. But in general the differences"
+" are:"
+msgstr ""
+"Існують десятки статей про відмінності між Linux і Windows. На мою думку, "
+"існує лише одна відмінність - спосіб взаємодії ОС із користувачем. Загальна "
+"стратегія взаємодії Windows полягає від **дії** до чого завгодно. Користувачі"
+" Windows можуть робити те, що хочуть, і система захищатиме себе від "
+"пошкоджень, наскільки це можливо. Шлях Linux - **від розуміння** до дії. Ви "
+"повинні знати, що зробити, перш ніж спробувати зробити будь-що [#]_. Але "
+"загалом відмінності такі:"
+
+#: ../../../docs/linux/overview.txt:100
+msgid ""
+"**Users**: there are 3 types of user in Linux (root, regular, service) "
+"and 4 types in Windows (Administrator, Standard, Child, Guest)."
+msgstr ""
+"**Користувачі**: існує 3 типи користувачів у Linux (кореневі, звичайні, "
+"службові) і 4 типи у Windows (адміністратор, стандартний, дочірній, гість)."
+
+#: ../../../docs/linux/overview.txt:102
+msgid ""
+"**Kernel**: the Linux kernel is monolithic which requires more running "
+"space. Windows uses the micro-kernel which takes less space, but lowers "
+"the efficiency than Linux."
+msgstr ""
+"**Ядро**: ядро Linux є монолітним, що вимагає більшого робочого простору. "
+"Windows використовує мікроядро, яке займає менше місця, але нижче "
+"ефективність, ніж Linux."
+
+#: ../../../docs/linux/overview.txt:105
+msgid ""
+"**File system**: in Windows files are stored in folders on different data"
+" drives, but in Linux files are ordered in a tree structure starting with"
+" the root directory. And **all** in the Linux file system is a **file**."
+msgstr ""
+"**Файлова система**: у Windows файли зберігаються в папках на різних дисках "
+"даних, але в Linux файли впорядковані в деревовидній структурі, починаючи з "
+"кореневого каталогу. І **все** у файловій системі Linux **є файлом**."
+
+#: ../../../docs/linux/overview.txt:108
+msgid ""
+"**Source code**: Linux is an open-source operating system whereas Windows"
+" is commercial."
+msgstr ""
+"**Вихідний код**: Linux є операційною системою з відкритим кодом, тоді як "
+"Windows є комерційною."
+
+#: ../../../docs/linux/overview.txt:112
+msgid "Linux File System"
+msgstr "Файлова система Linux"
+
+#: ../../../docs/linux/overview.txt:114
+msgid ""
+"You've heard about a tree-like file system. To beat the difficulties [#]_"
+" let's take a closer look at it. A simple description of the UNIX system,"
+" also applicable to Linux, is this:"
+msgstr ""
+"Ви чули про деревоподібну файлову систему. Щоб подолати труднощі [#]_, "
+"давайте розглянемо її ближче. Простий опис системи UNIX, також застосовний до"
+" Linux, такий:"
+
+#: ../../../docs/linux/overview.txt:118
+msgid ""
+"On a UNIX system, everything is a file; if something is not a file, it is"
+" a process."
+msgstr "У системі UNIX все є файлом; якщо щось не є файлом, то є процесом."
+
+#: ../../../docs/linux/overview.txt:121
+msgid ""
+"This statement is true because there are special files that are more that"
+" just files (named pipes, sockets), but to keep things simple, saying "
+"everything is a file is an acceptable generalization. A Linux system "
+"makes no differences between a file and a directory, since a directory is"
+" just a file containing names of other files. Programs, services, texts, "
+"images and so forth are all files. Input and output devices, and "
+"generally all devices, are considered to be files, according to the "
+"system."
+msgstr ""
+"Це твердження вірне, оскільки існують спеціальні файли, які більш ніж просто "
+"файли (іменовані труби, сокети), але, щоб спростити речі, кажучи, що все є "
+"файл є прийнятним узагальненням. Система Linux не має жодних відмінностей "
+"між файлом і каталогом, оскільки каталог — це лише файл, що містить імена "
+"інших файлів. Програми, сервіси, тексти, зображення і так далі – це все "
+"файли. Пристрої введення та виведення, і взагалі всі пристрої, вважаються "
+"такими бути файлами, відповідно до системи."
+
+#: ../../../docs/linux/overview.txt:129
+msgid ""
+"In order to manage all those files in an orderly fashion, man likes to "
+"think of them in an ordered tree-like structure on the hard disk. The "
+"large branches contain more branches, and the branches at the end contain"
+" the tree's leaves or normal files."
+msgstr ""
+"Для того, щоб керувати всіма цими файлами впорядковано, людина хоче думати "
+"про них у впорядкованій деревоподібній структурі на жорсткому диску. Великі "
+"гілки містять більше гілок, а гілки на кінці містять листя дерева або "
+"звичайні файли."
+
+#: ../../../docs/linux/overview.txt:135
+msgid "File Types"
+msgstr "Типи файлів"
+
+#: ../../../docs/linux/overview.txt:137
+msgid ""
+"While it is reasonably safe to suppose that everything is you encounter "
+"on a Linux system is a file, there are some exceptions:"
+msgstr ""
+"Хоча досить безпечно припустити, що все, з чим ти стикаєшся у системі Linux є"
+" файл, є деякі винятки:"
+
+#: ../../../docs/linux/overview.txt:140
+msgid "*Directories*: files that are lists of other files."
+msgstr "*Каталоги*: файли, які є списками інших файлів."
+
+#: ../../../docs/linux/overview.txt:141
+msgid ""
+"*Special files*: the mechanism used for input and output. Most special "
+"files are in \"/dev\"."
+msgstr ""
+"*Спеціальні файли*: механізм, що використовується для введення та виведення. "
+"Більшість таких файлів знаходяться в \"/dev\"."
+
+#: ../../../docs/linux/overview.txt:143
+msgid ""
+"*Links*: a system to make a file or directory visible in multiple parts "
+"of the system's file tree."
+msgstr ""
+"*Посилання*: система, яка робить файл або каталог видимими в кількох частинах"
+" дерева файлової системи."
+
+#: ../../../docs/linux/overview.txt:145
+msgid ""
+"*(Domain) socket*: a special file type, similar to TCP/IP sockets, "
+"providing inter-process networking protected by the file system's access "
+"protocol."
+msgstr ""
+"*(Доменний) сокет*: спеціальний тип файлу, подібний до сокетів TCP/IP, "
+"для забезпечення міжпроцесної мережі, захищеної протоколом доступу до "
+"файлової системи."
+
+#: ../../../docs/linux/overview.txt:147
+msgid ""
+"*Named pipes*: act more or less like sockets and form a way for processes"
+" to communicate with each other, without using network socket semantics."
+msgstr ""
+"*Іменовані канали*: діють більш-менш як сокети та утворюють шлях для процесів"
+" спілкуватися один з одним, не використовуючи семантику мережевого сокета."
+
+#: ../../../docs/linux/overview.txt:151
+msgid "Symbol"
+msgstr "Символ"
+
+#: ../../../docs/linux/overview.txt:151 ../../../docs/linux/security.txt:40
+#: ../../../docs/linux/security.txt:79
+msgid "Meaning"
+msgstr "Значення"
+
+#: ../../../docs/linux/overview.txt:153
+msgid "\\-"
+msgstr ""
+
+#: ../../../docs/linux/overview.txt:153
+msgid "Regular file"
+msgstr "Звичайний файл"
+
+#: ../../../docs/linux/overview.txt:155
+msgid "d"
+msgstr ""
+
+#: ../../../docs/linux/overview.txt:155 ../../../docs/linux/overview.txt:221
+msgid "Directory"
+msgstr "Каталог"
+
+#: ../../../docs/linux/overview.txt:157
+msgid "l"
+msgstr ""
+
+#: ../../../docs/linux/overview.txt:157
+msgid "Link"
+msgstr "Посилання"
+
+#: ../../../docs/linux/overview.txt:159
+msgid "c"
+msgstr ""
+
+#: ../../../docs/linux/overview.txt:159
+msgid "Special file"
+msgstr "Спеціальний файл"
+
+#: ../../../docs/linux/overview.txt:161
+msgid "s"
+msgstr ""
+
+#: ../../../docs/linux/overview.txt:161
+msgid "Socket"
+msgstr "Сокет"
+
+#: ../../../docs/linux/overview.txt:163
+msgid "p"
+msgstr ""
+
+#: ../../../docs/linux/overview.txt:163
+msgid "Named pipe"
+msgstr "Іменований канал"
+
+#: ../../../docs/linux/overview.txt:165
+msgid "b"
+msgstr ""
+
+#: ../../../docs/linux/overview.txt:165
+msgid "Block device"
+msgstr "Пристрій"
+
+#: ../../../docs/linux/overview.txt:169
+msgid "File Permissions"
+msgstr "Дозволи до опрацювання файлів"
+
+#: ../../../docs/linux/overview.txt:171
+msgid ""
+"In Linux system each file is assigned to a user and to a group. In this "
+"case the assigned user is the owner of a file. Group may contain one or "
+"more users. For example most of the system's files are assigned to "
+"``root:root``, which means that the root user is the owner of these "
+"files, and ``root`` is the group assigned for these files."
+msgstr ""
+"У системі Linux кожен файл призначається користувачеві та групі. У цьому "
+"випадку призначений користувач є власником файлу. Група може містити одного "
+"або кількох користувачів. Наприклад, більшість системних файлів призначено "
+"``root:root``, що означає, що користувач root є власником цих файлів, а "
+"``root`` є групою, призначеною для цих файлів."
+
+#: ../../../docs/linux/overview.txt:177
+msgid "The detailed explanation of this is provided in :ref:`file_security`."
+msgstr "Детальне пояснення цього надається у :ref:`file_security`."
+
+#: ../../../docs/linux/overview.txt:180
+msgid "About Partitioning"
+msgstr "Про розділення"
+
+#: ../../../docs/linux/overview.txt:182
+msgid ""
+"Most people have a vague knowledge of what partitions are, since every "
+"operating system has the ability to create or remove them. It may seem "
+"strange that Linux uses more than one partition on the same disk, even "
+"when using the standard installation procedure."
+msgstr ""
+"Більшість людей неясно знають, що таке розділи, оскільки кожна операційна "
+"система має можливість створювати або видаляти їх. Може здатися дивним, що "
+"Linux використовує більше одного розділу на одному диску, навіть якщо "
+"використовується стандартна процедура встановлення."
+
+#: ../../../docs/linux/overview.txt:187
+msgid ""
+"One of the goals of having different partitions is to achieve higher data"
+" security in case of disaster."
+msgstr ""
+"Однією з цілей створення різних розділів є підвищення безпеки даних у разі "
+"аварії."
+
+#: ../../../docs/linux/overview.txt:190
+msgid "There are two kinds of major partitions on a Linux system:"
+msgstr "У системі Linux є два типи основних розділів:"
+
+#: ../../../docs/linux/overview.txt:192
+msgid "*data partition*: normal Linux system data"
+msgstr "*розділ даних*: звичайні системні дані Linux"
+
+#: ../../../docs/linux/overview.txt:193
+msgid "*swap partition*: expansion of the computer's physical memory"
+msgstr "*розділ підкачки*: розширення фізичної пам'яті комп'ютера"
+
+#: ../../../docs/linux/overview.txt:195
+msgid ""
+"Most systems contain a root partition, one or more data partitions and "
+"one or more swap partitions. System in mixed environments may contain "
+"partitions for other system data, such as a partition with a FAT file "
+"system for MS Windows data."
+msgstr ""
+"Більшість систем містять кореневий розділ, один або більше розділів даних і "
+"один або більше розділів підкачки. Система в змішаних середовищах може "
+"містити розділи для інших системних даних, наприклад розділ із файловою "
+"системою FAT для даних MS Windows."
+
+#: ../../../docs/linux/overview.txt:201
+msgid "Mount Points"
+msgstr "Точки монтування"
+
+#: ../../../docs/linux/overview.txt:203
+msgid ""
+"All partitions are attached to the system via a mount point. The mount "
+"point defines the place of a particular data set in the file system. "
+"Usually, all partitions are connected through the *root* partition."
+msgstr ""
+"Усі розділи підключаються до системи через точку монтування. Точка монтування"
+" визначає місце певного набору даних у файловій системі. Зазвичай усі розділи"
+" підключаються через *кореневий* розділ."
+
+#: ../../../docs/linux/overview.txt:208
+msgid "More File System Layout"
+msgstr "Додатковий макет файлової системи"
+
+#: ../../../docs/linux/overview.txt:210
+msgid ""
+"The tree of the file system starts at trunk or *slash, indicated by a "
+"forward slash (/). This directory containing all underlying directories "
+"and files, is also called the *root directory* or *the root* of the file "
+"system. Directories that are only one level below the root directories "
+"are often preceded by a slash to indicate their position and prevent "
+"confusion with other directories that could have the same name."
+msgstr ""
+"Дерево файлової системи починається зі стовбура або *скісної риски, "
+"позначеної косою рискою (/). Цей каталог, що містить усі базові каталоги та "
+"файли, також називається *кореневим каталогом* або *коренем* файлової "
+"системи. Перед каталогами, які знаходяться лише на один рівень нижче "
+"кореневих каталогів, часто ставиться скісна риска, щоб вказати їхню позицію "
+"та запобігти плутанині з іншими каталогами, які можуть мати таке саме ім’я."
+
+#: ../../../docs/linux/overview.txt:-1
+msgid "Standard UNIX file system tree"
+msgstr "Стандартне дерево файлової системи UNIX"
+
+#: ../../../docs/linux/overview.txt:221
+msgid "Content"
+msgstr "Вміст"
+
+#: ../../../docs/linux/overview.txt:223
+msgid "/bin"
+msgstr ""
+
+#: ../../../docs/linux/overview.txt:223
+msgid "Common programs, shared by the system and users"
+msgstr "Загальні програми, спільні для системи та користувачів"
+
+#: ../../../docs/linux/overview.txt:225
+msgid "/boot"
+msgstr ""
+
+#: ../../../docs/linux/overview.txt:225
+msgid ""
+"The startup files and the kernel. In some distributions also ``grub`` "
+"[#]_ data."
+msgstr ""
+"Файли запуску та ядро. У деяких дистрибутивах також дані ``grub`` [#]_."
+
+#: ../../../docs/linux/overview.txt:228
+msgid "/dev"
+msgstr ""
+
+#: ../../../docs/linux/overview.txt:228
+msgid "Contains references to all the CPU peripheral hardware."
+msgstr "Містить посилання на все периферійне обладнання ЦП."
+
+#: ../../../docs/linux/overview.txt:230
+msgid "/etc"
+msgstr ""
+
+#: ../../../docs/linux/overview.txt:230
+msgid ""
+"Most important system configuration files. This directory contains data "
+"similar to those in the Control Panel."
+msgstr ""
+"Найважливіші системні конфігураційні файли. Цей каталог містить дані, подібні"
+" до тих, що містяться в панелі керування."
+
+#: ../../../docs/linux/overview.txt:233
+msgid "/home"
+msgstr ""
+
+#: ../../../docs/linux/overview.txt:233
+msgid "Home directories of the common users."
+msgstr "Домашні каталоги звичайних користувачів."
+
+#: ../../../docs/linux/overview.txt:235
+msgid "/initrd"
+msgstr ""
+
+#: ../../../docs/linux/overview.txt:235
+msgid "(on some distributions) Information for booting."
+msgstr "(у деяких дистрибутивах) Інформація для завантаження."
+
+#: ../../../docs/linux/overview.txt:237
+msgid "/lib"
+msgstr ""
+
+#: ../../../docs/linux/overview.txt:237
+msgid ""
+"Library files, includes files for all kinds of programs needed by the "
+"system and the users."
+msgstr ""
+"Файли бібліотеки, включають файли для всіх видів програм, необхідних системі "
+"та користувачам."
+
+#: ../../../docs/linux/overview.txt:240
+msgid "/lost+found"
+msgstr ""
+
+#: ../../../docs/linux/overview.txt:240
+msgid "Files that were saved during failures are here."
+msgstr "Тут знаходяться файли, збережені під час помилок."
+
+#: ../../../docs/linux/overview.txt:242
+msgid "/misc"
+msgstr ""
+
+#: ../../../docs/linux/overview.txt:242
+msgid "For miscellaneous purposes."
+msgstr "Для інших цілей."
+
+#: ../../../docs/linux/overview.txt:244
+msgid "/mnt"
+msgstr ""
+
+#: ../../../docs/linux/overview.txt:244
+msgid "Standard mount point for external file systems, e.g. CD-ROM."
+msgstr ""
+"Стандартна точка монтування для зовнішніх файлових систем, наприклад, CD-ROM."
+
+#: ../../../docs/linux/overview.txt:246
+msgid "/net"
+msgstr ""
+
+#: ../../../docs/linux/overview.txt:246
+msgid "Standard mount point for entire remote file systems."
+msgstr "Стандартна точка монтування для всієї віддаленої файлової системи."
+
+#: ../../../docs/linux/overview.txt:248
+msgid "/opt"
+msgstr ""
+
+#: ../../../docs/linux/overview.txt:248
+msgid "Typically contains extra and third party software."
+msgstr "Зазвичай містить додаткове та стороннє програмне забезпечення."
+
+#: ../../../docs/linux/overview.txt:250
+msgid "/proc"
+msgstr ""
+
+#: ../../../docs/linux/overview.txt:250
+msgid "A virtual file system containing information about system resources."
+msgstr ""
+"Віртуальна файлова система, що містить інформацію про системні ресурси."
+
+#: ../../../docs/linux/overview.txt:253
+msgid "/root"
+msgstr ""
+
+#: ../../../docs/linux/overview.txt:253
+msgid ""
+"The administrative user's home directory. Mind the difference between /, "
+"the root directory and /root, the home directory of the *root* user."
+msgstr ""
+"Домашній каталог адміністратора. Зверніть увагу на різницю між /, кореневим "
+"каталогом і /root, домашнім каталогом користувача root."
+
+#: ../../../docs/linux/overview.txt:257
+msgid "/sbin"
+msgstr ""
+
+#: ../../../docs/linux/overview.txt:257
+msgid "Programs used by the system and the system administrator."
+msgstr "Програми, які використовуються системою та системним адміністратором."
+
+#: ../../../docs/linux/overview.txt:259
+msgid "/tmp"
+msgstr ""
+
+#: ../../../docs/linux/overview.txt:259
+msgid "Temporary space for use by the system. Cleaned upon reboot."
+msgstr ""
+"Тимчасовий каталог для використання системою. Очищається після "
+"перезавантаження."
+
+#: ../../../docs/linux/overview.txt:261
+msgid "/usr"
+msgstr ""
+
+#: ../../../docs/linux/overview.txt:261
+msgid "Programs, libraries, documentations etc. for all user-related programs."
+msgstr ""
+"Програми, бібліотеки, документація тощо для всіх пов'язаних з користувачем "
+"програм."
+
+#: ../../../docs/linux/overview.txt:264
+msgid "/var"
+msgstr ""
+
+#: ../../../docs/linux/overview.txt:264
+msgid ""
+"Storage for all variable files and temporary files created by users (e.g."
+" log files)."
+msgstr ""
+"Зберігання для всіх файлів змінних і тимчасових файлів, створених "
+"користувачами (наприклад, логи програм)."
+
+#: ../../../docs/linux/overview.txt:269
+msgid "Absolute and Relative Paths"
+msgstr "Абсолютний і відносний шляхи"
+
+#: ../../../docs/linux/overview.txt:271
+msgid ""
+"A path, which is the way you need to follow in the tree structure to "
+"reach a given file, can be described as starting from the trunk of the "
+"tree. In this case the path starts with a slash and is called an absolute"
+" path. There cannot be any mistakes in absolute paths, since the only one"
+" file on the system can comply."
+msgstr ""
+"Шлях, який вам потрібно пройти в структурі дерева, щоб дістатися до заданого "
+"файлу, можна описати як шлях, що починається від кореня файлового дерева. "
+"У цьому випадку шлях починається зі слеша та називається абсолютним шляхом. "
+"В абсолютних шляхах не може бути помилок, оскільки лише єдиний файл у системі"
+" може відповідати такому шляху."
+
+#: ../../../docs/linux/overview.txt:277
+msgid ""
+"In the other case, the path doesn't start with a slash and confusion is "
+"possible: bin/wc in ~ (user's home directory) and bin/wc in /usr. Paths "
+"that don't start with a slash are always relative. In relative paths "
+"aliases can be used:"
+msgstr ""
+"В іншому випадку шлях не починається зі слеша, і можлива плутанина: bin/wc у "
+"~ (домашній каталог користувача) і bin/wc в /usr. Шляхи, які не починаються "
+"зі слеша, завжди відносні . У відносних шляхах можна використовувати "
+"псевдоніми:"
+
+#: ../../../docs/linux/overview.txt:282
+msgid ".  (a dot) - current directory"
+msgstr ".  (крапка) - поточний каталог"
+
+#: ../../../docs/linux/overview.txt:291
+msgid "Why Linux"
+msgstr "Чому Linux"
+
+#: ../../../docs/linux/overview.txt:294
+msgid "Programmers' Operating System"
+msgstr "Операційна система програмістів"
+
+#: ../../../docs/linux/overview.txt:296
+msgid ""
+"There is an opinion that Linux OS suits programmers the best. In deep you"
+" can find libraries for anything in numerous repositories. Linux makes it"
+" easier to get the software you need in one place. You are able to define"
+" scenarios to automate your daily workflow for any shell you use. So "
+"there are two major things making Linux a programmers' choice (and dozens"
+" of minors):"
+msgstr ""
+"Є думка, що ОС Linux найкраще підходить для програмістів. У глибині можна "
+"знайти бібліотеки для чого завгодно в численних сховищах. Linux полегшує "
+"отримання необхідного програмного забезпечення в одному місці. Ви можете "
+"визначати сценарії для автоматизації щоденного робочого процесу. для "
+"будь-якої оболонки, яку ви використовуєте. Отже, є дві основні речі, які "
+"роблять Linux вибором програмістів (і десятки другорядних):"
+
+#: ../../../docs/linux/overview.txt:302
+msgid ""
+"On the other hand there is native development platform for Windows called"
+" .Net Framework. However this platform was designed to create software "
+"compatible with Windows OS family. By the way, you would not find a game "
+"developer who uses computer without Windows."
+msgstr ""
+"З іншого боку, існує власна платформа розробки для Windows під назвою "
+".Net Framework. Однак ця платформа була розроблена для створення програмного "
+"забезпечення, сумісного з сімейством ОС Windows. До речі, ви не знайдете "
+"розробника ігор, який використовує комп'ютер без Windows."
+
+#: ../../../docs/linux/overview.txt:307
+msgid ""
+"Python is pre-installed on most Linux distros. Someone can say this makes"
+" this OS the best for Python developers. But is macOS the best OS for "
+"Ruby developer this way?"
+msgstr ""
+"Python попередньо встановлено на більшості дистрибутивів Linux. Хтось може "
+"сказати, що це робить цю ОС найкращою для розробників Python. Але чи є macOS "
+"найкращою ОС для розробників Ruby?"
+
+#: ../../../docs/linux/overview.txt:311
+msgid "So, in summary Linux is good in case:"
+msgstr "Таким чином, Linux хороший у випадку:"
+
+#: ../../../docs/linux/overview.txt:313
+msgid "You want to make package management really easy and non-annoying."
+msgstr "Ви хочете зробити керування пакунками дуже простим і не дратуючим."
+
+#: ../../../docs/linux/overview.txt:314
+msgid "You are a fan of automation."
+msgstr "Ви фанат автоматизації."
+
+#: ../../../docs/linux/overview.txt:315
+msgid "You are developing some cross-platform software."
+msgstr "Ви розробляєте крос-платформне програмне забезпечення."
+
+#: ../../../docs/linux/overview.txt:316
+msgid "Yuo are working on some web applications."
+msgstr "Ви працюєте над деякими веб-додатками."
+
+#: ../../../docs/linux/overview.txt:317
+msgid "You are a Python developer."
+msgstr "Ви розробник Python."
+
+#: ../../../docs/linux/overview.txt:319
+msgid "In deed you can use any OS you like."
+msgstr "Насправді ви можете використовувати будь-яку ОС, яка вам подобається."
+
+#: ../../../docs/linux/overview.txt:322
+msgid "Servers"
+msgstr "Сервери"
+
+#: ../../../docs/linux/overview.txt:324
+msgid ""
+"This is the real place where Linux distros are dominated. Using server "
+"Linux is secure and stable. It brings the free of software choice and "
+"efficiency of resources usage. The open-source nature of the Linux kernel"
+" makes it impossible to create a backdoor for malicious purposes."
+msgstr ""
+"Це справжнє місце, де домінують дистрибутиви Linux. Використання серверної "
+"Linux є безпечним і стабільним. Воно забезпечує вільний вибір програмного "
+"забезпечення та ефективність використання ресурсів. Природа ядра Linux з "
+"відкритим вихідним кодом унеможливлює створення бекдору для зловмисних цілей."
+
+#: ../../../docs/linux/overview.txt:330
+msgid "Distros"
+msgstr "Дистрибутиви"
+
+#: ../../../docs/linux/overview.txt:332
+msgid ""
+"In comparison to Windows family the Linux family is lot bigger. Nowadays "
+"the Windows' user choice is the choice between Windows 10 and Windows 11 "
+"(more Windows 7 and Windows 8 for olds). The choice in Linux world is the"
+" choice between your needs, skills, usability, graphic interface and "
+"whatever else."
+msgstr ""
+"У порівнянні з сімейством Windows, сімейство Linux набагато більше. Сьогодні "
+"користувач Windows вибирає між Windows 10 і Windows 11 (більше Windows 7 і "
+"Windows 8 для старих). Вибір у світі Linux — це вибір між вашими потребами, "
+"навички, зручність використання, графічний інтерфейс і все інше."
+
+#: ../../../docs/linux/overview.txt:338
+msgid ""
+"You can find the Linux distro that suits your needs the best. In case you"
+" can't find it - you can create it."
+msgstr ""
+"Ви можете знайти дистрибутив Linux, який найкраще відповідає вашим потребам. "
+"Якщо ви не можете його знайти, ви можете створити його."
+
+#: ../../../docs/linux/overview.txt:341
+msgid ""
+"The Linux kernel is the heart of all Linux-based operating systems. Since"
+" the kernel's source code is open source anyone [#]_ can create a distro "
+"for a specific needs or a general-purpose distro. There are dozens of "
+"distros. The `DistroWatch <https://www.distrowatch.com>`_ is the primary "
+"website to look for the Linux distribution for your needs. And still "
+"there are thousands of unknown Linux-based system maintaining special "
+"electrical circuits, coffee machines, smart house systems etc."
+msgstr ""
+"Ядро Linux є серцем усіх операційних систем на базі Linux. Оскільки вихідний "
+"код ядра є відкритим, будь-хто [#]_ може створити дистрибутив для певних "
+"потреб або дистрибутив загального призначення. Є десятки дистрибутивів. "
+"`DistroWatch <https://www.distrowatch.com>`_ є основним веб-сайтом для пошуку"
+" дистрибутива Linux для ваших потреб. І все ще є тисячі невідомих систем на "
+"базі Linux, які обслуговують спеціальні електричні схеми, кавоварки, розумний"
+" будинок системи тощо."
+
+#: ../../../docs/linux/overview.txt:350
+msgid ""
+"Of course there are many casual distros available. But still you need to "
+"be more experienced user."
+msgstr ""
+"Звичайно, доступно багато звичайних дистрибутивів. Але все ж вам потрібно "
+"бути більш досвідченим користувачем."
+
+#: ../../../docs/linux/overview.txt:353
+msgid ""
+"Many users have difficulties because they lack an overview of what kind "
+"of data is kept in which location."
+msgstr ""
+"У багатьох користувачів виникають труднощі, тому що вони не мають уявлення "
+"про те, які дані зберігаються в якому місці."
+
+#: ../../../docs/linux/overview.txt:356
+msgid ""
+"GRUB is the Grand Unified Boot loader and is an attempt to get rid of the"
+" many different bootloaders we know today."
+msgstr ""
+"GRUB — це Grand Unified Boot loader і спроба позбутися багатьох різних "
+"завантажувачів, які ми знаємо сьогодні."
+
+#: ../../../docs/linux/overview.txt:359
+msgid "Who is skilled in operating systems architecture"
+msgstr "Хто володіє навичками архітектури операційних систем"
+
+#: ../../../docs/linux/redirect.txt:3
+msgid "Standard Streams and Their Workflow"
+msgstr "Стандартні потоки та їх опрацювання"
+
+#: ../../../docs/linux/redirect.txt:6
+msgid "Introduction"
+msgstr "Вступ"
+
+#: ../../../docs/linux/redirect.txt:8
+msgid ""
+"The redirection capabilities built into Linux provide you with a robust "
+"set of tools to optimize many workflows. The \"Unix philosophy\" of "
+"software development was to make tools that each do one thing well, and "
+"this philosophy has been carried forward to modern command-line tools, "
+"which are individually powerful, and exponentially more so when combined."
+" Whether you're writing complex software or just working on the command "
+"line, knowing how to manipulate the different :abbr:`I/O(Input/Output)` "
+"streams in your environment will greatly increase your productivity."
+msgstr ""
+"Можливості перенаправлення, вбудовані в Linux, надають вам надійний набір "
+"інструментів для оптимізації багатьох робочих процесів. \"Філософія Unix\" "
+"розробки програмного забезпечення полягала в створенні інструментів, кожен з "
+"яких добре виконує одну функцію, і ця філософія була перенесена в сучасні "
+"Інструменти командного рядка, які є потужними як окремо, так і "
+"експоненціально більші в поєднанні.Незалежно від того, чи пишете ви складне "
+"програмне забезпечення, чи просто працюєте з командним рядком, знаючи, як "
+"маніпулювати різними :abbr:`I/O(Input/Output)` потоки у вашому середовищі "
+"значно підвищать вашу продуктивність."
+
+#: ../../../docs/linux/redirect.txt:18
+msgid "Streams"
+msgstr "Потоки"
+
+#: ../../../docs/linux/redirect.txt:20
+msgid ""
+"Input and output in the Linux environment is distributed across 3 "
+"*streams*:"
+msgstr ""
+"Введення та вихід у середовищі Linux розподіляється між 3 *потоками*:"
+
+#: ../../../docs/linux/redirect.txt:22
+msgid "**standard input**   ``stdin``"
+msgstr "**стандартне введення** ``stdin``"
+
+#: ../../../docs/linux/redirect.txt:23
+msgid "**standard output**  ``stdout``"
+msgstr "**стандартний вихід** ``stdout``"
+
+#: ../../../docs/linux/redirect.txt:24
+msgid "**standard error**   ``stderr``"
+msgstr "**стандартна помилка** ``stderr``"
+
+#: ../../../docs/linux/redirect.txt:26
+msgid ""
+"which are also numbered: 0 for *stdin*, 1 for *stdout* and 2 for *stderr*."
+msgstr ""
+"які також пронумеровані: 0 для *stdin*, 1 для *stdout* і 2 для *stderr*."
+
+#: ../../../docs/linux/redirect.txt:28
+msgid ""
+"The standard input comes from user's keyboard during a standard "
+"interactions between the user and the terminal. Standard output and "
+"standard error are displayed on the terminal as text."
+msgstr ""
+"Стандартний ввід надходить із клавіатури користувача під час стандартної "
+"взаємодії між користувачем і терміналом. Стандартний вихід і стандартна "
+"помилка відображаються на терміналі як текст."
+
+#: ../../../docs/linux/redirect.txt:33
+msgid "Standard Input"
+msgstr "Стандартне введення"
+
+#: ../../../docs/linux/redirect.txt:35
+msgid ""
+"The standard input stream typically carries data from a user to a "
+"program. Program that expect standard input usually receive input from a "
+"device, such as a keyboard. But also programs interact with each other, "
+"using one's program output as an input to another."
+msgstr ""
+"Стандартний потік введення зазвичай передає дані від користувача до програми."
+" Програми, які очікують стандартного введення, зазвичай отримують вхідні дані"
+" від пристрою, наприклад клавіатури. Але також програми взаємодіють одна з "
+"одною, використовуючи вихідні дані однієї програми як вхідні дані для іншої."
+
+#: ../../../docs/linux/redirect.txt:41
+msgid "Standard Output"
+msgstr "Стандартний вихід"
+
+#: ../../../docs/linux/redirect.txt:43
+msgid ""
+"Standard output is the output that generated by a program. When the "
+"standard output stream is not redirected, it will output text directly to"
+" the terminal. You can output some arbitrary text, using ``echo``:"
+msgstr ""
+"Стандартний вихід — це вихід, який генерує програма. Якщо стандартний потік "
+"виводу не перенаправляється, він виводитиме текст безпосередньо на термінал. "
+"Ви можете виводити довільний текст за допомогою ``echo``:"
+
+#: ../../../docs/linux/redirect.txt:51
+msgid ""
+"When used without any additional options, the ``echo`` command outputs "
+"any argument that is passed to it on the command line."
+msgstr ""
+"Коли команда ``echo`` використовується без будь-яких додаткових параметрів, "
+"вона виводить будь-який аргумент, переданий їй у командному рядку."
+
+#: ../../../docs/linux/redirect.txt:55
+msgid "Standard Error"
+msgstr "Стандартна помилка"
+
+#: ../../../docs/linux/redirect.txt:57
+msgid ""
+"Standard error contains errors generated by a program that has failed in "
+"some way. Like standard output, the default destination for this stream "
+"is the terminal display."
+msgstr ""
+"Стандартна помилка містить помилки, створені програмою, яка певним чином "
+"вийшла з ладу. Як і стандартний вихід, призначенням за замовчуванням для "
+"цього потоку є дисплей терміналу."
+
+#: ../../../docs/linux/redirect.txt:61
+msgid ""
+"For example, trying to list files in a non-existing directory will "
+"generate an error reported back to the terminal."
+msgstr ""
+"Наприклад, спроба відобразити список файлів у неіснуючому каталозі призведе "
+"до повідомлення про помилку терміналу."
+
+#: ../../../docs/linux/redirect.txt:72
+msgid ""
+"A program does not have to crash or finish running in order to generate "
+"the Standard Error, and whether some output is sent to either Standard "
+"Output or Standard Error is down to the behavior of the program."
+msgstr ""
+"Програмі не обов’язково аварійно завершувати роботу або завершувати роботу, "
+"щоб створити стандартну помилку, і те, чи буде якийсь вихід надсилатися на "
+"стандартний вихід або стандартну помилку, залежить від поведінки програми."
+
+#: ../../../docs/linux/redirect.txt:76
+msgid ""
+"Standard Output and Standard Error are not technically different from one"
+" another - just this stream is supposed to be reserved for error "
+"messages, and some tools will assume that Standard Error being empty "
+"means that a program ran successfully. Some program can even output minor"
+" errors to stderr without crashing or failing to also produce the "
+"intended output."
+msgstr ""
+"Стандартний вивід і стандартна помилка технічно не відрізняються один від "
+"одного — просто цей потік має бути зарезервований для повідомлень про "
+"помилки, а деякі інструменти припускатимуть, що стандартна помилка порожня "
+"означає, що програма виконувалася успішно. Деякі програми можуть навіть "
+"виводити незначні помилки до stderr без аварійного завершення роботи або збою"
+" в створенні бажаного результату."
+
+#: ../../../docs/linux/redirect.txt:83
+msgid "Stream Redirection"
+msgstr "Перенаправлення потоку"
+
+#: ../../../docs/linux/redirect.txt:85
+msgid ""
+"Linux includes redirection commands for each stream. These can be used to"
+" write standard output (or error) to a file. If you write to a file that "
+"does not exist, a new file with that name will be created prior to "
+"writing."
+msgstr ""
+"Linux містить команди перенаправлення для кожного потоку. Їх можна "
+"використовувати для запису стандартного виводу (або помилки) у файл. Якщо ви "
+"пишете у файл, який не існує, новий файл із таким ім’ям буде створено перед "
+"записом."
+
+#: ../../../docs/linux/redirect.txt:89
+msgid ""
+"Commands with a single angle bracket *overwrite* the destination's "
+"existing contents; commands with a double angle bracket will *append* the"
+" destination's existing contents."
+msgstr ""
+"Команди з одинарною кутовою дужкою *перезаписують* наявний вміст пункту "
+"призначення; команди з подвійною кутовою дужкою *додадуть* наявний вміст "
+"місця призначення."
+
+#: ../../../docs/linux/redirect.txt:93
+msgid "**Overwrite**"
+msgstr "**Перезапис**"
+
+#: ../../../docs/linux/redirect.txt:95
+msgid "``>``   - standard output"
+msgstr "``>`` - стандартний вихід"
+
+#: ../../../docs/linux/redirect.txt:96
+msgid "``<``   - standard input"
+msgstr "``<`` - стандартний ввід"
+
+#: ../../../docs/linux/redirect.txt:97
+msgid "``2>``  - standard error"
+msgstr "``2>`` - стандартна помилка"
+
+#: ../../../docs/linux/redirect.txt:99
+msgid "**Append**"
+msgstr "**Додати**"
+
+#: ../../../docs/linux/redirect.txt:101
+msgid "``>>``  - standard output"
+msgstr "``>>`` - стандартний вихід"
+
+#: ../../../docs/linux/redirect.txt:102
+msgid "``<<``  - standard input"
+msgstr "``<<`` - стандартний ввід"
+
+#: ../../../docs/linux/redirect.txt:103
+msgid "``2>>`` - standard error"
+msgstr "``2>>`` - стандартна помилка"
+
+#: ../../../docs/linux/redirect.txt:105
+msgid "For example, let assume a text file called \"names.txt\" with content:"
+msgstr ""
+"Наприклад, припустимо текстовий файл під назвою \"names.txt\" із вмістом:"
+
+#: ../../../docs/linux/redirect.txt:117
+msgid ""
+"The ``sort`` program will output the file's content sorted by the "
+"alphabet. And trying to pass some non-existing file to the same program "
+"will cause an error."
+msgstr ""
+"Програма ``sort`` виведе вміст файлу, відсортований за алфавітом. А спроба "
+"передати якийсь неіснуючий файл тій же програмі викличе помилку."
+
+#: ../../../docs/linux/redirect.txt:127
+msgid "Pipes"
+msgstr "Канали"
+
+#: ../../../docs/linux/redirect.txt:129
+msgid ""
+"Pipes are used to redirect a stream from one program to another. When a "
+"program's standard output is sent to another through a pipe, the first "
+"program's output will be used as input to the second, rather than being "
+"printed to the terminal. Only the data returned by the second program "
+"will be displayed to the user."
+msgstr ""
+"Канали використовуються для перенаправлення потоку від однієї програми до "
+"іншої. Коли стандартний вихід програми надсилається до іншої через канал, "
+"вихід першої програми використовуватиметься як вхідні дані для другої, а не "
+"друкуватиметься на терміналі. Тільки дані, повернуті другою програмою, будуть"
+" відображені користувачеві."
+
+#: ../../../docs/linux/redirect.txt:135
+msgid "The Linux *pipe* is represented by a vertical bar: ``|``."
+msgstr "Канал Linux представлено вертикальною рискою: ``|``."
+
+#: ../../../docs/linux/redirect.txt:137
+msgid ""
+"The example file from the previous section can be sorted and cleared from"
+" the duplicated names using two commands: ``sort`` and ``uniq``."
+msgstr ""
+"Приклад файлу з попереднього розділу можна відсортувати та очистити від "
+"дубльованих імен за допомогою двох команд: ``sort`` та ``uniq``."
+
+#: ../../../docs/linux/redirect.txt:148
+msgid "Of course, you can merge as many programs as you need using pipes."
+msgstr "Звичайно, ви можете об'єднати скільки завгодно програм, використовуючи"
+" канали."
+
+#: ../../../docs/linux/redirect.txt:151
+msgid "Conclusion"
+msgstr "Висновок"
+
+#: ../../../docs/linux/redirect.txt:153
+msgid ""
+"Learning how to use the redirection capabilities built into the Linux "
+"command line is a crucial skill. Now that you have seen the basics of how"
+" redirections and pipes work, you'll be able to begin your journey into "
+"the world of shell scripting, which makes frequent use of the programs "
+"and patterns highlighted in this guide."
+msgstr ""
+
+#: ../../../docs/linux/security.txt:5
+msgid "File Security"
+msgstr "Безпека файлів"
+
+#: ../../../docs/linux/security.txt:8
+msgid "Access Rights"
+msgstr "Права доступу"
+
+#: ../../../docs/linux/security.txt:10
+msgid ""
+"This is the Linux's first line of defence. The Linux security model is "
+"based on the one used UNIX systems, and is as rigid as the UNIX security "
+"model. On a Linux system every file is owned by a user and a group user. "
+"There is also a third category of users, those are not the user owner and"
+" don't belong to the group owning a file. For each category of users, "
+"read, write and execute permissions can be granted or denied."
+msgstr ""
+"Це перша лінія захисту Linux. Модель безпеки Linux базується на системі UNIX,"
+" яка використовується, і є такою ж жорсткою, як і модель безпеки UNIX. У "
+"системі Linux кожен файл належить користувачеві та групі користувачів. також "
+"є третьою категорією користувачів, вони не є власниками користувачів і не "
+"належать до групи власників файлу. Для кожної категорії користувачів можна "
+"надати або заборонити дозволи на читання, запис і виконання."
+
+#: ../../../docs/linux/security.txt:24
+msgid ""
+"The first file is a regular file (first dash). Users with username "
+"*monty* or users belonging to the group *monty* can read and write "
+"(change, move, delete) the file. But they can't execute this file. All "
+"other users are only allowed to read the file."
+msgstr ""
+"Перший файл є звичайним файлом (перший тире). Користувачі з іменем "
+"користувача *monty* або користувачі, що належать до групи *monty*, можуть "
+"читати та писати (змінювати, переміщувати, видаляти) файл. Але вони не можуть"
+" виконувати цей файл . Усім іншим користувачам дозволено лише читати файл."
+
+#: ../../../docs/linux/security.txt:29
+msgid ""
+"The second example is an executable file. Everybody can run it, but you "
+"need to be *root* to change it."
+msgstr ""
+"Другий приклад — це виконуваний файл. Його може запустити кожен, але щоб "
+"змінити його, вам потрібно бути *root*."
+
+#: ../../../docs/linux/security.txt:32
+msgid ""
+"Access rights are split into 3 categories: owner, group and others. Note "
+"repeating \"rwx\" characters in outputs above - these are the access "
+"permissions for user, group and others. If \"-\" a dash is present for "
+"some category this means that the action is denied."
+msgstr ""
+"Права доступу поділяються на 3 категорії: власник, група та інші. Зверніть "
+"увагу на повторення символів \"rwx\" у вихідних даних вище - це дозволи "
+"доступу для користувача, групи та інших. Якщо \"-\", для якась категорія, це "
+"означає, що дію заборонено."
+
+#: ../../../docs/linux/security.txt:37
+msgid "Here is the table listing the access and user group codes:"
+msgstr "Ось таблиця з кодами доступу та груп користувачів:"
+
+#: ../../../docs/linux/security.txt:40
+msgid "Code"
+msgstr "Код"
+
+#: ../../../docs/linux/security.txt:42
+msgid "0 or -"
+msgstr "0 або -"
+
+#: ../../../docs/linux/security.txt:42
+msgid "The access right that is supposed to be on this place is not granted."
+msgstr "Право доступу, яке має бути на цьому місці, не надано."
+
+#: ../../../docs/linux/security.txt:45
+msgid "4 or r"
+msgstr "4 або r"
+
+#: ../../../docs/linux/security.txt:45
+msgid "Read access is granted to the user category defined in this place."
+msgstr ""
+"Доступ для читання надано категорії користувачів, визначеній у цьому місці."
+
+#: ../../../docs/linux/security.txt:47
+msgid "2 or w"
+msgstr "2 або w"
+
+#: ../../../docs/linux/security.txt:47
+msgid "Write access is granted to the user category defined in this place."
+msgstr ""
+"Доступ на запис надано категорії користувачів, визначеній у цьому місці."
+
+#: ../../../docs/linux/security.txt:49
+msgid "1 or x"
+msgstr "1 або х"
+
+#: ../../../docs/linux/security.txt:49
+msgid "Execute access is granted to the user category defined in this place."
+msgstr ""
+"Доступ до виконання надано категорії користувачів, визначеній у цьому місці."
+
+#: ../../../docs/linux/security.txt:52
+msgid "u"
+msgstr ""
+
+#: ../../../docs/linux/security.txt:52
+msgid "User permissions"
+msgstr "Дозволи користувача"
+
+#: ../../../docs/linux/security.txt:54
+msgid "g"
+msgstr ""
+
+#: ../../../docs/linux/security.txt:54
+msgid "Group permissions"
+msgstr "Дозволи групи"
+
+#: ../../../docs/linux/security.txt:56
+msgid "o"
+msgstr ""
+
+#: ../../../docs/linux/security.txt:56
+msgid "Permissions for others"
+msgstr "Дозволи для інших"
+
+#: ../../../docs/linux/security.txt:60
+msgid "Changing Permissions"
+msgstr "Зміна дозволів"
+
+#: ../../../docs/linux/security.txt:62
+msgid ""
+"A normal consequence of applying strict file permissions, and sometimes a"
+" nuisance, is that access rights will need to be changed for all kinds of"
+" reasons. We use the :abbr:`chmod(Change Mode)` command to do this."
+msgstr ""
+"Звичайним наслідком застосування строгих дозволів на файли, а іноді й "
+"незручністю, є те, що права доступу потрібно буде змінити з усіх причин. Для "
+"цього ми використовуємо команду :abbr:`chmod(Change Mode)`."
+
+#: ../../../docs/linux/security.txt:66
+msgid ""
+"The ``chmod`` can handle **+** and **-** operators to grant or revoke "
+"access rights. For example:"
+msgstr ""
+"``chmod`` може працювати з операторами + і - для надання або відкликання прав"
+" доступу. Наприклад:"
+
+#: ../../../docs/linux/security.txt:74
+msgid ""
+"When using ``chmod`` with numeric arguments, the values for each granted "
+"access right have to be counted together per group. The following table "
+"lists the most common combinations:"
+msgstr ""
+"У разі використання ``chmod`` із числовими аргументами значення для кожного "
+"наданого права доступу потрібно рахувати разом для кожної групи. У наступній "
+"таблиці наведено найпоширеніші комбінації:"
+
+#: ../../../docs/linux/security.txt:79
+msgid "Command"
+msgstr "Команда"
+
+#: ../../../docs/linux/security.txt:81
+msgid "``chmod 400 file``"
+msgstr "``файл chmod 400``"
+
+#: ../../../docs/linux/security.txt:81
+msgid "To protect a file against accidental overwriting."
+msgstr "Щоб захистити файл від випадкового перезапису."
+
+#: ../../../docs/linux/security.txt:83
+msgid "``chmod 500 dir``"
+msgstr ""
+
+#: ../../../docs/linux/security.txt:83
+msgid ""
+"To protect yourself from accidental removing, renaming, or moving files "
+"from this directory."
+msgstr ""
+"Щоб захистити себе від випадкового видалення, перейменування або переміщення "
+"файлів з цього каталогу."
+
+#: ../../../docs/linux/security.txt:86
+msgid "``chmod 600 file``"
+msgstr ""
+
+#: ../../../docs/linux/security.txt:86
+msgid "A private file only changeable by the user who entered this command."
+msgstr ""
+"Приватний файл, який може змінити лише користувач, який ввів цю команду."
+
+#: ../../../docs/linux/security.txt:89
+msgid "``chmod 644 file``"
+msgstr ""
+
+#: ../../../docs/linux/security.txt:89
+msgid "A publicly readable file that can only be changed by the issuing user."
+msgstr "Загальнодоступний файл, який може змінити лише користувач, який видав."
+
+#: ../../../docs/linux/security.txt:92
+msgid "``chmod 660 file``"
+msgstr ""
+
+#: ../../../docs/linux/security.txt:92
+msgid ""
+"Users belonging to your group can change this file, others don't have any"
+" access to it at all."
+msgstr ""
+"Користувачі, які належать до вашої групи, можуть змінювати цей файл, інші "
+"взагалі не мають до нього доступу."
+
+#: ../../../docs/linux/security.txt:95
+msgid "``chmod 700 file``"
+msgstr ""
+
+#: ../../../docs/linux/security.txt:95
+msgid ""
+"Protects a file against any access from other users, while the issuing "
+"user still has full access."
+msgstr ""
+"Захищає файл від будь-якого доступу інших користувачів, у той час як "
+"користувач, який видав файл, усе ще має повний доступ."
+
+#: ../../../docs/linux/security.txt:98
+msgid "``chmod 755 dir``"
+msgstr ""
+
+#: ../../../docs/linux/security.txt:98
+msgid ""
+"For files that should be readable and executable by others, but only "
+"changeable by the issuing user."
+msgstr ""
+"Для файлів, які мають бути доступні для читання та виконання іншими, але "
+"змінювати лише користувач, який видав."
+
+#: ../../../docs/linux/security.txt:101
+msgid "``chmod 775 file``"
+msgstr ""
+
+#: ../../../docs/linux/security.txt:101
+msgid "Standard file sharing mode for a group."
+msgstr "Стандартний режим обміну файлами для групи."
+
+#: ../../../docs/linux/security.txt:103
+msgid "``chmod 777 file``"
+msgstr ""
+
+#: ../../../docs/linux/security.txt:103
+msgid "Everybody can do everything to this file."
+msgstr "Кожен може робити все з цим файлом."
+
+#: ../../../docs/linux/security.txt:107
+msgid "Changing Ownership"
+msgstr "Зміна власника"
+
+#: ../../../docs/linux/security.txt:109
+msgid ""
+"When a file is owned by the wrong user or group, the error can be "
+"repaired with :abbr:`chown(Change Owner)` and :abbr:`chgrp(Change Group)`"
+" commands. Changing file ownership is a frequent system administrative "
+"task in environment where files need to be shared in a group."
+msgstr ""
+"Коли файл належить не тому користувачеві або групі, помилку можна виправити "
+"за допомогою команд :abbr:`chown(Змінити власника)` і "
+":abbr:`chgrp(Змінити групу)`. Зміна власника файлу є частою системною "
+"адміністрацією завдання в середовищі, де файли потрібно поділити в групі."
+
+#: ../../../docs/linux/security.txt:114
+msgid ""
+"The ``chown`` command can be applied to change both user and group "
+"ownership of a file. ``chgrp`` can apply changes only for the group."
+msgstr ""
+"Команду ``chown`` можна застосувати, щоб змінити право власності на файл як "
+"для користувача, так і для групи. ``chgrp`` може застосувати зміни лише для "
+"групи."
+
+#: ../../../docs/linux/terminal.txt:3
+msgid "Terminal Basics"
+msgstr "Основи роботи з терміналом"
+
+#: ../../../docs/linux/terminal.txt:5
+msgid ""
+"Most users do know the point-and-click language of the desktop. The shell"
+" is another way of talking to the computer. You probably know about "
+"PowerShell or Command Prompt in Windows OS."
+msgstr ""
+"Більшість користувачів знають мову робочого столу «вкажи та клацни». Оболонка"
+" — це ще один спосіб спілкування з комп’ютером. Ви, мабуть, знаєте про "
+"PowerShell або командний рядок в ОС Windows."
+
+#: ../../../docs/linux/terminal.txt:9
+msgid ""
+"Just like people know different languages and dialects, the computer "
+"knows different shell types. The most advisable for beginners is **bash**"
+" (Bourne Again SHell). By the way, all examples in this document use "
+"bash."
+msgstr ""
+"Так само, як люди знають різні мови та діалекти, комп'ютер знає різні типи "
+"оболонок. Найбільш доцільним для початківців є **bash** (Bourne Again SHell)."
+" До речі, усі приклади в цьому документі використовують bash."
+
+#: ../../../docs/linux/terminal.txt:13
+msgid ""
+"In a terminal's environment you got nothing except text. All you type "
+"into is a text, all got printed is a text. This is not the actual state "
+"of things, but this will make things simple for us for now. Anything you "
+"entered to the shell is ``input``, and the shell may response with "
+"``output`` and/or ``errors``."
+msgstr ""
+"У середовищі терміналу ви не отримуєте нічого, крім тексту. Все, що ви "
+"вводите, — це текст, усе, що ви друкуєте, — це текст. Це не фактичний стан "
+"речей, але це спростить для нас наразі все. Усе, що ви ввели в оболонка є "
+"``введенням``, і оболонка може відповідати ``виводом`` та/або ``помилками``."
+
+#: ../../../docs/linux/terminal.txt:19
+msgid ""
+"There is a longer explanation about Standard Streams in this chapter. But"
+" for now this understanding of :abbr:`I/O(Input/Output)` will be enough."
+msgstr ""
+"У цьому розділі є довше пояснення стандартних потоків. Але наразі цього "
+"розуміння :abbr:`I/O(Input/Output)` буде достатньо."
+
+#: ../../../docs/linux/terminal.txt:22
+msgid ""
+"Most utilities (aka commands) support additional parameters (or flags). "
+"Flags may be passed using short or long syntax. Short flags start with - "
+"(single dash) character and long flags starts with -- (two dashes). Short"
+" flags may be combined together. The general syntax is:"
+msgstr ""
+"Більшість утиліт (також відомих як команди) підтримують додаткові параметри "
+"(або прапорці). Прапорці можуть передаватися за допомогою короткого або "
+"довгого синтаксису. Короткі прапорці починаються з символу - (одне тире), а "
+"довгі прапорці починаються з -- (двох тире). Короткі прапорці можна "
+"комбінувати разом. Загальний синтаксис такий:"
+
+#: ../../../docs/linux/terminal.txt:32
+msgid ""
+"Most of utilities come with a special help flag (``-h`` or ``--help``) "
+"which will print a help page on a utility usage."
+msgstr ""
+"Більшість утиліт постачається зі спеціальним прапорцем довідки (``-h`` або "
+"``--help``), який друкує сторінку довідки про використання утиліти."
+
+#: ../../../docs/linux/terminal.txt:36
+msgid "Navigation"
+msgstr "Навігація"
+
+#: ../../../docs/linux/terminal.txt:38
+msgid ""
+"You need to remember the tree-like. The root directory is /. Usually you "
+"start your journey from your home directory. Let's assume your username "
+"is \"monty\". Monty is a regular user, so its directory is located at "
+"\"/home\" and named after the user. Here is some raw structure to "
+"visualize it:"
+msgstr ""
+"Вам потрібно запам’ятати деревоподібне. Кореневим каталогом є /. Зазвичай ви "
+"починаєте свою подорож зі свого домашнього каталогу. Припустімо, що ваше ім’я"
+" користувача \"monty\". Monty є звичайним користувачем, тому його каталог"
+" розташований у \"/home\" і названий на честь користувача. Ось необроблена "
+"структура для візуалізації:"
+
+#: ../../../docs/linux/terminal.txt:55
+msgid ""
+"The absolute path is always started at the root directory. So absolute "
+"path for monty's home is \"/home/monty\". Inside of the monty's home we "
+"get two subdirectories: \"foo_dir\" and \"bar_dir\". And each directory "
+"has its own files set."
+msgstr ""
+"Абсолютний шлях завжди починається в кореневому каталозі. Отже, абсолютний "
+"шлях до домашнього каталогу Монті – це \"/home/monty\". Усередині домашнього "
+"каталогу Монті ми отримуємо два підкаталоги: \"foo_dir\" і \"bar_dir\". І "
+"кожен каталог має власний набір файлів."
+
+#: ../../../docs/linux/terminal.txt:60
+msgid ""
+"For all examples below we will assume the working directory is \"monty\"."
+msgstr ""
+"Для всіх наведених нижче прикладів ми припустимо, що робочий каталог "
+"\"monty\"."
+
+#: ../../../docs/linux/terminal.txt:63
+msgid "Where am I?"
+msgstr "Де я?"
+
+#: ../../../docs/linux/terminal.txt:65
+msgid ""
+"Sometimes it's a problem to locate yourself at the directories tree. "
+":abbr:`pwd(Print Working Directory)` is a BusyBox utility that is used to"
+" get the absolute path to current location."
+msgstr ""
+"Іноді важко знайти себе в дереві каталогів. "
+":abbr:`pwd(Print Working Directory)` — це службова програма BusyBox, яка "
+"використовується для отримання абсолютного шляху до поточного розташування."
+
+#: ../../../docs/linux/terminal.txt:74
+msgid "List Contents"
+msgstr "Перелік Контента"
+
+#: ../../../docs/linux/terminal.txt:76
+msgid ""
+"To list the contents of a directory - :abbr:`ls(List)` is used. "
+"Additional flag ``-l`` will print an output in a list format with some "
+"additional info: file type, file permissions, last modified date etc. "
+"Using flag ``-a`` will also list hidden files."
+msgstr ""
+"Для переліку вмісту каталогу використовується :abbr:`ls(List)`. "
+"Додатковий прапорець ``-l`` надрукує вихідні дані у форматі списку з "
+"додатковою інформацією: тип файлу, права доступу до файлу, останні зміни дата"
+" тощо. Використання прапорця ``-a`` також призведе до списку прихованих "
+"файлів."
+
+#: ../../../docs/linux/terminal.txt:88
+msgid "Changing Directories"
+msgstr "Зміна каталогів"
+
+#: ../../../docs/linux/terminal.txt:90
+msgid ""
+"Another BusyBox command used for the file system navigation is "
+":abbr:`cd(Change Directory)`, which takes a path to needed location as an"
+" optional argument. By default"
+msgstr ""
+"Інша команда BusyBox, яка використовується для навігації файловою системою, "
+"це :abbr:`cd(Change Directory)`, яка приймає шлях до потрібного розташування "
+"як необов'язковий аргумент. За замовчуванням"
+
+#: ../../../docs/linux/terminal.txt:101
+msgid "Manipulating Files and Folders"
+msgstr "Керування файлами та папками"
+
+#: ../../../docs/linux/terminal.txt:104
+msgid "Creating Files and Folders"
+msgstr "Створення файлів і папок"
+
+#: ../../../docs/linux/terminal.txt:106
+msgid ""
+"To create a new empty directory use :abbr:`mkdir(Make Directory)` "
+"command. ``mkdir`` takes one or more operands."
+msgstr ""
+"Щоб створити новий порожній каталог, використовуйте команду "
+":abbr:`mkdir(Make Directory)`. ``mkdir`` приймає один або кілька операндів."
+
+#: ../../../docs/linux/terminal.txt:115
+msgid "Creating new files can be done in various ways:"
+msgstr "Створювати нові файли можна різними способами:"
+
+#: ../../../docs/linux/terminal.txt:117
+msgid "Using ``touch`` command"
+msgstr "Використання команди ``touch``"
+
+#: ../../../docs/linux/terminal.txt:118
+msgid "By redirecting some output to a file"
+msgstr "Шляхом перенаправлення деяких виводів у файл"
+
+#: ../../../docs/linux/terminal.txt:119
+msgid "Using a text editor"
+msgstr "Використання текстового редактора"
+
+#: ../../../docs/linux/terminal.txt:121
+msgid ""
+"``touch`` command will update the timestamp on existing file or create a "
+"new one, if the file does not exist. The files creation is not actually "
+"this command is for, but it works well."
+msgstr ""
+"Команда ``touch`` оновить позначку часу в існуючому файлі або створить новий,"
+" якщо файл не існує. Насправді ця команда не призначена для створення файлів,"
+" але вона працює добре."
+
+#: ../../../docs/linux/terminal.txt:130
+msgid ""
+"There are dozens of text editors available for Linux. The most popular "
+"are: *vi* (or *vim*), *nano* and *emacs*. vi is pre-installed in most of "
+"Linux distros [#]_. Nano is pre-installed in Ubuntu-based distros. Emacs "
+"requires installation on most distros. Nano is the most friendly editor "
+"for new users. And of course there are hundreds other editors available "
+"to install and use."
+msgstr ""
+"Існують десятки текстових редакторів, доступних для Linux. Найпопулярніші: "
+"*vi* (або *vim*), *nano* і *emacs*. vi попередньо встановлено в більшості "
+"дистрибутивів Linux [#]_. Nano попередньо інстальовано в дистрибутивах на "
+"базі Ubuntu. Emacs вимагає інсталяції в більшості дистрибутивів. Nano є "
+"найбільш дружнім редактором для нових користувачів. І, звичайно, є сотні "
+"інших редакторів, доступних для встановлення та використання."
+
+#: ../../../docs/linux/terminal.txt:143
+msgid "Deleting Files and Folders"
+msgstr "Видалення файлів і папок"
+
+#: ../../../docs/linux/terminal.txt:145
+msgid ""
+"There are two commands available for deleting things: :abbr:`rm(Remove)` "
+"and :abbr:`rmdir(Remove Directory)`. You cannot delete non-empty "
+"directory using ``rmdir`` command; on the other hand you can remove a "
+"directory with ``rm`` utility by appending ``-r`` (recursive) flag. "
+"That's why almost nobody uses ``rmdir`` command."
+msgstr ""
+"Для видалення речей доступні дві команди: :abbr:`rm(Видалити)` "
+"і :abbr:`rmdir(Видалити каталог)`. Ви не можете видалити непорожні "
+"каталог за допомогою команди ``rmdir``; з іншого боку, ви можете видалити "
+"каталог за допомогою утиліти ``rm``, додавши прапор ``-r`` (рекурсивний). Ось"
+" чому майже ніхто не використовує команду ``rmdir`` ."
+
+#: ../../../docs/linux/terminal.txt:159
+msgid "Moving and Renaming Files and Folders"
+msgstr "Переміщення та перейменування файлів і папок"
+
+#: ../../../docs/linux/terminal.txt:161
+msgid ""
+"Another useful utility is :abbr:`mv(Move)` which requires two arguments: "
+"current name and new name. This utility can be also used to rename files "
+"and folders."
+msgstr ""
+"Ще одна корисна утиліта — :abbr:`mv(Move)`, для якої потрібні два аргументи: "
+"поточне ім’я та нове ім’я. Цю утиліту також можна використовувати для "
+"перейменування файлів і папок."
+
+#: ../../../docs/linux/terminal.txt:173
+msgid "Coping Files and Folders"
+msgstr "Копування файлів і папок"
+
+#: ../../../docs/linux/terminal.txt:175
+msgid ""
+"To copy a file use :abbr:`cp(Copy)`. This usage is similar to ``mv``, but"
+" a file will be copied to a target location. To copy a directory with "
+"subdirectories use ``-r`` flag (copy recursive)."
+msgstr ""
+"Щоб скопіювати файл, використовуйте :abbr:`cp(Copy)`. Це використання подібне"
+" до ``mv``, але файл буде скопійовано в цільове розташування. Щоб скопіювати"
+" каталог із підкаталогами, використовуйте ``-r`` прапор (рекурсивне "
+"копіювання)."
+
+#: ../../../docs/linux/terminal.txt:188
+msgid "Creating Symbolic Links"
+msgstr "Створення символічних посилань"
+
+#: ../../../docs/linux/terminal.txt:190
+msgid ""
+"The symbolic link is particularly interesting for beginning users: they "
+"are fairly obvious to see and you don't need to worry about partitions."
+msgstr ""
+"Символічні посилання особливо цікаві для початківців користувачів: вони "
+"досить очевидні для перегляду, і вам не потрібно турбуватися про розділи."
+
+#: ../../../docs/linux/terminal.txt:193
+msgid ""
+"The command to make links is :abbr:`ln(Link)`. In order to create "
+"symlinks, you need to use ``-s`` option:"
+msgstr ""
+"Команда для створення посилань: :abbr:`ln(Link)`. Щоб створити символічні "
+"посилання, вам потрібно використовувати опцію ``-s``:"
+
+#: ../../../docs/linux/terminal.txt:201
+msgid ""
+"The application of symlinks is widespread. They are often used to save "
+"disk space, to make a copy of a file in order to satisfy installation "
+"requirements of a new program that expects the file to be in another "
+"location."
+msgstr ""
+"Застосування символічних посилань широко поширене. Вони часто "
+"використовуються для економії місця на диску, щоб зробити копію файлу, щоб "
+"задовольнити вимоги встановлення нової програми, яка очікує, що файл буде в "
+"іншому місці."
+
+#: ../../../docs/linux/terminal.txt:206
+msgid ""
+"The question \"How to exit Vim\" has 2.6M views "
+"https://stackoverflow.com/questions/11828270/how-do-i-exit-vim"
+msgstr ""
+"Запитання \"Як вийти з Vim\" має 2,6 млн переглядів "
+"https://stackoverflow.com/questions/11828270/how-do-i-exit-vim"
+
+#: ../../../docs/linux/variable.txt:3
+msgid "Environment Variables"
+msgstr "Змінні середовища"
+
+#: ../../../docs/linux/variable.txt:5
+msgid ""
+"The environment variables are managed by the shell. As opposed to regular"
+" shell variables, environment variables are inherited by any program you "
+"start, including another shell. New processes are assigned a copy of "
+"these variables, which they can read, modify and pass on in turn to their"
+" own child processes."
+msgstr ""
+"Змінними середовища керує оболонка. На відміну від звичайних змінних "
+"оболонки, змінні середовища успадковуються будь-якою програмою, яку ви "
+"запускаєте, включаючи іншу оболонку. Новим процесам призначається копія цих "
+"змінних, яку вони можуть читати, змінювати та передавати далі. у свою чергу "
+"до їхніх власних дочірніх процесів."
+
+#: ../../../docs/linux/variable.txt:10
+msgid ""
+"There is nothing special about variable names, except that the common "
+"ones are in upper case characters by convention. You may come up with any"
+" name you want, although there are standard variables that are important "
+"enough to be the same on every Linux system, such as ``PATH`` and "
+"``HOME``."
+msgstr ""
+"Немає нічого особливого в іменах змінних, за винятком того, що звичайні "
+"символи зазначаються у верхньому регістрі за домовленістю. Ви можете "
+"придумати будь-яке ім’я, хоча є стандартні змінні, які достатньо важливі, щоб"
+" бути однаковими в усіх системах Linux, наприклад ``PATH`` і ``HOME``."
+
+#: ../../../docs/linux/variable.txt:15
+msgid ""
+"There is a list of reserved variables listed in Appendix "
+":ref:`file_linux_reserved_variables`"
+msgstr ""
+"У додатку :ref:`file_linux_reserved_variables` є список зарезервованих "
+"змінних"
+
+#: ../../../docs/linux/variable.txt:19
+msgid "Exporting Variables"
+msgstr "Експортування змінних"
+
+#: ../../../docs/linux/variable.txt:21
+msgid ""
+"An individual variable's content is usually displayed using the ``echo`` "
+"command, as in these example:"
+msgstr ""
+"Вміст окремої змінної зазвичай відображається за допомогою команди ``echo``, "
+"як у цьому прикладі:"
+
+#: ../../../docs/linux/variable.txt:29
+msgid ""
+"If you want to change the content of a variable in a way that is useful "
+"to other programs, you have to export the new value from your environment"
+" into the environment that runs these programs."
+msgstr ""
+"Якщо ви хочете змінити вміст змінної таким чином, щоб це було корисно для "
+"інших програм, ви повинні експортувати нове значення зі свого середовища в "
+"середовище, яке запускає ці програми."
+
+#: ../../../docs/linux/variable.txt:39
+msgid ""
+"These instructs the shell to not only search programs in the current "
+"``$PATH``, but also inside of the additional directory **/opt/gear/bin**."
+msgstr ""
+"Це вказує командній оболонці не лише шукати програми в поточному ``$PATH``, "
+"а й усередині додаткового каталогу **/opt/gear/bin**."
+
+#: ../../../docs/linux/variable.txt:42
+msgid ""
+"However, as long as the new value of the ``PATH`` is not known to the "
+"shell, you need to export it using the shell built-in command ``export``."
+msgstr ""
+"Однак, поки нове значення «PATH» невідоме оболонці, його потрібно "
+"експортувати за допомогою вбудованої в оболонку команди ``export``."
+
+#: ../../../docs/linux/variable.txt:49
+msgid ""
+"In Bash this is normally done in one elegant step: ``export "
+"VARIABLE=value``."
+msgstr ""
+"У Bash це зазвичай робиться одним елегантним кроком: ``export "
+"VARIABLE=value``."
+
+#: ../../../docs/linux/variable.txt:52
+msgid "Shell Setup Files"
+msgstr "Файли налаштування оболонки"
+
+#: ../../../docs/linux/variable.txt:54
+msgid "There are 3 scopes (types) of environment variables exist in Linux."
+msgstr "У Linux існують 3 області дії (типи) змінних середовища."
+
+#: ../../../docs/linux/variable.txt
+msgid "local environment variables"
+msgstr "локальні змінні середовища"
+
+#: ../../../docs/linux/variable.txt:57
+msgid ""
+"These variables are defined within the current shell session and they "
+"will be destroyed ones the session is ended. Exporting variable is an "
+"example of creation of a local environment variable."
+msgstr ""
+"Ці змінні визначено в поточному сеансі оболонки, і вони будуть знищені після "
+"завершення сеансу. Експорт змінної є прикладом створення локальної змінної "
+"середовища."
+
+#: ../../../docs/linux/variable.txt
+msgid "user environment variables"
+msgstr "змінні середовища користувача"
+
+#: ../../../docs/linux/variable.txt:62
+msgid ""
+"Userspace environment variables are defined for a particular user and are"
+" loaded any time this user logins to the system. These variables are "
+"defined in user settings files that are usually located in home "
+"directory. Common config filenames are *.bashrc*, *.bash_profile*, "
+"*.bash_login*, *.profile*."
+msgstr ""
+"Змінні середовища користувача визначаються для конкретного користувача та "
+"завантажуються щоразу, коли цей користувач входить до системи. Ці змінні "
+"визначаються у файлах налаштувань користувача, які зазвичай знаходяться в "
+"домашньому каталозі. Загальні імена файлів конфігурації: *.bashrc*, "
+"*.bash_profile*, *.bash_login*, *.profile*."
+
+#: ../../../docs/linux/variable.txt
+msgid "system-wide environment variables"
+msgstr "загальносистемні змінні середовища"
+
+#: ../../../docs/linux/variable.txt:68
+msgid ""
+"These variables are defined for the entire system and they are loaded at "
+"the system start-up. System config filenames are: */etc/environment*, "
+"*/etc/profile*, */etc/profile.d/*, */etc/bash.bashrc*."
+msgstr ""
+"Ці змінні визначені для всієї системи та завантажуються під час запуску "
+"системи. Імена файлів конфігурації системи: */etc/environment*, "
+"*/etc/profile*, */etc/profile.d/*, */etc/bash.bashrc*."
+
+#: ../../../docs/linux/variable.txt:73
+msgid "Define and Unset Environment Variables"
+msgstr "Визначити та скасувати налаштування змінних середовища"
+
+#: ../../../docs/linux/variable.txt:75
+msgid "Local variables can be set and unset as:"
+msgstr "Локальні змінні можна встановлювати та скасовувати як:"
+
+#: ../../../docs/linux/variable.txt:87
+msgid ""
+"User and system-wide variables can be set by editing configuration files."
+" Simple open the appropriate config via your favourite text editor and "
+"do:"
+msgstr ""
+"Користувацькі та загальносистемні змінні можна встановити шляхом редагування "
+"файлів конфігурації. Просто відкрийте відповідну конфігурацію за допомогою "
+"улюбленого текстового редактора та виконайте:"
+
+#: ../../../docs/linux/variable.txt:94
+msgid ""
+"Configuration files are loaded at the system startup or user login. Your "
+"changes will no effect immediately. To reload config without reboot or "
+"logout do ``source <config_file>``."
+msgstr ""
+"Файли конфігурації завантажуються під час запуску системи або входу "
+"користувача. Ваші зміни не вплинуть негайно. Щоб перезавантажити конфігурацію"
+" без перезавантаження чи виходу, виконайте ``source <config_file>``."
+

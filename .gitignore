@@ -22,3 +22,7 @@ pgdata/*
 pgsql/*
 *.sqlite?
 *.db
+
+# translation files
+*.pot
+*.mo
