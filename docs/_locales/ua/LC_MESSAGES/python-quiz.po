@@ -1,0 +1,1128 @@
+# PYTHON QUIZ TRANSLATION.
+# Copyright (C) 2022, Python Training Course
+# This file is distributed under the same license as the Python Training
+# Course package.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python Training Course \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-21 23:33+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../../docs/python-quiz/db-sql/_answers.rst:6
+#: ../../../docs/python-quiz/python-basics/_answers.rst:6
+msgid "Quiz Answers"
+msgstr "Відповіді на тест"
+
+#: ../../../docs/python-quiz/db-sql/_answers.rst:8
+#: ../../../docs/python-quiz/db-sql/index.rst:7
+msgid "Structured Query Language"
+msgstr "Мова структурованих запитів"
+
+#: ../../../docs/python-quiz/db-sql/_answers.rst:9
+#: ../../../docs/python-quiz/db-sql/index.rst:16
+msgid "Null value just means that data of that attribute is not available"
+msgstr "Null просто означає, що дані цього атрибута недоступні"
+
+#: ../../../docs/python-quiz/db-sql/_answers.rst:10
+#: ../../../docs/python-quiz/db-sql/index.rst:26
+#: ../../../docs/python-quiz/db-sql/index.rst:271
+msgid "``SELECT``"
+msgstr ""
+
+#: ../../../docs/python-quiz/db-sql/_answers.rst:11
+#: ../../../docs/python-quiz/db-sql/index.rst:32
+#: ../../../docs/python-quiz/db-sql/index.rst:273
+msgid "``UPDATE``"
+msgstr ""
+
+#: ../../../docs/python-quiz/db-sql/_answers.rst:12
+#: ../../../docs/python-quiz/db-sql/index.rst:41
+msgid "``DELETE``"
+msgstr ""
+
+#: ../../../docs/python-quiz/db-sql/_answers.rst:13
+#: ../../../docs/python-quiz/db-sql/index.rst:51
+msgid "``INSERT INTO``"
+msgstr ""
+
+#: ../../../docs/python-quiz/db-sql/_answers.rst:14
+#: ../../../docs/python-quiz/db-sql/index.rst:56
+msgid "``BETWEEN``"
+msgstr ""
+
+#: ../../../docs/python-quiz/db-sql/_answers.rst:38
+#: ../../../docs/python-quiz/db-sql/index.rst:180
+msgid "True"
+msgstr ""
+
+#: ../../../docs/python-quiz/db-sql/_answers.rst:46
+#: ../../../docs/python-quiz/db-sql/index.rst:212
+msgid "``DISTINCT``"
+msgstr ""
+
+#: ../../../docs/python-quiz/db-sql/_answers.rst:47
+#: ../../../docs/python-quiz/db-sql/index.rst:221
+msgid "``ORDER BY``"
+msgstr ""
+
+#: ../../../docs/python-quiz/db-sql/_answers.rst:48
+#: ../../../docs/python-quiz/db-sql/index.rst:230
+msgid "All of the above statements are true"
+msgstr "Усі наведені вище твердження вірні"
+
+#: ../../../docs/python-quiz/db-sql/_answers.rst:49
+#: ../../../docs/python-quiz/db-sql/index.rst:235
+msgid "Binary Large Object"
+msgstr ""
+
+#: ../../../docs/python-quiz/db-sql/_answers.rst:54
+#: ../../../docs/python-quiz/db-sql/index.rst:264
+#: ../../../docs/python-quiz/db-sql/index.rst:272
+msgid "``FIND``"
+msgstr ""
+
+#: ../../../docs/python-quiz/db-sql/_answers.rst:55
+#: ../../../docs/python-quiz/db-sql/index.rst:59
+#: ../../../docs/python-quiz/db-sql/index.rst:270
+msgid "``LIKE``"
+msgstr ""
+
+#: ../../../docs/python-quiz/db-sql/_answers.rst:56
+#: ../../../docs/python-quiz/db-sql/index.rst:279
+msgid "Full Outer Join"
+msgstr ""
+
+#: ../../../docs/python-quiz/db-sql/_answers.rst:57
+#: ../../../docs/python-quiz/db-sql/index.rst:287
+msgid "ACID"
+msgstr ""
+
+#: ../../../docs/python-quiz/db-sql/index.rst:2
+msgid "Databases and SQL Quiz"
+msgstr "Тест Бази даних і SQL"
+
+#: ../../../docs/python-quiz/db-sql/index.rst:5
+msgid "What does SQL stands for?"
+msgstr "Що означає SQL?"
+
+#: ../../../docs/python-quiz/db-sql/index.rst:8
+msgid "Strong Question Language"
+msgstr ""
+
+#: ../../../docs/python-quiz/db-sql/index.rst:9
+msgid "Structured Question Language"
+msgstr ""
+
+#: ../../../docs/python-quiz/db-sql/index.rst:12
+msgid "Which of the following is true about NULL values in SQL?"
+msgstr "Що з наведеного нижче вірно щодо значень NULL у SQL?"
+
+#: ../../../docs/python-quiz/db-sql/index.rst:14
+msgid "A NULL value means zero"
+msgstr "Значення NULL означає нуль"
+
+#: ../../../docs/python-quiz/db-sql/index.rst:15
+msgid "A null value can only be used with numeric attributes"
+msgstr "Нульове значення можна використовувати лише з числовими атрибутами"
+
+#: ../../../docs/python-quiz/db-sql/index.rst:17
+#: ../../../docs/python-quiz/db-sql/index.rst:238
+#: ../../../docs/python-quiz/db-sql/index.rst:282
+msgid "None of these"
+msgstr "Нічого з цього"
+
+#: ../../../docs/python-quiz/db-sql/index.rst:21
+msgid "Which SQL statement is used to extract data from a database?"
+msgstr "Який оператор SQL використовується для отримання даних із бази даних?"
+
+#: ../../../docs/python-quiz/db-sql/index.rst:23
+msgid "``GET``"
+msgstr ""
+
+#: ../../../docs/python-quiz/db-sql/index.rst:24
+msgid "``EXTRACT``"
+msgstr ""
+
+#: ../../../docs/python-quiz/db-sql/index.rst:25
+msgid "``OPEN``"
+msgstr ""
+
+#: ../../../docs/python-quiz/db-sql/index.rst:29
+msgid "Which SQL statement is used to update data in a database?"
+msgstr "Який оператор SQL використовується для оновлення даних у базі даних?"
+
+#: ../../../docs/python-quiz/db-sql/index.rst:31
+msgid "``SAVE``"
+msgstr ""
+
+#: ../../../docs/python-quiz/db-sql/index.rst:33
+msgid "``MODIFY``"
+msgstr ""
+
+#: ../../../docs/python-quiz/db-sql/index.rst:34
+msgid "``SAVE AS``"
+msgstr ""
+
+#: ../../../docs/python-quiz/db-sql/index.rst:37
+msgid "Which SQL statement is used to delete data from a database?"
+msgstr "Який оператор SQL використовується для видалення даних із бази даних?"
+
+#: ../../../docs/python-quiz/db-sql/index.rst:39
+msgid "``REMOVE``"
+msgstr ""
+
+#: ../../../docs/python-quiz/db-sql/index.rst:40
+msgid "``COLLAPSE``"
+msgstr ""
+
+#: ../../../docs/python-quiz/db-sql/index.rst:42
+msgid "``DROP``"
+msgstr ""
+
+#: ../../../docs/python-quiz/db-sql/index.rst:43
+msgid "``TRUNCATE``"
+msgstr ""
+
+#: ../../../docs/python-quiz/db-sql/index.rst:46
+msgid "Which SQL statement is used to insert data in a database?"
+msgstr "Який оператор SQL використовується для вставки даних у базу даних?"
+
+#: ../../../docs/python-quiz/db-sql/index.rst:48
+msgid "``ADD NEW``"
+msgstr ""
+
+#: ../../../docs/python-quiz/db-sql/index.rst:49
+msgid "``ADD RECORD``"
+msgstr ""
+
+#: ../../../docs/python-quiz/db-sql/index.rst:50
+msgid "``INSERT NEW``"
+msgstr ""
+
+#: ../../../docs/python-quiz/db-sql/index.rst:54
+msgid "Which of the following clause allows us to extract data in a range?"
+msgstr "Який із наступних пунктів дозволяє нам видобувати дані в діапазоні?"
+
+#: ../../../docs/python-quiz/db-sql/index.rst:57
+msgid "``RANGE``"
+msgstr ""
+
+#: ../../../docs/python-quiz/db-sql/index.rst:58
+msgid "``FIND IN``"
+msgstr ""
+
+#: ../../../docs/python-quiz/db-sql/index.rst:64
+msgid ""
+"With SQL, how do you select a column name **first_name** from a table "
+"named \"person\"?"
+msgstr ""
+"Як за допомогою SQL вибрати назву стовпця **first_name** з таблиці"
+"названа \"особа\"?"
+
+#: ../../../docs/python-quiz/db-sql/index.rst:84
+msgid ""
+"With SQL, how do you select all the columns from a table named \"person\"?"
+msgstr ""
+"Як за допомогою SQL вибрати всі стовпці з таблиці під назвою \"person\"?"
+
+#: ../../../docs/python-quiz/db-sql/index.rst:110
+msgid ""
+"With SQL, how do you select all the records from a table named \"person\""
+" where the value of the column \"first_name\" is \"Serhii\"?"
+msgstr ""
+"Як за допомогою SQL вибрати всі записи з таблиці з назвою \"person\""
+" де значенням стовпця \"first_name\" є \"Serhii\"?"
+
+#: ../../../docs/python-quiz/db-sql/index.rst:142
+msgid ""
+"With SQL, how do you select all the records from a table named \"person\""
+" where the value of the column \"first_name\" starts with 'a'?"
+msgstr ""
+"Як за допомогою SQL вибрати всі записи з таблиці з назвою \"person\""
+" де значення стовпця \"first_name\" починається з 'a'?"
+
+#: ../../../docs/python-quiz/db-sql/index.rst:175
+msgid ""
+"The ``OR`` operator displays a record if *ANY* conditions listed are "
+"true. The ``AND`` operator displays a record if *ALL* conditions are true"
+msgstr ""
+"Оператор ``АБО`` відображає запис, якщо *БУДЬ-ЯКІ* перераховані умови "
+"true. Оператор ``AND`` відображає запис, якщо *УСІ* умови виконуються"
+
+#: ../../../docs/python-quiz/db-sql/index.rst:179
+msgid "False"
+msgstr "Невірно"
+
+#: ../../../docs/python-quiz/db-sql/index.rst:183
+msgid ""
+"With SQL, how do you select all the records from a table named \"person\""
+" where \"first_name\" is \"Serhii\" and the \"last_name\" is "
+"\"Horodilov\"?"
+msgstr ""
+"Як за допомогою SQL вибрати всі записи з таблиці з назвою \"person\""
+" де \"first_name\" - \"Serhii\", а \"last_name\" - "
+"\"Horodilov\"?"
+
+#: ../../../docs/python-quiz/db-sql/index.rst:210
+msgid "Which SQL keyword is used to return only different values?"
+msgstr ""
+"Яке ключове слово SQL використовується для повернення лише різних значень?"
+
+#: ../../../docs/python-quiz/db-sql/index.rst:213
+msgid "``DIFFERENT``"
+msgstr ""
+
+#: ../../../docs/python-quiz/db-sql/index.rst:214
+msgid "``UNIQUE``"
+msgstr ""
+
+#: ../../../docs/python-quiz/db-sql/index.rst:217
+msgid "Which SQL keyword is used to sort the result-set?"
+msgstr ""
+
+#: ../../../docs/python-quiz/db-sql/index.rst:219
+msgid "``SORT``"
+msgstr ""
+
+#: ../../../docs/python-quiz/db-sql/index.rst:220
+msgid "``ORDER``"
+msgstr ""
+
+#: ../../../docs/python-quiz/db-sql/index.rst:222
+msgid "``SORT BY``"
+msgstr ""
+
+#: ../../../docs/python-quiz/db-sql/index.rst:225
+msgid ""
+"Which of the following statements about the MAX function in SQL are true?"
+msgstr ""
+"Які з наступних тверджень щодо функції MAX у SQL є істинними?"
+
+#: ../../../docs/python-quiz/db-sql/index.rst:227
+msgid "Can be used on any datatype"
+msgstr "Можна використовувати для будь-якого типу даних"
+
+#: ../../../docs/python-quiz/db-sql/index.rst:228
+msgid "Returns the max value of the attribute"
+msgstr "Повертає максимальне значення атрибута"
+
+#: ../../../docs/python-quiz/db-sql/index.rst:229
+msgid "It is an aggregate function"
+msgstr "Це агрегатна функція"
+
+#: ../../../docs/python-quiz/db-sql/index.rst:233
+msgid "What does BLOB in SQL stands for?"
+msgstr "Що означає BLOB у SQL?"
+
+#: ../../../docs/python-quiz/db-sql/index.rst:236
+msgid "Big Logic Object"
+msgstr ""
+
+#: ../../../docs/python-quiz/db-sql/index.rst:237
+msgid "Binary Logic Object"
+msgstr ""
+
+#: ../../../docs/python-quiz/db-sql/index.rst:241
+msgid "How to limit the output of the ``SELECT`` query to 5 rows?"
+msgstr "Як обмежити вихід запиту ``SELECT`` до 5 рядків?"
+
+#: ../../../docs/python-quiz/db-sql/index.rst:259
+msgid "Which of the following is **not** an aggregate function in SQL?"
+msgstr "Що з наступного **не** є агрегатною функцією в SQL?"
+
+#: ../../../docs/python-quiz/db-sql/index.rst:261
+msgid "``SUM``"
+msgstr ""
+
+#: ../../../docs/python-quiz/db-sql/index.rst:262
+msgid "``AVG``"
+msgstr ""
+
+#: ../../../docs/python-quiz/db-sql/index.rst:263
+msgid "``COUNT``"
+msgstr ""
+
+#: ../../../docs/python-quiz/db-sql/index.rst:267
+msgid ""
+"Which of the following operator is used to extract pattern matching data "
+"from the database?"
+msgstr ""
+"Який із наведених нижче операторів використовується для отримання даних "
+"зіставлення шаблонів з бази даних?"
+
+#: ../../../docs/python-quiz/db-sql/index.rst:276
+msgid ""
+"Which of the following join extracts data of matching rows from both "
+"tables?"
+msgstr ""
+"Яке з наступних об'єднань витягує дані відповідних рядків з обох"
+"столи?"
+
+#: ../../../docs/python-quiz/db-sql/index.rst:280
+msgid "Left Join"
+msgstr ""
+
+#: ../../../docs/python-quiz/db-sql/index.rst:281
+msgid "Right Join"
+msgstr ""
+
+#: ../../../docs/python-quiz/db-sql/index.rst:285
+msgid "SQL database follows which of the following principles?"
+msgstr "База даних SQL дотримується якого з наступних принципів?"
+
+#: ../../../docs/python-quiz/db-sql/index.rst:288
+msgid "AGILE"
+msgstr ""
+
+#: ../../../docs/python-quiz/db-sql/index.rst:289
+msgid "SQL"
+msgstr ""
+
+#: ../../../docs/python-quiz/db-sql/index.rst:290
+msgid "DBMS"
+msgstr ""
+
+#: ../../../docs/python-quiz/db-sql/index.rst:292
+msgid ":ref:`db-sql_answers`"
+msgstr ":ref:`db-sql_answers`"
+
+#: ../../../docs/python-quiz/index.rst:2
+msgid "PYTHON TRAINING COURSE: QUIZZES"
+msgstr "НАВЧАЛЬНИЙ КУРС PYTHON: ВІКТОРИНИ"
+
+#: ../../../docs/python-quiz/python-basics/_answers.rst:8
+#: ../../../docs/python-quiz/python-basics/index.rst:14
+msgid "Names with leading numbers are not valid (e.g. ``123_variable``)"
+msgstr "Імена з номерами на початку недійсні (наприклад, ``123_variable``)"
+
+#: ../../../docs/python-quiz/python-basics/_answers.rst:9
+#: ../../../docs/python-quiz/python-basics/index.rst:17
+msgid "Language keywords are not legal variable names (e.g. ``class``)"
+msgstr ""
+"Ключові слова мови не є допустимими назвами змінних (наприклад, ``клас``)"
+
+#: ../../../docs/python-quiz/python-basics/_answers.rst:10
+#: ../../../docs/python-quiz/python-basics/index.rst:30
+#: ../../../docs/python-quiz/python-basics/index.rst:56
+msgid "None of above"
+msgstr "Жодне з перерахованого"
+
+#: ../../../docs/python-quiz/python-basics/_answers.rst:11
+#: ../../../docs/python-quiz/python-basics/index.rst:47
+msgid "It depends on the way the code is running"
+msgstr "Це залежить від способу виконання коду"
+
+#: ../../../docs/python-quiz/python-basics/_answers.rst:12
+#: ../../../docs/python-quiz/python-basics/index.rst:29
+#: ../../../docs/python-quiz/python-basics/index.rst:55
+msgid "All of above"
+msgstr "Усе вище"
+
+#: ../../../docs/python-quiz/python-basics/_answers.rst:13
+#: ../../../docs/python-quiz/python-basics/index.rst:68
+msgid "``{\"foo\": \"FOO\", \"bar\": \"BAR\", \"foobar\": \"FOOBAR\"}``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/_answers.rst:14
+#: ../../../docs/python-quiz/python-basics/index.rst:71
+#: ../../../docs/python-quiz/python-basics/index.rst:86
+#: ../../../docs/python-quiz/python-basics/index.rst:103
+#: ../../../docs/python-quiz/python-basics/index.rst:214
+#: ../../../docs/python-quiz/python-basics/index.rst:236
+#: ../../../docs/python-quiz/python-basics/index.rst:250
+msgid "This code will raise an exception"
+msgstr "Цей код викличе виняток"
+
+#: ../../../docs/python-quiz/python-basics/_answers.rst:15
+#: ../../../docs/python-quiz/python-basics/index.rst:102
+msgid "``[\"FOO\", \"FOO\", \"FOO\"]``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/_answers.rst:16
+#: ../../../docs/python-quiz/python-basics/index.rst:116
+msgid "``list``, ``set``, ``generator``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/_answers.rst:17
+#: ../../../docs/python-quiz/python-basics/index.rst:127
+msgid "There are no duplicated values stored in ``numbers`` variable"
+msgstr "Немає дубльованих значень, що зберігаються у змінній ``numbers``"
+
+#: ../../../docs/python-quiz/python-basics/_answers.rst:18
+#: ../../../docs/python-quiz/python-basics/index.rst:137
+msgid "Hashable data types are valid dictionary keys"
+msgstr "Типи даних, які можна хешувати, є дійсними ключами словника"
+
+#: ../../../docs/python-quiz/python-basics/_answers.rst:19
+#: ../../../docs/python-quiz/python-basics/index.rst:145
+msgid "``else``, ``continue``, ``break``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/_answers.rst:20
+#: ../../../docs/python-quiz/python-basics/index.rst:167
+msgid "Useful code will be skipped for even steps"
+msgstr "Корисний код буде пропущено для парних кроків"
+
+#: ../../../docs/python-quiz/python-basics/_answers.rst:21
+#: ../../../docs/python-quiz/python-basics/index.rst:168
+msgid "``else`` block would’t be called"
+msgstr "Блок ``else`` не буде викликано"
+
+#: ../../../docs/python-quiz/python-basics/_answers.rst:22
+#: ../../../docs/python-quiz/python-basics/index.rst:178
+msgid "``try`` requires ``except`` or ``finally``"
+msgstr "``try`` вимагає ``except`` або ``finally``"
+
+#: ../../../docs/python-quiz/python-basics/_answers.rst:23
+#: ../../../docs/python-quiz/python-basics/index.rst:180
+msgid "``try`` can be used without ``else`` block"
+msgstr "``try`` можна використовувати без блоку ``else``"
+
+#: ../../../docs/python-quiz/python-basics/_answers.rst:24
+#: ../../../docs/python-quiz/python-basics/index.rst:188
+msgid "``def function(*data): pass``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/_answers.rst:25
+#: ../../../docs/python-quiz/python-basics/index.rst:210
+msgid "``[10, 20, 10, 20]``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/_answers.rst:26
+#: ../../../docs/python-quiz/python-basics/index.rst:232
+msgid "``0``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/_answers.rst:27
+#: ../../../docs/python-quiz/python-basics/index.rst:253
+msgid "``'None'``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/_answers.rst:28
+#: ../../../docs/python-quiz/python-basics/index.rst:303
+msgid "``function_2 > function_1 > target > function_2 > function_1``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/_answers.rst:29
+#: ../../../docs/python-quiz/python-basics/index.rst:311
+msgid "a blueprint"
+msgstr "схема"
+
+#: ../../../docs/python-quiz/python-basics/_answers.rst:30
+#: ../../../docs/python-quiz/python-basics/index.rst:318
+msgid "Dot ``.``"
+msgstr "Крапка ``.``"
+
+#: ../../../docs/python-quiz/python-basics/_answers.rst:31
+#: ../../../docs/python-quiz/python-basics/index.rst:325
+msgid "a method"
+msgstr "метод"
+
+#: ../../../docs/python-quiz/python-basics/_answers.rst:32
+#: ../../../docs/python-quiz/python-basics/index.rst:342
+msgid "``Dog(\"Rufus\", 3)``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/_answers.rst:33
+#: ../../../docs/python-quiz/python-basics/index.rst:367
+msgid "``WOW``, ``MEOW``, ``MEOW``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/_answers.rst:34
+#: ../../../docs/python-quiz/python-basics/index.rst:388
+msgid "``X, E, A, D, B, C``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/_answers.rst:35
+#: ../../../docs/python-quiz/python-basics/index.rst:398
+msgid "``Container.__getitem__``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/_answers.rst:36
+#: ../../../docs/python-quiz/python-basics/index.rst:405
+msgid "``__iter__``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/_answers.rst:37
+#: ../../../docs/python-quiz/python-basics/index.rst:407
+msgid "``__next__``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/_answers.rst:38
+#: ../../../docs/python-quiz/python-basics/index.rst:426
+msgid "The code will run well and return ``123``"
+msgstr "Код працюватиме добре та повертатиме ``123``"
+
+#: ../../../docs/python-quiz/python-basics/_answers.rst:39
+#: ../../../docs/python-quiz/python-basics/index.rst:442
+msgid "Code will run well and print ``Private``"
+msgstr "Код працюватиме добре та друкуватиме ``Private``"
+
+#: ../../../docs/python-quiz/python-basics/_answers.rst:40
+#: ../../../docs/python-quiz/python-basics/index.rst:495
+msgid "Too wide-meaning ``except`` is used"
+msgstr "Використовується надто широке значення ``except``"
+
+#: ../../../docs/python-quiz/python-basics/_answers.rst:41
+#: ../../../docs/python-quiz/python-basics/index.rst:499
+msgid "``shopping_cart`` is not a proper name for a class due to PEP8"
+msgstr "``shopping_cart`` не є правильною назвою для класу через PEP8"
+
+#: ../../../docs/python-quiz/python-basics/_answers.rst:42
+#: ../../../docs/python-quiz/python-basics/index.rst:500
+msgid "``purchase`` method call will raise an exception for cash payments"
+msgstr "Виклик методу ``purchase`` викличе виключення для готівкових платежів"
+
+#: ../../../docs/python-quiz/python-basics/_answers.rst:43
+#: ../../../docs/python-quiz/python-basics/index.rst:502
+msgid "``get_total`` method call will raise an exception every time"
+msgstr "Виклик методу ``get_total`` щоразу створюватиме виняток"
+
+#: ../../../docs/python-quiz/python-basics/_answers.rst:44
+#: ../../../docs/python-quiz/python-basics/index.rst:505
+msgid "``purchase`` method violates open-closed principle"
+msgstr "метод ``purchase`` порушує принцип відкрито-закрито"
+
+#: ../../../docs/python-quiz/python-basics/_answers.rst:45
+#: ../../../docs/python-quiz/python-basics/index.rst:506
+msgid "``shopping_cart`` class violates single responsibility principle"
+msgstr "Клас ``shopping_cart`` порушує принцип єдиної відповідальності"
+
+#: ../../../docs/python-quiz/python-basics/_answers.rst:46
+#: ../../../docs/python-quiz/python-basics/index.rst:507
+msgid "``shopping_cart._purchased`` attribute is changed outside a class"
+msgstr "Атрибут ``shopping_cart._purchased`` змінено поза класом"
+
+#: ../../../docs/python-quiz/python-basics/index.rst:2
+msgid "Python Basics Quiz"
+msgstr "Тест з основ Python"
+
+#: ../../../docs/python-quiz/python-basics/index.rst:4
+msgid ""
+"This quiz is considered to be the last one in Python basic training "
+"block. You will be challenged to use all knowledge about data types, "
+"functions and object-oriented programming skills to pass it."
+msgstr ""
+"Цей тест вважається останнім у базовому навчанні Python"
+"блок. Вам буде запропоновано використати всі знання про типи даних, "
+"функції та навички об'єктно-орієнтованого програмування для його проходження."
+
+#: ../../../docs/python-quiz/python-basics/index.rst:9
+msgid ""
+"When talking about the limitations of variable names in Python, choose "
+"the right definitions:"
+msgstr ""
+"Говорячи про обмеження імен змінних у Python, виберіть "
+"правильні визначення:"
+
+#: ../../../docs/python-quiz/python-basics/index.rst:12
+msgid ""
+"Names with leading or trailing underscores are not valid (e.g. "
+"``_float``, ``str_``)"
+msgstr ""
+"Імена з підкресленням на початку або в кінці недійсні (наприклад, "
+"``_float``, ``str_``)"
+
+#: ../../../docs/python-quiz/python-basics/index.rst:15
+msgid "Uppercase names are restricted (e.g. ``VARIABLE``)"
+msgstr "Назви у верхньому регістрі заборонено (наприклад, ``VARIABLE``)"
+
+#: ../../../docs/python-quiz/python-basics/index.rst:16
+msgid "Built-in names usage is restricted (e.g. ``float``, ``len``)"
+msgstr "Використання вбудованих імен обмежено (наприклад, ``float``, ``len``)"
+
+#: ../../../docs/python-quiz/python-basics/index.rst:18
+msgid "There are no limitations for variable names in Python"
+msgstr "Немає обмежень для імен змінних у Python"
+
+#: ../../../docs/python-quiz/python-basics/index.rst:21
+msgid "In Python next values will be interpreted as ``False``:"
+msgstr "У Python наступні значення будуть інтерпретовані як ``False``:"
+
+#: ../../../docs/python-quiz/python-basics/index.rst:23
+msgid ""
+"Negative numeric values, both ``int`` and ``float`` (e.g. ``-42``, "
+"``-42.42``)"
+msgstr ""
+"Негативні числові значення, як ``int``, так і ``float`` (наприклад, ``-42``, "
+"``-42,42``)"
+
+#: ../../../docs/python-quiz/python-basics/index.rst:25
+msgid "Floats with 0 integer portion (e.g. ``0.0000001``, ``0.123``)"
+msgstr "Плаваюча частина з цілим числом 0 (наприклад, ``0.0000001``, ``0.123``)"
+
+#: ../../../docs/python-quiz/python-basics/index.rst:26
+msgid ""
+"String with whitespaces only (e.g. ``\"   \"``, ``\"\\t\"``, ``\"\\n\"``)"
+msgstr ""
+"Рядок лише з пробілами (наприклад, ``\" \"``, ``\"\\t\"``, ``\"\\n\"``)"
+
+#: ../../../docs/python-quiz/python-basics/index.rst:27
+msgid "Nested empty lists (e.g. ``[[]]``)"
+msgstr "Вкладені порожні списки (наприклад, ``[[]]``)"
+
+#: ../../../docs/python-quiz/python-basics/index.rst:28
+msgid "Any object without overridden ``__bool__`` method"
+msgstr "Будь-який об'єкт без перевизначеного методу ``__bool__``"
+
+#: ../../../docs/python-quiz/python-basics/index.rst:33
+msgid "What will be printed out after running the code snippet?"
+msgstr "Що буде надруковано після запуску фрагмента коду?"
+
+#: ../../../docs/python-quiz/python-basics/index.rst:43
+msgid "``a is b = False, c is d = True``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:44
+msgid "``a is b = True, c is d = False``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:45
+msgid "``a is b = False, c is d = False``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:46
+msgid "``a is b = True, c is d = True``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:50
+msgid "In Python immutable data types are:"
+msgstr "У Python незмінні типи даних:"
+
+#: ../../../docs/python-quiz/python-basics/index.rst:52
+msgid "``str``, ``bool``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:53
+msgid "``int``, ``float``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:54
+msgid "``frozenset``, ``tuple``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:59
+#: ../../../docs/python-quiz/python-basics/index.rst:74
+#: ../../../docs/python-quiz/python-basics/index.rst:89
+msgid "What is the output of the code snippet below?"
+msgstr "Що є результатом наведеного нижче фрагмента коду?"
+
+#: ../../../docs/python-quiz/python-basics/index.rst:69
+msgid "``{\"foo\": \"foo\", \"bar\": \"bar\", \"foobar\": \"FOOBAR\"}``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:70
+msgid "``{\"foo\": \"foo\", \"bar\": \"bar\"}``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:83
+msgid "``'FOO, FOO, FOO''``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:84
+msgid "``'foo, bar, foobar'``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:85
+msgid "``''``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:100
+msgid "``[\"foo\", \"bar\", \"foobar\"]``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:101
+#: ../../../docs/python-quiz/python-basics/index.rst:213
+msgid "``[]``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:106
+msgid "What are the data types of variables in order of declaration?"
+msgstr "Які типи даних змінних у порядку оголошення?"
+
+#: ../../../docs/python-quiz/python-basics/index.rst:114
+msgid "``list``, ``set``, ``dict``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:115
+msgid "``set``, ``list``, ``generator``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:117
+msgid "``list``, ``dict``, ``generator``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:120
+msgid "Select true definitions that describe the code"
+msgstr "Виберіть справжні визначення, які описують код"
+
+#: ../../../docs/python-quiz/python-basics/index.rst:126
+msgid "The values stored in ``numbers`` variable are ordered"
+msgstr "Значення, що зберігаються у змінній ``numbers``, упорядковані"
+
+#: ../../../docs/python-quiz/python-basics/index.rst:128
+msgid "The duplicated values are cleared and the rest of values are ordered"
+msgstr "Дубльовані значення видалено, а решта значень упорядковано"
+
+#: ../../../docs/python-quiz/python-basics/index.rst:130
+msgid "The values are the same as for the declaration moment"
+msgstr "Значення такі ж, як і для моменту оголошення"
+
+#: ../../../docs/python-quiz/python-basics/index.rst:133
+msgid "Select the definitions that are true:"
+msgstr "Виберіть вірні визначення:"
+
+#: ../../../docs/python-quiz/python-basics/index.rst:135
+msgid "Mutable data types are valid dictionary keys"
+msgstr "Змінні типи даних є дійсними ключами словника"
+
+#: ../../../docs/python-quiz/python-basics/index.rst:136
+msgid "Immutable data types are valid dictionary keys"
+msgstr "Незмінні типи даних є дійсними ключами словника"
+
+#: ../../../docs/python-quiz/python-basics/index.rst:138
+msgid "There are no limitations for dictionary keys"
+msgstr "Немає обмежень для ключів словника"
+
+#: ../../../docs/python-quiz/python-basics/index.rst:141
+msgid "What are the keywords to control the loops in Python?"
+msgstr "Які ключові слова для керування циклами в Python?"
+
+#: ../../../docs/python-quiz/python-basics/index.rst:143
+msgid "``else``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:144
+msgid "``continue``, ``break``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:148
+msgid ""
+"Look at the code snippet. Mark the definitions below those are true for "
+"this implementation. Consider that all possible exception are handled "
+"properly."
+msgstr ""
+"Подивіться на фрагмент коду. Позначте визначення нижче як вірні для "
+"ця реалізація. Вважайте, що всі можливі винятки обробляються "
+"належним чином."
+
+#: ../../../docs/python-quiz/python-basics/index.rst:165
+msgid "This loop will have no one iteration"
+msgstr "Цей цикл не матиме жодної ітерації"
+
+#: ../../../docs/python-quiz/python-basics/index.rst:166
+msgid "This is an infinite loop"
+msgstr "Це нескінченний цикл"
+
+#: ../../../docs/python-quiz/python-basics/index.rst:169
+msgid "``else`` block will be called at the end of the loop once"
+msgstr "Блок ``else`` буде викликано в кінці циклу один раз"
+
+#: ../../../docs/python-quiz/python-basics/index.rst:170
+msgid "This snippet has illegal ``else`` block"
+msgstr "Цей фрагмент містить незаконний блок ``else``"
+
+#: ../../../docs/python-quiz/python-basics/index.rst:173
+msgid "There are rules to use ``try/except/else/finally`` syntax in Python:"
+msgstr ""
+"Існують правила використання синтаксису ``try/except/else/finally`` у Python:"
+
+#: ../../../docs/python-quiz/python-basics/index.rst:175
+msgid "``try`` requires ``except`` block usage"
+msgstr "``try`` вимагає використання блоку ``except``"
+
+#: ../../../docs/python-quiz/python-basics/index.rst:176
+msgid "``try`` requires ``else`` block usage"
+msgstr "``try`` вимагає блокування ``else``"
+
+#: ../../../docs/python-quiz/python-basics/index.rst:177
+msgid "``try`` requires ``finally`` block usage"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:179
+msgid "``try`` can be used itself, without any additional code blocks"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:183
+msgid ""
+"Select the correct function definition to run the code ``function(1, 2)``"
+" without exceptions?"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:186
+msgid "``def function(**kwargs): pass``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:187
+msgid "``def function(args*): pass``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:189
+msgid "It’s impossible to define a suitable function in Python"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:192
+msgid "Consider running the code below, what is the value of ``variable``?"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:207
+msgid "``[10]``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:208
+msgid "``[20, 20]``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:209
+msgid "``[20, 10, 20, 10]``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:211
+msgid "``[10, 10]``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:212
+msgid "``[20]``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:217
+#: ../../../docs/python-quiz/python-basics/index.rst:239
+#: ../../../docs/python-quiz/python-basics/index.rst:345
+msgid "What is the output of the code snippet?"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:233
+msgid "``42``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:234
+msgid "``66``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:235
+msgid "``None``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:251
+msgid "``10``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:252
+msgid "``'10'``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:256
+msgid ""
+"Here is some code snippet. What is the order of function calls? Skip the "
+"actual decorator function calls from the calls traceback."
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:297
+msgid "``target``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:298
+msgid "``function_1 > target > function_2``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:299
+msgid "``function_2 > target > function_1``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:300
+msgid "``function_2 > function_1 > target``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:301
+msgid "``function_1 > function_2 > target``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:302
+msgid "``function_1 > function_2 > target > function_2 > function_1``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:304
+msgid "``function_2 > function_1 > target > function_1 > function_2``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:307
+msgid "In Python a ``class`` is \\___ for a concrete object."
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:309
+msgid "an instance"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:310
+msgid "a distraction"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:312
+msgid "a nuisance"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:315
+msgid "Object and class attributes are accessed using \\___ notation."
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:317
+msgid "Semicolon ``:``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:319
+msgid "Arrow ``->``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:322
+msgid "In Python, a function within a class definition is called:"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:324
+msgid "an operation"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:326
+msgid "a class function"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:327
+msgid "a factory"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:337
+msgid "The correct way to instantiate the above ``Dog`` class is:"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:339
+msgid "``Dog()``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:340
+msgid "``Dog.__init__(\"Rufus\", 3)``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:341
+msgid "``Dog.create(\"Rufus\", 3)``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:366
+msgid "``meow``, ``meow``, ``meow``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:368
+msgid "``WOW``, ``WOW``, ``WOW``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:369
+msgid "``MEOW``, ``MEOW``, ``MEOW``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:372
+msgid "Here is some class inheritance tree"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:383
+msgid ""
+"What is the method resolution order for the ``X`` class if inheritance is"
+" implemented as above?"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:386
+msgid "``X, E, D, A, C, B``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:387
+msgid "``X, E, A, C, D, B``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:389
+msgid "``X, E, A, C, B, D``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:392
+msgid ""
+"Consider you’re creating your own list-like ``Container`` class "
+"implementation. What method should be implemented to make it possible to "
+"get container contents by index?"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:396
+msgid "``Container.get``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:397
+msgid "``Container.index``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:399
+msgid "``Container.__index__``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:402
+msgid "To make object an iterator and iterable you’re to implement methods:"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:404
+msgid "``__getitem__``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:406
+msgid "``__for__``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:410
+#: ../../../docs/python-quiz/python-basics/index.rst:431
+msgid "What will be the output of the following code snippet?"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:425
+msgid "This will raise an exception, since the private member is accessed"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:427
+msgid "This will raise an exception, because of illegal name ``__private_member``"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:443
+msgid "Private members can’t be accessed outside a class"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:444
+msgid "Name mangling will cause an ``AttributeError`` exception"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:447
+msgid ""
+"Let’s assume you’re reviewing your colleague’s code. What you’d like to "
+"report? As an additional task, you may try to fix issues in this code."
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:496
+msgid "``Product`` is not a proper name for a class due to PEP8"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:497
+msgid "``purchase`` method call will raise an exception for credit card payments"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:501
+msgid "``shopping_cart`` is not an iterable object"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:503
+msgid "``get_total`` method call will raise an exception when product price is 0"
+msgstr ""
+
+#: ../../../docs/python-quiz/python-basics/index.rst:509
+msgid ":ref:`python-basics_answers`"
+msgstr ""
+
