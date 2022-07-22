@@ -851,12 +851,15 @@ msgstr ""
 #: ../../../docs/python-quiz/python-basics/index.rst:179
 msgid "``try`` can be used itself, without any additional code blocks"
 msgstr ""
+"``try`` може бути використаний сам, без будь-яких додаткових блоків коду"
 
 #: ../../../docs/python-quiz/python-basics/index.rst:183
 msgid ""
 "Select the correct function definition to run the code ``function(1, 2)``"
 " without exceptions?"
 msgstr ""
+"Виберіть правильне визначення функції, щоб запустити код ``function(1, 2)``"
+"без винятків?"
 
 #: ../../../docs/python-quiz/python-basics/index.rst:186
 msgid "``def function(**kwargs): pass``"
@@ -868,11 +871,11 @@ msgstr ""
 
 #: ../../../docs/python-quiz/python-basics/index.rst:189
 msgid "It’s impossible to define a suitable function in Python"
-msgstr ""
+msgstr "Неможливо визначити відповідну функцію в Python"
 
 #: ../../../docs/python-quiz/python-basics/index.rst:192
 msgid "Consider running the code below, what is the value of ``variable``?"
-msgstr ""
+msgstr "Спробуйте запустити наведений нижче код, яке значення має ``змінна``?"
 
 #: ../../../docs/python-quiz/python-basics/index.rst:207
 msgid "``[10]``"
@@ -898,7 +901,7 @@ msgstr ""
 #: ../../../docs/python-quiz/python-basics/index.rst:239
 #: ../../../docs/python-quiz/python-basics/index.rst:345
 msgid "What is the output of the code snippet?"
-msgstr ""
+msgstr "Що є результатом фрагмента коду?"
 
 #: ../../../docs/python-quiz/python-basics/index.rst:233
 msgid "``42``"
@@ -925,6 +928,8 @@ msgid ""
 "Here is some code snippet. What is the order of function calls? Skip the "
 "actual decorator function calls from the calls traceback."
 msgstr ""
+"Ось фрагмент коду. Який порядок викликів функцій? Пропустіть "
+"фактичний виклик функції декоратора з відстеження викликів."
 
 #: ../../../docs/python-quiz/python-basics/index.rst:297
 msgid "``target``"
@@ -956,51 +961,51 @@ msgstr ""
 
 #: ../../../docs/python-quiz/python-basics/index.rst:307
 msgid "In Python a ``class`` is \\___ for a concrete object."
-msgstr ""
+msgstr "У Python ``class`` є \\___ для конкретного об'єкта."
 
 #: ../../../docs/python-quiz/python-basics/index.rst:309
 msgid "an instance"
-msgstr ""
+msgstr "екземпляр"
 
 #: ../../../docs/python-quiz/python-basics/index.rst:310
 msgid "a distraction"
-msgstr ""
+msgstr "відволікання"
 
 #: ../../../docs/python-quiz/python-basics/index.rst:312
 msgid "a nuisance"
-msgstr ""
+msgstr "незручність"
 
 #: ../../../docs/python-quiz/python-basics/index.rst:315
 msgid "Object and class attributes are accessed using \\___ notation."
-msgstr ""
+msgstr "Атрибути об'єкта та класу доступні за допомогою нотації \\___."
 
 #: ../../../docs/python-quiz/python-basics/index.rst:317
 msgid "Semicolon ``:``"
-msgstr ""
+msgstr "Крапка з комою ``:``"
 
 #: ../../../docs/python-quiz/python-basics/index.rst:319
 msgid "Arrow ``->``"
-msgstr ""
+msgstr "Стрілка ``->``"
 
 #: ../../../docs/python-quiz/python-basics/index.rst:322
 msgid "In Python, a function within a class definition is called:"
-msgstr ""
+msgstr "У Python функція у визначенні класу називається:"
 
 #: ../../../docs/python-quiz/python-basics/index.rst:324
 msgid "an operation"
-msgstr ""
+msgstr "операція"
 
 #: ../../../docs/python-quiz/python-basics/index.rst:326
 msgid "a class function"
-msgstr ""
+msgstr "функція класу"
 
 #: ../../../docs/python-quiz/python-basics/index.rst:327
 msgid "a factory"
-msgstr ""
+msgstr "фабрика"
 
 #: ../../../docs/python-quiz/python-basics/index.rst:337
 msgid "The correct way to instantiate the above ``Dog`` class is:"
-msgstr ""
+msgstr "Правильним способом створення екземпляра класу ``Dog`` є:"
 
 #: ../../../docs/python-quiz/python-basics/index.rst:339
 msgid "``Dog()``"
@@ -1028,13 +1033,15 @@ msgstr ""
 
 #: ../../../docs/python-quiz/python-basics/index.rst:372
 msgid "Here is some class inheritance tree"
-msgstr ""
+msgstr "Ось деяке дерево успадкування класів"
 
 #: ../../../docs/python-quiz/python-basics/index.rst:383
 msgid ""
 "What is the method resolution order for the ``X`` class if inheritance is"
 " implemented as above?"
 msgstr ""
+"Який порядок вирішення методів для класу ``X``, якщо успадкування є?"
+"реалізовано, як зазначено вище?"
 
 #: ../../../docs/python-quiz/python-basics/index.rst:386
 msgid "``X, E, D, A, C, B``"
@@ -1054,6 +1061,9 @@ msgid ""
 "implementation. What method should be implemented to make it possible to "
 "get container contents by index?"
 msgstr ""
+"Вважайте, що ви створюєте власний клас ``Container``, схожий на список"
+"реалізація. Який метод слід реалізувати, щоб зробити можливим "
+"отримати вміст контейнера за індексом?"
 
 #: ../../../docs/python-quiz/python-basics/index.rst:396
 msgid "``Container.get``"
@@ -1070,6 +1080,7 @@ msgstr ""
 #: ../../../docs/python-quiz/python-basics/index.rst:402
 msgid "To make object an iterator and iterable you’re to implement methods:"
 msgstr ""
+"Щоб зробити об'єкт ітератором і ітерованим, ви повинні реалізувати методи:"
 
 #: ../../../docs/python-quiz/python-basics/index.rst:404
 msgid "``__getitem__``"
@@ -1082,47 +1093,55 @@ msgstr ""
 #: ../../../docs/python-quiz/python-basics/index.rst:410
 #: ../../../docs/python-quiz/python-basics/index.rst:431
 msgid "What will be the output of the following code snippet?"
-msgstr ""
+msgstr "Що буде результатом наступного фрагмента коду?"
 
 #: ../../../docs/python-quiz/python-basics/index.rst:425
 msgid "This will raise an exception, since the private member is accessed"
-msgstr ""
+msgstr "Це спричинить виняток, оскільки є доступ до приватного члена"
 
 #: ../../../docs/python-quiz/python-basics/index.rst:427
-msgid "This will raise an exception, because of illegal name ``__private_member``"
+msgid ""
+"This will raise an exception, because of illegal name ``__private_member``"
 msgstr ""
+"Це призведе до виключення через недопустиму назву ``__private_member``"
 
 #: ../../../docs/python-quiz/python-basics/index.rst:443
 msgid "Private members can’t be accessed outside a class"
-msgstr ""
+msgstr "Приватні учасники не можуть бути доступні поза класом"
 
 #: ../../../docs/python-quiz/python-basics/index.rst:444
 msgid "Name mangling will cause an ``AttributeError`` exception"
-msgstr ""
+msgstr "Викривлення імені спричинить виняток ``AttributeError``"
 
 #: ../../../docs/python-quiz/python-basics/index.rst:447
 msgid ""
 "Let’s assume you’re reviewing your colleague’s code. What you’d like to "
 "report? As an additional task, you may try to fix issues in this code."
 msgstr ""
+"Припустімо, ви переглядаєте код свого колеги. Що б ви хотіли звітувати? Як "
+"додаткове завдання ви можете спробувати виправити проблеми в цьому коді."
 
 #: ../../../docs/python-quiz/python-basics/index.rst:496
 msgid "``Product`` is not a proper name for a class due to PEP8"
-msgstr ""
+msgstr "``Product`` не є правильною назвою для класу через PEP8"
 
 #: ../../../docs/python-quiz/python-basics/index.rst:497
-msgid "``purchase`` method call will raise an exception for credit card payments"
+msgid ""
+"``purchase`` method call will raise an exception for credit card payments"
 msgstr ""
+"Виклик методу ''purchase'' спричинить виняток для платежів кредитною карткою"
 
 #: ../../../docs/python-quiz/python-basics/index.rst:501
 msgid "``shopping_cart`` is not an iterable object"
-msgstr ""
+msgstr "``shopping_cart`` не є ітерованим об'єктом"
 
 #: ../../../docs/python-quiz/python-basics/index.rst:503
-msgid "``get_total`` method call will raise an exception when product price is 0"
+msgid ""
+"``get_total`` method call will raise an exception when product price is 0"
 msgstr ""
+"Виклик методу ``get_total`` викличе виключення, якщо ціна продукту дорівнює 0"
 
 #: ../../../docs/python-quiz/python-basics/index.rst:509
 msgid ":ref:`python-basics_answers`"
-msgstr ""
+msgstr ":ref:`python-basics_answers`"
 
