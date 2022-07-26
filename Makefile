@@ -30,6 +30,12 @@ latex :
 pdf : latex
 	@make -C "$(LATEX_BUILDS)"
 
+docs : clean
+	@make -C . LANGUAGE=en html
+	@make -C . LANGUAGE=en pdf
+	@make -C . LANGUAGE=ua html
+	@make -C . LANGUAGE=ua pdf
+
 # Internationalization
 locales : gettext
 	@sphinx-intl --config="$(SPHINX_CONFIG)" update -p "$(GETTEXT_BUILDS)"
@@ -41,3 +47,5 @@ clean :
 # export variables used by targets
 .EXPORT_ALL_VARIABLES :
 	export SPHINXINTL_LANGUAGE = $(SPHINXINTL_LANGUAGE)
+# setup default target
+.DEFAULT_GOAL := docs

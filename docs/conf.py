@@ -26,6 +26,7 @@ extensions = [
     "sphinx.ext.imgconverter",
     "myst_parser",
     "sphinx_rtd_theme",
+    "sphinxcontrib.mermaid",
 ]
 source_suffix = {
     ".rst": "restructuredtext",
