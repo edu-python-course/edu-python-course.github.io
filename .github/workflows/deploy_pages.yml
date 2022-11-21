@@ -4,7 +4,8 @@ name: Deploy static content to Pages
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: [ "gh-pages" ]
+    branches:
+      - gh-pages
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -21,6 +22,19 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  build:
+    environment:
+      name: github-pages
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Install Dependencies
+        uses: actions/setup-python@v2
+        run: |
+          pip install -r requirements.txt
+          LANGUAGE=ua make html
+          LANGUAGE=en make html
   # Single deploy job since we're just deploying
   deploy:
     environment:
@@ -36,7 +50,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload entire repository
-          path: '.'
+          path: "."
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
