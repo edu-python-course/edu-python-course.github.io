@@ -124,6 +124,7 @@ are :cite:`python-usage`:
     :name: intro
 
     install
+    interact
 
 .. static files within this document
 

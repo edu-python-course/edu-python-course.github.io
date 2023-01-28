@@ -1,0 +1,12 @@
+*******************************************************************************
+                      Interacting with Python Interpreter
+*******************************************************************************
+
+It’s time to write some Python code! :cite:`realpython:interact`
+
+In short there are two major ways to do something with Python:
+
+- interactive Python console
+- running code from file
+
+.. note:: Files containing Python code are called *modules*.
