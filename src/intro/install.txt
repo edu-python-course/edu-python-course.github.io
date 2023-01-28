@@ -1,0 +1,47 @@
+*******************************************************************************
+                                Install Python
+*******************************************************************************
+
+The `official docs <https://wiki.python.org/moin/BeginnersGuide/Download>`_
+briefly describes the installation process.
+
+Linux
+=====
+
+On most Linux distros Python comes pre-installed and/or all distro have it
+available in their package repository (I haven't seen the one which does have).
+The installation process depends on the distro, but here are some examples how
+you can install it:
+
+.. code-block::
+    :caption: Install Python
+
+    # Debian / Ubuntu (and other distros that uses ``apt``)
+    apt install python3 python3-dev
+
+    # ArchLinux
+    pacman -S python3
+
+    # RedHat, CentOS, Fedora
+    dnf install python3 python3-devel
+
+    # Gentoo
+    # ... you should know what to do
+
+MacOS
+=====
+
+For newer versions of MacOS Python is no longer included by default and you
+will have to download and install it.
+
+The `instructions <https://docs.python.org/3/using/mac.html>`_ in English.
+Briefly, you are invited to visit https://python.org/ and download the latest
+stable version of Python. A "universal binary" build of Python runs natively on
+Mac's new Intel and legacy PPC CPUs.
+
+After the installation you would get:
+
+- `Python 3.x` folder in `Applications` folder.
+  Standard development environment (`IDLE`) and `PythonLauncher` included.
+- A framework `/Library/Frameworks/Python.framework` included libraries and
+  executables.

@@ -1,6 +1,6 @@
-*******************************************************************************
+###############################################################################
                             Introduction to Python
-*******************************************************************************
+###############################################################################
 
     There are a whole bunch of common programming tasks that are easy in
     Python. For someone who is not yet a programmer, who wants to become
@@ -35,14 +35,12 @@ Flying Circus, of which Guido was, and presumably still is, a fan. It is common
 to find references to Monty Python sketches and movies scattered throughout
 the Python documentation.
 
-Why choose Python?
-==================
+Here are some significant facts about Python.
 
 .. seealso::
     The original article in English by :cite:author:`realpython:py3-intro`
 
-Python is popular
------------------
+.. rubric:: Python is popular
 
 Python has been growing in popularity over the last few years.
 The 2018 Stack Overflow Developer Survey ranked Python as the 7th most popular
@@ -56,8 +54,7 @@ Here are some logos of unknown companies across the globe who uses Python:
     |google| |facebook| |instagram| |spotify| |quora| |netflix| |dropbox|
     |reddit|
 
-Python is interpreted
----------------------
+.. rubric:: Python is interpreted
 
 Many languages are compiled, meaning the source code you create needs to be
 translated into machine code, the language of your computer’s processor, before
@@ -67,22 +64,19 @@ to an interpreter that runs them directly.
 This makes for a quicker development cycle because you just type in your code
 and run it, without the intermediate compilation step.
 
-Python is free
---------------
+.. rubric:: Python is free
 
 The Python interpreter is developed under an OSI-approved open-source license,
 making it free to install, use, and distribute, even for commercial purposes.
 
-Python is portable
-------------------
+.. rubric:: Python is portable
 
 Because Python code is interpreted and not compiled into native machine
 instructions, code written for one platform will work on any other platform
 that has the Python interpreter installed.
 This is true of any interpreted language, not just Python.
 
-Python is simple
-----------------
+.. rubric:: Python is simple
 
 As programming languages go, Python is relatively uncluttered,
 and the developers have deliberately kept it that way. A rough estimate of
@@ -108,11 +102,30 @@ There are only 35 :cite:`docs-python:keywords` in Python and they are:
 | async  | elif     | if      | or       | yield  |
 +--------+----------+---------+----------+--------+
 
+.. rubric:: Python is general purpose
+
+Python is everywhere. Talking more specific common scopes for Python developers
+are :cite:`python-usage`:
+
+- Web Scraping Applications
+- Data Science Solutions
+- Machine Learning Applications
+- Web Development
+- Game Development
+- Scientific and Numeric Applications
+- Image Design and Graphic Design Applications
+- Finance Fintech Platform
+- Language Development
+- Operating Systems
+
+
 .. toctree::
+    :caption: Contents
     :name: intro
 
+    install
 
-
+.. static files within this document
 
 .. |python| image:: ../_static/img/python.svg
     :width: 24
