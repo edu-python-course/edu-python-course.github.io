@@ -129,29 +129,46 @@ are :cite:`python-usage`:
 
 .. |python| image:: ../_static/img/python.svg
     :width: 24
+
 .. |google| image:: ../_static/img/google.svg
     :width: 64
     :alt: Google
+    :target: https://about.google/
+
 .. |facebook| image:: ../_static/img/facebook.svg
     :width: 64
     :alt: Facebook
+    :target: https://www.facebook.com/
+
 .. |instagram| image:: ../_static/img/instagram.svg
     :width: 64
     :alt: Instagram
+    :target: https://about.instagram.com/
+
 .. |spotify| image:: ../_static/img/spotify.svg
     :width: 64
     :alt: Spotify
+    :target: https://support.spotify.com/us/article/what-is-spotify/
+
 .. |quora| image:: ../_static/img/quora.svg
     :width: 64
     :alt: Quora
+    :target: https://www.quora.com/about
+
 .. |netflix| image:: ../_static/img/netflix.svg
     :width: 64
     :alt: Netflix
+    :target: https://about.netflix.com
+
 .. |dropbox| image:: ../_static/img/dropbox.svg
     :width: 64
     :alt: Dropbox
+    :target: https://www.dropbox.com/about
+
 .. |reddit| image:: ../_static/img/reddit.svg
     :width: 64
     :alt: Reddit
+    :target: https://www.redditinc.com/
+
 .. |guido| image:: ../_static/img/guido-headshot-2019.jpg
     :width: 100
