@@ -115,10 +115,8 @@ Installing or updating Python on your computer is the first step to becoming
 a Python programmer :cite:`realpython:install-and-setup`.
 
 But if you cannot install Python at the moment for some reason, are can go
-with online interpreters:
-
-- `Python Online Console <https://www.python.org/shell/>`_
-- `ReplIt <https://replit.com/>`_
+with online interpreters. `repl <https://replit.com/>`_ provides the ability
+to create and store Python scripts (they are called *repl* here) for free.
 
 .. _formulae: https://formulae.brew.sh/formula/
 .. _Using Python on Windows: https://docs.python.org/3/using/windows.html
