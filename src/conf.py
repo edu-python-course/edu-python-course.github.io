@@ -12,13 +12,15 @@ sys.path.insert(0, str(BASE_DIR / "problem-sets" / "src"))
 project = "Python Training Course"
 project_copyright = \
     f"{datetime.now().year}, Python training course authors and contributors"
-authors = "Vladyslav Ponomaryov \\and Serhii Horodilov"
+authors = "Vladyslav Ponomaryov \\and " \
+          "Serhii Horodilov"
 version = "2022.11.dev"
 
 # general configuration
 master_doc = root_doc = "index"
 extensions = [
     "sphinx.ext.autodoc",
+    "sphinx.ext.imgconverter",
 
     "sphinxcontrib.bibtex",
     "sphinx_rtd_theme",
