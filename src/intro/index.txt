@@ -1,6 +1,3 @@
-###############################################################################
-                            Introduction to Python
-###############################################################################
 
     There are a whole bunch of common programming tasks that are easy in
     Python. For someone who is not yet a programmer, who wants to become
@@ -8,6 +5,10 @@
     In Python, every symbol you type is essential.
 
     |guido| Guido van Rossum
+
+###############################################################################
+                            Introduction to Python
+###############################################################################
 
 |python| **Python** is a high-level, interpreted scripting language.
 It was created in the early 1990s by Guido van Rossum at Stichting Mathematisch
