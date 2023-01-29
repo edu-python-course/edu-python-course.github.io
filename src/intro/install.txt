@@ -5,6 +5,11 @@
 The `Python wiki <https://wiki.python.org/moin/BeginnersGuide/Download>`_
 briefly describes the installation process.
 
+.. note:: To become a **true** professional, you need a special software called
+          :abbr:`IDE (Integrated Development Environment)` or at least a code
+          editor supporting syntax highlight. Refer :doc:`/appx/code_edit` for
+          more information.
+
 Linux
 =====
 
@@ -47,8 +52,8 @@ After the installation you would get:
 - A framework `/Library/Frameworks/Python.framework` included libraries and
   executables.
 
-Alternatives
-------------
+Install from Homebrew
+---------------------
 
 Python for MacOS is available via Homebrew. You are to search `formulae`_ for
 the latest available version. In general, it's as easy as:
@@ -106,7 +111,6 @@ You can install from the Microsoft Store in two steps:
     process should run automatically. Follow the installer's instructions.
 
     .. image:: ../_static/img/microsoft-store-get.png
-
 
 Online Interpreters
 ===================

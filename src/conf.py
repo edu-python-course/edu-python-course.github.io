@@ -53,3 +53,6 @@ latex_engine = "xelatex"
 latex_documents = [
     (master_doc, latex_doc, project, authors, "manual", False),
 ]
+latex_appendices = [
+    "appx/code_edit",
+]
