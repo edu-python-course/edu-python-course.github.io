@@ -72,7 +72,7 @@ Put the Python code in interactive console and press enter to execute it.
 
 .. code-block:: python
 
-    print(print("Hello, World!"))
+    print("Hello, World!")
 
 If you see string "Hello, World!" printed back, congrats - you've run your
 first program in Python.
@@ -90,6 +90,53 @@ To exit the interactive console type "exit" and hit enter.
 
     exit()
 
+Running code from file
+======================
+
+A Python script is a reusable set of code. It is essentially a Python program -
+a sequence of Python instructions - contained in a file. You can run the
+program by specifying the name of the script file to the interpreter.
+
+Python scripts are just plain text, so you can edit them with any text editor.
+If you have a favorite programmer’s editor that operates on text files, it
+should be fine to use. Otherwise here are some options for the first time:
+
+- Windows: |npp| `Notepad++ <https://notepad-plus-plus.org/>`_
+- Linux: |geany| `Geany <https://www.geany.org/>`_
+
+Using whatever editor create a script file called ``hello.py`` and put the code
+in it:
+
+.. code-block:: python
+
+    print("Hello, World!")
+
+Save file keeping track on the directory you choose to save into. Now, open
+the terminal or command prompt in this directory.
+
+.. hint:: In window you may open Command Prompt in the directory by typing
+          "cmd" to the address bar in explorer.
+
+In the terminal (or command prompt) type:
+
+.. code-block::
+
+    python hello.py
+
+Python will print string "Hello, World!". Your session should look like:
+
+::
+
+    >>> python hello.py
+    Hello, World!
+
 .. footnotes
 
 .. [#] Files containing Python code are called *modules*.
+
+.. static files within document
+
+.. |npp| image:: ../_static/img/npp.svg
+    :width: 24
+.. |geany| image:: ../_static/img/geany.svg
+    :width: 24
