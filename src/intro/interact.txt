@@ -4,9 +4,61 @@
 
 It’s time to write some Python code! :cite:`realpython:interact`
 
-In short there are two major ways to do something with Python:
+In short there are three major ways to do something with Python:
 
 - interactive Python console
-- running code from file
+- running code from file [#]_
+- use online editors (like `repl.it <https://repl.it>`_)
 
-.. note:: Files containing Python code are called *modules*.
+Using Python interpreter interactively
+======================================
+
+Using :abbr:`REPL (Read-Eval-Print-Loop)` environment is the most straight
+forward way to start talking to Python. This simply means starting up the
+interpreter and typing commands to it directly :cite:`realpython:interact`.
+The interpreter:
+
+- Reads the command you enter
+- Evaluates and executes it
+- Prints the output (if any) back to the console
+- Loops back and repeats
+
+Starting the interpreter
+------------------------
+
+In :abbr:`GUI (Graphic User Interface)` environment, it's likely that the
+installer placed a shortcut on the desktop to launch the Python.
+
+For example in Windows the interpreter can be found in the **Start** menu
+labeled **Python 3.x**:
+
+.. figure:: ../_static/img/start-menu-python.png
+    :align: center
+
+    Windows start menu Python group
+
+The alternative is to launch from a terminal window:
+
+- **Command Prompt** in Windows
+- **Terminal** both in macOS and Linux
+
+.. figure:: ../_static/img/cmd-python.png
+    :align: center
+
+    Start Python via Command Prompt
+
+.. figure:: ../_static/img/terminal-python.png
+    :align: center
+
+    Start Python via Terminal
+
+To exit the interpreter simple type word "exit" with parentheses and hit
+enter.
+
+.. code-block:: python
+
+    exit()
+
+.. rubric:: Footnotes
+
+.. [#] Files containing Python code are called *modules*.
