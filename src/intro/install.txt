@@ -103,14 +103,19 @@ You can install from the Microsoft Store in two steps:
 #.  Open the Microsoft Store app and search for ``Python``
     The result should look like:
 
-    .. image:: ../_static/img/microsoft-store-search.png
+    .. figure:: ../_static/img/microsoft-store-search.png
+        :align: center
 
-    Select ``Python 3.9`` or the highest version.
+        Microsoft Store - search results for "Python"
+
+    Select ``Python 3.9`` or the higher available version.
 
 #.  Click **GET** and wait until the installer is downloaded. The installation
     process should run automatically. Follow the installer's instructions.
 
-    .. image:: ../_static/img/microsoft-store-get.png
+    .. figure:: ../_static/img/microsoft-store-get.png
+        :scale: 50%
+        :align: center
 
 Online Interpreters
 ===================
@@ -119,7 +124,7 @@ Installing or updating Python on your computer is the first step to becoming
 a Python programmer :cite:`realpython:install-and-setup`.
 
 But if you cannot install Python at the moment for some reason, are can go
-with online interpreters. `repl <https://replit.com/>`_ provides the ability
+with online interpreters. `repl.it <https://replit.com/>`_ provides the ability
 to create and store Python scripts (they are called *repl* here) for free.
 
 .. _formulae: https://formulae.brew.sh/formula/

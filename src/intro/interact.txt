@@ -2,7 +2,9 @@
                       Interacting with Python Interpreter
 *******************************************************************************
 
-It’s time to write some Python code! :cite:`realpython:interact`
+    It’s time to write some Python code!
+
+    :cite:t:`realpython:interact`
 
 In short there are three major ways to do something with Python:
 
@@ -74,7 +76,14 @@ Put the Python code in interactive console and press enter to execute it.
 
     print("Hello, World!")
 
-If you see string "Hello, World!" printed back, congrats - you've run your
+Your session should look like:
+
+::
+
+    print("Hello, World!")
+    "Hello, World!"
+
+If you've seen string "Hello, World!" printed back, congrats - you've run your
 first program in Python.
 
 .. image:: ../_static/img/celebrate.svg
@@ -127,7 +136,7 @@ Python will print string "Hello, World!". Your session should look like:
 
 ::
 
-    >>> python hello.py
+    python hello.py
     Hello, World!
 
 .. footnotes
