@@ -60,12 +60,36 @@ The alternative is to launch from a terminal window:
 
     Start Python via Terminal
 
+Running code
+------------
+
+Put the Python code in interactive console and press enter to execute it.
+
+#.  Ensure that the ``>>>`` prompt is displayed and the cursor is pointed after
+    it
+#.  Type the command ``print("Hello, World!")``
+#.  Press enter
+
+.. code-block:: python
+
+    print(print("Hello, World!"))
+
+If you see string "Hello, World!" printed back, congrats - you've run your
+first program in Python.
+
+.. image:: ../_static/img/celebrate.svg
+    :width: 200
+    :align: center
+
+Exiting the interpreter
+-----------------------
+
 To exit the interactive console type "exit" and hit enter.
 
 .. code-block:: python
 
     exit()
 
-.. rubric:: Footnotes
+.. footnotes
 
 .. [#] Files containing Python code are called *modules*.
