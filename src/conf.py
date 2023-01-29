@@ -55,4 +55,5 @@ latex_documents = [
 ]
 latex_appendices = [
     "appx/code_edit",
+    "appx/env_path",
 ]

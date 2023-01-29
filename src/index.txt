@@ -23,6 +23,7 @@
         :caption: Additional materials
 
         appx/code_edit
+        appx/env_path
 
 .. rubric:: References
 

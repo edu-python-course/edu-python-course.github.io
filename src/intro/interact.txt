@@ -37,6 +37,14 @@ labeled **Python 3.x**:
 
     Windows start menu Python group
 
+.. hint:: In case you are getting error saying python is not installed, but you
+          are sure that the interpreter **is installed** - this means you have
+          no Python in your ``PATH``. Message may look like:
+          ``'python' is not recognized as an internal or external command`` /
+          ``python: command not found``
+
+          Refer :doc:`/appx/env_path` for problem solution.
+
 The alternative is to launch from a terminal window:
 
 - **Command Prompt** in Windows
@@ -52,8 +60,7 @@ The alternative is to launch from a terminal window:
 
     Start Python via Terminal
 
-To exit the interpreter simple type word "exit" with parentheses and hit
-enter.
+To exit the interactive console type "exit" and hit enter.
 
 .. code-block:: python
 
