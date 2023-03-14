@@ -1,0 +1,1206 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, Python training course authors and contributors
+# This file is distributed under the same license as the Python Training
+# Course package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python Training Course 2022.11.dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-14 22:40+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../src/basics/controlflow.txt:3
+msgid "Control Flow"
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:3
+msgid "Data Types"
+msgstr "Типи Данних"
+
+#: ../../src/basics/datatypes.txt:5
+msgid ""
+"Data may represent different things and require various operations "
+"available. In programming data types is an important concept. For example"
+" **1984** may be a number (``1984``), a text (``\"1984``) or event a "
+"date. The data type describes the operations, that are allowed for the "
+"data, like additions for numbers or concatenation for text (e.g. ``1 + 2 "
+"-> 3``, ``\"1\" + \"3\" -> \"13\"``)."
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:11
+msgid ""
+"Python uses dynamic typing. This means as a developer you should not "
+"declare a variable with its data type - the interpreter will do this for "
+"you. Other popular language using dynamic typing are JavaScript and PHP. "
+"Setting variables in Python is as easy as:"
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:23
+msgid "Built-In Data Types"
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:25
+msgid "Python has the following data types built-in:"
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:27
+msgid "Integers (``int``)"
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:28
+msgid "Floating-point numbers (``float``)"
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:29
+msgid "Complex numbers (``complex``)"
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:30
+msgid "Booleans (``bool``)"
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:31
+msgid "Strings (``str``)"
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:32
+msgid "Bytes (``bytes``)"
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:33
+msgid "Byte arrays (``bytearray``)"
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:34
+msgid "Lists (``list``)"
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:35
+msgid "Tuples (``tuple``)"
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:36
+msgid "Sets (``set``)"
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:37
+msgid "Frozen sets (``frozenset``)"
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:38
+msgid "Dictionaries (``dict``)"
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:39
+msgid "None (``NoneType``)"
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:41
+msgid "Any one can use them without additional imports or packages installations."
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:44
+msgid "Text"
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:46
+msgid ""
+"Text data are stored as strings (``str`` data type) in Python. Any "
+"sequence of letters, digits, punctuation marks and whitespace characters "
+"enclosed with quotes is considered to be a string literal. Both single "
+"quotes (``'``) and double quotes (``\"``) can be used interchangeably to "
+"create a string in Python."
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:58
+msgid "Escaping"
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:60
+msgid ""
+"In programming this is a process of using a special character to indicate"
+" that the following character(s) should be treated differently from their"
+" literal meaning. The common usage is to include a special character(s) "
+"within strings. A **backslash** character is used to *escape* the "
+"following one."
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:65
+msgid "Example of Escaping in Python"
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:84
+msgid "Single quotes or double quotes"
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:86
+msgid ""
+"Don't care. Use any quote mark you like. A *string* is a sequence of "
+"characters after the opening quote and till the closing one. You may use "
+"double quotes in case a single quote is a part of the text (e.g. ``\"It's"
+" a Serhii's document\"``) and vise versa (e.g. ``'The name of the ship "
+"was a \"Billy of Tea\"'``). It's a good practice not to mess single and "
+"double quotes within one project. Just keep using a chosen one character "
+"for all strings."
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:94
+msgid "Multiline strings"
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:96
+msgid ""
+"You can assign a multiline string by using triple quotes: Both single "
+"quote and double quote characters are available."
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:106
+msgid ""
+"The same syntax is used to create docstring, which are a special case of "
+"string usage. We will look on these in the future."
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:110 ../../src/basics/stdtypes.txt:28
+msgid "Supported operations"
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:112
+msgid "This subsection describes only the most common operations."
+msgstr ""
+
+#: ../../src/basics/datatypes.txt
+msgid "Concatenation"
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:115
+msgid "The ``+`` operator is used to concatenate (join) two or more strings."
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:121
+msgid ""
+"On the other hand the ``join`` method concatenates a collection of "
+"strings, which may be more efficient than using ``+``."
+msgstr ""
+
+#: ../../src/basics/datatypes.txt
+msgid "Repetition"
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:129
+msgid ""
+"The ``*`` operator is used to repeat a string a specified number of "
+"times. Only multipliers of the ``int`` type are allowed."
+msgstr ""
+
+#: ../../src/basics/datatypes.txt
+msgid "Length"
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:137
+msgid "The ``len`` function is used to find the length of a string."
+msgstr ""
+
+#: ../../src/basics/datatypes.txt
+msgid "Case conversion"
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:144
+msgid ""
+"The ``lower``, ``upper``, ``capitalize`` and ``title`` methods perform "
+"actions on case."
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:147
+msgid "``lower`` creates a new string with all lower-case characters."
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:149
+msgid "``upper`` creates a new string with all upper-case characters."
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:151
+msgid "``capitalize`` creates a new string with the upper-case 1st character."
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:153
+msgid "``title`` will make all characters after whitespace upper case."
+msgstr ""
+
+#: ../../src/basics/datatypes.txt
+msgid "Stripping"
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:164
+msgid ""
+"The ``strip``, ``lstrip`` and ``rstrip`` methods are used to remove "
+"leading and/or trailing whitespace characters."
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:175
+msgid "Strings are subscriptable"
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:177
+msgid "``str`` is not the only one subscriptable data type in Python."
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:179
+msgid ""
+"This means you can access individual characters or slices within a string"
+" using indexes. A string is a *sequence* of characters and each character"
+" within a string has its own position - an *index*. Indexing starts at 0,"
+" so the first character in a string is at index 0, the second one is at "
+"index 1, and so on. Negative indexing is also possible, with -1 "
+"representing the last character in a string, -2 representing the second-"
+"to-last character, and so on. Use square brackets (``[]``) to access the "
+"index."
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:194
+msgid ""
+"You can also *slice* strings, this means to get a subsequence of "
+"characters. The slice syntax consists of 3 digits:"
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:197
+msgid "the first one represent the index to start (inclusive), defaults to 0"
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:198
+msgid ""
+"the second one represent the index to stop (non-inclusive), defaults to "
+"the length of the sequence"
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:200
+msgid "the third one represents a step, defaults to 1"
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:202
+msgid ""
+"These numbers are separated within colon (``:``) and enclosed within "
+"square brackets. Any slice digit may be omitted."
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:205
+msgid "Sequence slicing"
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:216
+msgid "Strings are iterable"
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:218
+msgid ""
+"Since strings are arrays, we can loop through the characters in a string "
+"with a ``for`` loop:"
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:227
+msgid "Strings are immutable"
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:229
+msgid "This means, you cannot change an individual character within a string."
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:237
+msgid "Integers"
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:239
+msgid ""
+"``int``, or integer, is a whole number, positive or negative, without "
+"decimals."
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:247
+msgid "Floats"
+msgstr ""
+
+#: ../../src/basics/datatypes.txt:249
+msgid ""
+"``float``, or floating point number, is a number, positive or negative, "
+"containing one or more decimals."
+msgstr ""
+
+#: ../../src/basics/exceptions.txt:3
+msgid "Errors and Exceptions"
+msgstr ""
+
+#: ../../src/basics/functions.txt:3 ../../src/basics/syntax.txt
+msgid "Functions"
+msgstr ""
+
+#: ../../src/basics/index.txt:3
+msgid "Python Basics"
+msgstr ""
+
+#: ../../src/basics/modules.txt:3
+msgid "Pythons Modules and Imports"
+msgstr ""
+
+#: ../../src/basics/pep8.txt:3
+msgid "Style Guides: PEP8"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:3
+msgid "Built-in Types"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:5
+msgid ""
+"The principal built-in types are numerics, sequences, mappings, classes, "
+"instances and exceptions :cite:`docs-python:stdtypes`. This section "
+"covers only the most base of them. Others will be discussed in the future"
+" within their own topics."
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:11
+msgid "Numeric types"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:13
+msgid ""
+"There are 3 distinct numeric types: *integers*, *floating point numbers*,"
+" and *complex numbers*. In addition, Booleans are a subtype of integers. "
+"Integers have unlimited precision. Floating point numbers are usually "
+"implemented usign ``double`` in C. Complex numbers have a real and "
+"imaginary part, which are each a floating point number."
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:19
+msgid ""
+"Numbers are created by numeric literals or as the result of built-in "
+"functions and operators. Unadorned integer literals (including hex, octal"
+" and binary numbers) yield integers. Numeric literals containing a "
+"decimal point or an exponent sign yield floating point numbers. Appending"
+" ``j`` or ``J`` to a numeric literal yields an imaginary number (a "
+"complex number with a zero real part) which you can add to an integer or "
+"float to get a complex number with real and imaginary parts."
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:31 ../../src/basics/stdtypes.txt:149
+#: ../../src/basics/stdtypes.txt:201
+msgid "Operation"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:31 ../../src/basics/stdtypes.txt:149
+#: ../../src/basics/stdtypes.txt:201
+msgid "Result"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:33
+msgid "``x + y``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:33
+msgid "sum of *x* and *y*"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:35
+msgid "``x - y``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:35
+msgid "difference of *x* and *y*"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:37
+msgid "``x * y``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:37
+msgid "product of *x* and *y*"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:39
+msgid "``x / y``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:39
+msgid "quotient of *x* and *y*"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:41
+msgid "``x // y``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:41
+msgid "floored quotient of *x* and *y*"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:43
+msgid "``x % y``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:43
+msgid "remainder of ``x / y``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:45
+msgid "``-x``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:45
+msgid "*x* negated"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:47
+msgid "``+x``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:47
+msgid "*y* unchanged"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:49
+msgid "``abs(x)``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:49
+msgid "absolute value or magnitude of *x*"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:51
+msgid "``int(x)``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:51
+msgid "*x* converted to integer"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:53
+msgid "``float(x)``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:53
+msgid "*x* converted to floating point"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:55
+msgid "``complex(re, im)``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:55
+msgid ""
+"a complex number with real part *re*, imaginary part *im*. *im* defaults "
+"to zero."
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:58
+msgid "``divmod(x, y)``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:58
+msgid "the pair ``(x // y, x % y)``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:60
+msgid "``pow(x, y)`` ``x ** y``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:60
+msgid "*x* to the power *y*"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:64
+msgid ""
+"``x // y`` also referred to as integer division. The resultant value is a"
+" whole integer, through the result's type is not necessarily int. The "
+"result is always rounded towards minus infinity: ``1 // 2`` is ``0``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:69
+msgid ""
+"``float(x)`` also accepts the strings ``\"nan\"`` and ``\"inf\"`` with an"
+" optional prefix \"+\" or \"-\" for :abbr:Nan(Not a Number) and positive "
+"and negative infinity."
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:74
+msgid "Code examples"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:76
+msgid "Integer numbers"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:89
+msgid "Floating point numbers"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:104 ../../src/basics/stdtypes.txt:177
+#: ../../src/basics/stdtypes.txt:287 ../../src/basics/stdtypes.txt:296
+#: ../../src/basics/stdtypes.txt:325
+msgid "Value comparisons"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:106
+msgid ""
+"Numbers of built-in numeric types can be compared within and across their"
+" types (with the restriction that complex numbers do not support order "
+"comparison). Within the limits of the types involved, they compare "
+"mathematically correct without loss of precision."
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:111
+msgid ""
+"The \"not-a-number\" values ``float(\"NaN\")`` and "
+"``decimal.Decimal('NaN')`` are special. Any ordered comparison of a "
+"number to a not-a-number value is false."
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:115
+msgid "Sequence types"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:117
+msgid ""
+"There are 3 basic sequence types: *lists*, *tuples*, and *range objects*."
+" Additional sequence types tailored for processing of binary data and "
+"text strings are described in dedicated sections."
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:122
+msgid "Lists"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:124
+msgid ""
+"Lists are mutable sequences, typically used to store collections of "
+"items. They may be constructed in several ways:"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:127
+msgid "using a pair of square brackets to denote the empty list: ``[]``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:128
+msgid ""
+"using square brackets, separating items with commas: ``[a]``, ``[a, b, "
+"c]``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:129
+msgid "using a list comprehension: ``[x for x in iterable]``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:130
+msgid "using the type constuctor: ``list()`` or ``list(iterable)``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:133
+msgid "Tuples"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:135
+msgid ""
+"Tuples are immutable sequences, typically used to store collections of "
+"data or for cases where an immutable sequence of data is needed (such as "
+"allowing storage in a ``set`` or ``dict`` instances). They may be "
+"constructed in a number of ways:"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:140
+msgid "using a pair of parentheses to denote the empty tuple: ``()``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:141
+msgid "using a trailing comma for a singleton tuple: ``a,`` or ``(a, b, c)``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:142
+msgid "separating items with commas: ``a, b, c`` or ``(a, b, c)``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:143
+msgid "using the type constructor: ``tuple()`` or ``tuple(iterable)``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:146
+msgid "Common operations"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:151
+msgid "``x in s`` ``x not in s``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:151
+msgid ""
+"``True`` if an item of *s* equal to *x* ``False`` if an item of *s* equal"
+" to *x*"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:154
+msgid "``s + t``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:154
+msgid "the concatenation of *s* and *t*"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:156
+msgid "``s * n``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:156
+msgid "equivalent to adding *s* to itself *n* times"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:158
+msgid "``s[i]``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:158
+msgid "*i*-th item of *s*, origin 0"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:160
+msgid "``s[i:j]`` ``s[i:j:k]``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:160
+msgid ""
+"slice of *s* from *i* to *j* with step *k*. any of these (or even all 3) "
+"may be omitted."
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:163
+msgid "``len(s)``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:163
+msgid "length of *s*"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:165
+msgid "``min(s)``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:165
+msgid "smallest item of *s*"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:167
+msgid "``max(s)``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:167
+msgid "largest item of *s*"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:169
+msgid "``s.count(x)``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:169
+msgid "total number of occurrences of *x* in *s*"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:171
+msgid "``s.index(x)`` ``s.index(x, i)`` ``s.index(x, i, j)``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:171
+msgid ""
+"index of the first occurrence of *x* in *s* (at or after index *i* and "
+"before index *j*)"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:181
+msgid ""
+"Sequences can be compared only within each of their types, with the "
+"restriction that ranges do not support order comparison. Equality "
+"comparison across these types results in inequality, and ordering "
+"comparison across these types raises ``TypeError``."
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:186
+msgid ""
+"Sequences compare lexicographically using comparison of corresponding "
+"elements. The built-in containers typically assume identical objects are "
+"equal to themselves. Lexicographical comparison between buit-in "
+"collections works as follows:"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:191
+msgid ""
+"For two collections to compare equal, they must be of the same type, have"
+" the same length, and each pair of corresponding elements must compare "
+"equal."
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:193
+msgid ""
+"Collections that supports order comparison are ordered the same as their "
+"first unequal elements. If corresponding element does not exist, the "
+"shorter collection is ordered first."
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:198
+msgid "Mutable sequence types"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:203
+msgid "``s[i] = x``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:203
+msgid "item *i* of *s* is replaced by *x*"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:205
+msgid "``s[i:j] = t``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:205
+msgid "slice of *s* from *i* to *j* replaced by the contents of *t*"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:208
+msgid "``del s[i:j]``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:208
+msgid "same as ``s[i:j] = []``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:210
+msgid "``s[i:j:k] = t``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:210
+msgid "the elements of *s* are replaced by those of *t*[#]_"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:212
+msgid "``del s[i:j:k]``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:212
+msgid "removes the elements of ``s[i:j:k]`` from the list"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:214
+msgid "``s.append(x)``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:214
+msgid ""
+"appends *x* to the end of the sequence; the same as ``s[len(s):len(s)] = "
+"[x]``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:217
+msgid "``s.clear()``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:217
+msgid "removes all items from *s* (``del s[:]``)[#3.3]_"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:219
+msgid "``s.copy()``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:219
+msgid "creates a shallow copy of *s* (``s[:]``)[#3.3]_"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:221
+msgid "``s.extend(t)`` ``s += t``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:221
+msgid "extends *s* with the contents of *t*"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:224
+msgid "``s.insert(i, x)``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:224
+msgid "inserts *x* into *s* at the index *i*; same as ``s[i:i] = [x]``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:227
+msgid "``s.pop()``, ``s.pop(i)``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:227
+msgid ""
+"retrieves the item at *i* and also removes it from *s* (if *i* is omitted"
+" - use the last one available index)"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:230
+msgid "``s.remove(x)``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:230
+msgid "remove the first item that is equal to *x* from *s*"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:232
+msgid "``s.reverse()``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:232
+msgid "reverses the items of *s* in place"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:235
+msgid "*t* must have the same length as the slice it is replacing"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:236
+msgid "new in Python version 3.3"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:239
+msgid "Text sequence type"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:242
+msgid "String methods"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:244
+msgid ""
+"Strings implement all of the common sequence operations, along with the "
+"additional methods."
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:289
+msgid ""
+"Strings compare lexicographically using the numerical Unicode code points"
+" of their characters."
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:293
+msgid "Set types"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:298
+msgid ""
+"Sets (instances of ``set`` or ``frozenset``) can be compared within and "
+"across their types. They define order comparison operators to mean subset"
+" and superset tests. Those relations do not define total ordering (e.g. "
+"two sets ``{1, 2}`` and ``{2, 3}`` are not equal, nor subsets of one "
+"another, nor supersets of one another)."
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:305
+msgid "Mapping type"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:307
+msgid ""
+"A mapping object maps hashable values to arbitrary objects. Mappings are "
+"mutable objects. There is currently ony one standard mapping type, the "
+"*dictionary*. In few words mappings are collections of keys and their "
+"values."
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:311
+msgid ""
+"A dictionary's keys are almost arbitrary values. Values that are not "
+"hashable may not be used as keys. Values that compare equal (such as "
+"``1``, ``1.0`` and ``True``) can be used interchangeably to index the "
+"same dictionary entry."
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:315
+msgid "Dictionaries can be created by several means:"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:317
+msgid "Use braces to denote the empty dictionary: ``{}``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:318
+msgid ""
+"Use a comma-separated list of ``key: value`` pairs with braces: "
+"``{'first_name': 'Serhii', 'last_name': 'Horodilov', 'age': 34}"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:320
+msgid "Use a dict comprehension: `{x: x ** 2 for x in range(10)}``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:321
+msgid ""
+"Use the type constructor: ``dict()``, ``dict([('key', 100)])``, "
+"``dict(key=100)``"
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:327
+msgid ""
+"Instances of ``dict`` compare equal if and only if they have equal key-"
+"value pairs."
+msgstr ""
+
+#: ../../src/basics/stdtypes.txt:330
+msgid "Order comparisons raise ``TypeError``."
+msgstr ""
+
+#: ../../src/basics/syntax.txt:3
+msgid "Python Syntax"
+msgstr ""
+
+#: ../../src/basics/syntax.txt:5
+msgid ""
+"As a natural language like English or Ukrainian has its own rules to "
+"write down something, programming languages do. This makes them "
+"programming **languages**."
+msgstr ""
+
+#: ../../src/basics/syntax.txt:9
+msgid ""
+"A programming language syntax is the set of rules and principles that "
+"govern how code is written and structured in a given programming "
+"language. Syntax encompasses the rules for writing statements, "
+"expressions, variables, data types, control structures, and other "
+"constructs that make up the language."
+msgstr ""
+
+#: ../../src/basics/syntax.txt:14
+msgid ""
+"The syntax of a programming language defines how code is organized and "
+"interpreted by a compiler or interpreter. It defines the rules for "
+"writing valid statements and expressions that can be understood and "
+"executed by the language's runtime system."
+msgstr ""
+
+#: ../../src/basics/syntax.txt:19
+msgid ""
+"A programming language's syntax is designed to be both readable and "
+"expressive, allowing programmers to write code that is easy to understand"
+" and modify. Syntax often influences the style and structure of code, as "
+"well as its maintainability and performance."
+msgstr ""
+
+#: ../../src/basics/syntax.txt:24
+msgid ""
+"Different programming languages have different syntax, with some "
+"languages being more concise and expressive than others. While syntax is "
+"an important aspect of a programming language, it is only one of several "
+"factors that determine its ease of use, flexibility, and suitability for "
+"different programming tasks."
+msgstr ""
+
+#: ../../src/basics/syntax.txt:30
+msgid ""
+"In the case of Python, the language's syntax defines how code is written "
+"and structured in a way that is consistent, readable, and easy to "
+"understand. A general overview is provided below, no need to dive deep in"
+" this now. All of the following is to be discussed during the course. So,"
+" some of the key aspects of Python's syntax include:"
+msgstr ""
+
+#: ../../src/basics/syntax.txt
+msgid "Indentation"
+msgstr ""
+
+#: ../../src/basics/syntax.txt:37
+msgid ""
+"Python uses whitespace, specifically indentation, to delimit blocks of "
+"code, such as loops, conditionals, and functions. This means that the "
+"indentation level of a line determines which block of code it belongs to."
+msgstr ""
+
+#: ../../src/basics/syntax.txt
+msgid "Statement structure"
+msgstr ""
+
+#: ../../src/basics/syntax.txt:43
+msgid ""
+"Python statements are typically written on one line, with the end of the "
+"line indicating the end of the statement. However, if a statement is too "
+"long to fit on one line, it can be continued across multiple lines using "
+"backslashes."
+msgstr ""
+
+#: ../../src/basics/syntax.txt ../../src/basics/variables.txt:3
+msgid "Variables"
+msgstr ""
+
+#: ../../src/basics/syntax.txt:49
+msgid ""
+"In Python, variables are created automatically when a value is assigned "
+"to them, and their type is inferred from the value. Variables can be "
+"assigned values of different types, including integers, floats, strings, "
+"and more complex data structures like lists and dictionaries."
+msgstr ""
+
+#: ../../src/basics/syntax.txt
+msgid "Operators"
+msgstr ""
+
+#: ../../src/basics/syntax.txt:55
+msgid ""
+"Python supports a wide range of operators for performing arithmetic, "
+"comparison, and logical operations. These include arithmetic operators "
+"like ``+``, ``-``, ``*``, and ``/``, as well as comparison operators like"
+" ``<``, ``>``, ``==``, and ``!=``."
+msgstr ""
+
+#: ../../src/basics/syntax.txt
+msgid "Control flow"
+msgstr ""
+
+#: ../../src/basics/syntax.txt:61
+msgid ""
+"Python provides control flow statements like if, else, elif, for, and "
+"while to control the flow of execution in a program. These statements are"
+" used to make decisions, repeat code, or perform actions based on "
+"conditions."
+msgstr ""
+
+#: ../../src/basics/syntax.txt:67
+msgid ""
+"In Python, functions are defined using the def keyword and can take "
+"arguments and return values. The body of a function is defined using a "
+"block of indented code."
+msgstr ""
+
+#: ../../src/basics/syntax.txt
+msgid "Modules"
+msgstr ""
+
+#: ../../src/basics/syntax.txt:72
+msgid ""
+"Python has a large library of modules that provide pre-written code for a"
+" variety of tasks. Modules can be imported into a program using the "
+"import statement."
+msgstr ""
+
+#: ../../src/basics/syntax.txt
+msgid "Exception handling"
+msgstr ""
+
+#: ../../src/basics/syntax.txt:77
+msgid ""
+"Python provides a way to handle errors and exceptions in a program using "
+"the try, except, else, and finally keywords. These statements allow a "
+"program to gracefully recover from errors and continue executing."
+msgstr ""
+
+#: ../../src/basics/syntax.txt:81
+msgid "In few words:"
+msgstr ""
+
+#: ../../src/basics/syntax.txt:83
+msgid "Input/Output example script"
+msgstr ""
+
+#: ../../src/basics/syntax.txt:102
+msgid ""
+"The code snippet above demonstrates some basics abilities of Python to "
+"gather data from the user, process it and print out back. Note the words "
+"starting with a **#** (hash) symbol. This is a comment. Any sequence of "
+"characters after the hash and till the line end are considered to be a "
+"comment. These are for those people, who see the code and they are "
+"ignored by the interpreter."
+msgstr ""
+
+#: ../../src/basics/syntax.txt:108
+msgid ""
+"On the other hand each individual line is the instruction for the "
+"interpreter to perform some action, like gather inputs, do math, store "
+"data in memory etc."
+msgstr ""
+
+#: ../../src/basics/testing.txt:3
+msgid "Testing"
+msgstr ""
+
+#: ../../src/basics/variables.txt:5
+msgid ""
+"In computer science a **variable** is a named storage location in memory "
+"that can hold a value (*data*). The value stored in a variable can be "
+"changed or accessed by the program during its execution."
+msgstr ""
+
+#: ../../src/basics/variables.txt:9
+msgid ""
+"In Python, variables are created dynamically once a value is assigned to "
+"them. This makes Python a dynamically typed language, which means that "
+"the data type of a variable is inferred from the value assigned to it. "
+"So, you do not need to declare a variable before using it, as in "
+"statically typed languages."
+msgstr ""
+
+#: ../../src/basics/variables.txt:14
+msgid ""
+"The ability to create variables dynamically and infer their data type "
+"makes Python code more concise and easier to read. However, it also "
+"requires careful attention to variable naming and assignment to avoid "
+"unexpected behavior."
+msgstr ""
+
+#: ../../src/basics/variables.txt:18
+msgid ""
+"In Python ``=`` (assignment operator) is used to set a value to some "
+"variable, the portion on the left of the operator is a *variable name* "
+"and the portion on the right is a *value* to assign to a variable."
+msgstr ""
+
+#: ../../src/basics/variables.txt:22
+msgid "Variable assignment in Python"
+msgstr ""
+
+#: ../../src/basics/variables.txt:29
+msgid "Variable assignment in Java"
+msgstr ""
+
+#: ../../src/basics/variables.txt:37
+msgid "Naming"
+msgstr ""
+
+#: ../../src/basics/variables.txt:39
+msgid ""
+"In Python there are several rules that describe how to name your "
+"variables. Some of these are requirements and cannot be ignored, others "
+"are rather recommended than required and can be omitted. For now note, "
+"that a variable name **cannot**:"
+msgstr ""
+
+#: ../../src/basics/variables.txt:44
+msgid "a language keyword (like ``pass``, ``def`` or ``class``)"
+msgstr ""
+
+#: ../../src/basics/variables.txt:45
+msgid "start with a number (e.g. ``123``, ``1_something``)"
+msgstr ""
+
+#: ../../src/basics/variables.txt:46
+msgid "contain special operators in it (``+``, ``-``, ``=`` etc.)"
+msgstr ""
+
+#: ../../src/basics/variables.txt:47
+msgid "contain white spaces"
+msgstr ""
+
+#: ../../src/basics/variables.txt:49
+msgid "Also here are some general recommendation on naming anything:"
+msgstr ""
+
+#: ../../src/basics/variables.txt:51
+msgid "do not use built-in functions as a variable name (e.g. ``len = 42``)"
+msgstr ""
+
+#: ../../src/basics/variables.txt:52
+msgid "keep names meaningful (``x = 10`` vs ``number_of_student = 100``)"
+msgstr ""
+
