@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../src/basics/datatypes.txt:3
 msgid "Data Types"
-msgstr "Типи Данних"
+msgstr "Типи Даних"
 
 #: ../../src/basics/datatypes.txt:5
 msgid ""
@@ -35,6 +35,12 @@ msgid ""
 "data, like additions for numbers or concatenation for text (e.g. ``1 + 2 "
 "-> 3``, ``\"1\" + \"3\" -> \"13\"``)."
 msgstr ""
+"Дані можуть представляти різні речі та вимагати різноманітних доступних"
+"операцій. У програмуванні типи даних є важливою концепцією. "
+"Наприклад, **1984** може бути числом (``1984``), текстом (``\"1984`` ) "
+"або подією чи датою. Тип даних описує можливі операції, дозволені для даних, "
+"як-от додавання чисел або конкатенація для тексту "
+"(наприклад, ``1 + 2 " "-> 3``, ``\"1\" + \"3 \" -> \"13\"``). "
 
 #: ../../src/basics/datatypes.txt:11
 msgid ""
@@ -43,74 +49,80 @@ msgid ""
 "you. Other popular language using dynamic typing are JavaScript and PHP. "
 "Setting variables in Python is as easy as:"
 msgstr ""
+"Python використовує динамічну типізацію. Це означає, що ви, як розробник, "
+"не повинні оголошувати змінну з її типом даних - інтерпретатор зробить це "
+"за вас. Іншими популярними мовами, які використовують динамічну типізацію, "
+"є JavaScript і PHP. Налаштування змінних у Python доволі просто, як: "
 
 #: ../../src/basics/datatypes.txt:23
 msgid "Built-In Data Types"
-msgstr ""
+msgstr "Вбудовані типи даних"
 
 #: ../../src/basics/datatypes.txt:25
 msgid "Python has the following data types built-in:"
-msgstr ""
+msgstr "Python має такі вбудовані типи даних:"
 
 #: ../../src/basics/datatypes.txt:27
 msgid "Integers (``int``)"
-msgstr ""
+msgstr "Цілі числа (``int``)"
 
 #: ../../src/basics/datatypes.txt:28
 msgid "Floating-point numbers (``float``)"
-msgstr ""
+msgstr "Числа з плаваючою комою (``float``)"
 
 #: ../../src/basics/datatypes.txt:29
 msgid "Complex numbers (``complex``)"
-msgstr ""
+msgstr "Комплексні числа (``complex``)"
 
 #: ../../src/basics/datatypes.txt:30
 msgid "Booleans (``bool``)"
-msgstr ""
+msgstr "Логічні значення (``bool``)"
 
 #: ../../src/basics/datatypes.txt:31
 msgid "Strings (``str``)"
-msgstr ""
+msgstr "Рядки (``str``)"
 
 #: ../../src/basics/datatypes.txt:32
 msgid "Bytes (``bytes``)"
-msgstr ""
+msgstr "Байти (``байти``)"
 
 #: ../../src/basics/datatypes.txt:33
 msgid "Byte arrays (``bytearray``)"
-msgstr ""
+msgstr "Масиви байтів (``bytearray``)"
 
 #: ../../src/basics/datatypes.txt:34
 msgid "Lists (``list``)"
-msgstr ""
+msgstr "Списки (``list``)"
 
 #: ../../src/basics/datatypes.txt:35
 msgid "Tuples (``tuple``)"
-msgstr ""
+msgstr "Кортежі (``tuple``)"
 
 #: ../../src/basics/datatypes.txt:36
 msgid "Sets (``set``)"
-msgstr ""
+msgstr "Cети (``set``)"
 
 #: ../../src/basics/datatypes.txt:37
 msgid "Frozen sets (``frozenset``)"
-msgstr ""
+msgstr "Заморожені сети (``frozenset``)"
 
 #: ../../src/basics/datatypes.txt:38
 msgid "Dictionaries (``dict``)"
-msgstr ""
+msgstr "Словники (``dict``)"
 
 #: ../../src/basics/datatypes.txt:39
 msgid "None (``NoneType``)"
-msgstr ""
+msgstr "Жодного (``NoneType``)"
 
 #: ../../src/basics/datatypes.txt:41
 msgid "Any one can use them without additional imports or packages installations."
 msgstr ""
+"Будь-хто може використовувати їх без додаткового імпорту "
+"чи встановлення пакетів. "
 
 #: ../../src/basics/datatypes.txt:44
 msgid "Text"
-msgstr ""
+msgstr "Текстові дані"
 
 #: ../../src/basics/datatypes.txt:46
 msgid ""
@@ -120,10 +132,14 @@ msgid ""
 "quotes (``'``) and double quotes (``\"``) can be used interchangeably to "
 "create a string in Python."
 msgstr ""
+"Текстові дані зберігаються як рядки (тип даних ``str``) у Python. Будь-яка "
+"послідовність літер, цифр, знаків пунктуації та пробілів, взята в лапки, "
+"вважається рядковим літералом. Обидві одинарні лапки (``'``) або подвійні "
+"лапки (``\"``) можна взаємозамінно використовувати для створення рядків."
 
 #: ../../src/basics/datatypes.txt:58
 msgid "Escaping"
-msgstr ""
+msgstr "Екранування"
 
 #: ../../src/basics/datatypes.txt:60
 msgid ""
@@ -133,14 +149,18 @@ msgid ""
 "within strings. A **backslash** character is used to *escape* the "
 "following one."
 msgstr ""
+"У програмуванні це процес використання спеціального символу, щоб вказати, що
+наступний(і) символ(и) слід розглядати інакше, ніж їхнє буквальне значення.
+Загальне використання полягає в тому, щоб включити спеціальний(і) символ(и) в
+рядки. Символ **backslash** використовується для екранування наступного.
 
 #: ../../src/basics/datatypes.txt:65
 msgid "Example of Escaping in Python"
-msgstr ""
+msgstr "Приклади Екранування в Python"
 
 #: ../../src/basics/datatypes.txt:84
 msgid "Single quotes or double quotes"
-msgstr ""
+msgstr "Одинарні або подвійні лапки"
 
 #: ../../src/basics/datatypes.txt:86
 msgid ""
@@ -152,106 +172,128 @@ msgid ""
 "double quotes within one project. Just keep using a chosen one character "
 "for all strings."
 msgstr ""
+"Неважливо які лапки ви використовуйте. Рядок - це послідовність символів "
+"після початкової лапки та до кінцевої. Ви можете використовувати подвійні "
+"лапки, якщо одинарна лапка є частиною тексту (наприклад, ``\"Це документ "
+"Сергія\"``) і навпаки (наприклад ``'Назва корабля була \"Billy of Tea\"'``). "
+"Рекомендується не плутати одинарні та подвійні лапки в одному проекті. "
+"Просто продовжуйте використовувати один вибраний символ для всіх рядків. "
 
 #: ../../src/basics/datatypes.txt:94
 msgid "Multiline strings"
-msgstr ""
+msgstr "Багатострічкові рядки"
 
 #: ../../src/basics/datatypes.txt:96
 msgid ""
 "You can assign a multiline string by using triple quotes: Both single "
 "quote and double quote characters are available."
 msgstr ""
+"Ви можете призначити багаторядковий рядок, використовуючи потрійні лапки: в "
+"середині них доступні як одинарні, так і подвійні лапки. "
 
 #: ../../src/basics/datatypes.txt:106
 msgid ""
 "The same syntax is used to create docstring, which are a special case of "
 "string usage. We will look on these in the future."
 msgstr ""
+"Такий самий синтаксис використовується для створення рядка документації, "
+"який є окремим випадком використання рядка. Ми розглянемо це в майбутньому. "
 
 #: ../../src/basics/datatypes.txt:110 ../../src/basics/stdtypes.txt:28
 msgid "Supported operations"
-msgstr ""
+msgstr "Операції підтримки"
 
 #: ../../src/basics/datatypes.txt:112
 msgid "This subsection describes only the most common operations."
 msgstr ""
+"У цьому розділі описано лише найпоширеніші операції. "
 
 #: ../../src/basics/datatypes.txt
 msgid "Concatenation"
-msgstr ""
+msgstr "Конкатинація"
 
 #: ../../src/basics/datatypes.txt:115
 msgid "The ``+`` operator is used to concatenate (join) two or more strings."
 msgstr ""
+"Оператор ``+`` використовується для конкатенації (об'єднання) двох або "
+"більше рядків. "
 
 #: ../../src/basics/datatypes.txt:121
 msgid ""
 "On the other hand the ``join`` method concatenates a collection of "
 "strings, which may be more efficient than using ``+``."
 msgstr ""
+"З іншого боку, метод ``join`` об'єднує колекцію рядків, що може бути "
+"ефективнішим, ніж використання ``+``. "
 
 #: ../../src/basics/datatypes.txt
 msgid "Repetition"
-msgstr ""
+msgstr "Повторення"
 
 #: ../../src/basics/datatypes.txt:129
 msgid ""
 "The ``*`` operator is used to repeat a string a specified number of "
 "times. Only multipliers of the ``int`` type are allowed."
 msgstr ""
+"Оператор ``*`` використовується для повторення рядка вказану кількість "
+"разів. Дозволені операції лише з множниками типу ``int``. "
 
 #: ../../src/basics/datatypes.txt
 msgid "Length"
-msgstr ""
+msgstr "Довжина"
 
 #: ../../src/basics/datatypes.txt:137
 msgid "The ``len`` function is used to find the length of a string."
-msgstr ""
+msgstr "Функція ``len`` використовується для визначення довжини рядка."
 
 #: ../../src/basics/datatypes.txt
 msgid "Case conversion"
-msgstr ""
+msgstr "Перетворення регістру"
 
 #: ../../src/basics/datatypes.txt:144
 msgid ""
 "The ``lower``, ``upper``, ``capitalize`` and ``title`` methods perform "
 "actions on case."
 msgstr ""
+"Методи ``lower``, ``upper``, ``capitalize`` і ``title`` виконують дії з "
+"зміною регістра. "
 
 #: ../../src/basics/datatypes.txt:147
 msgid "``lower`` creates a new string with all lower-case characters."
-msgstr ""
+msgstr "``lower`` створює новий рядок з усіма символами нижнього регістру."
 
 #: ../../src/basics/datatypes.txt:149
 msgid "``upper`` creates a new string with all upper-case characters."
-msgstr ""
+msgstr "``upper`` створює новий рядок з усіма символами верхнього регістру."
 
 #: ../../src/basics/datatypes.txt:151
 msgid "``capitalize`` creates a new string with the upper-case 1st character."
-msgstr ""
+msgstr "``capitalize`` створює новий рядок із першим символом у верхньому "
+"регістрі. "
 
 #: ../../src/basics/datatypes.txt:153
 msgid "``title`` will make all characters after whitespace upper case."
-msgstr ""
+msgstr "``title`` зробить усі символи після пробілів верхнім регістром."
 
 #: ../../src/basics/datatypes.txt
 msgid "Stripping"
-msgstr ""
+msgstr "Зачистка"
 
 #: ../../src/basics/datatypes.txt:164
 msgid ""
 "The ``strip``, ``lstrip`` and ``rstrip`` methods are used to remove "
 "leading and/or trailing whitespace characters."
 msgstr ""
+"Методи ``strip``, ``lstrip`` і ``rstrip`` використовуються для видалення "
+"початкових і/або кінцевих пробільних символів. "
 
 #: ../../src/basics/datatypes.txt:175
 msgid "Strings are subscriptable"
-msgstr ""
+msgstr "Рядки можна підписувати"
 
 #: ../../src/basics/datatypes.txt:177
 msgid "``str`` is not the only one subscriptable data type in Python."
-msgstr ""
+msgstr "``str`` - це не єдиний тип даних, який можна підписувати в Python."
 
 #: ../../src/basics/datatypes.txt:179
 msgid ""
@@ -264,98 +306,119 @@ msgid ""
 "to-last character, and so on. Use square brackets (``[]``) to access the "
 "index."
 msgstr ""
+"Це означає, що ви можете отримати доступ до окремих символів або фрагментів "
+"у рядку за допомогою індексів. Рядок — це послідовність символів, і кожен "
+"символ у рядку має власну позицію — індекс. Індексація починається з 0, "
+"отже, перший символ у рядку має індекс 0, другий - індекс 1 і так далі. "
+"Також можливе від'ємне індексування, коли -1 представляє останній символ у "
+"рядку, а -2 представляє передостанній символ і так далі. Використовуйте "
+"квадратні дужки (``[]``), щоб отримати доступ до індексу. "
 
 #: ../../src/basics/datatypes.txt:194
 msgid ""
 "You can also *slice* strings, this means to get a subsequence of "
 "characters. The slice syntax consists of 3 digits:"
 msgstr ""
+"Ви також можете *розрізати* рядки, тобто отримати підпослідовність символів. "
+"Синтаксис фрагмента складається з 3 цифр: "
 
 #: ../../src/basics/datatypes.txt:197
 msgid "the first one represent the index to start (inclusive), defaults to 0"
 msgstr ""
+"Перший представляє початковий індекс (включно), за замовчанням "
+"дорівнює 0. "
 
 #: ../../src/basics/datatypes.txt:198
 msgid ""
 "the second one represent the index to stop (non-inclusive), defaults to "
 "the length of the sequence"
 msgstr ""
+"Другий представляє індекс для зупинки (не включно), за замовчуванням довжина "
+"послідовності. "
 
 #: ../../src/basics/datatypes.txt:200
 msgid "the third one represents a step, defaults to 1"
-msgstr ""
+msgstr "Третій представляє крок, за замовчуванням 1."
 
 #: ../../src/basics/datatypes.txt:202
 msgid ""
 "These numbers are separated within colon (``:``) and enclosed within "
 "square brackets. Any slice digit may be omitted."
 msgstr ""
+"Ці числа розділені двокрапкою (``:``) і взяті в квадратні дужки. Будь-яка "
+"цифра зрізу може бути упущена. "
 
 #: ../../src/basics/datatypes.txt:205
 msgid "Sequence slicing"
-msgstr ""
+msgstr "Нарізка послідовності"
 
 #: ../../src/basics/datatypes.txt:216
 msgid "Strings are iterable"
-msgstr ""
+msgstr "Рядки можна повторювати"
 
 #: ../../src/basics/datatypes.txt:218
 msgid ""
 "Since strings are arrays, we can loop through the characters in a string "
 "with a ``for`` loop:"
 msgstr ""
+"Оскільки рядки є масивами, ми можемо прокручувати символи в рядку за "
+"допомогою циклу ``for``: "
 
 #: ../../src/basics/datatypes.txt:227
 msgid "Strings are immutable"
-msgstr ""
+msgstr "Рядки незмінні"
 
 #: ../../src/basics/datatypes.txt:229
 msgid "This means, you cannot change an individual character within a string."
-msgstr ""
+msgstr "Це означає, що ви не можете змінити окремий символ у рядку."
 
 #: ../../src/basics/datatypes.txt:237
 msgid "Integers"
-msgstr ""
+msgstr "Цілі числа"
 
 #: ../../src/basics/datatypes.txt:239
 msgid ""
 "``int``, or integer, is a whole number, positive or negative, without "
 "decimals."
 msgstr ""
+"``int``, тобто ціле число, може бути додатнім або від'ємним, без десяткових "
+"знаків. "
 
 #: ../../src/basics/datatypes.txt:247
 msgid "Floats"
-msgstr ""
+msgstr "Числа з плаваючою комою"
 
 #: ../../src/basics/datatypes.txt:249
 msgid ""
 "``float``, or floating point number, is a number, positive or negative, "
 "containing one or more decimals."
 msgstr ""
+"``float``, або число з плаваючою комою, - це число, додатне чи від’ємне, що "
+"містить один або більше десяткових знаків. "
 
 #: ../../src/basics/exceptions.txt:3
 msgid "Errors and Exceptions"
-msgstr ""
+msgstr "Помилки та винятки"
 
 #: ../../src/basics/functions.txt:3 ../../src/basics/syntax.txt
 msgid "Functions"
-msgstr ""
+msgstr "Функції"
 
 #: ../../src/basics/index.txt:3
 msgid "Python Basics"
-msgstr ""
+msgstr "Основи Python"
 
 #: ../../src/basics/modules.txt:3
 msgid "Pythons Modules and Imports"
-msgstr ""
+msgstr "Модулі та імпорт Pythons"
 
 #: ../../src/basics/pep8.txt:3
 msgid "Style Guides: PEP8"
-msgstr ""
+msgstr "Керівництво по стилю: PEP8"
 
 #: ../../src/basics/stdtypes.txt:3
 msgid "Built-in Types"
-msgstr ""
+msgstr "Вбудовані типи"
 
 #: ../../src/basics/stdtypes.txt:5
 msgid ""
@@ -364,10 +427,14 @@ msgid ""
 "covers only the most base of them. Others will be discussed in the future"
 " within their own topics."
 msgstr ""
+"Основними вбудованими типами є числа, послідовності, відображення, класи, "
+"екземпляри та винятки :cite:`docs-python:stdtypes`. Цей розділ охоплює лише "
+"найпростіші з них. Інші будуть обговорюватися в майбутньому в рамках їхніх "
+"власних тем. "
 
 #: ../../src/basics/stdtypes.txt:11
 msgid "Numeric types"
-msgstr ""
+msgstr "Числові типи"
 
 #: ../../src/basics/stdtypes.txt:13
 msgid ""
@@ -377,6 +444,11 @@ msgid ""
 "implemented usign ``double`` in C. Complex numbers have a real and "
 "imaginary part, which are each a floating point number."
 msgstr ""
+"Існує 3 різних типи чисел: *integers*, *floating point numbers*, та *complex "
+"numbers*. Крім того, логічні значення є підтипом цілих чисел. Цілі числа "
+"мають необмежену точність. Числа з плаваючою комою зазвичай реалізуються "
+"через знак ``double`` у C. Комплексні числа мають дійсну та уявну частини, "
+"кожна з яких є числом з плаваючою комою. "
 
 #: ../../src/basics/stdtypes.txt:19
 msgid ""
@@ -388,130 +460,140 @@ msgid ""
 "complex number with a zero real part) which you can add to an integer or "
 "float to get a complex number with real and imaginary parts."
 msgstr ""
+"Числа створюються за допомогою числових літералів або як результат "
+"вбудованих функцій і операторів. Неприкрашені цілі літерали (включаючи "
+"шістнадцяткові, вісімкові та двійкові числа) дають цілі числа. Числові "
+"літерали, що містять десяткову кому або знак експоненти, дають числа з "
+"плаваючою комою. Додавання ``j`` або ``J`` до числового літералу дає уявне "
+"число (комплексне число з нульовою дійсною частиною), яке ви можете додати "
+"до цілого числа або числа з плаваючою точкою, щоб отримати комплексне число "
+"з дійсною та уявною частинами. "
 
 #: ../../src/basics/stdtypes.txt:31 ../../src/basics/stdtypes.txt:149
 #: ../../src/basics/stdtypes.txt:201
 msgid "Operation"
-msgstr ""
+msgstr "Операції"
 
 #: ../../src/basics/stdtypes.txt:31 ../../src/basics/stdtypes.txt:149
 #: ../../src/basics/stdtypes.txt:201
 msgid "Result"
-msgstr ""
+msgstr "Результат"
 
 #: ../../src/basics/stdtypes.txt:33
 msgid "``x + y``"
-msgstr ""
+msgstr "``x + y``"
 
 #: ../../src/basics/stdtypes.txt:33
 msgid "sum of *x* and *y*"
-msgstr ""
+msgstr "сума *x* і *y*"
 
 #: ../../src/basics/stdtypes.txt:35
 msgid "``x - y``"
-msgstr ""
+msgstr "``x - y``"
 
 #: ../../src/basics/stdtypes.txt:35
 msgid "difference of *x* and *y*"
-msgstr ""
+msgstr "різниця між *x* і *y*"
 
 #: ../../src/basics/stdtypes.txt:37
 msgid "``x * y``"
-msgstr ""
+msgstr "``x * y``"
 
 #: ../../src/basics/stdtypes.txt:37
 msgid "product of *x* and *y*"
-msgstr ""
+msgstr "добуток *x* і *y*"
 
 #: ../../src/basics/stdtypes.txt:39
 msgid "``x / y``"
-msgstr ""
+msgstr "``x / y``"
 
 #: ../../src/basics/stdtypes.txt:39
 msgid "quotient of *x* and *y*"
-msgstr ""
+msgstr "частка *x* і *y*"
 
 #: ../../src/basics/stdtypes.txt:41
 msgid "``x // y``"
-msgstr ""
+msgstr "``x // y``"
 
 #: ../../src/basics/stdtypes.txt:41
 msgid "floored quotient of *x* and *y*"
-msgstr ""
+msgstr "цілочисельне ділення *x* і *y*"
 
 #: ../../src/basics/stdtypes.txt:43
 msgid "``x % y``"
-msgstr ""
+msgstr "``x % y``"
 
 #: ../../src/basics/stdtypes.txt:43
 msgid "remainder of ``x / y``"
-msgstr ""
+msgstr "залишок від ділення``x / y``"
 
 #: ../../src/basics/stdtypes.txt:45
 msgid "``-x``"
-msgstr ""
+msgstr "``-x``"
 
 #: ../../src/basics/stdtypes.txt:45
 msgid "*x* negated"
-msgstr ""
+msgstr "*x* заперечено"
 
 #: ../../src/basics/stdtypes.txt:47
 msgid "``+x``"
-msgstr ""
+msgstr "``+x``"
 
 #: ../../src/basics/stdtypes.txt:47
 msgid "*y* unchanged"
-msgstr ""
+msgstr "*y* без змін"
 
 #: ../../src/basics/stdtypes.txt:49
 msgid "``abs(x)``"
-msgstr ""
+msgstr "``abs(x)``"
 
 #: ../../src/basics/stdtypes.txt:49
 msgid "absolute value or magnitude of *x*"
-msgstr ""
+msgstr "абсолютне значення або величина *x*"
 
 #: ../../src/basics/stdtypes.txt:51
 msgid "``int(x)``"
-msgstr ""
+msgstr "``int(x)``"
 
 #: ../../src/basics/stdtypes.txt:51
 msgid "*x* converted to integer"
-msgstr ""
+msgstr "*x* перетворено на ціле число"
 
 #: ../../src/basics/stdtypes.txt:53
 msgid "``float(x)``"
-msgstr ""
+msgstr "``float(x)``"
 
 #: ../../src/basics/stdtypes.txt:53
 msgid "*x* converted to floating point"
-msgstr ""
+msgstr "*x* перетворено на число з плаваючою комою"
 
 #: ../../src/basics/stdtypes.txt:55
 msgid "``complex(re, im)``"
-msgstr ""
+msgstr "``complex(re, im)``"
 
 #: ../../src/basics/stdtypes.txt:55
 msgid ""
 "a complex number with real part *re*, imaginary part *im*. *im* defaults "
 "to zero."
 msgstr ""
+"Комплексне число з дійсною частиною *re*, уявною частиною *im*. *im* за "
+"замовчуванням на нуль. "
 
 #: ../../src/basics/stdtypes.txt:58
 msgid "``divmod(x, y)``"
-msgstr ""
+msgstr "``divmod(x, y)``"
 
 #: ../../src/basics/stdtypes.txt:58
 msgid "the pair ``(x // y, x % y)``"
-msgstr ""
+msgstr "об'єднує ``(x // y, x % y)``"
 
 #: ../../src/basics/stdtypes.txt:60
 msgid "``pow(x, y)`` ``x ** y``"
-msgstr ""
+msgstr "``pow(x, y)`` ``x ** y`"
 
 #: ../../src/basics/stdtypes.txt:60
 msgid "*x* to the power *y*"
-msgstr ""
+msgstr "*x* у степені *y*"
 
 #: ../../src/basics/stdtypes.txt:64
 msgid ""
@@ -519,6 +601,9 @@ msgid ""
 " whole integer, through the result's type is not necessarily int. The "
 "result is always rounded towards minus infinity: ``1 // 2`` is ``0``"
 msgstr ""
+"``x // y`` також називають цілим діленням. Результуюче значення є цілим "
+"числом, через тип результату не обов'язково int. Результат завжди "
+"округлюється до мінус нескінченності: ``1 // 2`` дорівнює ``0`` "
 
 #: ../../src/basics/stdtypes.txt:69
 msgid ""
@@ -526,24 +611,27 @@ msgid ""
 " optional prefix \"+\" or \"-\" for :abbr:Nan(Not a Number) and positive "
 "and negative infinity."
 msgstr ""
+"``float(x)`` також приймає рядки ``\"nan\"`` та ``\"inf\"`` з необов'язковим "
+"префіксом \"+\" або \"-\" для: abbr:Nan(не число) і позитивна і негативна "
+"нескінченність. "
 
 #: ../../src/basics/stdtypes.txt:74
 msgid "Code examples"
-msgstr ""
+msgstr "Приклади коду"
 
 #: ../../src/basics/stdtypes.txt:76
 msgid "Integer numbers"
-msgstr ""
+msgstr "Цілі числа"
 
 #: ../../src/basics/stdtypes.txt:89
 msgid "Floating point numbers"
-msgstr ""
+msgstr "Числа з плаваючою комою"
 
 #: ../../src/basics/stdtypes.txt:104 ../../src/basics/stdtypes.txt:177
 #: ../../src/basics/stdtypes.txt:287 ../../src/basics/stdtypes.txt:296
 #: ../../src/basics/stdtypes.txt:325
 msgid "Value comparisons"
-msgstr ""
+msgstr "Порівняння цінностей"
 
 #: ../../src/basics/stdtypes.txt:106
 msgid ""
@@ -552,6 +640,10 @@ msgid ""
 "comparison). Within the limits of the types involved, they compare "
 "mathematically correct without loss of precision."
 msgstr ""
+"Числа вбудованих числових типів можна порівнювати всередині та між типами "
+"(з обмеженням, що комплексні числа не підтримують порядок порівняння). У "
+"межах залучених типів вони порівняються математично правильно без втрати "
+"точності. "
 
 #: ../../src/basics/stdtypes.txt:111
 msgid ""
@@ -559,10 +651,13 @@ msgid ""
 "``decimal.Decimal('NaN')`` are special. Any ordered comparison of a "
 "number to a not-a-number value is false."
 msgstr ""
+"Значення \"not-a-number\" ``float(\"NaN\")`` і ``decimal.Decimal('NaN')`` "
+"є спеціальними. Будь-яке впорядковане порівняння числа з нечисловим "
+"значенням є хибним."
 
 #: ../../src/basics/stdtypes.txt:115
 msgid "Sequence types"
-msgstr ""
+msgstr "Типи послідовностей"
 
 #: ../../src/basics/stdtypes.txt:117
 msgid ""
@@ -570,38 +665,46 @@ msgid ""
 " Additional sequence types tailored for processing of binary data and "
 "text strings are described in dedicated sections."
 msgstr ""
+"Існує 3 основних типи послідовностей: списки, кортежі та об'єкти діапазону. "
+"Додаткові типи послідовностей, призначені для обробки двійкових даних і "
+"текстових рядків, описані у інших розділах. "
 
 #: ../../src/basics/stdtypes.txt:122
 msgid "Lists"
-msgstr ""
+msgstr "Списки"
 
 #: ../../src/basics/stdtypes.txt:124
 msgid ""
 "Lists are mutable sequences, typically used to store collections of "
 "items. They may be constructed in several ways:"
 msgstr ""
+"Списки - це змінні послідовності, які зазвичай використовуються для "
+"зберігання колекцій елементів. Вони можуть бути побудовані кількома способами:"
 
 #: ../../src/basics/stdtypes.txt:127
 msgid "using a pair of square brackets to denote the empty list: ``[]``"
 msgstr ""
+"використовуючи пару квадратних дужок для cтворення порожнього списку: ``[]``"
 
 #: ../../src/basics/stdtypes.txt:128
 msgid ""
 "using square brackets, separating items with commas: ``[a]``, ``[a, b, "
 "c]``"
 msgstr ""
+"використовуючи квадратні дужки, розділяючи елементи комами: ``[a]``, "
+"``[a, b, c]`` "
 
 #: ../../src/basics/stdtypes.txt:129
 msgid "using a list comprehension: ``[x for x in iterable]``"
-msgstr ""
+msgstr "використовуючи генератори списків: ``[x for x in iterable]``"
 
 #: ../../src/basics/stdtypes.txt:130
 msgid "using the type constuctor: ``list()`` or ``list(iterable)``"
-msgstr ""
+msgstr "використовуючи конструкції типу: ``list()`` або ``list(iterable)``"
 
 #: ../../src/basics/stdtypes.txt:133
 msgid "Tuples"
-msgstr ""
+msgstr "Кортежі"
 
 #: ../../src/basics/stdtypes.txt:135
 msgid ""
@@ -610,22 +713,29 @@ msgid ""
 "allowing storage in a ``set`` or ``dict`` instances). They may be "
 "constructed in a number of ways:"
 msgstr ""
+"Кортежі - це незмінні послідовності, які зазвичай використовуються для "
+"зберігання колекцій даних або для випадків, коли потрібна незмінна "
+"послідовність даних (наприклад, дозволяє зберігати в екземплярах ``set`` або "
+"``dict``). Вони можуть бути конструйовані декількома способами: "
 
 #: ../../src/basics/stdtypes.txt:140
 msgid "using a pair of parentheses to denote the empty tuple: ``()``"
 msgstr ""
+"використовуючи пару круглих дужок для позначення порожнього кортежу: ``()``"
 
 #: ../../src/basics/stdtypes.txt:141
 msgid "using a trailing comma for a singleton tuple: ``a,`` or ``(a, b, c)``"
 msgstr ""
+"використовуючи кінцеву кому для одноэлементного кортежу: ``a,`` або "
+"``(a, b, c)``"
 
 #: ../../src/basics/stdtypes.txt:142
 msgid "separating items with commas: ``a, b, c`` or ``(a, b, c)``"
-msgstr ""
+msgstr "відокремлюючи елементи комами: ``a, b, c`` або ``(a, b, c)``"
 
 #: ../../src/basics/stdtypes.txt:143
 msgid "using the type constructor: ``tuple()`` or ``tuple(iterable)``"
-msgstr ""
+msgstr "за допомогою конструктора типу: ``tuple()`` або ``tuple(iterable)``"
 
 #: ../../src/basics/stdtypes.txt:146
 msgid "Common operations"
