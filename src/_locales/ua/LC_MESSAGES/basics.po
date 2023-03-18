@@ -739,7 +739,7 @@ msgstr "за допомогою конструктора типу: ``tuple()`` �
 
 #: ../../src/basics/stdtypes.txt:146
 msgid "Common operations"
-msgstr ""
+msgstr "Загальні операції"
 
 #: ../../src/basics/stdtypes.txt:151
 msgid "``x in s`` ``x not in s``"
