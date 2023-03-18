@@ -743,89 +743,95 @@ msgstr "Загальні операції"
 
 #: ../../src/basics/stdtypes.txt:151
 msgid "``x in s`` ``x not in s``"
-msgstr ""
+msgstr "``x in s`` ``x not in s``"
 
 #: ../../src/basics/stdtypes.txt:151
 msgid ""
 "``True`` if an item of *s* equal to *x* ``False`` if an item of *s* equal"
 " to *x*"
 msgstr ""
+"``True``, якщо елемент *s* дорівнює *x* ``False``, якщо елемент *s* "
+"дорівнює *x*"
 
 #: ../../src/basics/stdtypes.txt:154
 msgid "``s + t``"
-msgstr ""
+msgstr "``s + t``"
 
 #: ../../src/basics/stdtypes.txt:154
 msgid "the concatenation of *s* and *t*"
-msgstr ""
+msgstr "конкатенація s і t"
 
 #: ../../src/basics/stdtypes.txt:156
 msgid "``s * n``"
-msgstr ""
+msgstr "``s * n``"
 
 #: ../../src/basics/stdtypes.txt:156
 msgid "equivalent to adding *s* to itself *n* times"
-msgstr ""
+msgstr "еквівалентно додаванню *s* до себе *n* разів"
 
 #: ../../src/basics/stdtypes.txt:158
 msgid "``s[i]``"
-msgstr ""
+msgstr "``s[i]``"
 
 #: ../../src/basics/stdtypes.txt:158
 msgid "*i*-th item of *s*, origin 0"
-msgstr ""
+msgstr "*i*-й елемент *s*, джерело 0"
 
 #: ../../src/basics/stdtypes.txt:160
 msgid "``s[i:j]`` ``s[i:j:k]``"
-msgstr ""
+msgstr "``s[i:j]`` ``s[i:j:k]``"
 
 #: ../../src/basics/stdtypes.txt:160
 msgid ""
 "slice of *s* from *i* to *j* with step *k*. any of these (or even all 3) "
 "may be omitted."
 msgstr ""
+"фрагмент *s* від *i* до *j* з кроком *k*. будь-який із цих (або навіть усі "
+"3) можна опустити. "
 
 #: ../../src/basics/stdtypes.txt:163
 msgid "``len(s)``"
-msgstr ""
+msgstr "``len(s)``"
 
 #: ../../src/basics/stdtypes.txt:163
 msgid "length of *s*"
-msgstr ""
+msgstr "довжина *s*"
 
 #: ../../src/basics/stdtypes.txt:165
 msgid "``min(s)``"
-msgstr ""
+msgstr "``min(s)``"
 
 #: ../../src/basics/stdtypes.txt:165
 msgid "smallest item of *s*"
-msgstr ""
+msgstr "найменший елемент *s*"
 
 #: ../../src/basics/stdtypes.txt:167
 msgid "``max(s)``"
-msgstr ""
+msgstr "``max(s)``"
 
 #: ../../src/basics/stdtypes.txt:167
 msgid "largest item of *s*"
-msgstr ""
+msgstr "найбільший елемент *s*"
 
 #: ../../src/basics/stdtypes.txt:169
 msgid "``s.count(x)``"
-msgstr ""
+msgstr "``s.count(x)``"
 
 #: ../../src/basics/stdtypes.txt:169
 msgid "total number of occurrences of *x* in *s*"
-msgstr ""
+msgstr "загальна кількість входжень *x* у *s*"
 
 #: ../../src/basics/stdtypes.txt:171
 msgid "``s.index(x)`` ``s.index(x, i)`` ``s.index(x, i, j)``"
-msgstr ""
+msgstr "``s.index(x)`` ``s.index(x, i)`` ``s.index(x, i, j)``"
 
 #: ../../src/basics/stdtypes.txt:171
 msgid ""
 "index of the first occurrence of *x* in *s* (at or after index *i* and "
 "before index *j*)"
 msgstr ""
+"індекс першого входження *x* у *s* (в або після індексу *i* та перед "
+"індексом *j*) "
 
 #: ../../src/basics/stdtypes.txt:181
 msgid ""
@@ -834,6 +840,10 @@ msgid ""
 "comparison across these types results in inequality, and ordering "
 "comparison across these types raises ``TypeError``."
 msgstr ""
+"Послідовності можна порівнювати лише в межах кожного типу, з обмеженням, "
+"що діапазони не підтримують порівняння порядку. Порівняння рівності між "
+"цими типами призводить до нерівності, а впорядковане порівняння цих "
+"типів викликає ``TypeError``. "
 
 #: ../../src/basics/stdtypes.txt:186
 msgid ""
@@ -842,6 +852,10 @@ msgid ""
 "equal to themselves. Lexicographical comparison between buit-in "
 "collections works as follows:"
 msgstr ""
+"Послідовності порівнюють лексикографічно за допомогою порівняння відповідних "
+"елементів. Вбудовані контейнери зазвичай припускають, що ідентичні об'єкти "
+"рівні собі. Лексикографічне порівняння між вбудованими колекціями працює "
+"таким чином: "
 
 #: ../../src/basics/stdtypes.txt:191
 msgid ""
@@ -849,6 +863,9 @@ msgid ""
 " the same length, and each pair of corresponding elements must compare "
 "equal."
 msgstr ""
+"Щоб дві колекції порівнювалися рівноправними, вони повинні бути одного типу, "
+"мати однакову довжину, і кожна пара відповідних елементів повинна "
+"порівнюватися. "
 
 #: ../../src/basics/stdtypes.txt:193
 msgid ""
@@ -856,50 +873,53 @@ msgid ""
 "first unequal elements. If corresponding element does not exist, the "
 "shorter collection is ordered first."
 msgstr ""
+"Колекції, які підтримують порівняння порядку, упорядковуються так само, як "
+"і їхні перші нерівні елементи. Якщо відповідний елемент не існує, спочатку "
+"впорядковується коротша колекція. "
 
 #: ../../src/basics/stdtypes.txt:198
 msgid "Mutable sequence types"
-msgstr ""
+msgstr "Змінні типи послідовностей"
 
 #: ../../src/basics/stdtypes.txt:203
 msgid "``s[i] = x``"
-msgstr ""
+msgstr "``s[i] = x``"
 
 #: ../../src/basics/stdtypes.txt:203
 msgid "item *i* of *s* is replaced by *x*"
-msgstr ""
+msgstr "елемент *i* з *s* замінюється на *x*"
 
 #: ../../src/basics/stdtypes.txt:205
 msgid "``s[i:j] = t``"
-msgstr ""
+msgstr "``s[i:j] = t``"
 
 #: ../../src/basics/stdtypes.txt:205
 msgid "slice of *s* from *i* to *j* replaced by the contents of *t*"
-msgstr ""
+msgstr "фрагмент *s* від *i* до *j*, замінений вмістом *t*"
 
 #: ../../src/basics/stdtypes.txt:208
 msgid "``del s[i:j]``"
-msgstr ""
+msgstr "``del s[i:j]``"
 
 #: ../../src/basics/stdtypes.txt:208
 msgid "same as ``s[i:j] = []``"
-msgstr ""
+msgstr "те саме, що ``s[i:j] = []``"
 
 #: ../../src/basics/stdtypes.txt:210
 msgid "``s[i:j:k] = t``"
-msgstr ""
+msgstr "``s[i:j:k] = t``"
 
 #: ../../src/basics/stdtypes.txt:210
 msgid "the elements of *s* are replaced by those of *t*[#]_"
-msgstr ""
+msgstr "елементи *s* замінюються елементами *t*[#]_"
 
 #: ../../src/basics/stdtypes.txt:212
 msgid "``del s[i:j:k]``"
-msgstr ""
+msgstr "``del s[i:j:k]``"
 
 #: ../../src/basics/stdtypes.txt:212
 msgid "removes the elements of ``s[i:j:k]`` from the list"
-msgstr ""
+msgstr "видаляє елементи ``s[i:j:k]`` зі списку"
 
 #: ../../src/basics/stdtypes.txt:214
 msgid "``s.append(x)``"
