@@ -923,103 +923,110 @@ msgstr "видаляє елементи ``s[i:j:k]`` зі списку"
 
 #: ../../src/basics/stdtypes.txt:214
 msgid "``s.append(x)``"
-msgstr ""
+msgstr "``s.append(x)``"
 
 #: ../../src/basics/stdtypes.txt:214
 msgid ""
 "appends *x* to the end of the sequence; the same as ``s[len(s):len(s)] = "
 "[x]``"
 msgstr ""
+"додає *x* до кінця послідовності; те саме, що ``s[len(s):len(s)] = [x]`` "
 
 #: ../../src/basics/stdtypes.txt:217
 msgid "``s.clear()``"
-msgstr ""
+msgstr "``s.clear()``"
 
 #: ../../src/basics/stdtypes.txt:217
 msgid "removes all items from *s* (``del s[:]``)[#3.3]_"
-msgstr ""
+msgstr "видаляє всі елементи з *s* (``del s[:]``)[#3.3]_"
 
 #: ../../src/basics/stdtypes.txt:219
 msgid "``s.copy()``"
-msgstr ""
+msgstr "``s.copy()``"
 
 #: ../../src/basics/stdtypes.txt:219
 msgid "creates a shallow copy of *s* (``s[:]``)[#3.3]_"
-msgstr ""
+msgstr "створює поверхневу копію *s* (``s[:]``)[#3.3]_"
 
 #: ../../src/basics/stdtypes.txt:221
 msgid "``s.extend(t)`` ``s += t``"
-msgstr ""
+msgstr "``s.extend(t)`` ``s += t``
 
 #: ../../src/basics/stdtypes.txt:221
 msgid "extends *s* with the contents of *t*"
-msgstr ""
+msgstr "розширює *s* вмістом *t*"
 
 #: ../../src/basics/stdtypes.txt:224
 msgid "``s.insert(i, x)``"
-msgstr ""
+msgstr "``s.insert(i, x)``"
 
 #: ../../src/basics/stdtypes.txt:224
 msgid "inserts *x* into *s* at the index *i*; same as ``s[i:i] = [x]``"
-msgstr ""
+msgstr "вставляє *x* у *s* за індексом *i*; те саме, що ``s[i:i] = [x]``"
 
 #: ../../src/basics/stdtypes.txt:227
 msgid "``s.pop()``, ``s.pop(i)``"
-msgstr ""
+msgstr "``s.pop()``, ``s.pop(i)``"
 
 #: ../../src/basics/stdtypes.txt:227
 msgid ""
 "retrieves the item at *i* and also removes it from *s* (if *i* is omitted"
 " - use the last one available index)"
 msgstr ""
+"отримує елемент за адресою *i*, а також видаляє його з *s* (якщо *i* "
+"пропущено - використовуйте останній доступний індекс)"
 
 #: ../../src/basics/stdtypes.txt:230
 msgid "``s.remove(x)``"
-msgstr ""
+msgstr "``s.remove(x)``"
 
 #: ../../src/basics/stdtypes.txt:230
 msgid "remove the first item that is equal to *x* from *s*"
-msgstr ""
+msgstr "видалити перший елемент, який дорівнює *x*, із *s*"
 
 #: ../../src/basics/stdtypes.txt:232
 msgid "``s.reverse()``"
-msgstr ""
+msgstr "``s.reverse()``"
 
 #: ../../src/basics/stdtypes.txt:232
 msgid "reverses the items of *s* in place"
-msgstr ""
+msgstr "перевертає елементи *s* на місце"
 
 #: ../../src/basics/stdtypes.txt:235
 msgid "*t* must have the same length as the slice it is replacing"
-msgstr ""
+msgstr "*t* повинен мати таку ж довжину, як і фрагмент, який він замінює"
 
 #: ../../src/basics/stdtypes.txt:236
 msgid "new in Python version 3.3"
-msgstr ""
+msgstr "нове у версії Python 3.3"
 
 #: ../../src/basics/stdtypes.txt:239
 msgid "Text sequence type"
-msgstr ""
+msgstr "Тип текстової послідовності"
 
 #: ../../src/basics/stdtypes.txt:242
 msgid "String methods"
-msgstr ""
+msgstr "Рядкові методи"
 
 #: ../../src/basics/stdtypes.txt:244
 msgid ""
 "Strings implement all of the common sequence operations, along with the "
 "additional methods."
 msgstr ""
+"Рядки реалізують усі звичайні операції з послідовністю разом із додатковими "
+"методами. "
 
 #: ../../src/basics/stdtypes.txt:289
 msgid ""
 "Strings compare lexicographically using the numerical Unicode code points"
 " of their characters."
 msgstr ""
+"Рядки порівнюються лексикографічно з використанням числових кодових точок "
+"Unicode своїх символів. "
 
 #: ../../src/basics/stdtypes.txt:293
 msgid "Set types"
-msgstr ""
+msgstr "Типи сетів"
 
 #: ../../src/basics/stdtypes.txt:298
 msgid ""
@@ -1029,10 +1036,15 @@ msgid ""
 "two sets ``{1, 2}`` and ``{2, 3}`` are not equal, nor subsets of one "
 "another, nor supersets of one another)."
 msgstr ""
+"Сети (екземпляри ``set`` або ``frozenset``) можна порівнювати всередині та "
+"між типами. Вони визначають оператори порівняння порядку, щоб проходити "
+"тести підмножини та надмножини. Ці відношення не визначають загального "
+"порядку (наприклад, два набори ``{1, 2}`` та ``{2, 3}`` не є рівними, ані "
+"підмножини одного іншого, ані надмножини один одного). "
 
 #: ../../src/basics/stdtypes.txt:305
 msgid "Mapping type"
-msgstr ""
+msgstr "Тип відображення"
 
 #: ../../src/basics/stdtypes.txt:307
 msgid ""
@@ -1041,6 +1053,10 @@ msgid ""
 "*dictionary*. In few words mappings are collections of keys and their "
 "values."
 msgstr ""
+"Об’єкт зіставлення зіставляє хешовані значення з довільними об’єктами. "
+"Відображення є змінними об'єктами. Наразі існує лише один стандартний тип "
+"відображення, *dictionary*. Якщо кількома словами, то відображення - це "
+"набори ключів та їхніх значень. "
 
 #: ../../src/basics/stdtypes.txt:311
 msgid ""
@@ -1049,44 +1065,54 @@ msgid ""
 "``1``, ``1.0`` and ``True``) can be used interchangeably to index the "
 "same dictionary entry."
 msgstr ""
+"Ключі словника - це майже довільні значення. Значення, які не хешуються, "
+"не можуть бути використані як ключі. Значення, які порівнюються (такі як "
+"``1``, ``1.0`` і ``True``), можна використовувати як взаємозамінні для "
+"індексування тієї самої словникової статті. "
 
 #: ../../src/basics/stdtypes.txt:315
 msgid "Dictionaries can be created by several means:"
-msgstr ""
+msgstr "Словники можна створювати кількома способами:"
 
 #: ../../src/basics/stdtypes.txt:317
 msgid "Use braces to denote the empty dictionary: ``{}``"
-msgstr ""
+msgstr "Використовуйте дужки для позначення порожнього словника: ``{}``"
 
 #: ../../src/basics/stdtypes.txt:318
 msgid ""
 "Use a comma-separated list of ``key: value`` pairs with braces: "
 "``{'first_name': 'Serhii', 'last_name': 'Horodilov', 'age': 34}"
 msgstr ""
+"Використовуйте розділений комами список пар ``key: value`` з дужками: "
+"``{'first_name': 'Serhii', 'last_name': 'Horodilov', 'age': 34} "
 
 #: ../../src/basics/stdtypes.txt:320
 msgid "Use a dict comprehension: `{x: x ** 2 for x in range(10)}``"
-msgstr ""
+msgstr "Використовуючи генератори списків: `{x: x 2 for x in range(10)}``"
 
 #: ../../src/basics/stdtypes.txt:321
 msgid ""
 "Use the type constructor: ``dict()``, ``dict([('key', 100)])``, "
 "``dict(key=100)``"
 msgstr ""
+"Використовуйте конструктор типу: ``dict()``, ``dict([('key', 100)])``, "
+"``dict(key=100)`` "
 
 #: ../../src/basics/stdtypes.txt:327
 msgid ""
 "Instances of ``dict`` compare equal if and only if they have equal key-"
 "value pairs."
 msgstr ""
+"Екземпляри ``dict`` вважаються рівними тоді і тільки тоді, коли вони "
+"мають однакові пари ключ-значення. "
 
 #: ../../src/basics/stdtypes.txt:330
 msgid "Order comparisons raise ``TypeError``."
-msgstr ""
+msgstr "Порівняння порядку викликає ``TypeError``."
 
 #: ../../src/basics/syntax.txt:3
 msgid "Python Syntax"
-msgstr ""
+msgstr "Синтаксис Python"
 
 #: ../../src/basics/syntax.txt:5
 msgid ""
