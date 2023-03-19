@@ -84,7 +84,7 @@ msgstr "Рядки (``str``)"
 
 #: ../../src/basics/datatypes.txt:32
 msgid "Bytes (``bytes``)"
-msgstr "Байти (``байти``)"
+msgstr "Байти (``bytes``)"
 
 #: ../../src/basics/datatypes.txt:33
 msgid "Byte arrays (``bytearray``)"
