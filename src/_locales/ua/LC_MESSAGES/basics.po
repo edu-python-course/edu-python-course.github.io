@@ -30,7 +30,7 @@ msgstr "Типи Даних"
 msgid ""
 "Data may represent different things and require various operations "
 "available. In programming data types is an important concept. For example"
-" **1984** may be a number (``1984``), a text (``\"1984``) or event a "
+" **1984** may be a number (``1984``), a text (``\"1984"``) or event a "
 "date. The data type describes the operations, that are allowed for the "
 "data, like additions for numbers or concatenation for text (e.g. ``1 + 2 "
 "-> 3``, ``\"1\" + \"3\" -> \"13\"``)."
@@ -1409,12 +1409,11 @@ msgid ""
 msgstr ""
 "У Python є кілька правил, які описують, як іменувати ваші змінні. Деякі з "
 "них є вимогами, і їх не можна ігнорувати, інші скоріше рекомендовані, ніж "
-"обов'язкові, і їх можна пропустити. Наразі зауважте, що ім'я змінної не може "
-"бути:"
+"обов'язкові, і їх можна пропустити. Наразі зауважте, що ім'я змінної не може:"
 
 #: ../../src/basics/variables.txt:44
 msgid "a language keyword (like ``pass``, ``def`` or ``class``)"
-msgstr "ключовим словом мови (наприклад, ``pass``, ``def`` або ``class``)"
+msgstr "бути ключовим словом мови (наприклад, ``pass``, ``def`` або ``class``)"
 
 #: ../../src/basics/variables.txt:45
 msgid "start with a number (e.g. ``123``, ``1_something``)"
