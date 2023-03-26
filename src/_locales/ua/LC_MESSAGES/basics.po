@@ -37,7 +37,7 @@ msgid ""
 msgstr ""
 "Дані можуть представляти різні речі та вимагати різноманітних доступних"
 "операцій. У програмуванні типи даних є важливою концепцією. "
-"Наприклад, **1984** може бути числом (``1984``), текстом (``\"1984`` ) "
+"Наприклад, **1984** може бути числом (``1984``), текстом (``\"1984"`` ) "
 "або подією чи датою. Тип даних описує можливі операції, дозволені для даних, "
 "як-от додавання чисел або конкатенація для тексту "
 "(наприклад, ``1 + 2 " "-> 3``, ``\"1\" + \"3 \" -> \"13\"``). "
@@ -68,7 +68,7 @@ msgstr "Цілі числа (``int``)"
 
 #: ../../src/basics/datatypes.txt:28
 msgid "Floating-point numbers (``float``)"
-msgstr "Числа з плаваючою комою (``float``)"
+msgstr "Числа з плаваючою крапкою (``float``)"
 
 #: ../../src/basics/datatypes.txt:29
 msgid "Complex numbers (``complex``)"
@@ -115,7 +115,8 @@ msgid "None (``NoneType``)"
 msgstr "Жодного (``NoneType``)"
 
 #: ../../src/basics/datatypes.txt:41
-msgid "Any one can use them without additional imports or packages installations."
+msgid ""
+"Any one can use them without additional imports or packages installations."
 msgstr ""
 "Будь-хто може використовувати їх без додаткового імпорту "
 "чи встановлення пакетів. "
