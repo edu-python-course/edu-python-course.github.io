@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Python Training Course 2022.11.dev\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-21 06:44+0300\n"
-"PO-Revision-Date: 2023-04-21 06:46+0300\n"
+"PO-Revision-Date: 2023-08-18 01:44+0300\n"
 "Last-Translator: Serhii Horodilov <sgorodil@gmail.com>\n"
 "Language-Team: \n"
 "Language: uk\n"
@@ -19,12 +19,13 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "Generated-By: Babel 2.12.1\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Poedit 3.3.2\n"
 
 #: ../../src/basics/bool_logic.txt:-1
 msgid "this document covers usage of logic and comparison operators in Python"
 msgstr ""
-"цей документ охоплює використання логіки та операторів порівняння в Python"
+"у цьому документі розглядається використання логічних операторів та "
+"операторів порівняння у Python"
 
 #: ../../src/basics/bool_logic.txt:-1 ../../src/basics/controlflow.txt:-1
 #: ../../src/basics/decorators.txt:-1 ../../src/basics/exceptions.txt:-1
@@ -49,17 +50,17 @@ msgid ""
 "relies on **true** and **false** values and define a set of boolean "
 "operations: **not**, **and**, and **or**."
 msgstr ""
-"`George Boole`_ об'єднав те, що тепер відомо як `булева алгебра`_, яка "
-"спирається на значення **true** і **false** і визначає набір логічних "
-"операцій: **not**, **and** і **or**."
+"`Джордж Буль`_ створив те, що зараз відоме як `булева алгебра`_, яка "
+"спирається на значення **істина** та **хибність** і визначає набір булевих "
+"операцій: **не**, **і** та **або**."
 
 #: ../../src/basics/bool_logic.txt:24
 msgid ""
 "These Boolean values and operators are helpful in programming because they "
 "help you decide the course of action in your programs."
 msgstr ""
-"Ці булеві значення та оператори корисні в програмуванні, оскільки вони "
-"допомагають визначити курс дій у ваших програмах."
+"Ці булеві значення та оператори корисні у програмуванні, оскільки вони "
+"допомагають вам визначати порядок дій у ваших програмах."
 
 #: ../../src/basics/bool_logic.txt:27
 msgid ""
@@ -70,18 +71,18 @@ msgid ""
 "programming well in Python."
 msgstr ""
 "Тип **Python boolean** є одним із вбудованих типів даних Python. Він "
-"використовується для представлення істиності значення виразу. Наприклад, "
-"вираз ``1 < 2`` є ``True``, тоді як вираз ``0 == 1`` є ``False``. Розуміння "
-"того, як поводяться логічні значення Python, є важливим для якісного "
-"програмування на Python."
+"використовується для представлення значення істинності виразу. Наприклад, "
+"вираз ``1 < 2`` є ``True`` (істине), тоді як вираз ``0 == 1`` є ``False`` "
+"(хибне). Розуміння того, як поводяться булеві значення у Python, є важливим "
+"для якісного програмування на Python."
 
 #: ../../src/basics/bool_logic.txt:34
 msgid "Understanding Boolean"
-msgstr "Розбираємось з Логічним типом даних"
+msgstr "Розуміння булевих функцій"
 
 #: ../../src/basics/bool_logic.txt:36
 msgid "The Boolean type has only two possible values:"
-msgstr "Логічний тип має лише два можливих значення:"
+msgstr "Тип Boolean має лише два можливих значення:"
 
 #: ../../src/basics/bool_logic.txt:38 ../../src/basics/bool_logic.txt:121
 #: ../../src/basics/bool_logic.txt:123 ../../src/basics/bool_logic.txt:149
@@ -101,7 +102,7 @@ msgstr "``False``"
 
 #: ../../src/basics/bool_logic.txt:41
 msgid "No other value will have ``bool`` as it type."
-msgstr "Жодне інше значення не матиме тип ``bool``."
+msgstr "Жодне інше значення не буде мати тип ``bool``."
 
 #: ../../src/basics/bool_logic.txt:50
 msgid ""
@@ -111,13 +112,13 @@ msgid ""
 "``bool``, however this is considered bad style."
 msgstr ""
 "Тип ``bool`` є **вбудованим**, тобто він завжди доступний у Python. ``True`` "
-"і ``False`` є ключовими словами в Python і не можуть використовуватися як "
-"імена змінних, але тип ``bool`` не є таким, і імені ``bool`` призначити інше "
-"значення, однак це вважається поганим стилем."
+"та ``False`` є ключовими словами у Python і не можуть використовуватися як "
+"імена змінних, але тип ``bool`` не є таким, і його можна присвоювати імені "
+"``bool``, однак це вважається поганим стилем."
 
 #: ../../src/basics/bool_logic.txt:56
 msgid "Boolean as numbers"
-msgstr "Boolean як число"
+msgstr "Булеві як числа"
 
 #: ../../src/basics/bool_logic.txt:58
 msgid ""
@@ -126,16 +127,15 @@ msgid ""
 "arithmetic operations to Boolean, and you can also compare them to numbers. "
 "``True`` value is treated to be 1, and ``False`` value is treated to be 0."
 msgstr ""
-"Логічні значення є підтипом **числового** типу в Python. Це означає, що вони "
-"є числами для всіх намірів і цілей. Іншими словами, ви можете застосовувати "
-"арифметичні операції до логічних значень, а також порівнювати їх із числами. "
-"Значення ``True`` розглядається як 1, а значення ``False`` розглядається як "
-"0."
+"Булеві вирази є підтипом **числового** типу у Python. Це означає, що вони є "
+"числами за всіма ознаками. Іншими словами, до булевих типів можна "
+"застосовувати арифметичні операції, а також порівнювати їх з числами. "
+"Значення ``Істина`` розглядається як 1, а значення ``Неправда`` "
+"розглядається як 0."
 
 #: ../../src/basics/bool_logic.txt:63
 msgid "There aren't many uses of the numerical nature of Boolean values."
-msgstr ""
-"Числовій природі логічних значень можна знайти не так багато застосунків."
+msgstr "Існує не так багато застосувань числової природи булевих значень."
 
 #: ../../src/basics/bool_logic.txt:66
 msgid "Truth value testing"
@@ -148,12 +148,12 @@ msgid ""
 "considered ``False``:"
 msgstr ""
 "Будь-який об'єкт можна перевірити на істинність. За замовчуванням об'єкт "
-"вважається ``True``, якщо його клас не визначає іншого. Ось більшість "
-"вбудованих об'єктів, які вважаються ``False``:"
+"вважається ``Істинним``, якщо його клас не визначає іншого значення. "
+"Більшість вбудованих об'єктів вважаються такими, що мають значення ``False``:"
 
 #: ../../src/basics/bool_logic.txt:72
 msgid "constant values: ``None`` and ``False``"
-msgstr "константи: ``None`` та ``False``"
+msgstr "константні значення: ``None`` та ``False``"
 
 #: ../../src/basics/bool_logic.txt:73
 msgid ""
@@ -176,16 +176,16 @@ msgid ""
 "If ``len(something)`` is equal to 0, than ``something`` is cast to ``bool`` "
 "as ``False``."
 msgstr ""
-"Якщо ``len(something)`` дорівнює 0, тоді ``something`` буде приведено до "
-"``bool`` як ``False``."
+"Якщо ``len(something)`` дорівнює 0, то ``something`` приводиться до ``bool`` "
+"як ``False``."
 
 #: ../../src/basics/bool_logic.txt:84
 msgid "Boolean comparison"
-msgstr "Логічне Порівняння"
+msgstr "Логічне порівняння"
 
 #: ../../src/basics/bool_logic.txt:88
 msgid "Python provides 3 logical operators:"
-msgstr "Python надає 3 логічних оператори:"
+msgstr "У мові Python передбачено 3 логічних оператори:"
 
 #: ../../src/basics/bool_logic.txt:94 ../../src/basics/bool_logic.txt:228
 msgid "Operator"
@@ -226,9 +226,9 @@ msgid ""
 "language, so you cannot use them as identifiers without causing a "
 "*SyntaxError*."
 msgstr ""
-"За допомогою цих операторів можна будувати вирази, поєднуючі логічні вирази "
-"один з одним. Ці оператори є **ключовими словами** мови, тому ви не можете "
-"використовувати їх як ідентифікатори, не викликаючи *SyntaxError*."
+"За допомогою цих операторів ви можете створювати вирази, з'єднуючи булеві "
+"вирази один з одним. Ці оператори є **ключовими словами** мови, тому ви не "
+"можете використовувати їх як ідентифікатори, не викликавши *SyntaxError*."
 
 #: ../../src/basics/bool_logic.txt:108
 msgid "Getting started with ``not`` operator"
@@ -241,11 +241,11 @@ msgid ""
 "**operand**. The operand can be a Boolean expression or any Python object. "
 "The task of ``not`` is to reverse the truth value of its operand."
 msgstr ""
-"Оператор ``not`` є логічним або логічним оператором, який реалізує "
-"заперечення в Python. Це **унарний**, що означає, що він приймає лише один "
-"**операнд**. Операндом може бути логічний вираз або будь-який об'єкт Python. "
-"Завдання ``not`` полягає в тому, щоб змінити значення істинності свого "
-"операнда."
+"Оператор ``not`` - це булевий або логічний оператор, який реалізує "
+"заперечення у Python. Він є **унарним**, що означає, що він приймає лише "
+"один **операнд**. Операндом може бути булевий вираз або будь-який об'єкт "
+"Python. Завдання ``not`` полягає в тому, щоб змінити значення істинності "
+"свого операнда на протилежне."
 
 #: ../../src/basics/bool_logic.txt:115
 msgid "not operator truth table"
@@ -261,23 +261,23 @@ msgstr "``not operand``"
 
 #: ../../src/basics/bool_logic.txt:126
 msgid "This functionality makes it worthwhile in several situations:"
-msgstr "Ця функція доцільна в кількох ситуаціях:"
+msgstr "Ця функціональність робить його корисним у кількох ситуаціях:"
 
 #: ../../src/basics/bool_logic.txt:129
 msgid ""
 "Checking **unmet conditions** in the context of ``if`` statements and "
 "``while`` loops"
 msgstr ""
-"Перевірка **невиконаних умов** у контексті операторів ``if`` і циклів "
+"Перевірка **невиконання умов** у контексті операторів ``if`` та циклів "
 "``while``"
 
 #: ../../src/basics/bool_logic.txt:131
 msgid "**Inverting the truth value** of an object or expression"
-msgstr "**Інвертування значення істинності** об'єкта чи виразу"
+msgstr "**Інвертування значення істинності** об'єкта або виразу"
 
 #: ../../src/basics/bool_logic.txt:132
 msgid "Checking if a **value is not in a given container**"
-msgstr "Перевірка того, що **значення не міститься в заданому контейнері**"
+msgstr "Перевірка, чи **значення не знаходиться у заданому контейнері**"
 
 #: ../../src/basics/bool_logic.txt:133
 msgid "Checking for an **object's identity**"
@@ -294,10 +294,10 @@ msgid ""
 "*conditions*. The result of the operator depends on the truth values of its "
 "operands. It'll be ``True`` if **both** are true."
 msgstr ""
-"Оператор Python ``and`` є **бінарним**, що означає, що він приймає два "
-"**операнди**. Операнди у виразі ``and`` зазвичай відомі як *умови*. "
-"Результат оператора залежить від істинних значень його операндів. Це буде "
-"``True``, якщо **обидва** є істинними."
+"Оператор ``and`` у мові Python є **двійковим**, що означає, що він приймає "
+"два **операнди**. Операнди у виразі ``і`` зазвичай називають *умовами*. "
+"Результат оператора залежить від значень істинності його операндів. "
+"Результат буде ``Істина``, якщо **обоє** є істинними."
 
 #: ../../src/basics/bool_logic.txt:143
 msgid "and operator truth table"
@@ -318,17 +318,17 @@ msgstr "``operand_1 and operand_2``"
 #: ../../src/basics/bool_logic.txt:158
 msgid ""
 "``and`` operator works not only with operands of Boolean type. It's behavior:"
-msgstr ""
-"Оператор ``and`` працює не тільки з операндами логічного типу. Його "
-"поведінка:"
+msgstr "``and`` працює не тільки з операндами булевого типу. Це поведінка:"
 
 #: ../../src/basics/bool_logic.txt:161
 msgid "evaluate 1st operand; return it, if it's ``False`` and finish"
-msgstr "обчислити 1-й операнд; повернути його, якщо він ``False`` та завершити"
+msgstr ""
+"обчислити 1-й операнд; повернути його, якщо він рівний ``False`` і завершити"
 
 #: ../../src/basics/bool_logic.txt:162
 msgid "evaluate 2nd operand; return it, if it's ``False`` and finish"
-msgstr "обчислити 2-й операнд; повернути його, якщо він ``False`` та завершити"
+msgstr ""
+"обчислити 2-й операнд; повернути його, якщо він рівний ``False`` і завершити"
 
 #: ../../src/basics/bool_logic.txt:163 ../../src/basics/bool_logic.txt:205
 msgid "return 2nd operand"
@@ -346,11 +346,11 @@ msgid ""
 "considered ``True``, and it doesn't matter which. If both subexpressions are "
 "``False``, then the expression is ``False``."
 msgstr ""
-"За допомогою логічного оператора ``or`` ви можете з'єднати два логічні "
-"вирази в один складений вираз. Це робить ``or`` **бінарним** оператором. "
-"Принаймні один підвираз має бути ``True``, щоб складений вираз вважався "
-"``True``, і не має значення який. Якщо обидва підвирази мають значення "
-"``False``, тоді вираз є ``False``."
+"За допомогою булевого оператора ``або`` ви можете об'єднати два булевих "
+"вирази в один складений вираз. Це робить ``або`` **бінарним** оператором. "
+"Принаймні один з підвиразів має бути ``True``, щоб складений вираз вважався "
+"``True``, і не має значення, який саме. Якщо обидва під-вирази мають "
+"значення ``False``, то вираз буде вважатися ``False``."
 
 #: ../../src/basics/bool_logic.txt:185
 msgid "or operator truth table"
@@ -363,16 +363,17 @@ msgstr "``operand_1 or operand_2``"
 #: ../../src/basics/bool_logic.txt:200
 msgid ""
 "``or`` operator works not only with operands of Boolean type. It's behavior:"
-msgstr ""
-"Оператор ``or`` працює не тільки з операндами логічного типу. Його поведінка:"
+msgstr "``or`` працює не тільки з операндами булевого типу. Це поведінка:"
 
 #: ../../src/basics/bool_logic.txt:203
 msgid "evaluate 1st operand; return it, if it's ``True`` and finish"
-msgstr "обчислити 1-й операнд; повернути його, якщо він ``True`` та завершити"
+msgstr ""
+"обчислити 1-й операнд; повернути його, якщо він рівний ``True`` і завершити"
 
 #: ../../src/basics/bool_logic.txt:204
 msgid "evaluate 2nd operand; return it, if it's ``True`` and finish"
-msgstr "обчислити 2-й операнд; повернути його, якщо він ``True`` та завершити"
+msgstr ""
+"обчислити 2-й операнд; повернути його, якщо він рівний ``True`` і завершити"
 
 #: ../../src/basics/bool_logic.txt:219
 msgid "Comparison"
@@ -383,8 +384,8 @@ msgid ""
 "There are eight comparison operations in Python. They all have the same "
 "priority (which is higher than that of the Boolean operations)."
 msgstr ""
-"У Python є вісім операцій порівняння. Усі вони мають однаковий пріоритет "
-"(вищий, ніж у логічних операцій)."
+"У мові Python існує вісім операцій порівняння. Всі вони мають однаковий "
+"пріоритет (вищий, ніж у булевих операцій)."
 
 #: ../../src/basics/bool_logic.txt:224
 msgid "Comparison operators"
@@ -400,7 +401,7 @@ msgstr "``<``"
 
 #: ../../src/basics/bool_logic.txt:230
 msgid "strictly less than"
-msgstr "строго менше ніж"
+msgstr "строго менше, ніж"
 
 #: ../../src/basics/bool_logic.txt:232
 msgid "``<=``"
@@ -416,7 +417,7 @@ msgstr "``>``"
 
 #: ../../src/basics/bool_logic.txt:234
 msgid "strictly greater than"
-msgstr "строго більше ніж"
+msgstr "строго більше, ніж"
 
 #: ../../src/basics/bool_logic.txt:236
 msgid "``>=``"
@@ -432,7 +433,7 @@ msgstr "``==``"
 
 #: ../../src/basics/bool_logic.txt:238
 msgid "equal (aka *equality* comparison)"
-msgstr "дорівнює (також відоме як порівняння *equality*)"
+msgstr "дорівнює (також відоме як *equality* порівняння)"
 
 #: ../../src/basics/bool_logic.txt:240
 msgid "``!=``"
@@ -448,7 +449,7 @@ msgstr "``is``"
 
 #: ../../src/basics/bool_logic.txt:242
 msgid "object identity"
-msgstr "ідентичність об'єкта"
+msgstr "ідентичність об'єктів"
 
 #: ../../src/basics/bool_logic.txt:244
 msgid "``is not``"
@@ -456,51 +457,51 @@ msgstr "``is not``"
 
 #: ../../src/basics/bool_logic.txt:244
 msgid "negated object identity"
-msgstr "заперечена ідентичність об'єкта"
+msgstr "заперечення ідентичності об'єкта"
 
 #: ../../src/basics/bool_logic.txt:247
 msgid ""
 "Each of these comparison operators return a Boolean value, it's always "
 "``True`` or ``False``."
 msgstr ""
-"Кожен із цих операторів порівняння повертає логічне значення, воно завжди "
-"``True`` або ``False``."
+"Кожен з цих операторів порівняння повертає булеве значення, завжди ``True`` "
+"або ``False``."
 
 #: ../../src/basics/bool_logic.txt:250
 msgid ""
 "You can chain comparison operators together: ``x < y < z`` is equal to ``x < "
 "y and y < z``."
 msgstr ""
-"Ви можете об'єднати оператори порівняння: ``x < y < z`` дорівнює ``x < y і y "
-"< z``."
+"Ви можете з'єднувати оператори порівняння ланцюжком: ``x < y < z`` дорівнює "
+"``x < y та y < z``."
 
 #: ../../src/basics/bool_logic.txt:254
 msgid "Equality vs Identity"
-msgstr "Рівність та Ідентичність"
+msgstr "Рівність vs Ідентичністі"
 
 #: ../../src/basics/bool_logic.txt:256
 msgid ""
 "It's easier to understand the difference between those by asking the "
 "question each answers to."
 msgstr ""
-"Легше зрозуміти різницю між ними, поставивши запитання, на яке кожен "
-"відповідає."
+"Зрозуміти різницю між ними простіше, задавши питання, на яке відповідає "
+"кожна з них."
 
 #: ../../src/basics/bool_logic.txt:259
 msgid "The question for ``==`` (*equality*) is:"
-msgstr "Питання для ``==`` (*equality*) таке:"
+msgstr "Питання для ``==`` (*рівності*) полягає у наступному:"
 
 #: ../../src/basics/bool_logic.txt:261
 msgid "Is object on the left **equal** to the object on the right"
-msgstr "Об'єкт ліворуч **дорівнює** об'єкту праворуч"
+msgstr "Чи є об'єкт зліва **рівним** об'єкту справа"
 
 #: ../../src/basics/bool_logic.txt:263
 msgid "The question for ``is`` (*identity*) is:"
-msgstr "Питання для ``is`` (*identity*) таке:"
+msgstr "Питання для ``is`` (*ідентичність*) полягає в наступному:"
 
 #: ../../src/basics/bool_logic.txt:265
 msgid "Is object on the left **the same** as the object on the right"
-msgstr "Об'єкт ліворуч **те саме**, що й об'єкт праворуч"
+msgstr "Чи є об'єкт ліворуч **таким самим**, як і об'єкт праворуч"
 
 #: ../../src/basics/bool_logic.txt:267
 msgid ""
@@ -509,14 +510,14 @@ msgid ""
 "But if you are shown two pictures of the same car, you understand that the "
 "cars on those pictures are the same object."
 msgstr ""
-"Наприклад, якщо перед вами дві машини однієї моделі, одного кольору і т. д. "
-"- ці машини рівні, але не ідентичні одна одній. Але якщо вам покажуть дві "
-"фотографії однієї машини, ви зрозумієте, що машини на цих фотографіях є "
-"одним і тим же об'єктом."
+"Наприклад, якщо перед вами стоять два автомобілі однієї моделі, одного "
+"кольору і т.д. - ці автомобілі рівні, але вони не ідентичні один одному. Але "
+"якщо вам показують дві фотографії однієї і тієї ж машини, ви розумієте, що "
+"машини на цих фотографіях - це один і той же об'єкт."
 
 #: ../../src/basics/controlflow.txt:-1
 msgid "Control flow in Python"
-msgstr "Контроль потоку в Python"
+msgstr "Керування виконанням в Python"
 
 #: ../../src/basics/controlflow.txt:-1
 msgid "python, basics, control, if, for, while, condition, loop"
@@ -524,7 +525,7 @@ msgstr "python, basics, control, if, for, while, condition, loop"
 
 #: ../../src/basics/controlflow.txt:8
 msgid "Control Flow"
-msgstr "Керування виконанням"
+msgstr "Керування Виконанням"
 
 #: ../../src/basics/controlflow.txt:11
 msgid "``if`` statement"
@@ -533,16 +534,15 @@ msgstr "Вираз ``if``"
 #: ../../src/basics/controlflow.txt:13
 msgid ""
 "Perhaps the most well-known statement type is ``if`` statement. For example:"
-msgstr "Мабуть, найвідомішим типом оператора є оператор ``if``. Наприклад:"
+msgstr "Мабуть, найвідомішим типом операторів є оператор ``if``. Наприклад:"
 
 #: ../../src/basics/controlflow.txt:15
 msgid "if statement base example"
-msgstr "базовий приклад оператора if"
+msgstr "базовий приклад інструкції if"
 
 #: ../../src/basics/controlflow.txt:29
 msgid "But let's dive into ``if`` statement with more simple examples."
-msgstr ""
-"Але давайте зануримося в інструкцію ``if`` з більш простими прикладами."
+msgstr "Але давайте зануримося в оператор ``if`` на більш простих прикладах."
 
 #: ../../src/basics/controlflow.txt:32
 msgid "How it works"
@@ -556,18 +556,18 @@ msgid ""
 "indented at the same distance from the left (in Python we use 4 spaces to "
 "indent a single block of code)."
 msgstr ""
-"Оператор **if** визначається ключовим словом ``if``, за яким слідує логічний "
-"вираз або будь-який об'єкт і завершується двокрапкою. Оператор потребує "
-"*тіло*: інші оператори для виконання, які також називають блоком *if*. Тіло "
-"має відступ на однаковій відстані зліва (у Python ми використовуємо 4 "
-"пробіли для відступу одного блоку коду)."
+"Оператор **if** визначається ключовим словом ``if``, за яким слідує булевий "
+"вираз або будь-який об'єкт і завершується двокрапкою. Оператор вимагає "
+"наявності *тіла*: інших операторів для виконання, яке також називається "
+"*блоком if*. Тіло відступається на однакову відстань зліва (у Python ми "
+"використовуємо 4 пробіли для відступу одного блоку коду)."
 
 #: ../../src/basics/controlflow.txt:40
 msgid ""
 "The body's statements will be executed only in case **if** expression is "
 "``True``."
 msgstr ""
-"Оператори тіла виконуватимуться лише у випадку, якщо вираз **if** має "
+"Оператори тіла будуть виконані тільки у випадку, якщо вираз **if** має "
 "значення ``True``."
 
 #: ../../src/basics/controlflow.txt:53
@@ -580,7 +580,7 @@ msgstr ""
 
 #: ../../src/basics/controlflow.txt:57
 msgid "``else`` block"
-msgstr "Блок ``else``"
+msgstr "блок ``else`` (\"інакше\")"
 
 #: ../../src/basics/controlflow.txt:59
 msgid ""
@@ -590,19 +590,19 @@ msgid ""
 "block of code will be executed only that the ``if`` statement truth check "
 "fails."
 msgstr ""
-"``if`` може використовуватися самостійно, він може розширити свою поведінку "
-"за допомогою блоку ``else``. Загальний синтаксис для тіла ``else`` той "
-"самий: принаймні один оператор із відступом. Але ``else`` не приймає жодного "
-"виразу після нього. Цей блок коду буде виконано лише тоді, коли перевірка "
-"істинності оператора ``if`` буде невдалою."
+"Якщо ``if`` можна використовувати самостійно, він може розширити свою "
+"поведінку за допомогою блоку ``else``. Загальний синтаксис тіла ``else`` "
+"такий самий: принаймні один оператор з відступом. Але ``else`` не приймає "
+"ніяких виразів після себе. Цей блок коду буде виконано тільки в тому "
+"випадку, якщо перевірка істинності інструкції ``if`` завершиться невдачею."
 
 #: ../../src/basics/controlflow.txt:76
 msgid ""
 "You can attach **only one** else block to **if statement**. And you cannot "
 "use ``else`` statement on its own - this will cause *SyntaxError*."
 msgstr ""
-"Ви можете приєднати **лише один** блок else до **інструкції if**. І ви не "
-"можете використовувати оператор ``else`` сам по собі - це спричинить "
+"Ви можете приєднати **тільки один** блок else до **інструкції if**. І ви не "
+"можете використовувати інструкцію ``else`` самостійно - це призведе до "
 "*SyntaxError*."
 
 #: ../../src/basics/controlflow.txt:80
@@ -618,19 +618,20 @@ msgid ""
 "statement. Each ``elif`` has its own boolean expression or an object to test "
 "for the truth value."
 msgstr ""
-"Оператор ``elif`` (*else if*) можна розглядати як напівоператор між ``if`` "
-"та ``else``. Якщо у вашій програмі є більше двох виділених варіантів, ви "
-"можете розширити потік керування, додавши блоки ``elif`` після оператора "
-"``if``. Синтаксис дуже схожий на оператор if. Кожен ``elif`` має свій "
-"власний логічний вираз або об'єкт для перевірки значення істинності."
+"Оператор ``elif`` (*else if*) можна розглядати як напівоператор між "
+"операторами ``if`` та ``else``. Якщо у вашій програмі є більше двох "
+"виділених варіантів, ви можете розширити потік керування, додавши блоки "
+"``elif`` після оператора ``if``. Синтаксис цих блоків дуже схожий на "
+"синтаксис оператора ``if``. Кожен ``elif`` має власний логічний вираз або "
+"об'єкт для перевірки значення істинності."
 
 #: ../../src/basics/controlflow.txt:89
 msgid ""
 "You can attach as many ``elif`` statements as it needed. But you cannot use "
 "``elif`` without ``if`` statement."
 msgstr ""
-"Ви можете додати скільки завгодно операторів ``elif``. Але ви не можете "
-"використовувати ``elif`` без оператора ``if``."
+"Ви можете приєднати стільки інструкцій ``elif``, скільки потрібно. Але ви не "
+"можете використовувати ``elif`` без інструкції ``if``."
 
 #: ../../src/basics/controlflow.txt:92
 msgid ""
@@ -638,22 +639,23 @@ msgid ""
 "bottom. The first one, which considered to be ``True`` will be executed. All "
 "others will be skipped."
 msgstr ""
-"Python перевірить умови в операторах ``if`` та ``elif`` зверху вниз. Буде "
-"виконано перший, який вважається ``True``. Усі інші будуть проігноровано."
+"Python перевірить умови в операторах ``if`` і ``elif`` зверху вниз. Буде "
+"виконано першу з них, яка вважається ``True``. Всі інші будуть пропущені."
 
 #: ../../src/basics/controlflow.txt:96
 msgid ""
 "If there were no truth conditions ``else`` block will be executed (if "
 "exists)."
-msgstr "Якщо не було істиних умов, буде виконано блок ``else`` (якщо існує)."
+msgstr ""
+"Якщо умов істинності не було, буде виконано блок ``інакше`` (якщо він існує)."
 
 #: ../../src/basics/controlflow.txt:112
 msgid ""
 "The order conditions appears matter. The truth test goes from top to bottom "
 "and stops at first expression which is ``True``."
 msgstr ""
-"Порядок у якому визначено умови має значення. Перевірка істинності йде "
-"зверху вниз і зупиняється на першому виразі, який є ``True``."
+"Порядок виведення умов має значення. Перевірка на істинність йде зверху вниз "
+"і зупиняється на першому виразі, який є ``True``."
 
 #: ../../src/basics/controlflow.txt:117
 msgid "Usage"
@@ -665,7 +667,7 @@ msgid ""
 "is executed based on conditions from outer scope."
 msgstr ""
 "Оператори ``if/elif/else`` допомагають вам контролювати, яка частина вашого "
-"коду виконується на основі умов ззовні."
+"коду виконується на основі умов із зовнішньої області видимості."
 
 #: ../../src/basics/decorators.txt:-1
 msgid "Python decorators"
@@ -684,12 +686,12 @@ msgid ""
 "Decorators provide a simple syntax for calling higher-order functions :cite:"
 "`realpython:decorators`."
 msgstr ""
-"Декоратори забезпечують простий синтаксис для виклику функцій вищого "
-"порядку :cite:`realpython:decorators`."
+"Декоратори надають простий синтаксис для виклику функцій вищого порядку :"
+"cite:`realpython:decorators`."
 
 #: ../../src/basics/decorators.txt:18
 msgid "There is some kind of misunderstanding in definitions."
-msgstr "Є деяке непорозуміння у визначеннях."
+msgstr "Існує певне непорозуміння у визначеннях."
 
 #: ../../src/basics/decorators.txt:20
 msgid ""
@@ -697,7 +699,7 @@ msgid ""
 "function transformation using the ``@wrapper`` syntax :cite:`docs-python:"
 "term-decorator`."
 msgstr ""
-"**Декоратор** — це функція, яка повертає іншу функцію, зазвичай "
+"**Декоратор** - це функція, що повертає іншу функцію, зазвичай "
 "застосовується як перетворення функції за допомогою синтаксису ``@wrapper`` :"
 "cite:`docs-python:term-decorator`."
 
@@ -705,7 +707,7 @@ msgstr ""
 msgid ""
 "However, that's no quit enough to describe it. The more complete definition "
 "is:"
-msgstr "Однак цього недостатньо, щоб описати це. Більш повне визначення таке:"
+msgstr "Однак цього недостатньо, щоб описати його. Більш повне визначення:"
 
 #: ../../src/basics/decorators.txt:27
 msgid ""
@@ -713,17 +715,16 @@ msgid ""
 "behaviors to objects by placing these objects inside special wrapper objects "
 "that contain the behaviors :cite:`refactoring.guru:decorator`."
 msgstr ""
-"**Декоратор** — це структурний шаблон проектування, який дає змогу додавати "
-"нову поведінку до об'єктів, розміщуючи ці об'єкти всередині спеціальних "
-"об'єктів-огорток, які містять поведінку :cite:`refactoring.guru:decorator`."
+"**Декоратор** -- це патерн структурного дизайну, який дозволяє додавати нові "
+"поведінки до об'єктів, розміщуючи ці об'єкти всередині спеціальних обгорток, "
+"які містять поведінку :cite:`refactoring.guru:decorator`."
 
 #: ../../src/basics/decorators.txt:31
 msgid ""
 "Before you understand decorators, you must first understand how functions "
 "work."
 msgstr ""
-"Перш ніж зрозуміти декораторів, ви повинні спочатку зрозуміти, як працюють "
-"функції."
+"Перш ніж розбиратися в декораторах, потрібно зрозуміти, як працюють функції."
 
 #: ../../src/basics/decorators.txt:35
 msgid "First-class objects"
@@ -763,11 +764,10 @@ msgid ""
 "cause ``NameError`` exception."
 msgstr ""
 "Порядок визначення внутрішніх функцій не має значення. Визначення функції не "
-"виконує тіло функції; це виконується лише під час виклику функції. Крім "
-"того, внутрішні функції не визначені, доки не буде викликана батьківська "
-"функція. Вони локально прив'язані до свого батьківського елемента. Спроба "
-"викликати функцію ``heapify`` поза межами ``heap_sort`` спричинить виняток "
-"``NameError``."
+"виконує тіло функції; воно виконується лише під час виклику функції. Крім "
+"того, внутрішні функції не визначаються до виклику батьківської функції. "
+"Вони локально масштабуються до свого батька. Спроба викликати функцію "
+"``heapify`` поза ``heap_sort`` призведе до виключення ``NameError``."
 
 #: ../../src/basics/decorators.txt:68
 msgid "Functions are objects"
@@ -778,8 +778,8 @@ msgid ""
 "This means functions can be passed around and used as arguments, just like "
 "any other object (e.g. *int*, *str* etc.)."
 msgstr ""
-"Це означає, що функції можна передавати й використовувати як аргументи, як і "
-"будь-який інший об'єкт (наприклад, *int*, *str* тощо)."
+"Це означає, що функції можна передавати і використовувати як аргументи так "
+"само, як і будь-які інші об'єкти (наприклад, *int*, *str* тощо)."
 
 #: ../../src/basics/decorators.txt:95
 msgid "Returning functions"
@@ -790,12 +790,12 @@ msgid ""
 "Since function can be passed as an argument, it may be returned from another "
 "function."
 msgstr ""
-"Оскільки функцію можна передати як аргумент, її можна повернути з іншої "
-"функції."
+"Оскільки функція може бути передана як аргумент, вона може бути повернута з "
+"іншої функції."
 
 #: ../../src/basics/decorators.txt:120
 msgid "``parent`` returns functions themselves, there are no parentheses."
-msgstr "``parent`` повертає самі функції, тут нема дужок."
+msgstr "``parent`` повертає самі функції, дужок немає."
 
 #: ../../src/basics/decorators.txt:122
 msgid ""
@@ -803,9 +803,9 @@ msgid ""
 "function from the inner ``parent`` scope. From now it can be used to call "
 "the target function it refers."
 msgstr ""
-"Після виконання наведеного вище фрагмента коду ``first`` посилається на "
-"функцію ``first_child`` із внутрішньої області ``parent``. Відтепер його "
-"можна використовувати для виклику цільової функції, на яку він посилається."
+"Після виконання наведеного вище фрагмента коду, ``first`` звертається до "
+"функції ``first_child`` з внутрішньої області видимості ``parent``. Тепер її "
+"можна використовувати для виклику цільової функції, на яку вона посилається."
 
 #: ../../src/basics/decorators.txt:134
 msgid "Simple decorators"
@@ -816,7 +816,7 @@ msgid ""
 "Now you're ready to move on and see the magical beast that is the Python "
 "decorators. Let's start with a simple example:"
 msgstr ""
-"Тепер ви готові рухатися далі та побачити чарівного звіра, яким є декоратори "
+"Тепер ви готові рухатися далі і побачити чарівного звіра, яким є декоратори "
 "Python. Почнемо з простого прикладу:"
 
 #: ../../src/basics/decorators.txt:154
@@ -828,8 +828,8 @@ msgid ""
 "The common way to use decorators is to replace the original function with a "
 "decorated one:"
 msgstr ""
-"Поширеним способом використання декораторів є заміна оригінальної функції на "
-"декоровану:"
+"Найпоширеніший спосіб використання декораторів - це заміна оригінальної "
+"функції на декоровану:"
 
 #: ../../src/basics/decorators.txt:176
 msgid ""
@@ -838,26 +838,26 @@ msgid ""
 "There is a syntactic sugar to do this, called *pie-syntax*. The following "
 "example does exact the same things as the first decorator example:"
 msgstr ""
-"Функція ``say_hello`` є посиланням на ``decorator.<locals>.wrapper``, який "
-"сам прив'язаний до оригінальної функції ``say_hello``. Для цього існує "
-"синтаксичний цукор, який називається *pie-syntax*. Наступний приклад виконує "
-"ті самі речі, що й перший приклад декоратора:"
+"Функція ``say_hello`` є посиланням на ``decorator.<locals>.wrapper``, яка "
+"сама зв'язана з оригінальною функцією ``say_hello``. Для цього існує "
+"синтаксичний цукор, який називається *pie-синтаксис*. Наступний приклад "
+"робить те саме, що і перший приклад декоратора:"
 
 #: ../../src/basics/decorators.txt:198
 msgid ""
 "There is no way to *undecorate* object in Python. Once something is bound to "
 "the decorator's wrapper - it is decorated forever."
 msgstr ""
-"У Python немає способу *скасувати* об'єкт. Одного разу щось прив'язане до "
-"обгортки декоратора - воно прикрашене назавжди."
+"У Python не існує способу *віддекорувати* об'єкт. Як тільки щось прив'язано "
+"до обгортки декоратора - воно прикрашене назавжди."
 
 #: ../../src/basics/decorators.txt:201
 msgid ""
 "A decorated function still remains a **function**. So, it can be decorated "
 "once more time again, and again, and again..."
 msgstr ""
-"Декорована функція все ще залишається **функцією**. Отже, його можна "
-"прикрашати ще раз, і ще, і ще..."
+"Прикрашена функція все одно залишається **функцією**. Отже, її можна "
+"прикрасити ще раз, і ще раз, і ще раз, і ще раз..."
 
 #: ../../src/basics/decorators.txt:253
 msgid ""
@@ -868,16 +868,16 @@ msgid ""
 "the wrapper may alter the result by doing something either before or after "
 "it passes the request to the target."
 msgstr ""
-"\"Обгортка\" — альтернативне прізвисько візерунка \"Декоратор\", яке чітко "
-"виражає основну ідею візерунка. Обгортка — це об'єкт, який можна зв'язати з "
+"\"Обгортка\" - це альтернативна назва шаблону \"Декоратор\", яка чітко "
+"виражає основну ідею шаблону. Обгортка - це об'єкт, який можна зв'язати з "
 "деяким цільовим об'єктом. Обгортка містить той самий набір методів, що й "
-"мета, і делегує їй усі отримані запити. Однак обгортка може змінити "
-"результат, зробивши щось до або після того, як вона передає запит цільовому "
-"об'єкту."
+"цільовий об'єкт, і делегує йому всі запити, які він отримує. Однак обгортка "
+"може змінити результат, виконавши щось до або після передачі запиту "
+"цільовому об'єкту."
 
 #: ../../src/basics/decorators.txt:261
 msgid "Passing arguments to the wrapper"
-msgstr "Передача аргументів до wrapper"
+msgstr "Передача аргументів в обгортку"
 
 #: ../../src/basics/decorators.txt:263
 msgid ""
@@ -886,22 +886,22 @@ msgid ""
 "tell that \"arguments are missed\". This can be fixed with just passing "
 "arguments to the ``wrapper`` inner function."
 msgstr ""
-"Досі приклади використовують *прості* декоратори. Але що, якщо декорована "
-"функція отримує деякі аргументи? Це спричинить виняток ``TypeError``, який "
-"повідомляє, що \"аргументи пропущено\". Це можна виправити, просто передавши "
-"аргументи внутрішній функції ``wrapper``."
+"Досі у прикладах використовувались *прості* декоратори. Але що, якщо "
+"декорована функція отримає якісь аргументи? Це викличе виключення "
+"``TypeError``, яке скаже, що \"аргументи пропущено\". Це можна виправити, "
+"просто передавши аргументи у внутрішню функцію ``обгортки``."
 
 #: ../../src/basics/decorators.txt:289
 msgid ""
 "If case you're trying to make a generic decorator, you may pass ``*args`` "
 "and ``**kwargs`` instead of exact arguments:"
 msgstr ""
-"Якщо ви намагаєтеся створити загальний декоратор, ви можете передати "
+"Якщо ви намагаєтеся створити узагальнений декоратор, ви можете передати "
 "``*args`` і ``**kwargs`` замість точних аргументів:"
 
 #: ../../src/basics/decorators.txt:308
 msgid "Passing arguments to decorator"
-msgstr "Передача аргументів декоратору"
+msgstr "Передача аргументів до декоратора"
 
 #: ../../src/basics/decorators.txt:310
 msgid ""
@@ -909,9 +909,9 @@ msgid ""
 "simple implementation of ``defer`` decorator which deferred the function "
 "execution for some time:"
 msgstr ""
-"Нарешті настав час знати, як передавати аргументи декоратору. Ось проста "
-"реалізація декоратора ``defer``, яка відкладає виконання функції на деякий "
-"час:"
+"Нарешті прийшов час дізнатися, як передавати аргументи декоратору. Ось "
+"проста реалізація декоратора ``defer``, який відкладає виконання функції на "
+"деякий час:"
 
 #: ../../src/basics/decorators.txt:353
 msgid "Class decorators"
@@ -922,8 +922,8 @@ msgid ""
 "There are some pre-defined decorators exists for usage together with "
 "classes. They are:"
 msgstr ""
-"Існують деякі попередньо визначені декоратори для використання разом із "
-"класами. Це:"
+"Існує декілька попередньо визначених декораторів для використання разом з "
+"класами. Ось вони:"
 
 #: ../../src/basics/decorators.txt:358
 msgid "``classmethod``"
@@ -944,9 +944,9 @@ msgid ""
 "clearly and will be easier to maintain in the long run :cite:`realpython:"
 "methods-demystified`."
 msgstr ""
-"Якщо ви розвинете інтуїтивне розуміння їхніх відмінностей, ви зможете "
-"написати об'єктно-орієнтований Python, який чіткіше передає свої наміри та "
-"який буде легше підтримувати в довгостроковій перспективі :cite:`realpython:"
+"Якщо ви розвинете інтуїтивне розуміння їх відмінностей, ви зможете писати "
+"об'єктно-орієнтований Python, який більш чітко передає свої наміри і який "
+"буде легше підтримувати в довгостроковій перспективі :cite:`realpython:"
 "methods-demystified`."
 
 #: ../../src/basics/decorators.txt:368
@@ -959,9 +959,9 @@ msgid ""
 "parameter that points to the class — and not the object instance — when the "
 "method is called."
 msgstr ""
-"Замість того, щоб приймати параметр self, під час виклику методу методи "
-"класу приймають параметр ``cls``, який вказує на клас, а не на екземпляр "
-"класу."
+"Замість того, щоб приймати параметр ``self``, методи класу приймають "
+"параметр ``cls``, який вказує на клас - а не на екземпляр об'єкта - під час "
+"виклику методу."
 
 #: ../../src/basics/decorators.txt:374
 msgid ""
@@ -971,15 +971,15 @@ msgid ""
 "instances of the class."
 msgstr ""
 "Оскільки метод класу має доступ лише до цього аргументу ``cls``, він не може "
-"змінити стан екземпляра об'єкта. Це потребує доступу до ``self``. Однак "
-"методи класу все ще можуть змінювати стан класу, який застосовується до всіх "
-"екземплярів класу."
+"змінювати стан екземпляра об'єкта. Для цього потрібен доступ до ``self``. "
+"Однак, методи класу все ще можуть змінювати стан класу, який застосовується "
+"до всіх екземплярів класу."
 
 #: ../../src/basics/decorators.txt:379
 msgid ""
 "The common usage for ``classmethod`` is provide alternative initializers."
 msgstr ""
-"Загальним використанням ``методи класу`` є надання альтернативних "
+"Загальноприйнятим використанням ``classmethod`` є надання альтернативних "
 "ініціалізаторів."
 
 #: ../../src/basics/decorators.txt:382
@@ -991,8 +991,8 @@ msgid ""
 "This type of method takes neither a ``self`` nor a ``cls`` parameter (but of "
 "course it's free to accept an arbitrary number of other parameters)."
 msgstr ""
-"Цей тип методу не приймає ані ``self``, ані ``cls`` параметр (але, звичайно, "
-"він може приймати будь-яку кількість інших параметрів)."
+"Цей тип методів не приймає ні параметра ``self``, ні параметра ``cls`` (але, "
+"звичайно, він може приймати довільну кількість інших параметрів)."
 
 #: ../../src/basics/decorators.txt:387
 msgid ""
@@ -1000,9 +1000,9 @@ msgid ""
 "Static methods are restricted in what data they can access - and they're "
 "primarily a way to namespace your methods."
 msgstr ""
-"Тому статичний метод не може змінити ні стан об'єкта, ні стан класу. "
-"Статичні методи обмежені в тому, до яких даних вони можуть отримати доступ, "
-"і вони, перш за все, є способом простору імен ваших методів."
+"Тому статичний метод не може змінювати стан об'єкта або класу. Статичні "
+"методи обмежені в доступі до даних, до яких вони можуть отримати доступ - і "
+"це, насамперед, спосіб організації простору імен ваших методів."
 
 #: ../../src/basics/decorators.txt:391
 msgid ""
@@ -1011,10 +1011,10 @@ msgid ""
 "bind some logic independent from class itself or its instances to a class - "
 "it common to encapsulate it with ``staticmethod``."
 msgstr ""
-"Важко пояснити використання ``staticmethod``. Майже завжди ви можете "
-"створити спеціальну функцію замість статичного методу. Але іноді вам "
-"потрібно прив'язати до класу певну логіку, незалежну від самого класу або "
-"його екземплярів – зазвичай інкапсулювати її за допомогою ``staticmethod``."
+"Пояснити використання ``staticmethod`` досить складно. Майже завжди замість "
+"статичного методу можна створити спеціальну функцію. Але іноді вам потрібно "
+"прив'язати до класу деяку логіку, незалежну від самого класу або його "
+"екземплярів, і тоді прийнято інкапсулювати її за допомогою ``staticmethod``."
 
 #: ../../src/basics/decorators.txt:397
 msgid "Properties"
@@ -1026,9 +1026,9 @@ msgid ""
 "are **read-only** by default. This means a value cannot be assigned to "
 "``property member``."
 msgstr ""
-"Це спосіб прив'язати назву методу для доступу до нього як до атрибута. За "
-"замовчуванням властивості доступні **лише для читання**. Це означає, що "
-"значення не можна призначити ``члену властивості``."
+"Це спосіб зв'язати ім'я методу для доступу до нього як до атрибуту. За "
+"замовчуванням властивості доступні лише для читання. Це означає, що члену "
+"властивості не можна присвоїти значення."
 
 #: ../../src/basics/decorators.txt:404
 msgid "Some examples"
@@ -1044,15 +1044,15 @@ msgstr "python, exceptions, handling, try, except, finally"
 
 #: ../../src/basics/exceptions.txt:11
 msgid "Errors and Exceptions"
-msgstr "Помилки та винятки"
+msgstr "Помилки та Bинятки"
 
 #: ../../src/basics/exceptions.txt:13
 msgid ""
 "There are (at least) two distinguishable kinds of errors: *syntax errors* "
 "and *exceptions* :cite:`docs-python:errors`."
 msgstr ""
-"Існує (принаймні) два типи помилок: *синтаксичні помилки* та *виключення* :"
-"cite:`docs-python:errors`."
+"Існує (принаймні) два типи помилок, які можна розрізнити: *синтаксичні "
+"помилки* та *винятки* :cite:`docs-python:errors`."
 
 #: ../../src/basics/exceptions.txt:17
 msgid "Syntax errors"
@@ -1060,7 +1060,7 @@ msgstr "Синтаксичні помилки"
 
 #: ../../src/basics/exceptions.txt:19
 msgid "Syntax errors are also known as parsing errors."
-msgstr "Синтаксичні помилки також відомі як помилки Python парсера."
+msgstr "Синтаксичні помилки також відомі як помилки синтаксичного аналізу."
 
 #: ../../src/basics/exceptions.txt:29
 msgid ""
@@ -1068,9 +1068,10 @@ msgid ""
 "pointing at the earliest point in the line where the error was detected. The "
 "error is caused by (or at least detected at) the token preceding the arrow."
 msgstr ""
-"Синтаксичний аналізатор повторює неправильний рядок і відображає маленьку "
-"\"стрілку\", яка вказує на найперший символ рядка, де було виявлено помилку. "
-"Помилка спричинена (або принаймні виявлена) символом(а) перед стрілкою."
+"Синтаксичний аналізатор повторює помилковий рядок і показує маленьку "
+"\"стрілку\", яка вказує на найпершу точку в рядку, де було виявлено помилку. "
+"Помилка спричинена (або принаймні виявлена) лексемою, що стоїть перед "
+"стрілкою."
 
 #: ../../src/basics/exceptions.txt:34
 msgid "Exceptions"
@@ -1083,17 +1084,17 @@ msgid ""
 "execution are called exceptions and are not unconditionally fatal: you will "
 "soon learn how to handle them in Python programs."
 msgstr ""
-"Навіть якщо оператор або вираз синтаксично правильний, це може спричинити "
+"Навіть якщо оператор або вираз є синтаксично правильним, він може спричинити "
 "помилку під час спроби його виконання. Помилки, виявлені під час виконання, "
-"називаються винятками і не є фатальними: незабаром ви дізнаєтеся, як їх "
-"обробляти в програмах на Python."
+"називаються винятками і не є безумовно фатальними: незабаром ви дізнаєтеся, "
+"як поводитися з ними у програмах на Python."
 
 #: ../../src/basics/exceptions.txt:41
 msgid ""
 "Exceptions come in different types, and the type is printed as part of the "
 "message."
 msgstr ""
-"Винятки бувають різних типів, і тип друкується як частина повідомлення."
+"Винятки бувають різних типів, і тип виводиться як частина повідомлення."
 
 #: ../../src/basics/exceptions.txt:44
 msgid "For example, the ``div`` function implemented as"
@@ -1104,15 +1105,15 @@ msgid ""
 "may cause a ``ZeroDivisionError`` exception in case 0 is passed as ``y`` "
 "parameter."
 msgstr ""
-"може викликати виняток ``ZeroDivisionError``, якщо 0 передається як параметр "
-"``y``."
+"може спричинити виключення ``ZeroDivisionError`` у випадку, якщо як параметр "
+"``y`` передано 0."
 
 #: ../../src/basics/exceptions.txt:56
 msgid ""
 "Standard exception names are built-in identifiers (not reserved keywords)."
 msgstr ""
-"Стандартні назви винятків є вбудованими ідентифікаторами (а не "
-"зарезервованими ключовими словами)."
+"Стандартні імена винятків є вбудованими ідентифікаторами (не зарезервованими "
+"ключовими словами)."
 
 #: ../../src/basics/exceptions.txt:58
 msgid "The list of `built-in exceptions`_"
@@ -1120,11 +1121,11 @@ msgstr "Список `вбудованих винятків`_"
 
 #: ../../src/basics/exceptions.txt:61
 msgid "Tracebacks"
-msgstr "Відстеження"
+msgstr "Відслідковування"
 
 #: ../../src/basics/exceptions.txt:63
 msgid "\"File\" is replaced with a *dummy string* within the examples."
-msgstr "У наведених прикладах \"Файл\" замінено на *фіктивний рядок*."
+msgstr "У прикладах слово \"файл\" замінено на *фіктивний рядок*."
 
 #: ../../src/basics/exceptions.txt:65
 msgid "Let's assume the following modules structure:"
@@ -1136,57 +1137,55 @@ msgid ""
 "**func** module. The code in main is implemented as follows:"
 msgstr ""
 "Модуль **main** імпортує функцію ``div``, реалізовану вище, з модуля "
-"**func**. Основний код реалізовано наступним чином:"
+"**func**. Код в main реалізовано наступним чином:"
 
 #: ../../src/basics/exceptions.txt:85
 msgid ""
 "While running the code with correct inputs it will work fine. But there are "
 "at two exceptions for this script."
 msgstr ""
-"Під час виконання коду з правильними введеннями він працюватиме нормально. "
-"Але для цього сценарію є два винятки."
+"При виконанні коду з коректними вхідними даними він буде працювати "
+"нормально. Але для цього скрипта є два винятки."
 
 #: ../../src/basics/exceptions.txt:88
 msgid ""
 "The first one is related on type conversion. While running the main script "
 "there is case of invalid input."
 msgstr ""
-"Перший пов'язаний з перетворенням типів. Під час виконання основного "
-"сценарію є випадок неправильного введення."
+"Перша пов'язана з перетворенням типів. Під час запуску основного скрипту "
+"виникає випадок некоректного введення."
 
 #: ../../src/basics/exceptions.txt:100
 msgid ""
 "Note the **traceback** indicates the module and the exact line of code that "
 "causes the exception."
 msgstr ""
-"Зауважте, що **traceback** вказує на модуль і точний рядок коду, який "
-"викликає виняток."
+"Зверніть увагу, що **traceback** вказує на модуль і точний рядок коду, який "
+"викликає виключення."
 
 #: ../../src/basics/exceptions.txt:103
 msgid ""
 "The second one exception occurs when a 0 is passed as the second parameter "
 "to ``div`` function. The traceback would look like:"
 msgstr ""
-"Другий виняток виникає, коли 0 передається як другий параметр функції "
-"``div``. Трасування виглядатиме так:"
+"Другий виняток виникає, коли в якості другого параметра у функцію ``div`` "
+"передається 0. Трасування буде мати вигляд:"
 
 #: ../../src/basics/exceptions.txt:117
 msgid ""
 "The traceback indicates all calls (top to bottom) that cause an exception."
-msgstr ""
-"Зворотне відстеження вказує на всі виклики (зверху вниз), які викликають "
-"виняток."
+msgstr "Трасування показує всі виклики (зверху вниз), які викликають виняток."
 
 #: ../../src/basics/exceptions.txt:120 ../../src/basics/syntax.txt
 msgid "Exception handling"
-msgstr "Обробка винятків"
+msgstr "Обробка виняткових ситуацій"
 
 #: ../../src/basics/exceptions.txt:122
 msgid ""
 "It is possible to write programs that handle selected exceptions. The "
 "``try`` statement is used to do that."
 msgstr ""
-"Можна писати програми, які оброблятимуть вибрані винятки. Для цього "
+"Можна писати програми, які обробляють вибрані виключення. Для цього "
 "використовується інструкція ``try``."
 
 #: ../../src/basics/exceptions.txt:125
@@ -1198,7 +1197,7 @@ msgid ""
 "First, the try clause (the statement(s) between the try and except keywords) "
 "is executed."
 msgstr ""
-"Спочатку виконується речення try (вираз(и) між ключовими словами try і "
+"Спочатку виконується блок try (оператор(и) між ключовими словами try та "
 "except)."
 
 #: ../../src/basics/exceptions.txt:129
@@ -1206,8 +1205,8 @@ msgid ""
 "If no exception occurs, the except clause is skipped and execution of the "
 "try statement is finished."
 msgstr ""
-"Якщо винятків не відбувається, пропозиція винятку пропускається, і виконання "
-"оператора try завершується."
+"Якщо виключення не виникає, то блок except пропускається і виконання try "
+"завершується."
 
 #: ../../src/basics/exceptions.txt:131
 msgid ""
@@ -1216,10 +1215,10 @@ msgid ""
 "except keyword, the except clause is executed, and then execution continues "
 "after the try/except block."
 msgstr ""
-"Якщо під час виконання try виникає виняток, решта пропозиції пропускається. "
-"Потім, якщо його тип збігається з винятком, названим за ключовим словом "
-"osim, виконується пропозиція, а потім виконання продовжується після блоку "
-"try/except."
+"Якщо під час виконання оператора try виникає виняток, решта оператора "
+"пропускається. Потім, якщо тип виключення збігається з типом виключення, "
+"названим ключовим словом except, виконується умова except, а потім виконання "
+"продовжується після блоку try/except."
 
 #: ../../src/basics/exceptions.txt:135
 msgid ""
@@ -1228,26 +1227,26 @@ msgid ""
 "found, it is an unhandled exception and execution stops with a message as "
 "shown above."
 msgstr ""
-"Якщо виникає виняток, який не збігається з винятком, названим у реченні "
-"винятку, він передається зовнішнім операторам try; якщо обробник не "
-"знайдено, це необроблена виняткова ситуація, і виконання зупиняється з "
-"повідомленням, як показано вище."
+"Якщо виникає виняток, який не збігається з виключенням, названим в операторі "
+"except, він передається зовнішнім операторам try; якщо оброблювач не "
+"знайдено, це необроблений виняток, і виконання зупиняється з повідомленням, "
+"як показано вище."
 
 #: ../../src/basics/exceptions.txt:152
 msgid ""
 "A try statement may have more than one except clause, to specify handlers "
 "for different exceptions."
 msgstr ""
-"Інструкція try може мати більше однієї пропозиції, щоб вказати обробники для "
-"різних винятків."
+"Оператор try може мати більше одного оператора except, щоб вказати обробники "
+"для різних винятків."
 
 #: ../../src/basics/exceptions.txt:182
 msgid "Handling ALL exception"
-msgstr "Опрацювання усіх винятків"
+msgstr "Обробка ВСІХ винятків"
 
 #: ../../src/basics/exceptions.txt:184
 msgid "It's a bad practice to handle **all** exceptions."
-msgstr "Обробляти **всі** винятки – це погана практика."
+msgstr "Погана практика - обробляти **всі** винятки."
 
 #: ../../src/basics/exceptions.txt:186
 msgid ""
@@ -1256,18 +1255,18 @@ msgid ""
 "relevant for handling ``BaseException`` and ``Exception``. But you can never "
 "say what exact goes wrong."
 msgstr ""
-"Якщо вказати блок ``except`` без визначення винятку для перехоплення, він "
-"працюватиме для будь-якого винятку, який виникає в блоці ``try``. Те саме "
-"стосується обробки ``BaseException`` і ``Exception``. Проте ніколи не "
-"можливо сказати, який саме виняток стався."
+"Якщо вказати блок ``except`` без вказівки виключення, яке потрібно "
+"перехопити, то він буде працювати для будь-якого виключення, яке виникне в "
+"блоці ``try``. Те ж саме стосується обробки винятків ``BaseException`` та "
+"``Exception``. Але ніколи не можна сказати, що саме відбувається не так."
 
 #: ../../src/basics/exceptions.txt:191
 msgid ""
 "However, this scenario may work for logging an exception and raising it "
 "again to be handled on upper levels."
 msgstr ""
-"Проте, такий сценарій може працювати для логування винятків, після чого вони "
-"підійматься заново, щоб бути опрацьованими на вищих рівнях програми."
+"Однак цей сценарій може спрацювати для реєстрації винятку та його повторного "
+"підняття для обробки на верхніх рівнях."
 
 #: ../../src/basics/exceptions.txt:213
 msgid ""
@@ -1275,9 +1274,9 @@ msgid ""
 "``BaseException``. So, you can never know what exactly goes wrong with your "
 "code."
 msgstr ""
-"Усі винятки успадковуються від класу ``Exception``, який є підкласом "
-"``BaseException``. Отже, ви ніколи не можете знати, що саме пішло не так із "
-"вашим кодом."
+"Усі виключення успадковуються від класу ``Exception``, який є підкласом "
+"класу ``BaseException``. Таким чином, ви ніколи не можете знати, що саме йде "
+"не так у вашому коді."
 
 #: ../../src/basics/exceptions.txt:218
 msgid "``finally`` statement"
@@ -1289,8 +1288,9 @@ msgid ""
 "``SyntaxError``. Either ``except`` or ``finally`` block is required to be "
 "included."
 msgstr ""
-"Оператор ``try`` не може бути використаний сам по собі. Це спричинить "
-"``SyntaxError``. Необхідно включити блок ``except`` або ``finally``."
+"Оператор ``try`` не можна використовувати самостійно. Це призведе до "
+"виникнення ``синтаксичної помилки``. Необхідно включити блок ``except`` або "
+"``finally``."
 
 #: ../../src/basics/exceptions.txt:223
 msgid ""
@@ -1298,7 +1298,8 @@ msgid ""
 "``finally`` block will be always executed regardless of the exception occurs."
 msgstr ""
 "У той час як блок ``except`` намагається перехопити винятки, якщо такі є, "
-"блок ``finally`` завжди виконуватиметься незалежно від виникнення винятку."
+"блок ``finally`` буде виконано завжди, незалежно від того, чи виникає "
+"виняток."
 
 #: ../../src/basics/exceptions.txt:249
 msgid "``else`` statement"
@@ -1310,13 +1311,13 @@ msgid ""
 "statements within this block will be execute only in case there were no "
 "exceptions raised while running the ``try``."
 msgstr ""
-"Оператор ``try`` також може використовувати ``else`` (який є "
-"необов'язковим). Інструкції в цьому блоці виконуватимуться лише у випадку, "
-"якщо під час виконання ``try`` не було викликано винятків."
+"Оператор ``try`` може також використовувати ``else`` (необов'язково). "
+"Оператори у цьому блоці будуть виконані лише у тому випадку, якщо під час "
+"виконання ``try`` не було згенеровано винятків."
 
 #: ../../src/basics/exceptions.txt:273
 msgid "Raising exceptions"
-msgstr "Винятки: raising"
+msgstr "Створення винятків"
 
 #: ../../src/basics/exceptions.txt:275
 msgid ""
@@ -1327,12 +1328,12 @@ msgid ""
 "subclasses). If an exception class is passed, it will be implicitly "
 "instantiated by calling its constructor with no arguments."
 msgstr ""
-"Інструкція ``raise`` дозволяє програмісту примусово викликати певний "
-"виняток. Єдиний аргумент, який потрібно викликати, вказує на виняток, який "
-"потрібно викликати. Це має бути екземпляр винятку або клас винятку (клас, "
-"який походить від ``BaseException``, наприклад ``Exception`` або один із "
-"його підкласів). Якщо передано клас винятків, він буде неявно створений "
-"шляхом виклику його конструктора без аргументів."
+"Оператор ``raise`` дозволяє програмісту примусово згенерувати вказане "
+"виключення. Єдиний аргумент raise вказує на виключення, яке потрібно "
+"згенерувати. Це має бути або екземпляр виключення, або клас виключення "
+"(клас, який є похідним від ``BaseException``, наприклад, ``Exception`` або "
+"один з його підкласів). Якщо передається клас виключення, він буде неявно "
+"інстанційований шляхом виклику його конструктора без аргументів."
 
 #: ../../src/basics/exceptions.txt:287
 msgid ""
@@ -1340,14 +1341,13 @@ msgid ""
 "context. Also exceptions can be raised again from the ``except`` block. It's "
 "a common pattern to catch the exception for loggers and when re-raise it."
 msgstr ""
-"Сам оператор ``raise`` повторно викличе всі винятки в контексті опрацювання. "
-"Крім того, винятки можуть бути викликані знову з блоку ``except``. Це "
-"загальний шаблон для перехоплення винятку для реєстрації повідомлення про "
-"виняткову ситуацію і повторного його підняття."
+"Оператор ``raise`` сам по собі повторно підніме всі винятки в контексті. "
+"Також винятки можна згенерувати повторно з блоку ``except``. Це звичайний "
+"патерн для перехоплення винятку для логів і повторного його здіймання."
 
 #: ../../src/basics/exceptions.txt:300
 msgid "Creating custom exceptions"
-msgstr "Створення винятків"
+msgstr "Створення власних винятків"
 
 #: ../../src/basics/exceptions.txt:302
 msgid ""
@@ -1356,7 +1356,7 @@ msgid ""
 "directly or indirectly."
 msgstr ""
 "Програми можуть називати власні винятки, створюючи новий клас винятків. "
-"Винятки зазвичай мають бути похідними від класу Exception, прямо чи "
+"Винятки, як правило, мають бути похідними від класу Exception, прямо або "
 "опосередковано."
 
 #: ../../src/basics/exceptions.txt:306
@@ -1366,9 +1366,10 @@ msgid ""
 "allow information about the error to be extracted by handlers for the "
 "exception."
 msgstr ""
-"Можна визначити класи винятків, які роблять усе, що може зробити будь-який "
-"інший клас, але зазвичай вони прості, часто пропонують лише ряд атрибутів, "
-"які дозволяють обробникам витягувати інформацію про помилку для винятку."
+"Можна визначити класи винятків, які можуть робити все, що може робити будь-"
+"який інший клас, але зазвичай вони є простими, часто пропонуючи лише "
+"декілька атрибутів, які дозволяють обробникам винятків витягувати інформацію "
+"про помилку."
 
 #: ../../src/basics/exceptions.txt:311
 msgid ""
@@ -1376,15 +1377,15 @@ msgid ""
 "naming of the standard exceptions."
 msgstr ""
 "Більшість винятків визначено з іменами, які закінчуються на \"Error\", "
-"подібно до назв стандартних винятків."
+"подібно до іменування стандартних винятків."
 
 #: ../../src/basics/exceptions.txt:314
 msgid ""
 "Many standard modules define their own exceptions to report errors that may "
 "occur in functions they define."
 msgstr ""
-"Багато стандартних модулів визначають власні винятки, щоб повідомляти про "
-"помилки, які можуть виникнути у функціях, які вони визначають."
+"Багато стандартних модулів визначають власні винятки для повідомлення про "
+"помилки, які можуть виникнути у визначених ними функціях."
 
 #: ../../src/basics/exceptions.txt:317
 msgid "User-defined exception"
@@ -1401,7 +1402,7 @@ msgstr "python, basics, functions"
 #: ../../src/basics/functions.txt:8 ../../src/basics/modules.txt:8
 #: ../../src/basics/pep8.txt:8 ../../src/basics/testing.txt:8
 msgid "Page is under construction"
-msgstr "Сторінка в розробці"
+msgstr "Сторінка знаходиться на стадії розробки"
 
 #: ../../src/basics/functions.txt:16 ../../src/basics/syntax.txt
 msgid "Functions"
@@ -1429,11 +1430,11 @@ msgstr "python, basics, modules, import"
 
 #: ../../src/basics/modules.txt:16
 msgid "Pythons Modules and Imports"
-msgstr "Модулі та імпорт Pythons"
+msgstr "Модулі та Імпорти в Pythons"
 
 #: ../../src/basics/pep8.txt:-1
 msgid "PEP-8 style guide"
-msgstr "Керівництво по стилю PEP8"
+msgstr "Керівництво зі стилю PEP-8"
 
 #: ../../src/basics/pep8.txt:-1
 msgid "python, style, guide"
@@ -1441,7 +1442,7 @@ msgstr "python, style, guide"
 
 #: ../../src/basics/pep8.txt:16
 msgid "Style Guides: PEP8"
-msgstr "Керівництво по стилю: PEP8"
+msgstr "Керівництва зі стилю: PEP8"
 
 #: ../../src/basics/stdtypes.txt:-1
 msgid "Python built-in types"
@@ -1453,7 +1454,7 @@ msgstr "python, basics"
 
 #: ../../src/basics/stdtypes.txt:8
 msgid "Built-in Types"
-msgstr "Вбудовані типи"
+msgstr "Вбудовані Типи"
 
 #: ../../src/basics/stdtypes.txt:10
 msgid ""
@@ -1463,9 +1464,9 @@ msgid ""
 "their own topics."
 msgstr ""
 "Основними вбудованими типами є числа, послідовності, відображення, класи, "
-"екземпляри та винятки :cite:`docs-python:stdtypes`. Цей розділ охоплює лише "
-"найпростіші з них. Інші будуть обговорюватися в майбутньому в рамках їхніх "
-"власних тем."
+"екземпляри та винятки :cite:`docs-python:stdtypes`. У цьому розділі "
+"розглянуто лише найпростіші з них. Інші будуть розглянуті в майбутньому у "
+"відповідних темах."
 
 #: ../../src/basics/stdtypes.txt:16
 msgid "Numeric types"
@@ -1479,11 +1480,11 @@ msgid ""
 "implemented using ``double`` in C. Complex numbers have a real and imaginary "
 "part, which are each a floating point number."
 msgstr ""
-"Існує 3 різних типи чисел: *integers*, *floating point numbers*, та *complex "
-"numbers*. Крім того, логічні значення є підтипом цілих чисел. Цілі числа "
-"мають необмежену точність. Числа з плаваючою комою зазвичай реалізуються "
-"через знак ``double`` у C. Комплексні числа мають дійсну та уявну частини, "
-"кожна з яких є числом з плаваючою комою."
+"Існує 3 різних числових типи: *цілі числа*, *числа з плаваючою комою* та "
+"*комплексні числа*. Крім того, булеві числа є підтипом цілих чисел. Цілі "
+"числа мають необмежену точність. Числа з плаваючою комою зазвичай "
+"реалізуються за допомогою ``double`` у C. Комплексні числа мають дійсну та "
+"уявну частини, кожна з яких є числом з плаваючою комою."
 
 #: ../../src/basics/stdtypes.txt:24
 msgid ""
@@ -1496,22 +1497,22 @@ msgid ""
 "number with real and imaginary parts."
 msgstr ""
 "Числа створюються за допомогою числових літералів або як результат "
-"вбудованих функцій і операторів. Неприкрашені цілі літерали (включаючи "
-"шістнадцяткові, вісімкові та двійкові числа) дають цілі числа. Числові "
-"літерали, що містять десяткову кому або знак експоненти, дають числа з "
-"плаваючою комою. Додавання ``j`` або ``J`` до числового літералу дає уявне "
+"вбудованих функцій та операторів. Цілі літерали без прикрас (включаючи "
+"шістнадцяткові, вісімкові та двійкові числа) створюють цілі числа. Числові "
+"літерали, що містять десяткову крапку або знак експоненти, дають числа з "
+"плаваючою комою. Додавання ``j`` або ``J`` до числового літерала дає уявне "
 "число (комплексне число з нульовою дійсною частиною), яке ви можете додати "
-"до цілого числа або числа з плаваючою точкою, щоб отримати комплексне число "
-"з дійсною та уявною частинами."
+"до цілого числа або числа з плаваючою комою, щоб отримати комплексне число з "
+"дійсною та уявною частинами."
 
 #: ../../src/basics/stdtypes.txt:33
 msgid "Supported operations"
-msgstr "Операції підтримки"
+msgstr "Операції, які підтримуються"
 
 #: ../../src/basics/stdtypes.txt:36 ../../src/basics/stdtypes.txt:154
 #: ../../src/basics/stdtypes.txt:204
 msgid "Operation"
-msgstr "Операції"
+msgstr "Операція"
 
 #: ../../src/basics/stdtypes.txt:36 ../../src/basics/stdtypes.txt:154
 #: ../../src/basics/stdtypes.txt:204
@@ -1596,7 +1597,7 @@ msgstr "``int(x)``"
 
 #: ../../src/basics/stdtypes.txt:56
 msgid "*x* converted to integer"
-msgstr "*x* перетворено на ціле число"
+msgstr "*x* перетворено в ціле число"
 
 #: ../../src/basics/stdtypes.txt:58
 msgid "``float(x)``"
@@ -1604,7 +1605,7 @@ msgstr "``float(x)``"
 
 #: ../../src/basics/stdtypes.txt:58
 msgid "*x* converted to floating point"
-msgstr "*x* перетворено на число з плаваючою комою"
+msgstr "*x* перетворено у число з плаваючою комою"
 
 #: ../../src/basics/stdtypes.txt:60
 msgid "``complex(re, im)``"
@@ -1615,8 +1616,8 @@ msgid ""
 "a complex number with real part *re*, imaginary part *im*. *im* defaults to "
 "zero."
 msgstr ""
-"комплексне число з дійсною частиною *re*, уявною частиною *im*. *im* за "
-"замовчуванням на нуль."
+"комплексне число з дійсною частиною *re* та уявною частиною *im*. За "
+"замовчуванням *im* дорівнює нулю."
 
 #: ../../src/basics/stdtypes.txt:63
 msgid "``divmod(x, y)``"
@@ -1640,9 +1641,9 @@ msgid ""
 "whole integer, through the result's type is not necessarily int. The result "
 "is always rounded towards minus infinity: ``1 // 2`` is ``0``"
 msgstr ""
-"``x // y`` також називають цілим діленням. Результуюче значення є цілим "
-"числом, через тип результату не обов'язково int. Результат завжди "
-"округлюється до мінус нескінченності: ``1 // 2`` дорівнює ``0``"
+"``x // y`` також називається цілочисельним діленням. Значення результату є "
+"цілим числом, оскільки тип результату не обов'язково int. Результат завжди "
+"округлюється до мінус нескінченності: ``1 // 2`` є ``0``"
 
 #: ../../src/basics/stdtypes.txt:74
 msgid ""
@@ -1651,8 +1652,8 @@ msgid ""
 "and negative infinity."
 msgstr ""
 "``float(x)`` також приймає рядки ``\"nan\"`` та ``\"inf\"`` з необов'язковим "
-"префіксом \"+\" або \"-\" для: :abbr:`NaN(Not a Number, не число)` і "
-"позитивна та негативна нескінченність."
+"префіксом \"+\" або \"-\" для :abbr:`NaN(Not a Number)`` та додатної і "
+"від'ємної нескінченності."
 
 #: ../../src/basics/stdtypes.txt:79
 msgid "Code examples"
@@ -1670,7 +1671,7 @@ msgstr "Числа з плаваючою комою"
 #: ../../src/basics/stdtypes.txt:290 ../../src/basics/stdtypes.txt:299
 #: ../../src/basics/stdtypes.txt:328
 msgid "Value comparisons"
-msgstr "Порівняння цінностей"
+msgstr "Порівняння значень"
 
 #: ../../src/basics/stdtypes.txt:111
 msgid ""
@@ -1680,8 +1681,8 @@ msgid ""
 "mathematically correct without loss of precision."
 msgstr ""
 "Числа вбудованих числових типів можна порівнювати всередині та між типами (з "
-"обмеженням, що комплексні числа не підтримують порядок порівняння). У межах "
-"залучених типів вони порівняються математично правильно без втрати точності."
+"обмеженням, що комплексні числа не підтримують порівняння порядків). У межах "
+"відповідних типів вони порівнюються математично коректно без втрати точності."
 
 #: ../../src/basics/stdtypes.txt:116
 msgid ""
@@ -1689,9 +1690,9 @@ msgid ""
 "Decimal('NaN')`` are special. Any ordered comparison of a number to a not-a-"
 "number value is false."
 msgstr ""
-"Значення \"not-a-number\" ``float(\"NaN\")`` і ``decimal.Decimal('NaN')`` є "
-"спеціальними. Будь-яке впорядковане порівняння числа з нечисловим значенням "
-"є хибним."
+"Значення \"не-число\" ``float(\"NaN\")`` та ``decimal.Decimal('NaN')`` є "
+"спеціальними. Будь-яке впорядковане порівняння числа зі значенням \"не-"
+"число\" є хибним."
 
 #: ../../src/basics/stdtypes.txt:120
 msgid "Sequence types"
@@ -1703,9 +1704,9 @@ msgid ""
 "Additional sequence types tailored for processing of binary data and text "
 "strings are described in dedicated sections."
 msgstr ""
-"Існує 3 основних типи послідовностей: списки, кортежі та об'єкти діапазону. "
-"Додаткові типи послідовностей, призначені для обробки двійкових даних і "
-"текстових рядків, описані у інших розділах."
+"Існує 3 основних типи послідовностей: *списки*, *кортежі* та *об'єкти "
+"діапазону*. Додаткові типи послідовностей, призначені для обробки двійкових "
+"даних і текстових рядків, описано у відповідних розділах."
 
 #: ../../src/basics/stdtypes.txt:127
 msgid "Lists"
@@ -1723,7 +1724,7 @@ msgstr ""
 #: ../../src/basics/stdtypes.txt:132
 msgid "using a pair of square brackets to denote the empty list: ``[]``"
 msgstr ""
-"використовуючи пару квадратних дужок для cтворення порожнього списку: ``[]``"
+"використовуючи пару квадратних дужок для позначення порожнього списку: ``[]``"
 
 #: ../../src/basics/stdtypes.txt:133
 msgid ""
@@ -1738,7 +1739,7 @@ msgstr "використовуючи генератори списків: ``[x f
 
 #: ../../src/basics/stdtypes.txt:135
 msgid "using the type constructor: ``list()`` or ``list(iterable)``"
-msgstr "використовуючи конструкції типу: ``list()`` або ``list(iterable)``"
+msgstr "використовуючи конструктор типу: ``list()`` або ``list(iterable)``"
 
 #: ../../src/basics/stdtypes.txt:138
 msgid "Tuples"
@@ -1752,9 +1753,9 @@ msgid ""
 "number of ways:"
 msgstr ""
 "Кортежі - це незмінні послідовності, які зазвичай використовуються для "
-"зберігання колекцій даних або для випадків, коли потрібна незмінна "
-"послідовність даних (наприклад, дозволяє зберігати в екземплярах ``set`` або "
-"``dict``). Вони можуть бути конструйовані декількома способами:"
+"зберігання наборів даних або у випадках, коли потрібна незмінна "
+"послідовність даних (наприклад, для зберігання в екземплярах ``set`` або "
+"``dict``). Вони можуть бути побудовані кількома способами:"
 
 #: ../../src/basics/stdtypes.txt:145
 msgid "using a pair of parentheses to denote the empty tuple: ``()``"
@@ -1764,20 +1765,20 @@ msgstr ""
 #: ../../src/basics/stdtypes.txt:146
 msgid "using a trailing comma for a singleton tuple: ``a,`` or ``(a, b, c)``"
 msgstr ""
-"використовуючи кінцеву кому для одноэлементного кортежу: ``a,`` або ``(a, b, "
+"з використанням кінцевої коми для одиночного кортежу: ``a,`` або ``(a, b, "
 "c)``"
 
 #: ../../src/basics/stdtypes.txt:147
 msgid "separating items with commas: ``a, b, c`` or ``(a, b, c)``"
-msgstr "відокремлюючи елементи комами: ``a, b, c`` або ``(a, b, c)``"
+msgstr "розділення елементів комами: ``a, b, c`` або ``(a, b, c)``"
 
 #: ../../src/basics/stdtypes.txt:148
 msgid "using the type constructor: ``tuple()`` or ``tuple(iterable)``"
-msgstr "за допомогою конструктора типу: ``tuple()`` або ``tuple(iterable)``"
+msgstr "з використанням конструктора типу: ``tuple()`` або ``tuple(iterable)``"
 
 #: ../../src/basics/stdtypes.txt:151
 msgid "Common operations"
-msgstr "Загальні операції"
+msgstr "Спільні операції"
 
 #: ../../src/basics/stdtypes.txt:156
 msgid "``x in s`` ``x not in s``"
@@ -1797,7 +1798,7 @@ msgstr "``s + t``"
 
 #: ../../src/basics/stdtypes.txt:159
 msgid "the concatenation of *s* and *t*"
-msgstr "конкатенація s і t"
+msgstr "конкатенація *s* та *t*"
 
 #: ../../src/basics/stdtypes.txt:161
 msgid "``s * n``"
@@ -1805,7 +1806,7 @@ msgstr "``s * n``"
 
 #: ../../src/basics/stdtypes.txt:161
 msgid "equivalent to adding *s* to itself *n* times"
-msgstr "еквівалентно додаванню *s* до себе *n* разів"
+msgstr "еквівалентно додаванню *s* до самого себе *n* разів"
 
 #: ../../src/basics/stdtypes.txt:163
 msgid "``s[i]``"
@@ -1813,7 +1814,7 @@ msgstr "``s[i]``"
 
 #: ../../src/basics/stdtypes.txt:163
 msgid "*i*-th item of *s*, origin 0"
-msgstr "*i*-й елемент *s*, джерело 0"
+msgstr "*i*-й елемент з *s*, походження 0"
 
 #: ../../src/basics/stdtypes.txt:165
 msgid "``s[i:j]`` ``s[i:j:k]``"
@@ -1824,8 +1825,8 @@ msgid ""
 "slice of *s* from *i* to *j* with step *k*. any of these (or even all 3) may "
 "be omitted."
 msgstr ""
-"фрагмент *s* від *i* до *j* з кроком *k*. будь-який із цих (або навіть усі "
-"3) можна опустити."
+"фрагмент *s* від *i* до *j* з кроком *k*. будь-який з них (або навіть всі 3) "
+"можна опустити."
 
 #: ../../src/basics/stdtypes.txt:168
 msgid "``len(s)``"
@@ -1879,8 +1880,8 @@ msgid ""
 "these types raises ``TypeError``."
 msgstr ""
 "Послідовності можна порівнювати лише в межах кожного типу, з обмеженням, що "
-"діапазони не підтримують порівняння порядку. Порівняння рівності між цими "
-"типами призводить до нерівності, а впорядковане порівняння цих типів "
+"діапазони не підтримують порівняння за порядком. Порівняння рівності між "
+"цими типами призводить до нерівності, а порівняння порядку між цими типами "
 "викликає ``TypeError``."
 
 #: ../../src/basics/stdtypes.txt:189
@@ -1890,19 +1891,19 @@ msgid ""
 "equal to themselves. Lexicographical comparison between built-in collections "
 "works as follows:"
 msgstr ""
-"Послідовності порівнюють лексикографічно за допомогою порівняння відповідних "
-"елементів. Вбудовані контейнери зазвичай припускають, що ідентичні об'єкти "
-"рівні собі. Лексикографічне порівняння між вбудованими колекціями працює "
-"таким чином:"
+"Послідовності порівнюються лексикографічно за допомогою порівняння "
+"відповідних елементів. Вбудовані контейнери зазвичай вважають ідентичні "
+"об'єкти рівними собі. Лексикографічне порівняння між вбудованими колекціями "
+"працює наступним чином:"
 
 #: ../../src/basics/stdtypes.txt:194
 msgid ""
 "For two collections to compare equal, they must be of the same type, have "
 "the same length, and each pair of corresponding elements must compare equal."
 msgstr ""
-"Щоб дві колекції порівнювалися рівноправними, вони повинні бути одного типу, "
-"мати однакову довжину, і кожна пара відповідних елементів повинна "
-"порівнюватися."
+"Для того, щоб дві колекції були рівними, вони повинні бути одного типу, мати "
+"однакову довжину і кожна пара відповідних елементів повинна порівнюватися "
+"однаково."
 
 #: ../../src/basics/stdtypes.txt:196
 msgid ""
@@ -1910,13 +1911,13 @@ msgid ""
 "first unequal elements. If corresponding element does not exist, the shorter "
 "collection is ordered first."
 msgstr ""
-"Колекції, які підтримують порівняння порядку, упорядковуються так само, як і "
-"їхні перші нерівні елементи. Якщо відповідний елемент не існує, спочатку "
+"Колекції, що підтримують порівняння порядків, впорядковуються так само, як і "
+"їх перші нерівні елементи. Якщо відповідного елемента не існує, то спочатку "
 "впорядковується коротша колекція."
 
 #: ../../src/basics/stdtypes.txt:201
 msgid "Mutable sequence types"
-msgstr "Змінні типи послідовностей"
+msgstr "Типи змінних послідовностей"
 
 #: ../../src/basics/stdtypes.txt:206
 msgid "``s[i] = x``"
@@ -1924,7 +1925,7 @@ msgstr "``s[i] = x``"
 
 #: ../../src/basics/stdtypes.txt:206
 msgid "item *i* of *s* is replaced by *x*"
-msgstr "елемент *i* з *s* замінюється на *x*"
+msgstr "елемент *i* в *s* замінюється на *x*"
 
 #: ../../src/basics/stdtypes.txt:208
 msgid "``s[i:j] = t``"
@@ -2035,7 +2036,7 @@ msgstr "*t* повинен мати таку ж довжину, як і фраг
 
 #: ../../src/basics/stdtypes.txt:239
 msgid "new in Python version 3.3"
-msgstr "нове у версії Python 3.3"
+msgstr "нове в Python версії 3.3"
 
 #: ../../src/basics/stdtypes.txt:242
 msgid "Text sequence type"
@@ -2043,27 +2044,27 @@ msgstr "Тип текстової послідовності"
 
 #: ../../src/basics/stdtypes.txt:245
 msgid "String methods"
-msgstr "Рядкові методи"
+msgstr "Методи рядків"
 
 #: ../../src/basics/stdtypes.txt:247
 msgid ""
 "Strings implement all of the common sequence operations, along with the "
 "additional methods."
 msgstr ""
-"Рядки реалізують усі звичайні операції з послідовністю разом із додатковими "
-"методами."
+"Рядки реалізують всі звичайні операції з послідовністю, а також додаткові "
+"методи."
 
 #: ../../src/basics/stdtypes.txt:292
 msgid ""
 "Strings compare lexicographically using the numerical Unicode code points of "
 "their characters."
 msgstr ""
-"Рядки порівнюються лексикографічно з використанням числових кодових точок "
-"Unicode своїх символів."
+"Рядки порівнюються лексикографічно, використовуючи числові кодові точки "
+"символів у Юнікоді."
 
 #: ../../src/basics/stdtypes.txt:296
 msgid "Set types"
-msgstr "Типи сетів"
+msgstr "Типи множин"
 
 #: ../../src/basics/stdtypes.txt:301
 msgid ""
@@ -2073,11 +2074,11 @@ msgid ""
 "sets ``{1, 2}`` and ``{2, 3}`` are not equal, nor subsets of one another, "
 "nor supersets of one another)."
 msgstr ""
-"Сети (екземпляри ``set`` або ``frozenset``) можна порівнювати всередині та "
-"між типами. Вони визначають оператори порівняння порядку, щоб проходити "
-"тести підмножини та надмножини. Ці відношення не визначають загального "
-"порядку (наприклад, два набори ``{1, 2}`` та ``{2, 3}`` не є рівними, ані "
-"підмножини одного іншого, ані надмножини один одного)."
+"Множини (екземпляри ``set`` або ``frozenset``) можна порівнювати всередині "
+"та між їхніми типами. Вони визначають оператори порівняння порядку, які "
+"означають тести підмножин та надмножин. Ці відношення не визначають повного "
+"впорядкування (наприклад, дві множини ``{1, 2}`` і ``{2, 3}`` не є рівними, "
+"не є підмножинами одна одної і не є надмножинами одна одної)."
 
 #: ../../src/basics/stdtypes.txt:308
 msgid "Mapping type"
@@ -2101,10 +2102,10 @@ msgid ""
 "``1.0`` and ``True``) can be used interchangeably to index the same "
 "dictionary entry."
 msgstr ""
-"Ключі словника - це майже довільні значення. Значення, які не хешуються, не "
-"можуть бути використані як ключі. Значення, які порівнюються (такі як ``1``, "
-"``1.0`` і ``True``), можна використовувати як взаємозамінні для індексування "
-"тієї самої словникової статті."
+"Ключі словника - це майже довільні значення. Значення, які не піддаються "
+"хешуванню, не можна використовувати як ключі. Значення, які порівнюються як "
+"рівні (наприклад, ``1``, ``1.0`` і ``True``), можуть використовуватися як "
+"взаємозамінні для індексації однієї і тієї ж словникової статті."
 
 #: ../../src/basics/stdtypes.txt:318
 msgid "Dictionaries can be created by several means:"
@@ -2119,7 +2120,7 @@ msgid ""
 "Use a comma-separated list of ``key: value`` pairs with braces: "
 "``{'first_name': 'Serhii', 'last_name': 'Horodilov', 'age': 34}``"
 msgstr ""
-"Використовуйте розділений комами список пар ``key: value`` з дужками: "
+"Використовуйте список пар ``key: value`` через кому з дужками: "
 "``{'first_name': 'Serhii', 'last_name': 'Horodilov', 'age': 34}``"
 
 #: ../../src/basics/stdtypes.txt:323
@@ -2139,10 +2140,11 @@ msgid ""
 "Instances of ``dict`` compare equal if and only if they have equal key-value "
 "pairs."
 msgstr ""
-"Екземпляри ``dict`` вважаються рівними тоді і тільки тоді, коли вони мають "
-"однакові пари ключ-значення."
+"Екземпляри ``dict`` порівнюються однаково тоді і тільки тоді, коли вони "
+"мають однакові пари ключ-значення."
 
 #: ../../src/basics/stdtypes.txt:333
+#, fuzzy
 msgid "Order comparisons raise ``TypeError``."
 msgstr "Порівняння порядку викликає ``TypeError``."
 
@@ -2164,9 +2166,9 @@ msgid ""
 "down something, programming languages do. This makes them programming "
 "**languages**."
 msgstr ""
-"Оскільки природна мова, як-от англійська чи українська, має власні правила "
-"запису чогось, так і мови програмування роблять схожі речі. Це і робить їх "
-"мовами програмування."
+"Як природна мова, наприклад, англійська чи українська, має власні правила "
+"для запису чогось, так і мови програмування мають свої власні правила. Це "
+"робить їх **мовами** програмування."
 
 #: ../../src/basics/syntax.txt:14
 msgid ""
@@ -2175,8 +2177,8 @@ msgid ""
 "encompasses the rules for writing statements, expressions, variables, data "
 "types, control structures, and other constructs that make up the language."
 msgstr ""
-"Синтаксис мови програмування - це набір правил і принципів, які регулюють "
-"написання та структурування коду даною мовою програмування. Синтаксис "
+"Синтаксис мови програмування - це набір правил і принципів, які керують "
+"написанням і структуруванням коду певною мовою програмування. Синтаксис "
 "охоплює правила написання операторів, виразів, змінних, типів даних, "
 "керуючих структур та інших конструкцій, які складають мову."
 
@@ -2189,7 +2191,7 @@ msgid ""
 msgstr ""
 "Синтаксис мови програмування визначає, як код організовується та "
 "інтерпретується компілятором або інтерпретатором. Він визначає правила "
-"написання дійсних операторів і виразів, які можуть бути зрозумілі та "
+"написання правильних операторів і виразів, які можуть бути зрозумілі та "
 "виконані системою виконання мови."
 
 #: ../../src/basics/syntax.txt:24
@@ -2199,10 +2201,10 @@ msgid ""
 "and modify. Syntax often influences the style and structure of code, as well "
 "as its maintainability and performance."
 msgstr ""
-"Синтаксис мови програмування розроблено таким чином, щоб він був читабельним "
-"і виразним, дозволяючи програмістам писати код, який легко зрозуміти та "
-"змінювати. Синтаксис часто впливає на стиль і структуру коду, а також на "
-"його зручність обслуговування та продуктивність."
+"Синтаксис мови програмування розроблений таким чином, щоб бути одночасно "
+"читабельним і виразним, що дозволяє програмістам писати код, який легко "
+"розуміти і модифікувати. Синтаксис часто впливає на стиль і структуру коду, "
+"а також на його зручність супроводу та продуктивність."
 
 #: ../../src/basics/syntax.txt:29
 msgid ""
@@ -2212,11 +2214,11 @@ msgid ""
 "determine its ease of use, flexibility, and suitability for different "
 "programming tasks."
 msgstr ""
-"Різні мови програмування мають різний синтаксис, при цьому деякі мови є "
-"більш лаконічними та виразнішими, ніж інші. Хоча синтаксис є важливим "
-"аспектом мови програмування, він є лише одним із кількох факторів, які "
-"визначають її легкість у використанні, гнучкість і придатність для різних "
-"завдань програмування."
+"Різні мови програмування мають різний синтаксис, причому деякі мови є більш "
+"стислими та виразними, ніж інші. Хоча синтаксис є важливим аспектом мови "
+"програмування, він є лише одним з декількох факторів, які визначають її "
+"простоту використання, гнучкість та придатність для різних завдань "
+"програмування."
 
 #: ../../src/basics/syntax.txt:35
 msgid ""
@@ -2226,11 +2228,11 @@ msgid ""
 "the following is to be discussed during the course. So, some of the key "
 "aspects of Python's syntax include:"
 msgstr ""
-"У випадку Python синтаксис мови визначає, як код буде написаний і "
-"структурований таким чином, щоб він був послідовним, читабельним і легким "
-"для розуміння. Нижче наведено загальний огляд, немає потреби глибоко "
-"занурюватися в це зараз. Усе наведене нижче має бути обговорено під час "
-"курсу. Отже, деякі з ключових аспектів синтаксису Python включають:"
+"У випадку з Python синтаксис мови визначає, як писати код і структурувати "
+"його таким чином, щоб він був послідовним, читабельним і легким для "
+"розуміння. Нижче наведено загальний огляд, немає необхідності заглиблюватися "
+"в цю тему зараз. Все наступне ми будемо обговорювати під час курсу. Отже, "
+"деякі з ключових аспектів синтаксису Python включають:"
 
 #: ../../src/basics/syntax.txt
 msgid "Indentation"
@@ -2242,11 +2244,12 @@ msgid ""
 "such as loops, conditionals, and functions. This means that the indentation "
 "level of a line determines which block of code it belongs to."
 msgstr ""
-"Python використовує пробіли, зокрема відступи, для розмежування блоків коду, "
+"Python використовує пробіли, зокрема відступи, для розділення блоків коду, "
 "таких як цикли, умови та функції. Це означає, що рівень відступу рядка "
 "визначає, до якого блоку коду він належить."
 
 #: ../../src/basics/syntax.txt
+#, fuzzy
 msgid "Statement structure"
 msgstr "Структура коду"
 
@@ -2257,10 +2260,10 @@ msgid ""
 "long to fit on one line, it can be continued across multiple lines using "
 "backslashes."
 msgstr ""
-"Інструкції Python зазвичай пишуться в один рядок, причому кінець рядка "
-"вказує на кінець інструкції. Проте, якщо оператор занадто довгий, щоб "
-"поміститися в один рядок, його можна продовжити в кількох рядках, "
-"використовуючи зворотні похилі риски."
+"Оператори Python зазвичай пишуться в одному рядку, кінець рядка вказує на "
+"кінець оператора. Однак, якщо оператор занадто довгий і не вміщується в один "
+"рядок, його можна продовжити на декілька рядків, використовуючи зворотні "
+"косі риски."
 
 #: ../../src/basics/syntax.txt ../../src/basics/variables.txt:8
 msgid "Variables"
@@ -2273,10 +2276,10 @@ msgid ""
 "values of different types, including integers, floats, strings, and more "
 "complex data structures like lists and dictionaries."
 msgstr ""
-"У Python змінні створюються автоматично, якщо їм присвоюється значення, і "
-"їхній тип визначається на основі значення. Змінним можна присвоювати "
-"значення різних типів, включаючи цілі числа, числа з плаваючою комою, рядки "
-"та складніші структури даних, такі як списки та словники."
+"У Python змінні створюються автоматично, коли їм присвоюється значення, а "
+"їхній тип виводиться зі значення. Змінним можна присвоювати значення різних "
+"типів, включаючи цілі числа, числа з плаваючою комою, рядки та більш складні "
+"структури даних, такі як списки та словники."
 
 #: ../../src/basics/syntax.txt
 msgid "Operators"
@@ -2290,11 +2293,12 @@ msgid ""
 "``>``, ``==``, and ``!=``."
 msgstr ""
 "Python підтримує широкий спектр операторів для виконання арифметичних, "
-"порівнянь і логічних операцій. До них належать арифметичні оператори, такі "
-"як ``+``, ``-``, ``*`` і ``/``, а також оператори порівняння, такі як "
-"``<`` , ``>``, ``==`` і ``!=``."
+"порівняльних та логічних операцій. До них відносяться арифметичні оператори, "
+"такі як ``+``, ``-``, ``*`` і ``/``, а також оператори порівняння, такі як "
+"``<``, ``>``, ``==`` і ``!=``."
 
 #: ../../src/basics/syntax.txt
+#, fuzzy
 msgid "Control flow"
 msgstr "Контроль потоку"
 
@@ -2304,10 +2308,10 @@ msgid ""
 "to control the flow of execution in a program. These statements are used to "
 "make decisions, repeat code, or perform actions based on conditions."
 msgstr ""
-"Python надає оператори потоку керування, як-от if, else, elif, for та while, "
-"для керування потоком виконання в програмі. Ці оператори використовуються "
-"для прийняття рішень, повторення коду або виконання дій на основі заданих "
-"умов."
+"Python надає оператори керування потоком, такі як if, else, elif, for та "
+"while, щоб керувати потоком виконання програми. Ці оператори "
+"використовуються для прийняття рішень, повторення коду або виконання дій на "
+"основі умов."
 
 #: ../../src/basics/syntax.txt:72
 msgid ""
@@ -2315,8 +2319,8 @@ msgid ""
 "arguments and return values. The body of a function is defined using a block "
 "of indented code."
 msgstr ""
-"У Python функції визначаються за допомогою ключового слова def і можуть "
-"отримувати аргументи та повертати значення. Тіло функції визначається за "
+"У мові Python функції визначаються за допомогою ключового слова def і можуть "
+"приймати аргументи та повертати значення. Тіло функції описується за "
 "допомогою блоку коду з відступами."
 
 #: ../../src/basics/syntax.txt
@@ -2329,9 +2333,9 @@ msgid ""
 "variety of tasks. Modules can be imported into a program using the import "
 "statement."
 msgstr ""
-"Python має велику бібліотеку модулів, які містять попередньо написаний код "
+"Python має велику бібліотеку модулів, які надають заздалегідь написаний код "
 "для різноманітних завдань. Модулі можна імпортувати в програму за допомогою "
-"оператора імпорту."
+"оператора import."
 
 #: ../../src/basics/syntax.txt:82
 msgid ""
@@ -2339,9 +2343,9 @@ msgid ""
 "try, except, else, and finally keywords. These statements allow a program to "
 "gracefully recover from errors and continue executing."
 msgstr ""
-"Python надає спосіб обробки помилок і винятків у програмі за допомогою "
-"ключових слів try, except, else і finally. Ці оператори дозволяють програмі "
-"плавно відновлюватися після помилок і продовжувати виконання."
+"Python надає спосіб обробки помилок та винятків у програмі за допомогою "
+"ключових слів try, except, else та finally. Ці оператори дозволяють програмі "
+"витончено відновлюватися після помилок і продовжувати виконання."
 
 #: ../../src/basics/syntax.txt:86
 msgid "In few words:"
@@ -2349,7 +2353,7 @@ msgstr "У кількох словах:"
 
 #: ../../src/basics/syntax.txt:88
 msgid "Input/Output example script"
-msgstr "Приклад сценарію Input/Output"
+msgstr "Приклад скрипту вводу/виводу"
 
 #: ../../src/basics/syntax.txt:107
 msgid ""
@@ -2360,12 +2364,11 @@ msgid ""
 "comment. These are for those people, who see the code and they are ignored "
 "by the interpreter."
 msgstr ""
-"Наведений вище фрагмент коду демонструє деякі основні можливості Python "
-"збирати дані від користувача, обробляти їх і друкувати назад. Зверніть увагу "
-"на слова, що починаються символом #(решітка). Це коментар. Будь-яка "
-"послідовність символів після хеша і до кінця рядка вважається коментарем. Це "
-"необхідно, щоб люди які бачать код могли його зрозуміти, при цьому "
-"інтерпретатор їх ігнорує."
+"Фрагмент коду вище демонструє деякі базові можливості Python для збору даних "
+"від користувача, їх обробки та виведення назад. Зверніть увагу на слова, що "
+"починаються з символу # (хеш). Це коментар. Будь-яка послідовність символів "
+"після хешу і до кінця рядка вважається коментарем. Вони призначені для тих "
+"людей, які бачать код, а інтерпретатор їх ігнорує."
 
 #: ../../src/basics/syntax.txt:113
 msgid ""
@@ -2373,13 +2376,13 @@ msgid ""
 "interpreter to perform some action, like gather inputs, do math, store data "
 "in memory etc."
 msgstr ""
-"З іншого боку, кожен окремий рядок є вказівкою для інтерпретатора виконати "
-"певну дію, як-от збір вхідних даних, виконання математичних розрахунків, "
-"збереження даних у пам'яті тощо."
+"З іншого боку, кожен окремий рядок є інструкцією для інтерпретатора виконати "
+"певну дію, наприклад, зібрати вхідні дані, виконати обчислення, зберегти "
+"дані в пам'яті тощо."
 
 #: ../../src/basics/testing.txt:-1
 msgid "Testing software in Python"
-msgstr "Тестування в Python"
+msgstr "Тестування програмного забезпечення на Python"
 
 #: ../../src/basics/testing.txt:-1
 msgid "python, testing, unittest, pytest"
@@ -2403,9 +2406,9 @@ msgid ""
 "that can hold a value (*data*). The value stored in a variable can be "
 "changed or accessed by the program during its execution."
 msgstr ""
-"В інформатиці **variable** - це назване місце зберігання в пам'яті, яке може "
-"зберігати значення (дані). Значення, яке зберігається у змінній, може бути "
-"змінено або доступне програмою під час її виконання."
+"У комп'ютерних науках **змінна** - це іменована комірка пам'яті, яка може "
+"зберігати значення (*дані*). Значення, що зберігається у змінній, може бути "
+"змінене або доступне програмі під час її виконання."
 
 #: ../../src/basics/variables.txt:14
 msgid ""
@@ -2415,10 +2418,10 @@ msgid ""
 "do not need to declare a variable before using it, as in statically typed "
 "languages."
 msgstr ""
-"У Python змінні створюються динамічно після присвоєння їм значення. Це "
-"робить Python динамічно типізованою мовою, а це означає, що тип даних "
-"змінної виводиться з присвоєного їй значення. Отже, вам не потрібно "
-"оголошувати змінну перед її використанням, як у статично типізованих мовах."
+"У Python змінні створюються динамічно, щойно їм присвоюється значення. Це "
+"робить Python динамічно типізованою мовою, що означає, що тип даних змінної "
+"виводиться з присвоєного їй значення. Отже, вам не потрібно оголошувати "
+"змінну перед її використанням, як у мовах зі статичною типізацією."
 
 #: ../../src/basics/variables.txt:19
 msgid ""
@@ -2427,9 +2430,9 @@ msgid ""
 "careful attention to variable naming and assignment to avoid unexpected "
 "behavior."
 msgstr ""
-"Можливість динамічно створювати змінні та виводити їхні типи даних робить "
-"код Python більш лаконічним і легшим для читання. Однак це також вимагає "
-"пильної уваги до іменування та призначення змінних, щоб уникнути "
+"Можливість динамічно створювати змінні та визначати тип їхніх даних робить "
+"код Python лаконічнішим і легшим для читання. Однак, це також вимагає "
+"ретельної уваги до іменування та присвоєння змінних, щоб уникнути "
 "неочікуваної поведінки."
 
 #: ../../src/basics/variables.txt:23
@@ -2438,21 +2441,21 @@ msgid ""
 "variable, the portion on the left of the operator is a *variable name* and "
 "the portion on the right is a *value* to assign to a variable."
 msgstr ""
-"У Python ``=`` (оператор присвоєння) використовується для встановлення "
-"значення деякої змінної, частина ліворуч від оператора - це ім'я змінної, а "
-"частина праворуч - це значення, яке призначається для неї."
+"У Python ``=`` (оператор присвоювання) використовується для присвоєння "
+"значення деякій змінній, частина ліворуч від оператора - це *ім'я змінної*, "
+"а частина праворуч - це *значення*, яке потрібно присвоїти змінній."
 
 #: ../../src/basics/variables.txt:27
 msgid "Variable assignment in Python"
-msgstr "Присвоєння змінної в Python"
+msgstr "Присвоєння змінних у Python"
 
 #: ../../src/basics/variables.txt:34
 msgid "Variable assignment in Java"
-msgstr "Присвоєння змінної в Java"
+msgstr "Присвоєння змінних у Java"
 
 #: ../../src/basics/variables.txt:42
 msgid "Naming"
-msgstr "Присвоєння назви"
+msgstr "Іменування"
 
 #: ../../src/basics/variables.txt:44
 msgid ""
@@ -2461,21 +2464,22 @@ msgid ""
 "recommended than required and can be omitted. For now note, that a variable "
 "name **cannot**:"
 msgstr ""
-"У Python є кілька правил, які описують, як іменувати ваші змінні. Деякі з "
-"них є вимогами, і їх не можна ігнорувати, інші скоріше рекомендовані, ніж "
-"обов'язкові, і їх можна пропустити. Наразі зауважте, що ім'я змінної не може:"
+"У Python є кілька правил, які описують, як називати ваші змінні. Деякі з них "
+"є обов'язковими і не можуть бути проігноровані, інші є скоріше "
+"рекомендаційними, ніж обов'язковими, і їх можна опустити. Наразі зауважте, "
+"що ім'я змінної **не може**:"
 
 #: ../../src/basics/variables.txt:49
 msgid "a language keyword (like ``pass``, ``def`` or ``class``)"
-msgstr "бути ключовим словом мови (наприклад, ``pass``, ``def`` або ``class``)"
+msgstr "ключовим словом мови (наприклад, ``pass``, ``def`` або ``class``)"
 
 #: ../../src/basics/variables.txt:50
 msgid "start with a number (e.g. ``123``, ``1_something``)"
-msgstr "починатися з числа (наприклад, ``123``, ``1_something``)"
+msgstr "починатись з числа (наприклад, ``123``, ``1_something``)"
 
 #: ../../src/basics/variables.txt:51
 msgid "contain special operators in it (``+``, ``-``, ``=`` etc.)"
-msgstr "містити спеціальні оператори (``+``, ``-``, ``=`` тощо)"
+msgstr "містити спеціальні оператори (``+``, ``-``, ``=`` тощо)."
 
 #: ../../src/basics/variables.txt:52
 msgid "contain white spaces"
@@ -2483,18 +2487,18 @@ msgstr "містити пробіли"
 
 #: ../../src/basics/variables.txt:54
 msgid "Also here are some general recommendation on naming anything:"
-msgstr "Також ось деякі загальні рекомендації щодо іменування будь-чого:"
+msgstr ""
+"Також тут є кілька загальних рекомендацій щодо того, як називати будь-що:"
 
 #: ../../src/basics/variables.txt:56
 msgid "do not use built-in functions as a variable name (e.g. ``len = 42``)"
 msgstr ""
-"не використовуйте вбудовані функції як назву змінної (наприклад, ``len = "
-"42``)"
+"не використовуйте вбудовані функції як ім'я змінної (наприклад, ``len = 42``)"
 
 #: ../../src/basics/variables.txt:57
 msgid "keep names meaningful (``x = 10`` vs ``number_of_student = 100``)"
 msgstr ""
-"зберігайте значення імен (``x = 10`` проти ``number_of_student = 100``)"
+"зберігайте змістовність імен (``x = 10`` проти ``number_of_student = 100``)"
 
 #~ msgid "Data Types"
 #~ msgstr "Типи Даних"

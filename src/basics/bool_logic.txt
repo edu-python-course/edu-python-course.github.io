@@ -30,7 +30,7 @@ to represent the truth value of an expression. For example, the expression
 Understanding how Python Boolean values behave is important to programming well
 in Python.
 
-Understanding Boolean
+Understanding boolean
 =====================
 
 The Boolean type has only two possible values:
@@ -104,8 +104,8 @@ With these operators, you can build expressions by connecting Boolean
 expressions with each other. These operators are **keywords** of the language,
 so you cannot use them as identifiers without causing a *SyntaxError*.
 
-Getting started with ``not`` operator
--------------------------------------
+Getting started with "not" operator
+-----------------------------------
 
 The ``not`` operator is the Boolean or logic operator that implements negation
 in Python. It's **unary**, which means that it takes only one **operand**.
@@ -132,8 +132,8 @@ This functionality makes it worthwhile in several situations:
 -   Checking if a **value is not in a given container**
 -   Checking for an **object's identity**
 
-Getting started with ``and`` operator
--------------------------------------
+Getting started with "and" operator
+-----------------------------------
 
 Python's ``and`` operator is **binary**, which means it takes two **operands**.
 The operands in an ``and`` expression are commonly known as *conditions*.
@@ -173,8 +173,8 @@ It's behavior:
     >>> 5 and False
     False
 
-Getting started with ``or`` operator
-------------------------------------
+Getting started with "or" operator
+----------------------------------
 
 With Boolean ``or`` operator, you can connect two Boolean expressions into one
 compound expression. This makes ``or`` the **binary** operator. At least one
