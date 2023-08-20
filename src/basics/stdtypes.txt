@@ -136,6 +136,9 @@ They may be constructed in several ways:
 - using a list comprehension: ``[x for x in iterable]``
 - using the type constructor: ``list()`` or ``list(iterable)``
 
+.. seealso::
+    Refer :doc:`lists`.
+
 Tuples
 ------
 

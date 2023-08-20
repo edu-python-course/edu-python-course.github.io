@@ -1,0 +1,214 @@
+*******************************************************************************
+                                     Lists
+*******************************************************************************
+
+The list class is a fundamental built-in data type in Python.
+It has an impressive and useful set of features, allowing you to efficiently
+organize and manipulate heterogeneous data. Knowing how to use lists is
+a must-have skill for you as a Python developer. Lists have many use cases,
+so you’ll frequently reach for them in real-world coding
+:cite:`realpython:lists`.
+
+Getting started with Python's list data type
+============================================
+
+Python's ``list`` is a flexible, versatile, powerful, and popular **built-in
+data type**. It allows you to create variable-length and mutable *sequences*
+of objects. In a ``list``, you can store objects of any type. You can also
+mix objects of different types within the same list, although list elements
+often share the same type.
+
+.. note::
+    Throughout this document, you'll use the terms **items**, **elements**,
+    and **value** interchangeably to refer to the objects stored in a list.
+
+Some of the more relevant characteristics of ``list`` objects include being:
+
+:Ordered:
+    They contain elements that are sequentially arranged according to their
+    insertion order.
+
+:Zero-based:
+    They allow you to access their elements by indices that start from zero.
+
+:Mutable:
+    They support in-place mutations or changes to their contained elements.
+
+:Heretogeneous:
+    They can store objects of different types.
+
+:Growable and dynamic:
+    They can grow or shrink dynamically, which means that they support
+    the addition, insertion, and removal of elements.
+
+:Nestable:
+    They can contain other lists, so you can have list of lists (2D matrix).
+
+:Iterable:
+    They support iteration, so you can traverse them using a loop or
+    comprehension while you perform operations on each of their elements.
+
+:Sliceable:
+    They support slicing operations, meaning that you can extract a series of
+    elements from them.
+
+:Combinable:
+    They support concatenation operations, so you can combine two or more lists
+    using the concatenation operators.
+
+:Copyable:
+    They allow you to make copies of their content using various techniques.
+
+Constructing lists in Python
+============================
+
+Creating lists through literals
+-------------------------------
+
+.. code-block:: python
+    :linenos:
+
+    >>> digits = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+    >>> fruits = ["apple", "banana", "orange", "kiwi", "grape"]
+    >>> cities = [
+    ...     "Kyiv",
+    ...     "Kharkiv",
+    ...     "Vinnytsia",
+    ... ]
+    >>> inventory = [
+    ...     {"product": "phone", "price": 1000, "quantity": 10},
+    ...     {"product": "laptop", "price": 1500, "quantity": 5},
+    ... ]
+    >>> functions = [print, len, range, type, enumerate]
+    >>> empty = []
+
+Creating lists using constructor
+--------------------------------
+
+.. todo
+
+General syntax is:
+
+::
+
+    list([iterable])
+
+.. code-block:: python
+    :linenos:
+
+    >>> list((0, 1, 2, 3, 4, 5, 6, 7, 8, 9))
+    [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+    >>> list({"circle", "triangle", "square", "rectangle", "pentagon"})
+    ['square', 'rectangle', 'circle', 'triangle', 'pentagon']
+
+    >>> list({"name": "John Doe", "age": 30, "city": "New York"})
+    ['name', 'age', 'city']
+    >>> list({"name": "John Doe", "age": 30, "city": "New York"}.items())
+    [('name', 'John Doe'), ('age', 30), ('city', 'New York')]
+
+    >>> list("Python")
+    ['P', 'y', 't', 'h', 'o', 'n']
+
+    >>> list()
+    []
+
+Creating lists with list comprehension
+--------------------------------------
+
+.. todo
+
+The core syntax of list comprehensions looks like:
+
+::
+
+    [expression(item) for item in iterable if condition]
+
+Accessing items in a list: indexing
+===================================
+
+.. todo
+
+Retrieving multiple items from a list: slicing
+==============================================
+
+.. todo
+
+::
+
+    list_object[start:stop:step]
+
++-----------+----------------------+
+| Index     | Default value        |
++===========+======================+
+| ``start`` | 0                    |
++-----------+----------------------+
+| ``stop``  | ``len(list_object)`` |
++-----------+----------------------+
+| ``step``  | 1                    |
++-----------+----------------------+
+
+Creating copies of a list
+=========================
+
+.. todo
+
+Aliases of a list
+-----------------
+
+.. todo
+
+Shallow copies of a list
+------------------------
+
+Deep copy of a list
+-------------------
+
+.. todo
+
+Updating items in lists: index assignment
+=========================================
+
+::
+
+    list_object[index] = new_value
+
+.. todo
+
+Growing and shrinking lists dynamically
+=======================================
+
+Appending a single item at once
+-------------------------------
+
+.. todo: .append method
+
+Extending a list with multiple items at once
+--------------------------------------------
+
+.. todo: .extend method
+
+Inserting an item at a given position
+-------------------------------------
+
+.. todo: .insert method
+
+Deleting from a list
+--------------------
+
+.. todo: .remove, .pop, .clear methods
+
+Concatenating and repeating lists
+=================================
+
+.. todo
+
+Reversing and sorting lists
+===========================
+
+.. todo
+
+Putting lists into action
+=========================
+
+.. todo: flattering, stack, queue... (to practice?)
