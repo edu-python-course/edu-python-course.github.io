@@ -6,7 +6,7 @@ The list class is a fundamental built-in data type in Python.
 It has an impressive and useful set of features, allowing you to efficiently
 organize and manipulate heterogeneous data. Knowing how to use lists is
 a must-have skill for you as a Python developer. Lists have many use cases,
-so you’ll frequently reach for them in real-world coding
+so you'll frequently reach for them in real-world coding
 :cite:`realpython:lists`.
 
 Getting started with Python's list data type
@@ -62,10 +62,30 @@ Some of the more relevant characteristics of ``list`` objects include being:
 Constructing lists in Python
 ============================
 
+First things first. If you want to use a list to store or collect some data in
+your code, then you need to create a list object. You'll find several ways to
+create lists in Python.
+
 Creating lists through literals
 -------------------------------
 
+List literals are probably the most popular way to create a ``list`` object
+in Python. These literals are fairly straightforward. They consist of a pair
+of square brackets enclosing a comma-separated series of objects.
+
+General syntax of list literal is:
+
+::
+
+    [item_0, item_1, ..., item_n]
+This syntax creates a list of n items by listing the items in an enclosing pair
+of square brackets.
+
+.. note::
+    You don't have to declare the items' type or the list's size beforehand.
+
 .. code-block:: python
+    :caption: Lists examples in Python
     :linenos:
 
     >>> digits = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -82,16 +102,43 @@ Creating lists through literals
     >>> functions = [print, len, range, type, enumerate]
     >>> empty = []
 
+Using a list literal is arguably the most common way to create lists. You'll
+find these literals in many Python examples and codebases. They come in handy
+when you have a series of elements with closely related meanings, and you want
+to pack them into a single data structure.
+
+.. note::
+    Naming lists as plural nouns is a common practice that improves
+    readability. However, there are situations where you can use collective
+    nouns as well.
+
 Creating lists using constructor
 --------------------------------
 
-.. todo
+Another tool that allows you to create list objects is the class constructor,
+``list()``. You can call this constructor with any iterable object, including
+other lists, tuples, sets, dictionaries and their components, strings, and many
+others. You can also call it without any arguments, in which case you’ll get
+an empty list back.
 
 General syntax is:
 
 ::
 
     list([iterable])
+
+To create a list, you need to call ``list()`` as you'd call any class
+constructor or function. Note that the square brackets around iterable
+mean that the argument is optional, so the brackets aren’t part of the
+syntax.
+
+Calling ``list()`` without an argument creates and returns a new empty list.
+This way of creating empty lists is less common than using an empty pair of
+square brackets. However, in some situations, it can make your code more
+explicit by clearly communicating your intent: *creating an empty list*.
+
+The ``list()`` constructor is especially useful when you need to create a list
+out of an iterator object.
 
 .. code-block:: python
     :linenos:
@@ -113,16 +160,62 @@ General syntax is:
     >>> list()
     []
 
+.. note::
+    As a side note, you’ll often find that built-in and third-party functions
+    return *iterators*:
+    ``reversed()``, ``enumerate()``, ``map()``, ``filter()``, and more.
+    The returned values of these can be transformed into a list using
+    constructor. The ``list()`` constructor will consume the iterator, build
+    your list, and return it back to you.
+
+    It's less common to find functions that directly return list objects,
+    but the built-in ``sorted()`` function is one example.
+
 Creating lists with list comprehension
 --------------------------------------
 
-.. todo
+**List comprehensions** are one of the most distinctive features of Python.
+They're quite popular in the Python community, so you'll likely find them all
+around. List comprehensions allow you to quickly create and transform lists
+using a syntax that mimics a ``for loop`` but in a single line of code.
 
 The core syntax of list comprehensions looks like:
 
 ::
 
-    [expression(item) for item in iterable if condition]
+    [expression(item) for item in iterable [if condition]]
+
+.. note::
+    Square brackets around "if condition" marks it optional, and is not a part
+    of a syntax.
+
+Every list comprehensions needs at least three components:
+
+#.  **expression()** is a Python expression that returns a concrete value, and
+    most of the time, that value depends on ``item``. Note that it doesn't have
+    to be a function.
+#.  **item** is the current object from ``iterable``.
+#.  **iterable** can be any Python iterable object, such as
+    ``list``, ``tuple``, ``set``, ``string`` etc.
+
+To illustrate how list comprehensions allow you to create new lists out of
+existing iterables, say that you want to construct a list with the square
+values of the first ten integer numbers.
+
+.. code-block:: python
+    :linenos:
+
+    >>> [number ** 2 for number in range(1, 11)]
+    [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+
+In this example, you use range() to get the first ten integer numbers.
+The comprehension iterates over them while computing the square and building
+the new list.
+
+In general, you'll use a list comprehension when you need to create a list of
+transformed values out of an existing iterable. Comprehensions are a great tool
+that you need to master as a Python developer. They're optimized for
+performance and are quick to write.
 
 Accessing items in a list: indexing
 ===================================
