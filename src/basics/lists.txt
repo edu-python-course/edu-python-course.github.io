@@ -78,6 +78,7 @@ General syntax of list literal is:
 ::
 
     [item_0, item_1, ..., item_n]
+
 This syntax creates a list of n items by listing the items in an enclosing pair
 of square brackets.
 
