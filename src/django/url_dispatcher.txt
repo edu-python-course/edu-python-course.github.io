@@ -1,0 +1,78 @@
+.. todo: add reference to local CBV document
+
+*******************************************************************************
+                                URL Dispatcher
+*******************************************************************************
+
+    A clean, elegant URL scheme is an important detail in a high-quality web
+    application.
+
+Processing a request
+====================
+
+When a user requests a page from the Django-powered site, this is the algorithm
+the system follows to determine which Python code to execute:
+
+#.  Django determines the root URL conf module to use. Ordinarily, this is
+    the value of the ``ROOT_URLCONF`` setting, but if incoming ``HttpRequest``
+    object has a ``urlconf`` attribute (set by middleware), its value will be
+    used in place of the ``ROOT_URLCONF`` setting.
+#.  Django loads that Python module and looks for the variable ``urlpatterns``.
+    This should be a sequence of ``django.urls.path`` and/or
+    ``django.urls.re_path`` instances.
+#.  Django runs through each URL pattern, in order, and stops at the first one
+    that matches the requested URL, matching against ``path_info``.
+#.  Once one of the URL patterns matches, Django imports and calls the given
+    view, which is a Python function or a `class-based view`_. The view gets
+    passed the following arguments:
+
+    -   an instance of ``HttpRequest``
+    -   if the matched URL pattern contained no named groups, then the matches
+        from the regular expression are provided as positional arguments.
+    -   the keyword arguments are made up of any named parts matched by
+        the path expression that are provided, overriden by nay arguments
+        specified in the optional **kwargs** argument to ``django.url.path``
+        or ``django.url.re_path``
+
+#.  If no URL pattern matches, or if an exception is raised during any point
+    in this process, Django invokes an appropriate error-handling view.
+
+.. todo: example URLconf
+
+.. rubric:: Notes
+
+-   To capture a value from the URL, use angle brackets.
+-   Captured values can optionally include a converter type. For example,
+    ``<int:name>`` to capture an integer parameter. If a converter isn't
+    included, any string, excluding a **/** character, is matched.
+-   There's no need to add a leading slash, because every URL has that.
+    For example, it's **articles**, not **/articles**.
+
+.. rubric:: Example requests
+
+.. todo: example requests
+
+Path converters
+===============
+
+.. todo: path converters
+
+Using regular expressions
+=========================
+
+.. todo: regular expressions usage
+
+Error handling
+==============
+
+.. todo: error handling
+
+Including other URL confs
+=========================
+
+.. todo: include urlconf
+
+Reverse resolution of URLs
+==========================
+
+.. todo: reverse
