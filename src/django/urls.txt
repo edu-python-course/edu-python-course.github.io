@@ -1,4 +1,6 @@
 .. _class-based view: ./cbv.txt
+.. _register custom path converters:
+    https://docs.djangoproject.com/en/5.0/topics/http/urls/#registering-custom-path-converters
 
 *******************************************************************************
                                 URL Dispatcher
@@ -73,7 +75,18 @@ the system follows to determine which Python code to execute:
 Path converters
 ===============
 
-.. todo: path converters
+-   ``str`` - matches any non-empty string, excluding the path separator,
+    **'/'**.
+-   ``int`` - matches zero or any positive integer.Returns an **int**.
+-   ``slug`` - matches any slug string consisting of ASCII letters or numbers,
+    plus the hyphen and underscore (e.g. **building-django-site**).
+-   ``uuid`` - matches a formatted UUID, dashes must be included and letters
+    must be lowercase (e.g. 7feb1849-db5e-4f19-90c6-9d6724e11f3d).
+    Returns a **UUID** instance.
+-   ``path`` - matches any non-empty string, including the path separator,
+    **'/'**.
+
+In case of need, you can `register custom path converters`_.
 
 Using regular expressions
 =========================
