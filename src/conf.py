@@ -32,6 +32,7 @@ extensions = [
     "sphinx_rtd_theme",
     "myst_parser",
     "sphinx_copybutton",
+    "sphinx_reredirects",
 ]
 source_suffix = {
     ".txt": "restructuredtext",
@@ -45,6 +46,12 @@ exclude_patterns = [
     "**/README.*",
 ]
 suppress_warnings = []
+
+# options for reredirects
+redirects = {
+     "appx/blog/spec": "../../spec/blog/index.html",
+     "appx/libms/spec": "../../spec/libms/index.html",
+}
 
 # options for bibliography
 bibtex_bibfiles = ["refs.bib"]
