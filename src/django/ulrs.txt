@@ -37,7 +37,18 @@ the system follows to determine which Python code to execute:
 #.  If no URL pattern matches, or if an exception is raised during any point
     in this process, Django invokes an appropriate error-handling view.
 
-.. todo: example URLconf
+.. code-block:: python
+
+    # urls.py
+
+    from django.urls import path
+    from . import views
+
+    urlpatterns = [
+        path("faq/", views.faq_view),
+        path("tasks/", views.task_list_view),
+        path("tasks/<int:year>/", views.year_archive_view),
+    ]
 
 .. rubric:: Notes
 
@@ -50,7 +61,14 @@ the system follows to determine which Python code to execute:
 
 .. rubric:: Example requests
 
-.. todo: example requests
+-   A request to **/faq/** would match the first one entry in the list.
+    Django would call the function
+    **views.faq_view(request)**.
+-   A request to **/tasks/2023/** would match the third one entry in the list.
+    Django would call the function
+    **views.year_archive_view(request, year=2023)**
+-   A request to **/tasks/2023** would not any of these patterns, because each
+    pattern requires that the URL end with a slash.
 
 Path converters
 ===============
