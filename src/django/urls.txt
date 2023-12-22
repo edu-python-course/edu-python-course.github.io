@@ -119,7 +119,22 @@ the shorter unnamed group, e.g. ``(\d{4})``.
 Error handling
 ==============
 
-.. todo: error handling
+When Django can't find a match for the requested URL, or when an exception
+is raised, Django invokes an error-handling view.
+
+The views to use for these cases are specified by four variables. Their
+default values should suffice for most projects, but further customization
+is possible by overriding their default values.
+
+The variables are:
+
+-   ``handler400``
+-   ``handler403``
+-   ``handler404``
+-   ``handler500``
+
+.. todo: add seealso
+.. todo: add customizing error views
 
 Including other URL confs
 =========================
