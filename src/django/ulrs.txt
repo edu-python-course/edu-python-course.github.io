@@ -1,4 +1,4 @@
-.. todo: add reference to local CBV document
+.. _class-based view: ./cbv.txt
 
 *******************************************************************************
                                 URL Dispatcher

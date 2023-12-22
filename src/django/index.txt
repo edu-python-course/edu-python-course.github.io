@@ -28,5 +28,7 @@ and flexibly scale.
 
 .. toctree::
     :name: django
+    :maxdepth: 1
 
-    url_dispatcher
+    urls
+    cbv
