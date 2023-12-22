@@ -1,6 +1,7 @@
 .. _class-based view: ./cbv.txt
 .. _register custom path converters:
     https://docs.djangoproject.com/en/5.0/topics/http/urls/#registering-custom-path-converters
+.. _Django website: https://www.djangoproject.com/
 
 *******************************************************************************
                                 URL Dispatcher
@@ -139,7 +140,48 @@ The variables are:
 Including other URL confs
 =========================
 
-.. todo: include urlconf
+At any point, your ``urlpatterns`` can *include* other URLconf modules. This
+essentially **roots** a set of URLs below other ones.
+
+For example, here's an excerpt of the URLconf for the `Django website`_.
+
+.. code-block:: python
+
+    from django.urls import include, path
+
+    urlpatterns = [
+        path("community/", include("aggregator.urls")),
+        path("contact/", include("contact.urls")),
+    ]
+
+Whenever Django encounters ``include()``, it chops off whatever part of the
+URL matched up to that point and sends the remaining string to the included
+URLconf for further processing.
+
+Another possibility is to include additional URL patterns by using a list of
+``path`` or ``re_path`` instances.
+
+.. code-block:: python
+
+    from django.urls import include, path
+
+    from apps.main import views as main_views
+    from credit import views as credit_views
+
+    credit_patterns = [
+        path("reports/", credit_views.report_view),
+        path("reports/<int:id>/", credit_views.report_view),
+        path("charge/", credit_views.charge_view),
+    ]
+
+    urlpatterns = [
+        path("", main_views.homepage_view),
+        path("help/", include("help.urls")),
+        path("credit/", include(credit_patterns)),
+    ]
+
+This can be used to remove redundancy from URL configurations where a single
+pattern prefix is used repeatedly.
 
 Reverse resolution of URLs
 ==========================
