@@ -91,7 +91,30 @@ In case of need, you can `register custom path converters`_.
 Using regular expressions
 =========================
 
-.. todo: regular expressions usage
+If the path and converters syntax isn't sufficient for defining your URL
+patterns, you can also use regular expressions via ``re_path``.
+
+In Python regular expressions, the syntax for named regular expression groups
+is ``(?P<name>pattern>)``, where **name** is the name of the group and
+**pattern** is some pattern to match.
+
+Here's the example URLconf from earlier, rewritten using regular expressions:
+
+.. code-block:: python
+
+    # urls.py
+
+    from django.urls import path, re_path
+    from . import views
+
+    urlpatterns = [
+        path("faq/", views.faq_view),
+        path("tasks/", views.task_list_view),
+        re_path(r"tasks/(?P<year>\d{4})/$", views.year_archive_view),
+    ]
+
+As well as the named group syntax, e.g. ``(?P<year>\d{4})``, you can also use
+the shorter unnamed group, e.g. ``(\d{4})``.
 
 Error handling
 ==============
