@@ -35,5 +35,7 @@
 
 .. rubric:: References
 
+.. bibliography source file: refs.bib
+
 .. bibliography::
     :all:
