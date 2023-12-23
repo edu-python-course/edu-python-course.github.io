@@ -48,8 +48,8 @@ suppress_warnings = []
 
 # options for reredirects
 redirects = {
-     "appx/blog/spec": "../../spec/blog/index.html",
-     "appx/libms/spec": "../../spec/libms/index.html",
+    "appx/blog/spec": "../../spec/blog/index.html",
+    "appx/libms/spec": "../../spec/libms/index.html",
 }
 
 # options for bibliography
@@ -81,6 +81,14 @@ html_theme_options = {
     "css_minify": True,
 
     "version_dropdown": False,
+}
+html_sidebars = {
+    "**": [
+        "logo-text.html",
+        "globaltoc.html",
+        "localtoc.html",
+        "searchbox.html",
+    ]
 }
 
 # options for LaTeX output
