@@ -79,6 +79,8 @@ html_theme_options = {
     "globaltoc_depth": 2,
 
     "css_minify": True,
+
+    "version_dropdown": False,
 }
 
 # options for LaTeX output
