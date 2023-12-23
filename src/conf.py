@@ -29,7 +29,6 @@ extensions = [
 
     "sphinxcontrib.bibtex",
     "sphinxcontrib.mermaid",
-    "sphinx_rtd_theme",
     "myst_parser",
     "sphinx_copybutton",
     "sphinx_reredirects",
@@ -49,8 +48,8 @@ suppress_warnings = []
 
 # options for reredirects
 redirects = {
-     "appx/blog/spec": "../../spec/blog/index.html",
-     "appx/libms/spec": "../../spec/libms/index.html",
+    "appx/blog/spec": "../../spec/blog/index.html",
+    "appx/libms/spec": "../../spec/libms/index.html",
 }
 
 # options for bibliography
@@ -77,10 +76,21 @@ html_theme_options = {
 
     "base_url": project_data["homepage"],
 
-    "globaltoc_depth": 2,
+    "globaltoc_depth": 1,
 
     "css_minify": True,
 }
+
+html_sidebars = {
+    "**": [
+        "logo-text.html",
+        "globaltoc.html",
+        "localtoc.html",
+        "searchbox.html",
+    ]
+}
+
+html_permalinks_icon = "&#x2693;"
 
 html_static_path = ["_static"]
 html_css_files = ["default.css"]
