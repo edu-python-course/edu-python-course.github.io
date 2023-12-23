@@ -91,6 +91,8 @@ html_sidebars = {
     ]
 }
 html_permalinks_icon = "&#x2693;"
+html_static_path = ["_static"]
+html_css_files = ["default.css"]
 
 # options for LaTeX output
 latex_doc = project.title().replace(" ", "") + ".tex"
