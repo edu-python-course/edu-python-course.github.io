@@ -104,7 +104,7 @@ are :cite:`python-usage`:
 
 
 .. toctree::
-    :caption: Contents
+    :caption: Future reading
     :name: intro
     :maxdepth: 2
 

@@ -29,7 +29,6 @@ extensions = [
 
     "sphinxcontrib.bibtex",
     "sphinxcontrib.mermaid",
-    "sphinx_rtd_theme",
     "myst_parser",
     "sphinx_copybutton",
     "sphinx_reredirects",
@@ -49,8 +48,8 @@ suppress_warnings = []
 
 # options for reredirects
 redirects = {
-     "appx/blog/spec": "../../spec/blog/index.html",
-     "appx/libms/spec": "../../spec/libms/index.html",
+    "appx/blog/spec": "../../spec/blog/index.html",
+    "appx/libms/spec": "../../spec/libms/index.html",
 }
 
 # options for bibliography
@@ -80,6 +79,16 @@ html_theme_options = {
     "globaltoc_depth": 2,
 
     "css_minify": True,
+
+    "version_dropdown": False,
+}
+html_sidebars = {
+    "**": [
+        "logo-text.html",
+        "globaltoc.html",
+        "localtoc.html",
+        "searchbox.html",
+    ]
 }
 
 # options for LaTeX output
@@ -87,11 +96,7 @@ latex_doc = project.title().replace(" ", "") + ".tex"
 latex_engine = "xelatex"
 latex_documents = [
     (master_doc, latex_doc, project, authors, "manual", False),
-    ("appx/software_list", "Software.tex", project, authors, "howto", False),
-    ("appx/code_edit", "IDE.tex", project, authors, "howto", False),
-    ("appx/blog/spec", "DjangoBlog.tex", project, authors, "howto", False),
-    ("appx/assignments", "CreatingPullRequest.tex",
-     "Creating the Pull Request", authors, "howto", False),
+    # TODO: set up additional documents to build separately
 ]
 latex_appendices = [
     # TODO: review appendices list

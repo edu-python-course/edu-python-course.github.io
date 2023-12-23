@@ -20,8 +20,8 @@
 .. only:: builder_html
 
     .. toctree::
-        :name: appx
         :caption: Additional materials
+        :name: appx
         :maxdepth: 1
 
         appx/software_list
