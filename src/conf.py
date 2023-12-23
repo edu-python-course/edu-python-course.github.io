@@ -79,6 +79,8 @@ html_theme_options = {
     "globaltoc_depth": 1,
 
     "css_minify": True,
+
+    "version_dropdown": False,
 }
 
 html_sidebars = {
