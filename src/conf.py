@@ -90,6 +90,7 @@ html_sidebars = {
         "searchbox.html",
     ]
 }
+html_permalinks_icon = "&#x2693;"
 
 # options for LaTeX output
 latex_doc = project.title().replace(" ", "") + ".tex"
