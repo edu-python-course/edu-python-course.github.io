@@ -79,6 +79,7 @@ html_theme_options = {
     "globaltoc_depth": 2,
 
     "css_minify": True,
+    "html_prettify": True,  # TODO: for debug purposes, remove
 
     "version_dropdown": False,
 }
