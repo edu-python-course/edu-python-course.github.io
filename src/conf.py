@@ -29,7 +29,6 @@ extensions = [
 
     "sphinxcontrib.bibtex",
     "sphinxcontrib.mermaid",
-    "sphinx_rtd_theme",
     "myst_parser",
     "sphinx_copybutton",
     "sphinx_reredirects",
