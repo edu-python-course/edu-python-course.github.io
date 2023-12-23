@@ -82,6 +82,9 @@ html_theme_options = {
     "css_minify": True,
 }
 
+html_static_path = ["_static"]
+html_css_files = ["default.css"]
+
 # options for LaTeX output
 latex_doc = project.title().replace(" ", "") + ".tex"
 latex_engine = "xelatex"
