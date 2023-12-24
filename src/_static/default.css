@@ -1,3 +1,30 @@
-
+/*
+ * Colors palette
+ */
+html,
+body {
+  background-color: #121212;
+  color: #F5F5F5;
+}
+html h1,
+html h2,
+html h3,
+html h4,
+html h5,
+html h6,
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  color: #FFFFFF !important;
+}
+html .md-nav.md-nav--primary,
+html .md-nav.md-nav--secondary,
+body .md-nav.md-nav--primary,
+body .md-nav.md-nav--secondary {
+  background-color: inherit;
+}
 
 /*# sourceMappingURL=default.css.map */

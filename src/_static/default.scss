@@ -1,0 +1,27 @@
+/*
+ * Colors palette
+ */
+
+$background_color: #121212;
+$header_color: #FFFFFF;
+$main_content_color: #F5F5F5;
+
+html,
+body {
+    background-color: $background_color;
+    color: $main_content_color;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: $header_color !important;
+    }
+
+    .md-nav.md-nav--primary,
+    .md-nav.md-nav--secondary {
+        background-color: inherit;
+    }
+}
