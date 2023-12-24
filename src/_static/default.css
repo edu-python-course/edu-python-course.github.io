@@ -27,4 +27,11 @@ body .md-nav.md-nav--secondary {
   background-color: inherit;
 }
 
+.toctree-wrapper .reference.internal {
+  color: #9E9E9E;
+}
+.toctree-wrapper .reference.internal:hover {
+  color: #2196F3;
+}
+
 /*# sourceMappingURL=default.css.map */

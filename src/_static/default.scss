@@ -2,7 +2,11 @@
  * Colors palette
  */
 
-$background_color: #121212;
+$background_color: #121212; // TODO: may be should be changed to 212121 (cs)
+$grey_color_primary: #9E9E9E;
+$grey_color_secondary: #EEEEEE; // TODO: check usage
+$blue_color_primary: #2196F3;
+$blue_color_secondary: #90CAF9; // TODO: check usage
 $header_color: #FFFFFF;
 $main_content_color: #F5F5F5;
 
@@ -23,5 +27,15 @@ body {
     .md-nav.md-nav--primary,
     .md-nav.md-nav--secondary {
         background-color: inherit;
+    }
+}
+
+.toctree-wrapper {
+    .reference.internal {
+        color: $grey_color_primary;
+
+        &:hover {
+            color: $blue_color_primary;
+        }
     }
 }
