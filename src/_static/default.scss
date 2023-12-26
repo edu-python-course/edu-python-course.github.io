@@ -39,3 +39,21 @@ body {
         }
     }
 }
+
+.md-nav.md-nav--primary {
+    .md-nav__link {
+        padding: 0 0.25rem;
+        &:hover {
+            color: $blue_color_primary;
+        }
+    }
+
+    .md-nav__link.md-nav__link--active {
+        color: $grey_color_secondary;
+        background-color: $grey_color_primary;
+        padding: 0.1rem 0.2rem;
+        &:hover {
+            color: $blue_color_primary;
+        }
+    }
+}

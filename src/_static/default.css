@@ -34,4 +34,19 @@ body .md-nav.md-nav--secondary {
   color: #2196F3;
 }
 
+.md-nav.md-nav--primary .md-nav__link {
+  padding: 0 0.25rem;
+}
+.md-nav.md-nav--primary .md-nav__link:hover {
+  color: #2196F3;
+}
+.md-nav.md-nav--primary .md-nav__link.md-nav__link--active {
+  color: #EEEEEE;
+  background-color: #9E9E9E;
+  padding: 0.1rem 0.2rem;
+}
+.md-nav.md-nav--primary .md-nav__link.md-nav__link--active:hover {
+  color: #2196F3;
+}
+
 /*# sourceMappingURL=default.css.map */
