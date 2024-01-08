@@ -1,0 +1,55 @@
+# Simple workflow for deploying static content to GitHub Pages
+name: Build PDF documents
+
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches:
+      - devel
+  pull_request:
+    branches:
+      - devel
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          submodules: true
+      - name: Setup Python
+        uses: actions/setup-python@v2
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: Generate PDF documents
+        run: |
+          LANGUAGE=en make pdf
+          LANGUAGE=uk make pdf
+      - name: Copy generated documents to artifacts directory
+        run: |
+          mkdir pdf-docs
+          cp _build/latex/en/*.pdf pdf-docs
+          cp _build/latex/uk/*.pdf pdf-docs
+      - name: Upload PDF as artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: pdf-docs
+          path: pdf-docs
