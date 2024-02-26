@@ -36,12 +36,16 @@ jobs:
         with:
           submodules: true
 
-      - name: Setup Python
+      - name: Set up Python
         uses: actions/setup-python@v4
+
+      - name: Set up NodeJS
+        uses: actions/setup-node@v4
 
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
+          npm install
 
       - name: Build documents
         run: |
