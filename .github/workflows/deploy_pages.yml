@@ -27,28 +27,41 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           submodules: true
-      - name: Setup Python
-        uses: actions/setup-python@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+
+      - name: Set up NodeJS
+        uses: actions/setup-node@v4
+
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
+          npm install
+
       - name: Build documents
         run: |
           LANGUAGE=en make html
           LANGUAGE=uk make html
+          npm run build
+
       - name: Setup Pages
         uses: actions/configure-pages@v2
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload entire repository
           path: "."
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
