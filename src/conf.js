@@ -1,5 +1,3 @@
-import "../assets/favicon.ico"
-
 import "./_static/scss/presentation-common.scss"
 import "./_static/scss/presentation-normalization.scss"
 

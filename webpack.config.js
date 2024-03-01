@@ -22,7 +22,9 @@ const config = {
         new MiniCSSExtractPlugin({filename: "css/main.min.css"}),
         new HTMLWebpackPlugin({
             template: path.resolve(BASE_DIR, "rdbms", "presentations", "normalization.html"),
-            filename: path.resolve(BUILD_DIR, "normalization", "index.html")
+            filename: path.resolve(BUILD_DIR, "normalization", "index.html"),
+            favicon: path.resolve(__dirname, "assets", "favicon.ico"),
+            inject: "body",
         }),
     ],
     module: {
