@@ -1,6 +1,6 @@
 /**
   *****************************************************************************
-                        Common Presentation Stylesheet
+                         Common Presentation Stylesheet
   *****************************************************************************
 
  */
@@ -11,6 +11,51 @@
  */
 
 // todo: add colors palette
+
+/**
+  Sizing and alignments
+  =====================
+ */
+
+// items sizing
+
+html {
+  font-size: 2.5rem;
+
+  body {
+    font-size: 1em;
+  }
+
+  small {
+    font-size: 0.75em;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  h3 {
+    font-size: 1.25em;
+  }
+}
+
+// align items and content
+
+.text-start {
+  text-align: start;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-end {
+  text-align: end;
+}
 
 /**
   Impress fallback messages
@@ -28,8 +73,8 @@
   font-family: sans-serif;
   line-height: 1.3;
 
-  width: 780px;
-  padding: 10px 10px 0;
+  width: 740px;
+  padding: 20px;
   margin: 20px auto;
 
   border: 1px solid #E4C652; // todo: set up color using palette
@@ -47,9 +92,10 @@
   }
 }
 
-// hide all presentation steps if impress.js is not supported
+// if impress.js isn't supported hide all presentation steps,
+// except the first one
 .impress-not-supported {
-  .step {
+  .step:not(.step:first-of-type) {
     display: none;
   }
 }
@@ -58,3 +104,16 @@
   Common presentation styles
   ==========================
  */
+
+#impress {
+  .overview {
+    display: none !important;
+  }
+
+  .step {
+    min-width: 600px;
+    min-height: 400px;
+
+    width: 1800px;
+  }
+}

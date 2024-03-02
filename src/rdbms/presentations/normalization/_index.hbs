@@ -1,0 +1,84 @@
+{{!
+  *********************************************************************
+                  Database Normalization - Presentation
+  *********************************************************************
+
+}}
+
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description"
+        content="Database normalization presentation -- Python course">
+  <title>Database Normalization</title>
+</head>
+
+<body class="impress-not-supported">
+
+{{!
+  impress.js fallback message
+
+  The fallback message is visible only in case there is `impress-not-supported` class on body.
+  If all required features are supported by the browser, this class is removed by impress.js script.
+
+}}
+<div class="fallback-message">
+  <p>
+    Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a&nbsp;simplified
+    version of this presentation.
+  </p>
+  <p>
+    For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.
+  </p>
+</div>
+
+<main id="normalization">
+  <div id="impress" aria-label="presentation wrapper">
+
+    {{! introduction }}
+    <div class="step" id="title" aria-labelledby="presentation-title">
+      <h1 class="text-center" id="presentation-title">Database Normalization</h1>
+    </div>
+    <div class="step" id="definition"
+         data-rel-position="relative"
+         data-rel-y="1000">{{>definition}}</div>
+    <div class="step" id="sample-data"
+         data-rel-position="relative"
+         data-rel-y="-2000">{{>example}}</div>
+    {{! anomalies }}
+    <div class="step" id="anomalies-insert"
+         data-rel-position="absolute"
+         data-x="-1800"
+         data-y="-2000">{{>anomalies-insert}}</div>
+    <div class="step" id="anomalies-update"
+         data-x="0"
+         data-y="-2000"
+         data-rotate-z="0">{{>anomalies-update}}</div>
+    <div class="step" id="anomalies-delete"
+         data-x="1800"
+         data-y="-2000">{{>anomalies-delete}}</div>
+    {{! 1NF -- First Normal Form }}
+    <div class="step" id="req-1nf"
+         data-x="-1800"
+         data-y="2000">{{>req-1nf}}</div>
+    {{! 2NF -- Second Normal Form }}
+    <div class="step" id="req-2nf"
+         data-x="0"
+         data-y="2000">{{>req-2nf}}</div>
+    {{! 3NF -- Third Normal Form }}
+    <div class="step" id="req-3nf"
+         data-x="1800"
+         data-y="2000">{{>req-3nf}}</div>
+    {{! overview step }}
+    <div class="step overview" id="overview" data-x="0" data-y="0" data-scale="5"></div>
+
+  </div>
+</main>
+
+</body>
+
+</html>

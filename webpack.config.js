@@ -4,6 +4,11 @@ const HTMLWebpackPlugin = require("html-webpack-plugin")
 
 const BASE_DIR = path.resolve(__dirname, "src")
 const BUILD_DIR = path.resolve(__dirname, "_build", "webpack")
+const ASSETS_DIR = path.resolve(__dirname, "assets")
+const commonHTMLWebpackPluginConfig = {
+    favicon: path.resolve(ASSETS_DIR, "favicon.ico"),
+    inject: "body", // inject scripts at the bottom of the body
+}
 
 const config = {
     mode: "development",
@@ -19,12 +24,11 @@ const config = {
         hot: true,
     },
     plugins: [
-        new MiniCSSExtractPlugin({filename: "css/main.min.css"}),
+        new MiniCSSExtractPlugin({ filename: "css/main.min.css" }),
         new HTMLWebpackPlugin({
-            template: path.resolve(BASE_DIR, "rdbms", "presentations", "normalization.html"),
+            ...commonHTMLWebpackPluginConfig,
+            template: path.resolve(BASE_DIR, "rdbms", "presentations", "normalization", "_index.hbs"),
             filename: path.resolve(BUILD_DIR, "normalization", "index.html"),
-            favicon: path.resolve(__dirname, "assets", "favicon.ico"),
-            inject: "body",
         }),
     ],
     module: {
@@ -32,25 +36,25 @@ const config = {
             {
                 test: /\.scss$/,
                 use: [
-                    {loader: MiniCSSExtractPlugin.loader},
-                    {loader: "css-loader"},
-                    {loader: "sass-loader"},
+                    { loader: MiniCSSExtractPlugin.loader },
+                    { loader: "css-loader" },
+                    { loader: "sass-loader" },
                 ]
             },
             {
                 test: /\.css$/,
                 use: [
-                    {loader: MiniCSSExtractPlugin.loader},
-                    {loader: "css-loader"},
+                    { loader: MiniCSSExtractPlugin.loader },
+                    { loader: "css-loader" },
                 ]
             },
             {
                 test: /\.(png|svg|jpg|jpeg|gif|ico)$/,
                 type: "asset/resource",
-                generator: {filename: "assets/[name][ext]"},
+                generator: { filename: "assets/[name][ext]" },
             },
             {
-                test: /\.hbs$/,
+                test: /\.(handlebars|hbs)$/,
                 loader: "handlebars-loader",
             },
             {

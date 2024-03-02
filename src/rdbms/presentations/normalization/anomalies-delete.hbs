@@ -1,0 +1,15 @@
+<h2>Deletion anomalies</h2>
+<p class="description">
+  <em>
+    Under certain circumstances, the deletion of data representing certain facts
+    necessitates the deletion of data representing completely different facts.
+  </em>
+</p>
+<hr>
+<section aria-label="sample data">
+{{! TODO: add example }}
+</section>
+<section class="notes">
+  If a player looses their items completely, the record must be deleted, unless the <code>inventory</code>
+  field is set to <code>null</code>. This leads to the loosing all other information about a player.
+</section>
