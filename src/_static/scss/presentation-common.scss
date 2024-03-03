@@ -70,7 +70,7 @@
     width: 1rem;
     height: auto;
 
-    background:none;
+    background: none;
   }
 }
 
@@ -82,25 +82,30 @@
 // items sizing
 :root {
   font-size: 2.5rem; // base font size
+  --fs-body: 1em; // 100% from the base font size
+  --fs-small: 0.75em; // 75% from the base font size
+  --fs-h1: 2em; //200% from the base font size
+  --fs-h2: 1.5em; //150% from the base font size
+  --fs-h3: 1.25em; //125% from the base font size
 
   body {
-    font-size: 1em; // 100% from base font size
+    font-size: var(--fs-body);
   }
 
   small {
-    font-size: 0.75em; // 75% from base font size
+    font-size: var(--fs-small);
   }
 
   h1 {
-    font-size: 2em; // 200% from base font size
+    font-size: var(--fs-h1);
   }
 
   h2 {
-    font-size: 1.5em; // 150% from base font size
+    font-size: var(--fs-h2);
   }
 
   h3 {
-    font-size: 1.25em; // 125% from base font size
+    font-size: var(--fs-h3);
   }
 }
 
@@ -172,5 +177,35 @@
     min-height: 400px;
 
     width: 1800px;
+
+    padding: 20px 60px;
+    margin: 20px auto;
+  }
+
+  .db-table {
+    font-family: Monospaced, monospace;
+
+    width: 100%;
+    margin: 0 auto;
+
+    caption {
+      margin: 10px auto;
+    }
+
+    thead {
+      @extend .text-center;
+      font-size: var(--fs-h3);
+    }
+
+    th,
+    td {
+      padding: 2.5svh 2.5svw;
+    }
+
+    .primary-key {
+    }
+
+    .invalid-data {
+    }
   }
 }
