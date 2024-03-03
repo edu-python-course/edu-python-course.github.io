@@ -224,4 +224,55 @@ main#normalization {
       transform: translate(0);
     }
   }
+
+  #example-1nf,
+  #example-2nf,
+  #example-3nf {
+    ul {
+      list-style: none;
+    }
+  }
+
+  #example-2nf,
+  #example-3nf {
+    .grid-wrapper {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  #example-1nf.future,
+  #example-2nf.future,
+  #example-3nf.future {
+    .fly-in {
+      opacity: 0.0;
+      transform: translateY(2000px);
+    }
+  }
+
+  #example-1nf.present,
+  #example-2nf.present,
+  #example-3nf.present {
+    .fly-in {
+      opacity: 1.0;
+      transform: translate(0);
+      transition: 1000ms;
+
+      &:nth-child(1) {
+        transition-delay: 700ms;
+      }
+
+      &:nth-child(2) {
+        transition-delay: 620ms;
+      }
+
+      &:nth-child(3) {
+        transition-delay: 550ms;
+      }
+
+      &:nth-child(4) {
+        transition-delay: 500ms;
+      }
+    }
+  }
 }

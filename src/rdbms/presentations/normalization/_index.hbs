@@ -22,7 +22,7 @@
 {{!
   Presentation theme selector
 }}
-<div id="theme-selector" aria-label="select color scheme">
+<div id="theme-selector">
   <button id="swap-theme-btn">
     <img src="{{sunIcon}}" alt="sun icon" class="theme-icon" id="sun-icon">
     <img src="{{moonIcon}}" alt="moon icon" class="theme-icon" id="moon-icon">
@@ -47,10 +47,10 @@
 </div>
 
 <main id="normalization">
-  <div id="impress" aria-label="presentation wrapper">
+  <div id="impress" aria-labelledby="presentation-title">
 
     {{! introduction }}
-    <div class="step" id="title" aria-labelledby="presentation-title">
+    <div class="step" id="title">
       <h1 class="text-center" id="presentation-title">Database Normalization</h1>
     </div>
     <div class="step" id="definition"
@@ -75,14 +75,23 @@
     <div class="step" id="req-1nf"
          data-x="-1800"
          data-y="2000">{{>req-1nf}}</div>
+    <div class="step" id="example-1nf"
+         data-rel-position="relative"
+         data-rel-y="1000">{{>example-1nf}}</div>
     {{! 2NF -- Second Normal Form }}
     <div class="step" id="req-2nf"
          data-x="0"
          data-y="2000">{{>req-2nf}}</div>
+    <div class="step" id="example-2nf"
+         data-rel-position="relative"
+         data-rel-y="1000">{{>example-2nf}}</div>
     {{! 3NF -- Third Normal Form }}
     <div class="step" id="req-3nf"
          data-x="1800"
          data-y="2000">{{>req-3nf}}</div>
+    <div class="step" id="example-3nf"
+         data-rel-position="relative"
+         data-rel-y="1000">{{>example-3nf}}</div>
     {{! overview step }}
     <div class="step overview" id="overview" data-x="0" data-y="0" data-scale="5"></div>
 

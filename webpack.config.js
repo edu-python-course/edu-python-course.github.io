@@ -14,6 +14,8 @@ const commonHTMLWebpackPluginConfig = {
 const icons = {
     moonIcon: "../assets/moon-svgrepo-com.svg",
     sunIcon: "../assets/sun-svgrepo-com.svg",
+    passIcon: "../assets/check-mark-svgrepo-com.svg",
+    failIcon: "../assets/cross-mark-svgrepo-com.svg",
 }
 
 const config = {
