@@ -20,6 +20,16 @@
 <body class="impress-not-supported">
 
 {{!
+  Presentation theme selector
+}}
+<div id="theme-selector" aria-label="select color scheme">
+  <button id="swap-theme-btn">
+    <img src="{{sunIcon}}" alt="sun icon" class="theme-icon" id="sun-icon">
+    <img src="{{moonIcon}}" alt="moon icon" class="theme-icon" id="moon-icon">
+  </button>
+</div>
+
+{{!
   impress.js fallback message
 
   The fallback message is visible only in case there is `impress-not-supported` class on body.

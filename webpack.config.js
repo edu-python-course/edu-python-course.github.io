@@ -5,9 +5,15 @@ const HTMLWebpackPlugin = require("html-webpack-plugin")
 const BASE_DIR = path.resolve(__dirname, "src")
 const BUILD_DIR = path.resolve(__dirname, "_build", "webpack")
 const ASSETS_DIR = path.resolve(__dirname, "assets")
+
 const commonHTMLWebpackPluginConfig = {
     favicon: path.resolve(ASSETS_DIR, "favicon.ico"),
     inject: "body", // inject scripts at the bottom of the body
+}
+
+const icons = {
+    moonIcon: "../assets/moon-svgrepo-com.svg",
+    sunIcon: "../assets/sun-svgrepo-com.svg",
 }
 
 const config = {
@@ -29,6 +35,9 @@ const config = {
             ...commonHTMLWebpackPluginConfig,
             template: path.resolve(BASE_DIR, "rdbms", "presentations", "normalization", "_index.hbs"),
             filename: path.resolve(BUILD_DIR, "normalization", "index.html"),
+            templateParameters: {
+                ...icons,
+            },
         }),
     ],
     module: {
