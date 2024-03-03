@@ -4,3 +4,155 @@
   *****************************************************************************
 
  */
+
+@import "./colors";
+@import "./presentation-common";
+
+main#normalization {
+  #anomalies-insert.future {
+    .anomaly {
+      color: inherit;
+    }
+
+    .fly-in {
+      opacity: 0.0;
+      transform: translateY(2000px);
+    }
+  }
+
+  #anomalies-insert.present {
+    .anomaly {
+      transform: translateY(25px) rotate(7.5deg);
+      color: var(--invalid-data);
+      transition: 5000ms;
+      transition-delay: 5000ms;
+    }
+
+    .fly-in {
+      opacity: 1.0;
+      transform: translateY(0);
+      transition: 2500ms;
+      transition-delay: 2500ms;
+    }
+  }
+
+  #anomalies-insert.past {
+    .anomaly {
+      transform: translateY(25px) rotate(7.5deg);
+      color: var(--invalid-data);
+    }
+  }
+
+  #anomalies-update {
+    .updated-data {
+      position: fixed;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  #anomalies-update.future {
+    .fade-in {
+      opacity: 0.0;
+    }
+
+    .fade-out {
+      opacity: 1.0;
+    }
+
+    .anomaly {
+      border-width: 0.01rem;
+      border-style: solid;
+      border-color: rgba(0, 0, 0, 0.0);
+    }
+  }
+
+  #anomalies-update.present {
+    .fade-out {
+      opacity: 0.0;
+      transition: 4000ms;
+      transition-delay: 2000ms;
+    }
+
+    .fade-in {
+      opacity: 1.0;
+      transition: 4000ms;
+      transition-delay: 5000ms; // one second before fade-out transition ends
+    }
+
+    .anomaly {
+      color: var(--invalid-data);
+      border-width: 0.1rem;
+      border-style: solid;
+      border-color: var(--invalid);
+      transition: 3000ms;
+      transition-delay: 7000ms;
+    }
+  }
+
+  #anomalies-update.past {
+    .fade-in {
+      opacity: 1.0;
+    }
+
+    .fade-out {
+      opacity: 0.0;
+    }
+
+    .anomaly {
+      color: var(--invalid-data);
+      border-width: 0.1rem;
+      border-style: solid;
+      border-color: var(--invalid);
+    }
+  }
+
+  #anomalies-delete.future {
+    .fade-out {
+      opacity: 1.0;
+    }
+
+    .anomaly {
+      color: inherit;
+    }
+  }
+
+  #anomalies-delete.present {
+    .fade-out {
+      opacity: 0.0;
+      transition: 2500ms;
+      transition-delay: 2500ms;
+    }
+
+    .anomaly {
+      color: var(--invalid-data);
+      transition: 3000ms;
+      transition-delay: 3000ms;
+
+      &:nth-child(odd) {
+        transform: rotate(-7deg);
+      }
+
+      &:nth-child(even) {
+        transform: rotate(7deg);
+      }
+    }
+  }
+
+  #anomalies-delete.past {
+    .fade-out {
+      opacity: 0.0;
+    }
+
+    .anomaly {
+      color: var(--invalid-data);
+
+      &:nth-child(odd) {
+        transform: rotate(-7deg);
+      }
+
+      &:nth-child(even) {
+        transform: rotate(7deg);
+      }
+    }
+  }
+}

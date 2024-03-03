@@ -17,12 +17,10 @@
   --on-background: #{$on-gray-50};
   --surface: white;
   --on-surface: black;
-  --primary: #{$yellow-600};
-  --primary-accent: #{$yellow-a100};
-  --on-primary: #{$on-yellow-600};
-  --secondary: #{$blue-400};
-  --secondary-accent: #{$blue-a100};
-  --on-secondary: #{$on-blue-400};
+  --invalid: #{$red-900};
+  --invalid-surface: #{$red-600};
+  --on-invalid-surface: #{$on-red-600};
+  --invalid-data: #{$red-500};
 
   #sun-icon {
     display: none;
@@ -34,12 +32,10 @@
   --on-background: #{$on-gray-900};
   --surface: #{$gray-700};
   --on-surface: #{$on-gray-700};
-  --primary: #{$yellow-200};
-  --primary-accent: #{$yellow-a200};
-  --on-primary: #{$on-yellow-200};
-  --secondary: #{$blue-200};
-  --secondary-accent: #{$blue-a200};
-  --on-secondary: #{$on-blue-200};
+  --invalid: #{$red-a700};
+  --invalid-surface: #{$red-700};
+  --on-invalid-surface: #{$on-red-700};
+  --invalid-data: #{$orange-300};
 
   #moon-icon {
     display: none;
@@ -172,6 +168,10 @@
     display: none !important;
   }
 
+  .description {
+    padding: 0 200px;
+  }
+
   .step {
     min-width: 600px;
     min-height: 400px;
@@ -206,6 +206,9 @@
     }
 
     .invalid-data {
+      border-color: var(--invalid);
+      border-style: solid;
+      border-width: 0.1rem;
     }
   }
 }
