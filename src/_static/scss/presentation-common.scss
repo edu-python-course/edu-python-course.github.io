@@ -106,16 +106,19 @@
 }
 
 // align items and content
-.text-start {
-  text-align: start;
-}
+:root {
+  .text-start {
+    text-align: start;
+  }
 
-.text-center {
-  text-align: center;
-}
+  .text-center {
+    text-align: center;
+  }
 
-.text-end {
-  text-align: end;
+  .text-end {
+    text-align: end;
+  }
+
 }
 
 /**
@@ -170,6 +173,16 @@
 
   .description {
     padding: 0 200px;
+  }
+
+  .requirements {
+    margin: auto;
+    padding: 20px 200px;
+    font-family: sans-serif;
+
+    ul {
+      line-height: 1.5;
+    }
   }
 
   .step {

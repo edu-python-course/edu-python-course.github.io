@@ -155,4 +155,73 @@ main#normalization {
       }
     }
   }
+
+  #req-1nf.future {
+    .fly-in {
+      opacity: 0.0;
+      transform: translateX(-2000px);
+    }
+  }
+
+  #req-1nf.present {
+    .fly-in {
+      opacity: 1.0;
+      transform: translate(0);
+      transition: 1500ms;
+      transition-delay: 500ms;
+    }
+  }
+
+  #req-1nf.past {
+    .fly-in {
+      opacity: 1.0;
+      transform: translate(0);
+    }
+  }
+
+  #req-2nf.future {
+    .fly-in {
+      opacity: 0.0;
+      transform: translateY(2000px);
+    }
+  }
+
+  #req-2nf.present {
+    .fly-in {
+      opacity: 1.0;
+      transform: translate(0);
+      transition: 1500ms;
+      transition-delay: 500ms;
+    }
+  }
+
+  #req-2nf.past {
+    .fly-in {
+      opacity: 1.0;
+      transform: translate(0);
+    }
+  }
+
+  #req-3nf.future {
+    .fly-in {
+      opacity: 0.0;
+      transform: translateX(2000px);
+    }
+  }
+
+  #req-3nf.present {
+    .fly-in {
+      opacity: 1.0;
+      transform: translate(0);
+      transition: 1500ms;
+      transition-delay: 500ms;
+    }
+  }
+
+  #req-3nf.past {
+    .fly-in {
+      opacity: 1.0;
+      transform: translate(0);
+    }
+  }
 }
