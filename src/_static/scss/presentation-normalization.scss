@@ -8,7 +8,15 @@
 @import "./colors";
 @import "./presentation-common";
 
+/**
+  Presentation related styles
+ */
 main#normalization {
+  thead {
+    background-color: $gray-600; // todo: adjust styling
+    color: $on-gray-600; // todo: adjust styling
+  }
+
   #anomalies-insert.future {
     .anomaly {
       color: inherit;
