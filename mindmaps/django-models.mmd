@@ -1,0 +1,49 @@
+---
+Django models
+---
+
+mindmap
+    root(Django models)
+        ::)Definition(
+        settings
+        ::icon(fas fa-gear)
+            ::{{connect to DB}}
+                dbs[sqlite<br>postgres<br>mysql]
+                ::icon(fas fa-database)
+        ::{{Define a model}}
+            models.Field
+                null
+                blank
+                choices
+                editable
+                help_text
+                primary_key
+                unique
+                verbose_name
+                validators
+            fields[Fields]
+                txt(Text fields)
+                    CharField
+                        max_length
+                        SlugField
+                    TextField
+                    ::{{special cases}}
+                        FileField
+                        ImageField
+                        URLField
+                num(Numeric fields)
+                    IntegerField
+                    DecimalField
+                datetime(Date/time fields)
+                    DateField
+                    TimeField
+                    DateTimeField
+        rel(Relationships)
+            ::[1-to-1]
+            ::[1-to-N: foreign key]
+            ::[m2m: many to many]
+                through
+                ::icon(fas fa-table)
+        migrations
+            ::{{Schema migrations}}
+            ::{{Data migrations}}
