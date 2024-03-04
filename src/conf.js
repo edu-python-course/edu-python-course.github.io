@@ -3,11 +3,10 @@
  */
 
 // add JS modules
-import "./_static/js/theme"
+// todo: GH-211
 
 // add stylesheets to webpack bundle
-import "./_static/scss/presentation-common.scss"
-import "./_static/scss/presentation-normalization.scss"
+// todo: GH-211
 
 // add assets/resources to webpack bundle
 import "../assets/icons/check-mark-svgrepo-com.svg"
