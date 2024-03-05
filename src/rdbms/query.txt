@@ -85,7 +85,7 @@ a comma-separated table reference list. A table reference can a table name,
 or derived table such as sub-query, a ``JOIN`` construct, or complex
 combinations of these. If more than one table reference is listed in the
 ``FROM`` clause, the table are cross-joined. The result of the ``FROM`` list
-is an intermediate virtual table tant can then be subject to transformations
+is an intermediate virtual table which can then be subject to transformations
 by the ``WHERE``, ``GROUP BY``, and ``HAVING`` clauses and is finally the
 result of the overall table expression.
 
@@ -500,7 +500,7 @@ Joins between tables
 .. literalinclude:: /../libms-db/libms.sql
     :caption: Publishers and books tables definitions
     :language: postgresql
-    :lines: 14-23,50-62
+    :lines: 15-23,57-69
 
 Following tables are related via ``FOREIGN KEY`` constraint. Each record in
 the ``book`` table references some record in the ``publisher`` table.
