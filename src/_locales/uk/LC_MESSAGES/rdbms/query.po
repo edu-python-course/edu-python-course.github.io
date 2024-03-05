@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Python Training Course 2024.03.dev\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-05 14:17+0200\n"
-"PO-Revision-Date: 2024-03-05 14:20+0200\n"
+"PO-Revision-Date: 2024-03-05 16:26+0200\n"
 "Last-Translator: Serhii Horodilov <sgorodil@gmail.com>\n"
 "Language-Team: uk <LL@li.org>\n"
 "Language: uk\n"
@@ -327,7 +327,7 @@ msgstr ""
 
 #: ../../src/rdbms/query.txt:173
 msgid "Labels are often referenced as \"aliases\"."
-msgstr "Етикетки часто називають \"псевдонімами\"."
+msgstr "Мітки часто називають \"псевдонімами\"."
 
 #: ../../src/rdbms/query.txt:176
 msgid "DISTINCT"

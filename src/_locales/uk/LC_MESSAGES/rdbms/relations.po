@@ -4,11 +4,11 @@
 # SERHII HORODILOV <sgorodil@gmail.com>
 msgid ""
 msgstr ""
-"Project-Id-Version: Python Training Course 2024.02.dev\n"
+"Project-Id-Version: Python Training Course 2024.03.dev\n"
 "Report-Msgid-Bugs-To: https://github.com/edu-python-course/edu-python-course."
 "github.io/issues\n"
 "POT-Creation-Date: 2023-12-16 13:55+0000\n"
-"PO-Revision-Date: 2024-02-26 19:44+0200\n"
+"PO-Revision-Date: 2024-03-05 16:13+0200\n"
 "Last-Translator: Serhii Horodilov <sgorodil@gmail.com>\n"
 "Language-Team: \n"
 "Language: uk\n"
@@ -19,7 +19,6 @@ msgstr ""
 "X-Generator: Poedit 3.4.2\n"
 
 #: ../../src/rdbms/relations.txt:-1
-#, fuzzy
 msgid "This document describes the database relationships"
 msgstr "Цей документ описує відносини в базах даних"
 
@@ -40,7 +39,6 @@ msgid "Data Relationships"
 msgstr "Зв'язки даних"
 
 #: ../../src/rdbms/relations.txt:11
-#, fuzzy
 msgid ""
 "Before dive into relationships, there is a need explain core concepts on how "
 "data are referenced between different tables."
@@ -53,20 +51,18 @@ msgid "Primary key"
 msgstr "Первинний ключ (Primary key)"
 
 #: ../../src/rdbms/relations.txt:17
-#, fuzzy
 msgid ""
 "A primary key constraint indicates that a column, or group of columns, can "
 "be used as a unique identifier for rows in the table. This requires that "
 "values be both unique and not null. So, the following two table definitions "
 "accept the same data:"
 msgstr ""
-"Обмеження первинного ключа вказує на те, що стовпець або група стовпців може "
+"Первинний ключ вказує на те, що стовпець або група стовпців може "
 "використовуватися як унікальний ідентифікатор для рядків у таблиці. Це "
 "вимагає, щоб значення були і унікальними, і не нульовими. Отже, наступні два "
 "визначення таблиці приймають однакові дані:"
 
 #: ../../src/rdbms/relations.txt:36
-#, fuzzy
 msgid ""
 "Primary keys can span more than one column; the syntax is similar to unique "
 "constraint:"
@@ -75,7 +71,6 @@ msgstr ""
 "до унікального обмеження:"
 
 #: ../../src/rdbms/relations.txt:49
-#, fuzzy
 msgid ""
 "Adding a primary key will automatically create a unique B-tree index on the "
 "column or group of columns listed in the primary key, and will force the "
@@ -86,12 +81,10 @@ msgstr ""
 "стовпець(и) позначити ``NOT NULL``."
 
 #: ../../src/rdbms/relations.txt:53
-#, fuzzy
 msgid "A table can have at most one primary key."
 msgstr "Таблиця може мати не більше одного первинного ключа."
 
 #: ../../src/rdbms/relations.txt:57
-#, fuzzy
 msgid ""
 "There can be any number of unique and not-null constraints, which are "
 "functionally almost the same thing, but only one can be identified as the "
@@ -106,19 +99,16 @@ msgid "Foreign key (FK)"
 msgstr "Зовнішній ключ (FK)"
 
 #: ../../src/rdbms/relations.txt:64
-#, fuzzy
 msgid ""
 "A foreign key constraint specifies that the value in a column (or a group of "
 "columns) must match the values appearing in some row of another table. We "
 "say this maintains the *referential integrity* between two tables."
 msgstr ""
-"Обмеження зовнішнього ключа визначає, що значення у стовпчику (або групі "
-"стовпчиків) має збігатися зі значеннями, що з'являються у деякому рядку "
-"іншої таблиці. Ми говоримо, що це підтримує *посилальну цілісність* між "
-"двома таблицями."
+"Зовнішній ключ визначає, що значення у стовпчику (або групі стовпчиків) має "
+"збігатися зі значеннями, що з'являються у деякому рядку іншої таблиці. Ми "
+"говоримо, що це підтримує *посилальну цілісність* між двома таблицями."
 
 #: ../../src/rdbms/relations.txt:68
-#, fuzzy
 msgid ""
 "A table can have more than one foreign key constraint. Foreign key can also "
 "overlaps with the primary key."
@@ -127,33 +117,28 @@ msgstr ""
 "також може перекриватися з первинним ключем."
 
 #: ../../src/rdbms/relations.txt:71
-#, fuzzy
 msgid "To define a FK constraint:"
-msgstr "Визначити обмеження FK:"
+msgstr "Щоб визначити FK:"
 
 #: ../../src/rdbms/relations.txt:94
-#, fuzzy
 msgid ""
 "In this situation the ``book`` table is the *referencing* table, and the "
 "``publisher`` table is the *referenced* table. Similarly there are "
 "referencing and referenced columns."
 msgstr ""
-"У цій ситуації таблиця ``книга`` є таблицею *посилання*, а таблиця "
-"``видавець`` є таблицею *посилання*. Аналогічно існують стовпці, на які є "
+"У цій ситуації таблиця ``book`` є таблицею *посилання*, а таблиця "
+"``publisher`` є таблицею *посилання*. Аналогічно існують стовпці, на які є "
 "посилання, і стовпці, на які є посилання."
 
 #: ../../src/rdbms/relations.txt:98
-#, fuzzy
 msgid ""
 "In case the referenced column is not explicitly defined, the primary key of "
 "the referenced table will be used as the referenced column."
 msgstr ""
-"Якщо стовпець, на який є посилання, не визначено явно, первинний ключ "
-"таблиці, на яку є посилання, буде використано як стовпець, на який є "
-"посилання."
+"Якщо стовпець, на який є посилання, не визначено явно, буде використано "
+"первинний ключ таблиці, на яку посилаються."
 
 #: ../../src/rdbms/relations.txt:101
-#, fuzzy
 msgid ""
 "It is not possible to create a row with non-null foreign key, that does not "
 "appear in the referenced table."
@@ -162,12 +147,10 @@ msgstr ""
 "в таблиці, на яку посилається."
 
 #: ../../src/rdbms/relations.txt:105
-#, fuzzy
 msgid "Self-referential foreign key"
 msgstr "Самореферентний зовнішній ключ"
 
 #: ../../src/rdbms/relations.txt:107
-#, fuzzy
 msgid ""
 "Sometimes it is useful to the referenced table to be the same table as "
 "referencing. This makes possible to create a tree-structures with nodes, "
@@ -178,12 +161,10 @@ msgstr ""
 "вузол верхнього рівня матиме ``NULL`` ``parent_id``."
 
 #: ../../src/rdbms/relations.txt:120
-#, fuzzy
 msgid "Deleting referenced rows"
 msgstr "Видалення рядків з посиланнями"
 
 #: ../../src/rdbms/relations.txt:122
-#, fuzzy
 msgid ""
 "So far we know that the foreign keys disallows creation of rows that do not "
 "relate to any row inside the referenced table. But what if a referenced row "
@@ -195,39 +176,33 @@ msgstr ""
 "зрозуміло, що варіантів небагато:"
 
 #: ../../src/rdbms/relations.txt:126
-#, fuzzy
 msgid "disallow deletion"
 msgstr "заборонити видалення"
 
 #: ../../src/rdbms/relations.txt:127
-#, fuzzy
 msgid "delete referencing rows as well"
-msgstr "видаліть також рядки посилань"
+msgstr "також видалити рядки посилань"
 
 #: ../../src/rdbms/relations.txt:128
-#, fuzzy
 msgid "something else..."
 msgstr "щось інше..."
 
 #: ../../src/rdbms/relations.txt:130
-#, fuzzy
 msgid ""
 "Restricting and cascading deletes are the two most common options. "
 "``RESTRICT`` prevents deletion of a referenced row. ``CASCADE`` will also "
 "delete all referencing rows as well as the referenced one."
 msgstr ""
 "Обмеження та каскадне видалення є двома найпоширенішими варіантами. "
-"``ОБМЕЖЕННЯ`` запобігає видаленню рядка, на який є посилання. ``КАСКАДНЕ`` "
+"``ОБМЕЖЕННЯ`` запобігає видаленню рядка, на який є посилання. ``CASCADE`` "
 "також видаляє всі рядки, на які є посилання, а також рядок, на який є "
 "посилання."
 
 #: ../../src/rdbms/relations.txt:148
-#, fuzzy
 msgid "There are others options."
 msgstr "Є й інші варіанти."
 
 #: ../../src/rdbms/relations.txt:150
-#, fuzzy
 msgid ""
 "``NO ACTION`` means that if any referencing rows still exist when the "
 "constraint is checked, an error is raised; this is the default behavior."
@@ -236,7 +211,6 @@ msgstr ""
 "перевіряється обмеження, буде видано помилку; це поведінка за замовчуванням."
 
 #: ../../src/rdbms/relations.txt:153
-#, fuzzy
 msgid ""
 "``SET NULL`` will replace all referencing rows foreign key values with "
 "``NULL`` values."
@@ -245,7 +219,6 @@ msgstr ""
 "посилаються, на значення ``NULL``."
 
 #: ../../src/rdbms/relations.txt:156
-#, fuzzy
 msgid ""
 "``SET DEFAULT`` will replace all referencing rows foreign key values with "
 "default values."
@@ -254,31 +227,27 @@ msgstr ""
 "значеннями за замовчуванням."
 
 #: ../../src/rdbms/relations.txt:160
-#, fuzzy
 msgid "Relationships"
 msgstr "Відносини"
 
 #: ../../src/rdbms/relations.txt:162
-#, fuzzy
 msgid ""
 "From the point of view of the RDBMS there are no other relationships between "
 "two tables except the **foreign key**. But the way the foreign keys are "
 "designed brings us three concepts of the data relations."
 msgstr ""
 "З точки зору СУБД, між двома таблицями не існує інших зв'язків, окрім "
-"**зовнішнього ключа**. Але те, як спроектовані зовнішні ключі, дає нам три "
+"**зовнішнього ключа**. Але те, як спроектовані зовнішні ключі, надає три "
 "концепції зв'язків між даними."
 
 #: ../../src/rdbms/relations.txt:168
-#, fuzzy
 msgid "One-to-many"
 msgstr ""
-"``article`` та ``comment`` мають *один-до-багатьох* відношення. Стаття може "
+"``article`` та ``comment`` мають відношення *один-до-багатьох*. Стаття може "
 "бути контейнером для багатьох коментарів, але коментар пов'язаний лише з "
 "однією статтею."
 
 #: ../../src/rdbms/relations.txt:169
-#, fuzzy
 msgid ""
 "In a relational database, two tables have a one-to-many relationship if each "
 "row in one table references multiple rows of the other table. For example "
@@ -291,15 +260,10 @@ msgstr ""
 "``книжка`` видається певним видавництвом."
 
 #: ../../src/rdbms/relations.txt:180
-#, fuzzy
 msgid "One-to-one"
-msgstr ""
-"Книга\" може бути позичена \"Користувачем\", але в будь-який момент часу "
-"кожна \"Книга\" може бути позичена тільки одним користувачем. Це формує "
-"відносини \"один до одного\"."
+msgstr "Один-до-одного"
 
 #: ../../src/rdbms/relations.txt:183
-#, fuzzy
 msgid ""
 "You can think of one-to-one relationship as a limited version of *one-to-"
 "many*."
@@ -308,7 +272,6 @@ msgstr ""
 "багатьох\"."
 
 #: ../../src/rdbms/relations.txt:186
-#, fuzzy
 msgid ""
 "In a relational database, two tables have a one-to-one relationship if each "
 "row in one table links to exactly one row in the other table, and vice "
@@ -317,16 +280,14 @@ msgid ""
 msgstr ""
 "У реляційній базі даних дві таблиці мають зв'язок \"один до одного\", якщо "
 "кожен рядок в одній таблиці посилається на точно такий самий рядок в іншій "
-"таблиці, і навпаки. Наприклад, таблиця \"учасники\" і таблиця \"контакти\" "
+"таблиці, і навпаки. Наприклад, таблиця ``members`` і таблиця ``contacts`` "
 "можуть мати зв'язок \"один до одного\"."
 
 #: ../../src/rdbms/relations.txt:197
-#, fuzzy
 msgid "Many-to-many"
 msgstr "Багато до багатьох"
 
 #: ../../src/rdbms/relations.txt:198
-#, fuzzy
 msgid ""
 "In relational database, two table have many-to-many relationship if each row "
 "in one table can reference multiple rows in another table, and vice versa. "
@@ -337,328 +298,8 @@ msgid ""
 msgstr ""
 "У реляційній базі даних дві таблиці мають зв'язок \"багато до багатьох\", "
 "якщо кожен рядок в одній таблиці може посилатися на декілька рядків в іншій "
-"таблиці, і навпаки. Наприклад, таблиця ``книга`` може містити записи про "
-"книги, написані багатьма ``авторами``. З іншого боку, автор може написати "
+"таблиці, і навпаки. Наприклад, таблиця ``book`` може містити записи про "
+"книги, написані багатьма ``authors``. З іншого боку, автор може написати "
 "декілька книг. Реалізація зв'язку \"багато-до-багатьох\" вимагає створення "
 "проміжної таблиці, яка застосовує зв'язок \"один-до-багатьох\" до обох "
 "вихідних таблиць."
-
-#~ msgid "sql, db, database, relationship"
-#~ msgstr "sql, db, database, relationship"
-
-#~ msgid "It's time to talk about **data relations**."
-#~ msgstr "Настав час поговорити про **відносини даних**."
-
-#~ msgid ""
-#~ "For example your database contains two tables: ``weather`` and ``city``. "
-#~ "The diagram below demonstrates the overall data structure:"
-#~ msgstr ""
-#~ "Наприклад, ваша база даних містить дві таблиці: ``weather`` і ``city``. "
-#~ "Діаграма нижче демонструє загальну структуру даних:"
-
-#~ msgid ""
-#~ "Consider the following problem: you want to make sure no one can insert a "
-#~ "record into ``weather`` without a matching entry in ``city`` table. This "
-#~ "is called maintaining the *referential integrity* of your data. In "
-#~ "simplistic database systems this would be implemented (if at all) by "
-#~ "first looking at the cities table to check if a matching record exists, "
-#~ "and then inserting or rejecting the new weather records. This approach "
-#~ "has a number of problems and is very inconvenient."
-#~ msgstr ""
-#~ "Розглянемо таку проблему: ви хочете переконатися, що ніхто не може "
-#~ "вставити запис до ``weather`` без відповідного запису в ``city`` таблиці. "
-#~ "Ценазивається підтримкою посилальної цілісності ваші дані. У спрощених "
-#~ "системах баз даних це було б реалізовано (якщо взагалі) спочатку "
-#~ "переглядаючи таблицю міст, щоб перевірити, чи існує відповідний запис, а "
-#~ "потім вставляв або відхиляв нові записи погоди. Цей підхід має низку "
-#~ "проблем і дуже незручно."
-
-#~ msgid ""
-#~ "This declaration creates a relationship between two (or even more) tables."
-#~ msgstr ""
-#~ "Це оголошення створює зв'язок між двома (або навіть більше) таблицями."
-
-#~ msgid ""
-#~ "So far, you have knowledge about **primary** keys. The **foreign** key is "
-#~ "a column, that *references* some another table. In common, it's a "
-#~ "reference to another table's PK; but there is no limitation of this kind, "
-#~ "any column can be referenced by another one. FKs handle data integrity "
-#~ "only, it's not required for FK to be non-NULL value."
-#~ msgstr ""
-#~ "Поки що ви знаєте про первинні ключі. Зовнішній ключ - це стовпець, який "
-#~ "посилається на іншу таблицю. Загалом, це посилання на PK іншої таблиці; "
-#~ "але такого роду обмежень немає , на будь-який стовпець може посилатися "
-#~ "інший. FK обробляє лише цілісність даних, не обов'язково, щоб значення FK "
-#~ "було відмінним від NULL."
-
-#~ msgid ""
-#~ "The relation's properties are described by CONSTRAINTS and the database's "
-#~ "structure."
-#~ msgstr ""
-#~ "Властивості відношення описуються ОБМЕЖЕННЯМИ та структурою бази даних."
-
-#~ msgid ""
-#~ "For example, modifying declaration with ``NOT NULL`` constraint grants "
-#~ "that each record within a table has a matching one entity in another "
-#~ "table."
-#~ msgstr ""
-#~ "Наприклад, зміна декларації з обмеженням ``NOT NULL`` гарантує, що кожний "
-#~ "запис у таблиці має відповідну сутність в іншій таблиці."
-
-#~ msgid "This brings us to various relationship models."
-#~ msgstr "Це підводить нас до різних моделей відносин."
-
-#~ msgid "One-to-many relationship (1-to-N)"
-#~ msgstr "Зв'язок один-до-багатьох (1-до-N)"
-
-#~ msgid "This is the most common relationship."
-#~ msgstr "Це найпоширеніший зв'язок."
-
-#~ msgid ""
-#~ "For the example above there are no limitations on temperature "
-#~ "measurements in a specified city. So, a single city may has 0 or N "
-#~ "related records in ``weather`` table. But each weather record is related "
-#~ "to the only one city."
-#~ msgstr ""
-#~ "Для наведеного вище прикладу немає обмежень на вимірювання температури у "
-#~ "визначеному місті. Отже, окреме місто може мати 0 або N пов'язаних "
-#~ "записів у таблиці ``погода``. Але кожен запис погоди пов'язаний до "
-#~ "єдиного міста."
-
-#~ msgid ""
-#~ "Another example is employees and office buildings they work in. Some big "
-#~ "company may have multiple offices and employee across the globe. Multiple "
-#~ "employees can be present in a single office building at a time. But each "
-#~ "employee can be physically located only in a single office at a time."
-#~ msgstr ""
-#~ "Іншим прикладом є співробітники та офісні будівлі, в яких вони працюють. "
-#~ "Деякі великі компанії можуть мати кілька офісів і співробітників по "
-#~ "всьому світу. Декілька працівників можуть бути присутні в одній офісній "
-#~ "будівлі одночасно. Але кожен працівник може фізично перебувати лише в "
-#~ "одному офісі одночасно."
-
-#~ msgid "One-to-one relationship (1-to-1)"
-#~ msgstr "One-to-one relationship (1-to-1)"
-
-#~ msgid ""
-#~ "``UNIQUE`` and ``NOT NULL`` constraints are used together to ensure there "
-#~ "is and only one matching record. Back to the example with employees. "
-#~ "Multiple workstations (personal computers) are located in each office "
-#~ "building. The only one person can occupy the only one work station at a "
-#~ "time."
-#~ msgstr ""
-#~ "Обмеження ``UNIQUE`` і ``NOT NULL`` використовуються разом, щоб "
-#~ "забезпечити наявність лише одного відповідного запису. Повернемося до "
-#~ "прикладу зі співробітниками. Кілька робочих станцій (персональних "
-#~ "комп'ютерів) розташовані в у кожній офісній будівлі. Лише одна особа може "
-#~ "займати лише одну робочу станцію одночасно."
-
-#~ msgid "Many-to-many relationship (N-to-N)"
-#~ msgstr "Зв'язок багато-до-багатьох (N-до-N)"
-
-#~ msgid ""
-#~ "These relationships require additional table. A good example may be a "
-#~ "*project role*. There are many of them in a production team. And some "
-#~ "employees may be assigned to the same role (e.g. developers, testers "
-#~ "etc.). But also a single person can be a developer and tester at a time."
-#~ msgstr ""
-#~ "Ці зв'язки потребують додаткової таблиці. Хорошим прикладом може бути "
-#~ "роль у проекті. Їх багато у виробничій команді. І деяким працівникам може "
-#~ "бути призначено ту саму роль (наприклад, розробники, тестувальники і т. "
-#~ "д.). Але також одна людина може бути розробником і тестувальником "
-#~ "одночасно."
-
-#~ msgid "Joining data"
-#~ msgstr "Об'єднання даних"
-
-#~ msgid ""
-#~ "``JOIN`` is used to *join* data fetched from multiple related tables. To "
-#~ "build a valid query you are to set the tables to join and parameter to "
-#~ "use for this operation."
-#~ msgstr ""
-#~ "``JOIN`` використовується для об'єднання даних, отриманих з кількох "
-#~ "пов'язаних таблиць. Щоб побудувати дійсний запит, вам потрібно встановити "
-#~ "таблиці для об'єднання та параметр, який використовується для цієї "
-#~ "операції."
-
-#~ msgid "Common syntax is:"
-#~ msgstr "Загальний синтаксис:"
-
-#~ msgid ""
-#~ "There are various join types available. Here are is some dummy data to "
-#~ "demonstrate their purpose."
-#~ msgstr ""
-#~ "Існують різні типи об'єднань. Ось деякі фіктивні дані, щоб "
-#~ "продемонструвати їх призначення."
-
-#~ msgid "poem"
-#~ msgstr "poem"
-
-#~ msgid "id"
-#~ msgstr "id"
-
-#~ msgid "title"
-#~ msgstr "title"
-
-#~ msgid "author_id"
-#~ msgstr "author_id"
-
-#~ msgid "1"
-#~ msgstr "1"
-
-#~ msgid "On the Field of Battle"
-#~ msgstr "On the Field of Battle"
-
-#~ msgid "2"
-#~ msgstr "2"
-
-#~ msgid "Moses"
-#~ msgstr "Moses"
-
-#~ msgid "3"
-#~ msgstr "3"
-
-#~ msgid "The Forest Song"
-#~ msgstr "The Forest Song"
-
-#~ msgid "4"
-#~ msgstr "4"
-
-#~ msgid "In the Catacombs"
-#~ msgstr "In the Catacombs"
-
-#~ msgid "null"
-#~ msgstr "null"
-
-#~ msgid "5"
-#~ msgstr "5"
-
-#~ msgid "The Singing Stones"
-#~ msgstr "The Singing Stones"
-
-#~ msgid "6"
-#~ msgstr "6"
-
-#~ msgid "Ancient Fairy Tales"
-#~ msgstr "Ancient Fairy Tales"
-
-#~ msgid "7"
-#~ msgstr "7"
-
-#~ msgid "My Thoughts"
-#~ msgstr "My Thoughts"
-
-#~ msgid "8"
-#~ msgstr "8"
-
-#~ msgid "To Shevchenko"
-#~ msgstr "To Shevchenko"
-
-#~ msgid "author"
-#~ msgstr "author"
-
-#~ msgid "name"
-#~ msgstr "name"
-
-#~ msgid "Larysa Kosach"
-#~ msgstr "Larysa Kosach"
-
-#~ msgid "Ivan Franko"
-#~ msgstr "Ivan Franko"
-
-#~ msgid "John Doe"
-#~ msgstr "John Doe"
-
-#~ msgid "Join types"
-#~ msgstr "Join types"
-
-#~ msgid "Cross join"
-#~ msgstr "Cross join"
-
-#~ msgid ""
-#~ "For every possible combination of rows from T1 and T2 (i.e., a Cartesian "
-#~ "product), the joined table will contain a row consisting of all columns "
-#~ "in T1 followed by all columns in T2. If the tables have N and M rows "
-#~ "respectively, the joined table will have N * M rows."
-#~ msgstr ""
-#~ "Для будь-якої можливої комбінації рядків з T1 і T2 (тобто декартового "
-#~ "добутку) об’єднана таблиця міститиме рядок, що складається з усіх "
-#~ "стовпців у T1, за якими йдуть усі стовпці в T2. Якщо таблиці мають N і M "
-#~ "рядків відповідно, об’єднана таблиця матиме N * M рядків."
-
-#~ msgid "Qualified joins"
-#~ msgstr "Qualified joins"
-
-#~ msgid ""
-#~ "The words ``INNER`` and ``OUTER`` are optional for all forms. ``INNER`` "
-#~ "is the default; ``LEFT``, ``RIGHT`` and ``FULL`` imply ``OUTER`` join."
-#~ msgstr ""
-#~ "Слова ``INNER`` і ``OUTER`` є необов'язковими для всіх форм. ``INNER`` є "
-#~ "типовим; ``LEFT``, ``RIGHT`` і ``FULL` ` означає ``OUTER`` приєднання."
-
-#~ msgid "INNER JOIN"
-#~ msgstr "INNER JOIN"
-
-#~ msgid ""
-#~ "For each row R1 of T1, the joined table has a row for each row in T2 that "
-#~ "satisfies the join condition with R1."
-#~ msgstr ""
-#~ "Для кожного рядка R1 T1 об'єднана таблиця має рядок для кожного рядка T2, "
-#~ "який задовольняє умову об'єднання з R1."
-
-#~ msgid "Inner join"
-#~ msgstr "Inner join"
-
-#~ msgid "LEFT OUTER JOIN"
-#~ msgstr "LEFT OUTER JOIN"
-
-#~ msgid ""
-#~ "First, an inner join is performed. Then, for each row in T1 that does not "
-#~ "satisfy the join condition with any row in T2, a joined row is added with "
-#~ "null values in columns of T2. Thus, the joined table always has at least "
-#~ "one row for each row in T1."
-#~ msgstr ""
-#~ "Спочатку виконується внутрішнє об'єднання. Потім для кожного рядка в T1, "
-#~ "який не задовольняє умови з'єднання з будь-яким рядком у T2, додається "
-#~ "об'єднаний рядок із нульовими значеннями в стовпцях T2. Таким чином, "
-#~ "об'єднана таблиця завжди має щонайменше один рядок для кожного рядка в T1."
-
-#~ msgid "Left join"
-#~ msgstr "Left join"
-
-#~ msgid "RIGHT OUTER JOIN"
-#~ msgstr "RIGHT OUTER JOIN"
-
-#~ msgid ""
-#~ "First, an inner join is performed. Then, for each row in T2 that does not "
-#~ "satisfy the join condition with any row in T1, a joined row is added with "
-#~ "null values in columns of T1. This is the converse of a left join: the "
-#~ "result table will always have a row for each row in T2."
-#~ msgstr ""
-#~ "Спочатку виконується внутрішнє об'єднання. Потім для кожного рядка в T2, "
-#~ "який не задовольняє умови об'єднання з будь-яким рядком у T1, об'єднаний "
-#~ "рядок додається з нульовими значеннями в стовпцях T1. Це є протилежністю "
-#~ "лівого об'єднання: таблиця результатів завжди матиме рядок для кожного "
-#~ "рядка в T2."
-
-#~ msgid "Right join"
-#~ msgstr "Right join"
-
-#~ msgid "FULL OUTER JOIN"
-#~ msgstr "FULL OUTER JOIN"
-
-#~ msgid ""
-#~ "First, an inner join is performed. Then, for each row in T1 that does not "
-#~ "satisfy the join condition with any row in T2, a joined row is added with "
-#~ "null values in columns of T2. Also, for each row of T2 that does not "
-#~ "satisfy the join condition with any row in T1, a joined row with null "
-#~ "values in the columns of T1 is added."
-#~ msgstr ""
-#~ "Спочатку виконується внутрішнє об'єднання. Потім для кожного рядка в T1, "
-#~ "який не задовольняє умови об'єднання з будь-яким рядком у T2, додається "
-#~ "об'єднаний рядок із нульовими значеннями в стовпцях T2. Також , для "
-#~ "кожного рядка T2, який не задовольняє умову з'єднання з будь-яким рядком "
-#~ "T1, додається об'єднаний рядок із нульовими значеннями в стовпцях T1."
-
-#~ msgid "Full join"
-#~ msgstr "Full join"
