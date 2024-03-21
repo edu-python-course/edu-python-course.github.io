@@ -252,7 +252,7 @@ To add a column, use a command like:
 
 .. literalinclude:: /../libms-db/libms.sql
     :language: postgresql
-    :lines: 51-63,92-93
+    :lines: 57-69,102-104
 
 .. note::
 
@@ -370,7 +370,7 @@ can be used to avoid the error message, but this is not standard SQL.
 
 .. literalinclude:: /../libms-db/libms.sql
     :language: postgresql
-    :lines: 1-20
+    :lines: 5-13
 
 In case there are other objects referencing the object to drop ``CASCADE`` may
 be used to also remove any referencing objects.

@@ -59,7 +59,7 @@ You can insert multiple rows in a single command.
 .. literalinclude:: /../libms-db/libms.sql
     :caption: Inserting multiple values at a time
     :language: postgresql
-    :lines: 251-260,400-402
+    :lines: 250-251,278-286,428-429
 
 .. note::
 

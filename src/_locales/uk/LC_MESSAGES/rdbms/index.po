@@ -4,19 +4,19 @@
 # SERHII HORODILOV <sgorodil@gmail.com>
 msgid ""
 msgstr ""
-"Project-Id-Version: Python Training Course 2022.11.dev\n"
+"Project-Id-Version: Python Training Course 2024.03.dev\n"
 "Report-Msgid-Bugs-To: https://github.com/edu-python-course/edu-python-course."
 "github.io/issues\n"
 "POT-Creation-Date: 2023-12-16 13:55+0000\n"
-"PO-Revision-Date: 2023-12-21 03:58+0200\n"
+"PO-Revision-Date: 2024-03-05 16:17+0200\n"
 "Last-Translator: Serhii Horodilov <sgorodil@gmail.com>\n"
-"Language-Team: ua <LL@li.org>\n"
-"Language: ua\n"
+"Language-Team: \n"
+"Language: uk_UA\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.12.1\n"
-"X-Generator: Poedit 3.4.1\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #: ../../src/rdbms/index.txt:-1
 msgid "Relational databases"
@@ -32,15 +32,15 @@ msgstr "sql, db, database, intro, introduction, index"
 
 #: ../../src/rdbms/index.txt
 msgid "PostgreSQL"
-msgstr ""
+msgstr "PostgreSQL"
 
 #: ../../src/rdbms/index.txt
 msgid "SQLite"
-msgstr ""
+msgstr "SQLite"
 
 #: ../../src/rdbms/index.txt
 msgid "MySQL"
-msgstr ""
+msgstr "MySQL"
 
 #: ../../src/rdbms/index.txt:23
 msgid "Relational Database"
@@ -96,44 +96,60 @@ msgid ""
 "Security is a paramount aspect of managing databases. Even at the "
 "introductory level, it's crucial to be aware of the basic security measures:"
 msgstr ""
+"Безпека - найважливіший аспект управління базами даних. Навіть на "
+"початковому рівні важливо знати основні заходи безпеки:"
 
 #: ../../src/rdbms/index.txt:46
 msgid ""
 "**Authentication and Authorization**: Ensuring that only authorized users "
 "have access to the database."
 msgstr ""
+"**Аутентифікація та авторизація**: Забезпечення доступу до бази даних лише "
+"авторизованим користувачам."
 
 #: ../../src/rdbms/index.txt:48
 msgid ""
 "**Role-Based Access Control**: Assigning permissions based on roles within "
 "the organization."
 msgstr ""
+"**Контроль доступу на основі ролей**: Призначення дозволів на основі ролей в "
+"організації."
 
 #: ../../src/rdbms/index.txt:50
 msgid ""
 "**Data Encryption**: Protecting sensitive data both at rest and in transit."
 msgstr ""
+"**Шифрування даних**: Захист конфіденційних даних як у стані спокою, так і "
+"під час передачі."
 
 #: ../../src/rdbms/index.txt:52
 msgid ""
 "There are dozens of RDBMS, used in nowadays projects. But most widespread "
 "are:"
 msgstr ""
+"Існують десятки СУБД, які використовуються в сучасних проектах. Але "
+"найпоширенішими є наступні:"
 
 #: ../../src/rdbms/index.txt:54
 msgid ""
 "|postgres| **PostgreSQL**: A Powerful, open source object-relational "
 "database system."
 msgstr ""
+"|postgres| **PostgreSQL**: Потужна об'єктно-реляційна система баз даних з "
+"відкритим вихідним кодом."
 
 #: ../../src/rdbms/index.txt:56
 msgid ""
 "|sqlite| **SQLite**: A C-library that implements a small, full featured SQL "
 "database engine."
 msgstr ""
+"|sqlite| **SQLite**: C-бібліотека, яка реалізує невеликий, проте "
+"повнофункціональний рушій баз даних SQL."
 
 #: ../../src/rdbms/index.txt:58
 msgid ""
 "|mysql| **MySQL**: A fast, multithread, multi-user, and robust SQL database "
 "server."
 msgstr ""
+"|mysql| **MySQL**: Швидкий, багатопотоковий, багатокористувацький і надійний "
+"сервер баз даних SQL."

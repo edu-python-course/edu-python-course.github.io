@@ -9,7 +9,7 @@ Users can add new types to PostgreSQL using the ``CREATE TYPE`` command.
 .. literalinclude:: /../libms-db/libms.sql
     :caption: Custom data type definition
     :language: postgresql
-    :lines: 72-89
+    :lines: 81-98
 
 +-------------------------------+-------------------+------------------------------------------------------------------+
 | Name                          | Aliases           | Description                                                      |
