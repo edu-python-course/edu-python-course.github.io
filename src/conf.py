@@ -4,15 +4,15 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
-import toml
+import tomli
 
 # set up paths
 BASE_DIR = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(BASE_DIR / "problem-sets" / "src"))
 
 # read project data from toml file
-with open(BASE_DIR / "pyproject.toml") as io_buff:
-    project_data = toml.load(io_buff)["tool"]["poetry"]
+with open(BASE_DIR / "pyproject.toml", "rb") as io_buff:
+    project_data = tomli.load(io_buff)["tool"]["poetry"]
 
 # project information
 project = "Python Training Course"
